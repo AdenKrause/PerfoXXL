@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<tree  xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+
+<n ID="DEVICES">
+<n ID="SWIOTIMER">
+<d ID="DDriverName" dt:dt="string">DdVxIotimPc</d>
+<d ID="DDriverType" dt:dt="ui4">11</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+</n>
+<n ID="COMC">
+<d ID="DDriverName" dt:dt="string">DdxxSf16x5xIO</d>
+<d ID="DDriverType" dt:dt="ui4">1</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="DeviceParam" dt:dt="string">/BD=9600 /PA=N /DB=8 /SB=1 /RIT=5 /PHY=RS232 /IR=11 /IO=0x3E8 /CLK=1843200 /CARD=67 /IF=2</d>
+<d ID="PhysDeviceName" dt:dt="string">COMC</d>
+</n>
+<n ID="COMB">
+<d ID="DDriverName" dt:dt="string">DdxxSf16x5xIO</d>
+<d ID="DDriverType" dt:dt="ui4">1</d>
+<d ID="StartMode" dt:dt="ui4">1</d>
+<d ID="DeviceParam" dt:dt="string">/BD=9600 /PA=N /DB=8 /SB=1 /RIT=5 /PHY=RS232 /IR=3 /IO=0x2F8 /CLK=1843200 /CARD=67 /IF=2</d>
+<d ID="PhysDeviceName" dt:dt="string">COMB</d>
+</n>
+</n>
+<n ID="INADEVICES">
+<n ID="COMC">
+<d ID="FbDriverName" dt:dt="string">FbSerial</d>
+<d ID="Device" dt:dt="string">COMC</d>
+<d ID="StartMode" dt:dt="ui4">0</d>
+</n>
+</n>
+<n ID="CYCLICSYSTEM">
+<d ID="TimerDevice" dt:dt="string">SWIOTIMER</d>
+</n>
+</tree>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.16.135 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="5ACCIF01.FPSC-001" Type="5ACCIF01.FPSC-001" Version="1.8.1.0">
+    <Connection Connector="SL" TargetModule="5PPC2100_BY01_000" TargetConnector="SL1" />
+  </Module>
+  <Module Name="5AP1120.0573-000" Type="5AP1120.0573-000" Version="2.0.0.0" />
+  <Module Name="5PPC2100_BY01_000" Type="5PPC2100.BY01-000" Version="1.4.0.0">
+    <Connection Connector="SY" TargetModule="5AP1120.0573-000" TargetConnector="SY1" />
+    <Connector Name="IF3">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Connector Name="IF4">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="UserRamDevice" Value="PCI.1.PPC21xx.SRAM" />
+    <Parameter ID="UserRamSize" Value="245760" />
+    <Parameter ID="RemMemDevice" Value="PCI.1.PPC21xx.SRAM" />
+    <Parameter ID="RemMemSize" Value="261888" />
+    <Parameter ID="PermanentPvSize" Value="30000" />
+    <Parameter ID="RemanentGlobalPvSize" Value="30000" />
+    <Parameter ID="VolatileGlobalPvSize" Value="20000" />
+    <Parameter ID="PreservePermanentPvMemory" Value="1" />
+    <Parameter ID="BRObjects" Value="400" />
+    <Parameter ID="Connections" Value="8" />
+    <Parameter ID="Cyclic1Duration" Value="1000" />
+    <Parameter ID="Cyclic1Tolerance" Value="40000" />
+    <Parameter ID="Cyclic2Duration" Value="5000" />
+    <Parameter ID="Cyclic2Tolerance" Value="5000000" />
+    <Parameter ID="Cyclic3Duration" Value="10000" />
+    <Parameter ID="Cyclic3Tolerance" Value="5000000" />
+    <Parameter ID="Cyclic4Duration" Value="40000" />
+    <Parameter ID="Cyclic4Tolerance" Value="4000000" />
+    <Parameter ID="Cyclic5Duration" Value="100000" />
+    <Parameter ID="Cyclic5Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="DATA" />
+    <Parameter ID="FileDevicePath1" Value="C:\USER\" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="ROOT" />
+    <Parameter ID="FileDevicePath2" Value="C:\" />
+    <Group ID="FileDevice3" />
+    <Parameter ID="EthernetDefaultGateway" Value="255.255.255.255" />
+    <Parameter ID="ActivateWebServer" Value="0" />
+    <Parameter ID="ActivateSdm" Value="0" />
+  </Module>
+  <Module Name="X20AO2622" Type="X20AO2622" Version="1.0.3.0">
+    <Connection Connector="SS1" TargetModule="X20TB12j" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11h" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20AT4222" Type="X20AT4222" Version="1.0.5.0">
+    <Connection Connector="SS1" TargetModule="X20TB12i" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11g" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20BB80" Type="X20BB80" Version="1.0.0.2" />
+  <Module Name="X20BB80a" Type="X20BB80" Version="1.0.0.2" />
+  <Module Name="X20BC0073" Type="X20BC0073" Version="1.2.0.0">
+    <Connection Connector="CAN1" TargetModule="5ACCIF01.FPSC-001" TargetConnector="IF3" NodeNumber="2" />
+    <Connection Connector="SL" TargetModule="X20BB80" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20BC0073a" Type="X20BC0073" Version="1.2.0.0">
+    <Connection Connector="CAN1" TargetModule="X20BC0073" TargetConnector="CAN2" NodeNumber="1" />
+    <Connection Connector="SL" TargetModule="X20BB80a" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BB80" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11b" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11j" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11c" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BB80a" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11d" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11f" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11c" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11g" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11f" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11h" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11g" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11i" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11h" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11j" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11k" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DI9371" Type="X20DI9371" Version="1.0.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DI9371a" Type="X20DI9371" Version="1.0.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12l" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11j" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DI9371b" Type="X20DI9371" Version="1.0.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12h" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11f" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DI9371c" Type="X20DI9371" Version="1.0.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12k" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11i" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322a" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322b" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12m" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11k" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322c" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12f" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322d" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20DO9322e" Type="X20DO9322" Version="1.0.2.2">
+    <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11c" TargetConnector="SL1" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+  </Module>
+  <Module Name="X20PS9400" Type="X20PS9400" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB12d" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80" TargetConnector="PS1" />
+  </Module>
+  <Module Name="X20PS9400a" Type="X20PS9400" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80a" TargetConnector="PS1" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12d" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12e" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12f" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12g" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12h" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12i" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12j" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12k" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12l" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12m" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>
