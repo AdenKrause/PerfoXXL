@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Modes">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="33"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="87985" Value="Off"/>
+    <Text ID="87986" Value="Auto"/>
+    <Text ID="87987" Value="Cleaning"/>
+    <Text ID="109722" Value="Cleaning"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="87985" Value="Aus"/>
+    <Text ID="87986" Value="Auto"/>
+    <Text ID="87987" Value="Reinigen"/>
+    <Text ID="109722" Value="Reinigen"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="87985" Value="NO"/>
+    <Text ID="87986" Value="Auto"/>
+    <Text ID="87987" Value="Limpiado"/>
+    <Text ID="109722" Value="Limpiado"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="87985" Value="Av"/>
+    <Text ID="87986" Value="Auto"/>
+    <Text ID="87987" Value="Rengjør"/>
+    <Text ID="109722" Value="Rengjør"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="87985" Value=""/>
+    <Text ID="87986" Value=""/>
+    <Text ID="87987" Value=""/>
+    <Text ID="109722" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="87985" Value=""/>
+    <Text ID="87986" Value=""/>
+    <Text ID="87987" Value=""/>
+    <Text ID="109722" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="87985" Value="0"/>
+    <Index ID="87986" Value="1"/>
+    <Index ID="87987" Value="2"/>
+    <Index ID="109722" Value="3"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Param_E_A">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="22"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="92293" Value="Output"/>
+    <Text ID="92294" Value="Feeder"/>
+    <Text ID="92295" Value="Adjuster"/>
+    <Text ID="92296" Value="Adjuster 2"/>
+    <Text ID="92297" Value="Blowair"/>
+    <Text ID="92298" Value="left"/>
+    <Text ID="92299" Value="right"/>
+    <Text ID="92300" Value="Paper grip"/>
+    <Text ID="92301" Value="Liftpins up"/>
+    <Text ID="92302" Value="Cover lock"/>
+    <Text ID="92313" Value="Vacuum"/>
+    <Text ID="92314" Value="Adj. suck."/>
+    <Text ID="92315" Value="Input"/>
+    <Text ID="92476" Value="Beltsensor"/>
+    <Text ID="92477" Value="Adjust contact"/>
+    <Text ID="92478" Value="Trolley sensor"/>
+    <Text ID="92479" Value="Conveyorbelt sensor"/>
+    <Text ID="92480" Value="Processor signal"/>
+    <Text ID="92481" Value="sig. 2"/>
+    <Text ID="92483" Value="Punch signal"/>
+    <Text ID="92484" Value="Cover sensors"/>
+    <Text ID="92485" Value="Vacuum feeder"/>
+    <Text ID="92486" Value="Paper sensors"/>
+    <Text ID="92487" Value="Feeder hor. active"/>
+    <Text ID="92488" Value="Feeder hor. inactive"/>
+    <Text ID="92489" Value="Adjust vacuum"/>
+    <Text ID="166660" Value="Lifting pins down"/>
+    <Text ID="166661" Value="Service mode"/>
+    <Text ID="166662" Value="Adjust"/>
+    <Text ID="166663" Value="down"/>
+    <Text ID="166664" Value="Pin 3 up"/>
+    <Text ID="166665" Value="Pins 4 a. 6 up"/>
+    <Text ID="166666" Value="Pins down"/>
+    <Text ID="166667" Value="Feeder horizontal"/>
+    <Text ID="166813" Value="Lateral transport"/>
+    <Text ID="166814" Value="Adj. cross plate"/>
+    <Text ID="166815" Value="Servicekey"/>
+    <Text ID="167878" Value="Door sensors"/>
+    <Text ID="167879" Value="Paperremove up"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="92293" Value="Ausgänge"/>
+    <Text ID="92294" Value="Aufnahme"/>
+    <Text ID="92295" Value="Tisch"/>
+    <Text ID="92296" Value="Tisch  2"/>
+    <Text ID="92297" Value="Blasluft"/>
+    <Text ID="92298" Value="links"/>
+    <Text ID="92299" Value="rechts"/>
+    <Text ID="92300" Value="Papiergreifer"/>
+    <Text ID="92301" Value="Hebestifte heben"/>
+    <Text ID="92302" Value="Klappenverrieg."/>
+    <Text ID="92313" Value="Vakuum"/>
+    <Text ID="92314" Value="Ausr.Sauger"/>
+    <Text ID="92315" Value="Eingänge"/>
+    <Text ID="92476" Value="Riemensensor"/>
+    <Text ID="92477" Value="Ausrichtkontakt"/>
+    <Text ID="92478" Value="Wagensensor"/>
+    <Text ID="92479" Value="Auslaufbandsensor"/>
+    <Text ID="92480" Value="Entwickl. Signal"/>
+    <Text ID="92481" Value="Sig. 2"/>
+    <Text ID="92483" Value="Stanze Signal"/>
+    <Text ID="92484" Value="Klappensensoren"/>
+    <Text ID="92485" Value="Vakuum Aufnahme"/>
+    <Text ID="92486" Value="Papiersensoren"/>
+    <Text ID="92487" Value="Aufnahme hor. aktiv"/>
+    <Text ID="92488" Value="Aufnahme hor. inaktiv"/>
+    <Text ID="92489" Value="Ausrichtvakuum"/>
+    <Text ID="166660" Value="Hebestifte unten"/>
+    <Text ID="166661" Value="Service Modus"/>
+    <Text ID="166662" Value="Ausrichten"/>
+    <Text ID="166663" Value="senken"/>
+    <Text ID="166664" Value="Stift 3 heben"/>
+    <Text ID="166665" Value="Stifte 4 u.6 heben"/>
+    <Text ID="166666" Value="Stifte senken"/>
+    <Text ID="166667" Value="Plattenaufnahme horizontal"/>
+    <Text ID="166813" Value="Quertransport"/>
+    <Text ID="166814" Value="Querplatte ausr."/>
+    <Text ID="166815" Value="Serviceschlüssel"/>
+    <Text ID="167878" Value="Türsensoren"/>
+    <Text ID="167879" Value="Papierentf. oben"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="92293" Value=""/>
+    <Text ID="92294" Value=""/>
+    <Text ID="92295" Value=""/>
+    <Text ID="92296" Value=""/>
+    <Text ID="92297" Value=""/>
+    <Text ID="92298" Value=""/>
+    <Text ID="92299" Value=""/>
+    <Text ID="92300" Value=""/>
+    <Text ID="92301" Value="Liftpins up"/>
+    <Text ID="92302" Value=""/>
+    <Text ID="92313" Value=""/>
+    <Text ID="92314" Value="Adj. suck."/>
+    <Text ID="92315" Value=""/>
+    <Text ID="92476" Value=""/>
+    <Text ID="92477" Value="Adjust contact"/>
+    <Text ID="92478" Value=""/>
+    <Text ID="92479" Value=""/>
+    <Text ID="92480" Value="Processor signal"/>
+    <Text ID="92481" Value=""/>
+    <Text ID="92483" Value=""/>
+    <Text ID="92484" Value=""/>
+    <Text ID="92485" Value=""/>
+    <Text ID="92486" Value="Paper sensors"/>
+    <Text ID="92487" Value="Feeder hor. active"/>
+    <Text ID="92488" Value="Feeder hor. inactive"/>
+    <Text ID="92489" Value="Adjust vacuum"/>
+    <Text ID="166660" Value="Lifting pins down"/>
+    <Text ID="166661" Value="Service mode"/>
+    <Text ID="166662" Value="Adjust"/>
+    <Text ID="166663" Value="down"/>
+    <Text ID="166664" Value="Pin 3 up"/>
+    <Text ID="166665" Value="Pins 4 a. 6 up"/>
+    <Text ID="166666" Value="Pins down"/>
+    <Text ID="166667" Value="Feeder horizontal"/>
+    <Text ID="166813" Value="Lateral transport"/>
+    <Text ID="166814" Value="Adj. cross plate"/>
+    <Text ID="166815" Value="Servicekey"/>
+    <Text ID="167878" Value="Door sensors"/>
+    <Text ID="167879" Value="Paperremove up"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="92293" Value="Output"/>
+    <Text ID="92294" Value="Feeder"/>
+    <Text ID="92295" Value="Adjuster"/>
+    <Text ID="92296" Value="Adjuster 2"/>
+    <Text ID="92297" Value="Blowair"/>
+    <Text ID="92298" Value="left"/>
+    <Text ID="92299" Value="right"/>
+    <Text ID="92300" Value="Paper grip"/>
+    <Text ID="92301" Value="Liftpins up"/>
+    <Text ID="92302" Value="Cover lock"/>
+    <Text ID="92313" Value="Vacuum"/>
+    <Text ID="92314" Value="Adj. suck."/>
+    <Text ID="92315" Value="Input"/>
+    <Text ID="92476" Value="Beltsensor"/>
+    <Text ID="92477" Value="Adjust contact"/>
+    <Text ID="92478" Value="Trolley sensor"/>
+    <Text ID="92479" Value="Conveyorbelt sensor"/>
+    <Text ID="92480" Value="Processor signal"/>
+    <Text ID="92481" Value="sig. 2"/>
+    <Text ID="92483" Value="Punch signal"/>
+    <Text ID="92484" Value="Cover sensors"/>
+    <Text ID="92485" Value="Vacuum feeder"/>
+    <Text ID="92486" Value="Paper sensors"/>
+    <Text ID="92487" Value="Feeder hor. active"/>
+    <Text ID="92488" Value="Feeder hor. inactive"/>
+    <Text ID="92489" Value="Adjust vacuum"/>
+    <Text ID="166660" Value="Lifting pins down"/>
+    <Text ID="166661" Value="Service mode"/>
+    <Text ID="166662" Value="Adjust"/>
+    <Text ID="166663" Value="down"/>
+    <Text ID="166664" Value="Pin 3 up"/>
+    <Text ID="166665" Value="Pins 4 a. 6 up"/>
+    <Text ID="166666" Value="Pins down"/>
+    <Text ID="166667" Value="Feeder horizontal"/>
+    <Text ID="166813" Value="Lateral transport"/>
+    <Text ID="166814" Value="Adj. cross plate"/>
+    <Text ID="166815" Value="Servicekey"/>
+    <Text ID="167878" Value="Door sensors"/>
+    <Text ID="167879" Value="Paperremove up"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="92293" Value=""/>
+    <Text ID="92294" Value=""/>
+    <Text ID="92295" Value=""/>
+    <Text ID="92296" Value=""/>
+    <Text ID="92297" Value=""/>
+    <Text ID="92298" Value=""/>
+    <Text ID="92299" Value=""/>
+    <Text ID="92300" Value=""/>
+    <Text ID="92301" Value="Liftpins up"/>
+    <Text ID="92302" Value=""/>
+    <Text ID="92313" Value=""/>
+    <Text ID="92314" Value="Adj. suck."/>
+    <Text ID="92315" Value=""/>
+    <Text ID="92476" Value=""/>
+    <Text ID="92477" Value="Adjust contact"/>
+    <Text ID="92478" Value=""/>
+    <Text ID="92479" Value=""/>
+    <Text ID="92480" Value="Processor signal"/>
+    <Text ID="92481" Value=""/>
+    <Text ID="92483" Value=""/>
+    <Text ID="92484" Value=""/>
+    <Text ID="92485" Value=""/>
+    <Text ID="92486" Value="Paper sensors"/>
+    <Text ID="92487" Value="Feeder hor. active"/>
+    <Text ID="92488" Value="Feeder hor. inactive"/>
+    <Text ID="92489" Value="Adjust vacuum"/>
+    <Text ID="166660" Value="Lifting pins down"/>
+    <Text ID="166661" Value="Service mode"/>
+    <Text ID="166662" Value="Adjust"/>
+    <Text ID="166663" Value="down"/>
+    <Text ID="166664" Value="Pin 3 up"/>
+    <Text ID="166665" Value="Pins 4 a. 6 up"/>
+    <Text ID="166666" Value="Pins down"/>
+    <Text ID="166667" Value="Feeder horizontal"/>
+    <Text ID="166813" Value="Lateral transport"/>
+    <Text ID="166814" Value="Adj. cross plate"/>
+    <Text ID="166815" Value="Servicekey"/>
+    <Text ID="167878" Value="Door sensors"/>
+    <Text ID="167879" Value="Paperremove up"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="92293" Value=""/>
+    <Text ID="92294" Value=""/>
+    <Text ID="92295" Value=""/>
+    <Text ID="92296" Value=""/>
+    <Text ID="92297" Value=""/>
+    <Text ID="92298" Value=""/>
+    <Text ID="92299" Value=""/>
+    <Text ID="92300" Value=""/>
+    <Text ID="92301" Value="Liftpins up"/>
+    <Text ID="92302" Value=""/>
+    <Text ID="92313" Value=""/>
+    <Text ID="92314" Value="Adj. suck."/>
+    <Text ID="92315" Value=""/>
+    <Text ID="92476" Value=""/>
+    <Text ID="92477" Value="Adjust contact"/>
+    <Text ID="92478" Value=""/>
+    <Text ID="92479" Value=""/>
+    <Text ID="92480" Value="Processor signal"/>
+    <Text ID="92481" Value=""/>
+    <Text ID="92483" Value=""/>
+    <Text ID="92484" Value=""/>
+    <Text ID="92485" Value=""/>
+    <Text ID="92486" Value="Paper sensors"/>
+    <Text ID="92487" Value="Feeder hor. active"/>
+    <Text ID="92488" Value=""/>
+    <Text ID="92489" Value="Adjust vacuum"/>
+    <Text ID="166660" Value="Lifting pins down"/>
+    <Text ID="166661" Value="Service mode"/>
+    <Text ID="166662" Value="Adjust"/>
+    <Text ID="166663" Value="down"/>
+    <Text ID="166664" Value="Pin 3 up"/>
+    <Text ID="166665" Value="Pins 4 a. 6 up"/>
+    <Text ID="166666" Value="Pins down"/>
+    <Text ID="166667" Value="Feeder horizontal"/>
+    <Text ID="166813" Value="Lateral transport"/>
+    <Text ID="166814" Value="Adj. cross plate"/>
+    <Text ID="166815" Value="Servicekey"/>
+    <Text ID="167878" Value="Door sensors"/>
+    <Text ID="167879" Value="Paperremove up"/>
+    <Text ID="167880" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="92293" Value="0"/>
+    <Index ID="92294" Value="1"/>
+    <Index ID="92295" Value="2"/>
+    <Index ID="92296" Value="3"/>
+    <Index ID="92297" Value="4"/>
+    <Index ID="92298" Value="5"/>
+    <Index ID="92299" Value="6"/>
+    <Index ID="92300" Value="7"/>
+    <Index ID="92301" Value="8"/>
+    <Index ID="92302" Value="9"/>
+    <Index ID="92313" Value="10"/>
+    <Index ID="92314" Value="11"/>
+    <Index ID="92315" Value="12"/>
+    <Index ID="92476" Value="13"/>
+    <Index ID="92477" Value="14"/>
+    <Index ID="92478" Value="15"/>
+    <Index ID="92479" Value="16"/>
+    <Index ID="92480" Value="17"/>
+    <Index ID="92481" Value="18"/>
+    <Index ID="92483" Value="19"/>
+    <Index ID="92484" Value="20"/>
+    <Index ID="92485" Value="21"/>
+    <Index ID="92486" Value="22"/>
+    <Index ID="92487" Value="23"/>
+    <Index ID="92488" Value="24"/>
+    <Index ID="92489" Value="25"/>
+    <Index ID="166660" Value="26"/>
+    <Index ID="166661" Value="27"/>
+    <Index ID="166662" Value="28"/>
+    <Index ID="166663" Value="29"/>
+    <Index ID="166664" Value="30"/>
+    <Index ID="166665" Value="31"/>
+    <Index ID="166666" Value="32"/>
+    <Index ID="166667" Value="33"/>
+    <Index ID="166813" Value="34"/>
+    <Index ID="166814" Value="35"/>
+    <Index ID="166815" Value="36"/>
+    <Index ID="167878" Value="37"/>
+    <Index ID="167879" Value="38"/>
+    <Index ID="167880" Value="39"/>
+  </IndexMap>
+</TextGroup>

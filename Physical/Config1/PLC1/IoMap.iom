@@ -1,0 +1,156 @@
+(********************************************************************
+	
+	 * COPYRIGHT -- Bernecker & Rainer
+	
+	 ********************************************************************
+	
+	 * File: IOMap.iom
+	
+	 * Author: Aden
+	
+	 * Created: 12.09.2005
+	
+	 ********************************************************************
+	
+	 * IO mapping file
+	
+	 ********************************************************************)
+VAR_CONFIG
+	Cyclic#1.CPUTemp AT %IW."PLC1".TemperatureCPU;
+	Cyclic#1.AmbientTemp AT %IW."PLC1".TemperatureENV;
+	Cyclic#1.BatteryStatus AT %IB."PLC1".BatteryStatusCPU;
+	Cyclic#1.egmio:EGMModule1Out[0] AT %QX."X20DO9322c".DigitalOutput01;
+	Cyclic#1.egmio:EGMModule1Out[1] AT %QX."X20DO9322c".DigitalOutput02;
+	Cyclic#1.egmio:EGMModule1Out[2] AT %QX."X20DO9322c".DigitalOutput03;
+	Cyclic#1.egmio:EGMModule1Out[3] AT %QX."X20DO9322c".DigitalOutput04;
+	Cyclic#1.egmio:EGMModule1Out[4] AT %QX."X20DO9322c".DigitalOutput05;
+	Cyclic#1.egmio:EGMModule1Out[5] AT %QX."X20DO9322c".DigitalOutput06;
+	Cyclic#1.egmio:EGMModule1Out[6] AT %QX."X20DO9322c".DigitalOutput07;
+	Cyclic#1.egmio:EGMModule1Out[7] AT %QX."X20DO9322c".DigitalOutput08;
+	Cyclic#1.egmio:EGMModule1Out[8] AT %QX."X20DO9322c".DigitalOutput09;
+	Cyclic#1.egmio:EGMModule1Out[9] AT %QX."X20DO9322c".DigitalOutput10;
+	Cyclic#1.egmio:EGMModule1Out[10] AT %QX."X20DO9322c".DigitalOutput11;
+	Cyclic#1.egmio:EGMModule1Out[11] AT %QX."X20DO9322c".DigitalOutput12;
+	ModulStatus_DO1 AT %IX."X20DO9322c".ModuleOk;
+	ModulStatus_DO2 AT %IX."X20DO9322d".ModuleOk;
+	Cyclic#1.egmio:EGMModule2Out[0] AT %QX."X20DO9322d".DigitalOutput01;
+	Cyclic#1.egmio:EGMModule2Out[1] AT %QX."X20DO9322d".DigitalOutput02;
+	Cyclic#1.egmio:EGMModule2Out[2] AT %QX."X20DO9322d".DigitalOutput03;
+	Cyclic#1.egmio:EGMModule2Out[3] AT %QX."X20DO9322d".DigitalOutput04;
+	Cyclic#1.egmio:EGMModule2Out[4] AT %QX."X20DO9322d".DigitalOutput05;
+	Cyclic#1.egmio:EGMModule2Out[5] AT %QX."X20DO9322d".DigitalOutput06;
+	Cyclic#1.egmio:EGMModule2Out[6] AT %QX."X20DO9322d".DigitalOutput07;
+	ModulStatus_DO3 AT %IX."X20DO9322e".ModuleOk;
+	Cyclic#1.egmio:EGMModule3Out[0] AT %QX."X20DO9322e".DigitalOutput01;
+	Cyclic#1.egmio:EGMModule3Out[1] AT %QX."X20DO9322e".DigitalOutput02;
+	Cyclic#1.egmio:EGMModule3Out[2] AT %QX."X20DO9322e".DigitalOutput03;
+	Cyclic#1.egmio:EGMModule3Out[3] AT %QX."X20DO9322e".DigitalOutput04;
+	Cyclic#1.egmio:EGMModule3Out[4] AT %QX."X20DO9322e".DigitalOutput05;
+	Cyclic#1.egmio:EGMModule3Out[5] AT %QX."X20DO9322e".DigitalOutput06;
+	Cyclic#1.egmio:EGMModule3Out[6] AT %QX."X20DO9322e".DigitalOutput07;
+	Cyclic#1.egmio:EGMModule3Out[7] AT %QX."X20DO9322e".DigitalOutput08;
+	Cyclic#1.ModulStatus_DI AT %IX."X20DI9371b".ModuleOk;
+	Cyclic#1.egmio:EGMModule1In[0] AT %IX."X20DI9371b".DigitalInput01;
+	Cyclic#1.egmio:EGMModule1In[1] AT %IX."X20DI9371b".DigitalInput02;
+	Cyclic#1.egmio:EGMModule1In[2] AT %IX."X20DI9371b".DigitalInput03;
+	Cyclic#1.egmio:EGMModule1In[3] AT %IX."X20DI9371b".DigitalInput04;
+	Cyclic#1.egmio:EGMModule1In[4] AT %IX."X20DI9371b".DigitalInput05;
+	Cyclic#1.egmio:EGMModule1In[5] AT %IX."X20DI9371b".DigitalInput06;
+	Cyclic#1.egmio:EGMModule1In[6] AT %IX."X20DI9371b".DigitalInput07;
+	Cyclic#1.egmio:EGMModule1In[7] AT %IX."X20DI9371b".DigitalInput08;
+	Cyclic#1.egmio:EGMModule1In[8] AT %IX."X20DI9371b".DigitalInput09;
+	Cyclic#1.egmio:EGMModule1In[9] AT %IX."X20DI9371b".DigitalInput10;
+	Cyclic#1.ModulStatus_AT AT %IX."X20AT4222".ModuleOk;
+	Cyclic#1.EGMPreheat.AmbientTemp[0] AT %IW."X20AT4222".Temperature01;
+	Cyclic#1.devtank:TempSensorValue AT %IW."X20AT4222".Temperature02;
+	Cyclic#1.ModulStatus_AT1 AT %IB."X20AT4222".StatusInput01;
+	ModulStatus_AO AT %IX."X20AO2622".ModuleOk;
+	Cyclic#1.EGMMainMotor.RatedRpm AT %QW."X20AO2622".AnalogOutput01;
+	Cyclic#1.EGMBrushMotor.RatedRpm AT %QW."X20AO2622".AnalogOutput02;
+	Cyclic#1.ModulStatus_PS AT %IX."X20PS9400a".ModuleOk;
+	Cyclic#1.ModulStatus_PS1 AT %IX."X20PS9400a".StatusInput01;
+	Cyclic#1.ModulStatus_PS2 AT %IX."X20PS9400a".StatusInput02;
+	Cyclic#1.ModulStatus_DI2 AT %IX."X20DI9371c".ModuleOk;
+	Cyclic#1.egmio:EGMModule2In[0] AT %IX."X20DI9371c".DigitalInput01;
+	Cyclic#1.egmio:EGMModule2In[1] AT %IX."X20DI9371c".DigitalInput02;
+	Cyclic#1.egmio:EGMModule2In[2] AT %IX."X20DI9371c".DigitalInput03;
+	Cyclic#1.egmio:EGMModule2In[3] AT %IX."X20DI9371c".DigitalInput04;
+	Cyclic#1.egmio:EGMModule2In[4] AT %IX."X20DI9371c".DigitalInput05;
+	Cyclic#1.egmio:EGMModule2In[5] AT %IX."X20DI9371c".DigitalInput06;
+	Cyclic#1.EGMPreheat.RealTemp[0] AT %IW."X20AT4222".Temperature03;
+	Cyclic#1.EGMPreheat.RealTemp[1] AT %IW."X20AT4222".Temperature04;
+	Cyclic#1.egmio:EGMModule1In[10] AT %IX."X20DI9371b".DigitalInput11;
+	Cyclic#1.egmio:EGMModule2Out[7] AT %QX."X20DO9322d".DigitalOutput08;
+	Cyclic#1.egmio:EGMModule2Out[8] AT %QX."X20DO9322d".DigitalOutput09;
+	Cyclic#1.egmio:EGMModule2Out[9] AT %QX."X20DO9322d".DigitalOutput10;
+	Cyclic#1.egmio:EGMModule2Out[10] AT %QX."X20DO9322d".DigitalOutput11;
+	Cyclic#1.egmio:EGMModule2Out[11] AT %QX."X20DO9322d".DigitalOutput12;
+	Cyclic#1.egmio:EGMModule3Out[8] AT %QX."X20DO9322e".DigitalOutput09;
+	Cyclic#1.egmio:EGMModule3Out[9] AT %QX."X20DO9322e".DigitalOutput10;
+	Cyclic#1.egmio:EGMModule3Out[10] AT %QX."X20DO9322e".DigitalOutput11;
+	Cyclic#1.egmio:EGMModule3Out[11] AT %QX."X20DO9322e".DigitalOutput12;
+	Cyclic#1.egmio:EGMModule1In[11] AT %IX."X20DI9371b".DigitalInput12;
+	Cyclic#1.egmio:EGMModule2In[6] AT %IX."X20DI9371c".DigitalInput07;
+	Cyclic#1.egmio:EGMModule2In[7] AT %IX."X20DI9371c".DigitalInput08;
+	Cyclic#1.egmio:EGMModule2In[8] AT %IX."X20DI9371c".DigitalInput09;
+	Cyclic#1.egmio:EGMModule2In[9] AT %IX."X20DI9371c".DigitalInput10;
+	Cyclic#1.egmio:EGMModule2In[10] AT %IX."X20DI9371c".DigitalInput11;
+	Cyclic#1.egmio:EGMModule2In[11] AT %IX."X20DI9371c".DigitalInput12;
+	Cyclic#1.CANNodeNumber AT %IB."3IF771.9".IF1.NodeSwitch;
+	Cyclic#1.In_ServiceMode AT %IX."X20DI9371".DigitalInput01;
+	Cyclic#1.In_PaperSensor[0] AT %IX."X20DI9371".DigitalInput03;
+	Cyclic#1.In_PaperSensor[1] AT %IX."X20DI9371".DigitalInput04;
+	Cyclic#1.In_FeederHorActive AT %IX."X20DI9371".DigitalInput05;
+	Cyclic#1.In_FeederHorInactive AT %IX."X20DI9371".DigitalInput06;
+	Cyclic#1.In_FeederVacuumOK[0] AT %IX."X20DI9371".DigitalInput07;
+	Cyclic#1.In_FeederVacuumOK[1] AT %IX."X20DI9371".DigitalInput08;
+	Cyclic#1.In_FeederVacuumOK[2] AT %IX."X20DI9371".DigitalInput09;
+	Cyclic#1.In_FeederVacuumOK[3] AT %IX."X20DI9371".DigitalInput10;
+	Cyclic#1.In_FeederVacuumOK[4] AT %IX."X20DI9371".DigitalInput11;
+	Cyclic#1.In_FeederVacuumOK[5] AT %IX."X20DI9371".DigitalInput12;
+	Cyclic#1.In_PlateAdjusted[0] AT %IX."X20DI9371a".DigitalInput01;
+	Cyclic#1.In_PlateAdjusted[1] AT %IX."X20DI9371a".DigitalInput02;
+	Cyclic#1.In_LiftingPinsDown AT %IX."X20DI9371a".DigitalInput03;
+	Cyclic#1.In_ConveyorBeltSensor[0] AT %IX."X20DI9371a".DigitalInput04 INVERSE;
+	Cyclic#1.In_ConveyorBeltSensor[1] AT %IX."X20DI9371a".DigitalInput05 INVERSE;
+	Cyclic#1.TrolleyCodeSensor AT %IX."X20DI9371a".DigitalInput07;
+	Cyclic#1.BeltLoose AT %IX."X20DI9371a".DigitalInput08;
+	Cyclic#1.in_out:Module4[0] AT %QX."X20DO9322".DigitalOutput01;
+	Cyclic#1.in_out:Module4[1] AT %QX."X20DO9322".DigitalOutput02;
+	Cyclic#1.in_out:Module4[2] AT %QX."X20DO9322".DigitalOutput03;
+	Cyclic#1.in_out:Module4[3] AT %QX."X20DO9322".DigitalOutput04;
+	Cyclic#1.in_out:Module4[4] AT %QX."X20DO9322".DigitalOutput05;
+	Cyclic#1.in_out:Module4[5] AT %QX."X20DO9322".DigitalOutput06;
+	Cyclic#1.in_out:Module4[6] AT %QX."X20DO9322".DigitalOutput07;
+	Cyclic#1.in_out:Module4[7] AT %QX."X20DO9322".DigitalOutput08;
+	Cyclic#1.in_out:Module4[8] AT %QX."X20DO9322".DigitalOutput09;
+	Cyclic#1.in_out:Module4[9] AT %QX."X20DO9322".DigitalOutput10;
+	Cyclic#1.in_out:Module4[10] AT %QX."X20DO9322".DigitalOutput11;
+	Cyclic#1.in_out:Module4[11] AT %QX."X20DO9322".DigitalOutput12;
+	Cyclic#1.in_out:Module5[0] AT %QX."X20DO9322a".DigitalOutput01;
+	Cyclic#1.in_out:Module5[1] AT %QX."X20DO9322a".DigitalOutput02;
+	Cyclic#1.in_out:Module5[2] AT %QX."X20DO9322a".DigitalOutput03;
+	Cyclic#1.in_out:Module5[3] AT %QX."X20DO9322a".DigitalOutput04;
+	Cyclic#1.in_out:Module5[4] AT %QX."X20DO9322a".DigitalOutput05;
+	Cyclic#1.in_out:Module5[5] AT %QX."X20DO9322a".DigitalOutput06;
+	Cyclic#1.in_out:Module5[6] AT %QX."X20DO9322a".DigitalOutput07;
+	Cyclic#1.in_out:Module5[7] AT %QX."X20DO9322a".DigitalOutput08;
+	Cyclic#1.in_out:Module5[8] AT %QX."X20DO9322a".DigitalOutput09;
+	Cyclic#1.in_out:Module5[9] AT %QX."X20DO9322a".DigitalOutput10;
+	Cyclic#1.in_out:Module5[10] AT %QX."X20DO9322a".DigitalOutput11;
+	Cyclic#1.in_out:Module5[11] AT %QX."X20DO9322a".DigitalOutput12;
+	Cyclic#1.in_out:Module6[0] AT %QX."X20DO9322b".DigitalOutput01;
+	Cyclic#1.in_out:Module6[1] AT %QX."X20DO9322b".DigitalOutput02;
+	Cyclic#1.in_out:Module6[2] AT %QX."X20DO9322b".DigitalOutput03;
+	Cyclic#1.in_out:Module6[3] AT %QX."X20DO9322b".DigitalOutput04;
+	Cyclic#1.in_out:Module6[4] AT %QX."X20DO9322b".DigitalOutput05;
+	Cyclic#1.in_out:Module6[5] AT %QX."X20DO9322b".DigitalOutput06;
+	Cyclic#1.in_out:Module6[6] AT %QX."X20DO9322b".DigitalOutput07;
+	Cyclic#1.in_out:Module6[7] AT %QX."X20DO9322b".DigitalOutput08;
+	Cyclic#1.in_out:Module6[8] AT %QX."X20DO9322b".DigitalOutput09;
+	Cyclic#1.in_out:Module6[9] AT %QX."X20DO9322b".DigitalOutput10;
+	Cyclic#1.in_out:Module6[10] AT %QX."X20DO9322b".DigitalOutput11;
+	Cyclic#1.in_out:Module6[11] AT %QX."X20DO9322b".DigitalOutput12;
+	Cyclic#1.CoverLockOK AT %IX."X20DI9371a".DigitalInput09;
+	Cyclic#1.DoorsOK AT %IX."X20DI9371a".DigitalInput10;
+END_VAR

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXTGRP_Param01">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="42"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1" Value=":"/>
+    <Text ID="2" Value=":"/>
+    <Text ID="3" Value="."/>
+    <Text ID="4" Value="."/>
+    <Text ID="116967" Value="Preheat"/>
+    <Text ID="116968" Value="Prewash"/>
+    <Text ID="116969" Value="Developer tank"/>
+    <Text ID="116970" Value="Rinse"/>
+    <Text ID="116971" Value="Gum station"/>
+    <Text ID="116972" Value="Motors"/>
+    <Text ID="116973" Value="Input/output"/>
+    <Text ID="116974" Value="more..."/>
+    <Text ID="116975" Value="Mach. No."/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1" Value=":"/>
+    <Text ID="2" Value=":"/>
+    <Text ID="3" Value="."/>
+    <Text ID="4" Value="."/>
+    <Text ID="116967" Value="Nacherwärmung"/>
+    <Text ID="116968" Value="Vorspülen"/>
+    <Text ID="116969" Value="Entwicklertank"/>
+    <Text ID="116970" Value="Nachspülen"/>
+    <Text ID="116971" Value="Gummierung"/>
+    <Text ID="116972" Value="Motoren"/>
+    <Text ID="116973" Value="Ein-/Ausgänge"/>
+    <Text ID="116974" Value="Erweitert..."/>
+    <Text ID="116975" Value="Masch.-Nr."/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="116967" Value="Precalentamiento"/>
+    <Text ID="116968" Value="Prelavado"/>
+    <Text ID="116969" Value="Tanque revelador"/>
+    <Text ID="116970" Value="Enjuague"/>
+    <Text ID="116971" Value="Goma"/>
+    <Text ID="116972" Value="Motores"/>
+    <Text ID="116973" Value="Entradas/Salidas"/>
+    <Text ID="116974" Value="Mas…"/>
+    <Text ID="116975" Value="Maquina N°"/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1" Value=":"/>
+    <Text ID="2" Value=":"/>
+    <Text ID="3" Value="."/>
+    <Text ID="4" Value="."/>
+    <Text ID="116967" Value="Ettervarming"/>
+    <Text ID="116968" Value="Forspyling"/>
+    <Text ID="116969" Value="Fremkallertank"/>
+    <Text ID="116970" Value="Etterspyling"/>
+    <Text ID="116971" Value="Gummiering"/>
+    <Text ID="116972" Value="Motorer"/>
+    <Text ID="116973" Value="Inn-/utganger"/>
+    <Text ID="116974" Value="Utvidet..."/>
+    <Text ID="116975" Value="Mask.-nr."/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="116967" Value=""/>
+    <Text ID="116968" Value=""/>
+    <Text ID="116969" Value=""/>
+    <Text ID="116970" Value=""/>
+    <Text ID="116971" Value=""/>
+    <Text ID="116972" Value=""/>
+    <Text ID="116973" Value=""/>
+    <Text ID="116974" Value=""/>
+    <Text ID="116975" Value=""/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="116967" Value=""/>
+    <Text ID="116968" Value=""/>
+    <Text ID="116969" Value=""/>
+    <Text ID="116970" Value=""/>
+    <Text ID="116971" Value=""/>
+    <Text ID="116972" Value=""/>
+    <Text ID="116973" Value=""/>
+    <Text ID="116974" Value=""/>
+    <Text ID="116975" Value=""/>
+    <Text ID="116976" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1" Value="0"/>
+    <Index ID="2" Value="1"/>
+    <Index ID="3" Value="2"/>
+    <Index ID="4" Value="3"/>
+    <Index ID="116967" Value="4"/>
+    <Index ID="116968" Value="5"/>
+    <Index ID="116969" Value="6"/>
+    <Index ID="116970" Value="7"/>
+    <Index ID="116971" Value="8"/>
+    <Index ID="116972" Value="9"/>
+    <Index ID="116973" Value="10"/>
+    <Index ID="116974" Value="11"/>
+    <Index ID="116975" Value="12"/>
+    <Index ID="116976" Value="13"/>
+  </IndexMap>
+</TextGroup>

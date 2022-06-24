@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Datei: Cpu.per
+ * Autor: Aden
+ * Erstellt: 22. Januar 2016
+ ********************************************************************
+ * Deklaration der permanenten Variablen
+ ********************************************************************)
+VAR_CONFIG
+	DeveloperChangeDate AT %MD25000; (* *)
+	IOChangeStep AT %MB25077; (* *)
+	IOConfiguration AT %MB25076; (* 1=standard, 2=1250 zus. Temp.Modul *)
+	OverallPlateCounter AT %MD25004; (* *)
+	OverallReplenisherCounter AT %MD25008; (* *)
+	OverallReplenisherPumpTime AT %MD25012; (* *)
+	OverallSqmCounter AT %MD25016; (* *)
+	ReplenisherCounter AT %MD25060; (* *)
+	ReplenisherUsedSinceDevChg AT %MD25064; (* *)
+	SRAM AT %MB0; (* *)
+	ShutDownTime AT %MD25072; (* *)
+	SqmSinceDevChg AT %MD25068; (* *)
+	dummy AT %MB25020; (* *)
+END_VAR

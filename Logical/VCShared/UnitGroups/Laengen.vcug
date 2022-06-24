@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Laengen">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[mm]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=" mm"/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value=" ''"/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=" mm"/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value="In"/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=" mm"/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value=" ''"/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=" mm"/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value=" ''"/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=""/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value=""/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="284" Value=""/>
+      <Text ID="285" Value=""/>
+      <Text ID="286" Value=""/>
+      <Text ID="287" Value=""/>
+      <Text ID="87685" Value=""/>
+      <Text ID="87686" Value=""/>
+      <Text ID="87724" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="284" Value="1"/>
+      <Index ID="285" Value="2"/>
+      <Index ID="286" Value="3"/>
+      <Index ID="287" Value="4"/>
+      <Index ID="87685" Value="5"/>
+      <Index ID="87686" Value="6"/>
+      <Index ID="87724" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="mm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Inch">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="25.4"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

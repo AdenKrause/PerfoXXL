@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Motors">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="44"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="208" Value="Auto"/>
+    <Text ID="209" Value="Manual"/>
+    <Text ID="210" Value="Start"/>
+    <Text ID="211" Value="Stop"/>
+    <Text ID="212" Value="On"/>
+    <Text ID="213" Value="Off"/>
+    <Text ID="87834" Value="Enable"/>
+    <Text ID="87835" Value="Speed"/>
+    <Text ID="87847" Value="Plate transport"/>
+    <Text ID="87854" Value="Brushmotor"/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value="Maximum transport speed"/>
+    <Text ID="135299" Value="Maximum brush rpm (depends on motor type):"/>
+    <Text ID="138143" Value="Brushmotor settings"/>
+    <Text ID="138144" Value="Plate transport settings"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="208" Value="Auto"/>
+    <Text ID="209" Value="Hand"/>
+    <Text ID="210" Value="Start"/>
+    <Text ID="211" Value="Stopp"/>
+    <Text ID="212" Value="Ein"/>
+    <Text ID="213" Value="Aus"/>
+    <Text ID="87834" Value="Freigabe"/>
+    <Text ID="87835" Value="Geschwindigkeit"/>
+    <Text ID="87847" Value="Plattentransport"/>
+    <Text ID="87854" Value="Bürstenmotor"/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value="Maximale Transportgeschwindigkeit"/>
+    <Text ID="135299" Value="Maximale Bürstendrehzahl (abhängig vom Motor):"/>
+    <Text ID="138143" Value="Bürstenmotor Einstellungen"/>
+    <Text ID="138144" Value="Plattentransport Einstellungen"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="208" Value="Auto"/>
+    <Text ID="209" Value="Manual"/>
+    <Text ID="210" Value="Activar"/>
+    <Text ID="211" Value="parar"/>
+    <Text ID="212" Value="SI"/>
+    <Text ID="213" Value="NO"/>
+    <Text ID="87834" Value="Activar"/>
+    <Text ID="87835" Value="Velocidad"/>
+    <Text ID="87847" Value="Transporte planchas"/>
+    <Text ID="87854" Value="Motor cepillos"/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value="Velocidad maxima de transporte"/>
+    <Text ID="135299" Value="Revol. max de cepillo (Depende de tipo plancha)"/>
+    <Text ID="138143" Value="Ajustes motor cepillos"/>
+    <Text ID="138144" Value="Ajustes transporte de planchas"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="208" Value="Auto"/>
+    <Text ID="209" Value="Manuelt"/>
+    <Text ID="210" Value="Start"/>
+    <Text ID="211" Value="Stopp"/>
+    <Text ID="212" Value="På"/>
+    <Text ID="213" Value="Av"/>
+    <Text ID="87834" Value="Frigivelse"/>
+    <Text ID="87835" Value="Hastighet"/>
+    <Text ID="87847" Value="Platetransport"/>
+    <Text ID="87854" Value="Børstemotor"/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value="Maksimalt platetransport hastighet"/>
+    <Text ID="135299" Value="Maksimalt børsteturtall (avhengig av motoren):"/>
+    <Text ID="138143" Value=""/>
+    <Text ID="138144" Value="Platetransport innstilling"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="208" Value=""/>
+    <Text ID="209" Value=""/>
+    <Text ID="210" Value=""/>
+    <Text ID="211" Value=""/>
+    <Text ID="212" Value=""/>
+    <Text ID="213" Value=""/>
+    <Text ID="87834" Value=""/>
+    <Text ID="87835" Value=""/>
+    <Text ID="87847" Value=""/>
+    <Text ID="87854" Value=""/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value=""/>
+    <Text ID="135299" Value=""/>
+    <Text ID="138143" Value=""/>
+    <Text ID="138144" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="208" Value=""/>
+    <Text ID="209" Value=""/>
+    <Text ID="210" Value=""/>
+    <Text ID="211" Value=""/>
+    <Text ID="212" Value=""/>
+    <Text ID="213" Value=""/>
+    <Text ID="87834" Value=""/>
+    <Text ID="87835" Value=""/>
+    <Text ID="87847" Value=""/>
+    <Text ID="87854" Value=""/>
+    <Text ID="135295" Value=""/>
+    <Text ID="135296" Value=""/>
+    <Text ID="135297" Value=""/>
+    <Text ID="135298" Value=""/>
+    <Text ID="135299" Value=""/>
+    <Text ID="138143" Value=""/>
+    <Text ID="138144" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="208" Value="0"/>
+    <Index ID="209" Value="1"/>
+    <Index ID="210" Value="2"/>
+    <Index ID="211" Value="3"/>
+    <Index ID="212" Value="4"/>
+    <Index ID="213" Value="5"/>
+    <Index ID="87834" Value="6"/>
+    <Index ID="87835" Value="7"/>
+    <Index ID="87847" Value="8"/>
+    <Index ID="87854" Value="9"/>
+    <Index ID="135295" Value="16"/>
+    <Index ID="135296" Value="15"/>
+    <Index ID="135297" Value="14"/>
+    <Index ID="135298" Value="13"/>
+    <Index ID="135299" Value="10"/>
+    <Index ID="138143" Value="11"/>
+    <Index ID="138144" Value="12"/>
+  </IndexMap>
+</TextGroup>

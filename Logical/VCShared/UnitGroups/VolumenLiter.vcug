@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="VolumenLiter">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[liter]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=" ml"/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=" mGal"/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=" ltr"/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=" Gal"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=" ml"/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=" mGal"/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=" l"/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=" Gal"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=" ml"/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=" mGal"/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=" l"/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=" Gal"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=" ml"/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=" mGal"/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=" ltr"/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=" Gal"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=""/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=""/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=""/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="115846" Value=""/>
+      <Text ID="115847" Value=""/>
+      <Text ID="115848" Value=""/>
+      <Text ID="115849" Value=""/>
+      <Text ID="115850" Value=""/>
+      <Text ID="115851" Value=""/>
+      <Text ID="115852" Value=""/>
+      <Text ID="115853" Value=""/>
+      <Text ID="115854" Value=""/>
+      <Text ID="115855" Value=""/>
+      <Text ID="115856" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="115846" Value="0"/>
+      <Index ID="115847" Value="1"/>
+      <Index ID="115848" Value="2"/>
+      <Index ID="115849" Value="3"/>
+      <Index ID="115850" Value="4"/>
+      <Index ID="115851" Value="5"/>
+      <Index ID="115852" Value="6"/>
+      <Index ID="115853" Value="7"/>
+      <Index ID="115854" Value="8"/>
+      <Index ID="115855" Value="9"/>
+      <Index ID="115856" Value="10"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="ml">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="milligallon">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.219969248299088"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="liter">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.001"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Gallon">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="4"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="10"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="9"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.00022"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="manualrepl">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="2000"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="10"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

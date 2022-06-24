@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="mlPerSqm">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[mlPerSqm]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=" ml/m²"/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=" ml/In²"/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=" ml/Yd²"/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=" ml/cm²"/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=" ml/ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=" ml/m²"/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=" ml/In²"/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=" ml/Yd²"/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=" ml/cm²"/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=" ml/ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=" ml/m²"/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=" ml/In²"/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=" ml/Yd²"/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=" ml/cm²"/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=" ml/ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=" ml/m²"/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=" ml/In²"/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=" ml/Yd²"/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=" ml/cm²"/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=" ml/ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=""/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=""/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=""/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=""/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="110613" Value=""/>
+      <Text ID="110614" Value=""/>
+      <Text ID="110615" Value=""/>
+      <Text ID="110616" Value=""/>
+      <Text ID="110617" Value=""/>
+      <Text ID="110618" Value=""/>
+      <Text ID="110619" Value=""/>
+      <Text ID="110620" Value=""/>
+      <Text ID="110621" Value=""/>
+      <Text ID="110622" Value=""/>
+      <Text ID="110623" Value=""/>
+      <Text ID="110624" Value=""/>
+      <Text ID="110625" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="110613" Value="0"/>
+      <Index ID="110614" Value="1"/>
+      <Index ID="110615" Value="2"/>
+      <Index ID="110616" Value="3"/>
+      <Index ID="110617" Value="4"/>
+      <Index ID="110618" Value="5"/>
+      <Index ID="110619" Value="6"/>
+      <Index ID="110620" Value="7"/>
+      <Index ID="110621" Value="8"/>
+      <Index ID="110622" Value="9"/>
+      <Index ID="110623" Value="10"/>
+      <Index ID="110624" Value="11"/>
+      <Index ID="110625" Value="12"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLC_unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerSqm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerSqIn">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="4"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.0006"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerSqYd">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.8361"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerSqcm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="4"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="10"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="9"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="4"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.0001"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerSqft">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="5"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="12"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="11"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="0.09291"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

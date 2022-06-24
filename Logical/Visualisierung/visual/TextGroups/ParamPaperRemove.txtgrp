@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamPaperRemove">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="89686" Value="Enable feeder"/>
+    <Text ID="89687" Value="Paper release single"/>
+    <Text ID="89688" Value="Paper release pano."/>
+    <Text ID="89689" Value="Trolley detection start"/>
+    <Text ID="89690" Value="Trolley detection end"/>
+    <Text ID="89691" Value="Paper remove panorama ad."/>
+    <Text ID="89692" Value="Paper remove positions horiz."/>
+    <Text ID="89701" Value="Paper remove vertical"/>
+    <Text ID="89702" Value="Pos. up"/>
+    <Text ID="89703" Value="Pos. down"/>
+    <Text ID="89704" Value="Pos. on trolley"/>
+    <Text ID="89707" Value="Max. current down"/>
+    <Text ID="89708" Value="Max. current up"/>
+    <Text ID="89709" Value="Number of grip cycles"/>
+    <Text ID="89712" Value="Trolley op/cl horiz."/>
+    <Text ID="89713" Value="Paperremove speeds"/>
+    <Text ID="89714" Value="Trolley detection"/>
+    <Text ID="89715" Value="Paper remove horiz."/>
+    <Text ID="89716" Value="Trolley op/cl down"/>
+    <Text ID="89717" Value="Trolley op/cl up"/>
+    <Text ID="89718" Value="Paper remove up"/>
+    <Text ID="89719" Value="Paper remove down"/>
+    <Text ID="89723" Value="Paper remove times"/>
+    <Text ID="89724" Value="Close gripper"/>
+    <Text ID="89725" Value="Open gripper"/>
+    <Text ID="89726" Value="Timeout down trolley"/>
+    <Text ID="89727" Value="Timeout up trolley"/>
+    <Text ID="89728" Value="Timeout op/cl single"/>
+    <Text ID="89729" Value="Timeout op/cl double"/>
+    <Text ID="533850" Value="Paper release pos."/>
+    <Text ID="533851" Value="Palette detection"/>
+    <Text ID="533852" Value="Palette detection startpos"/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palette detect speed"/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palette detection endpos"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="89686" Value="Freigabe Plattenaufn."/>
+    <Text ID="89687" Value="Papierablage Einzelpl."/>
+    <Text ID="89688" Value="Papierablage Pano."/>
+    <Text ID="89689" Value="Plattenw. Erkennung start"/>
+    <Text ID="89690" Value="Plattenw. Erkennung ende"/>
+    <Text ID="89691" Value="Papierentf. Panorama Ad."/>
+    <Text ID="89692" Value="Papierentfernung Positionen horiz."/>
+    <Text ID="89701" Value="Papierentfernung vertikal"/>
+    <Text ID="89702" Value="Pos. oben"/>
+    <Text ID="89703" Value="Pos. unten"/>
+    <Text ID="89704" Value="Pos. auf Plattenwagen"/>
+    <Text ID="89707" Value="Max. Strom senken"/>
+    <Text ID="89708" Value="Max. Strom heben"/>
+    <Text ID="89709" Value="Anzahl Greiferwiederh."/>
+    <Text ID="89712" Value="Plattenw.auf/zu horiz."/>
+    <Text ID="89713" Value="Papierentfernung Geschwindigkeiten"/>
+    <Text ID="89714" Value="Plattenwagen Erkennung"/>
+    <Text ID="89715" Value="Papierentfernung horiz."/>
+    <Text ID="89716" Value="Plattenwagen auf/zu senken"/>
+    <Text ID="89717" Value="Plattenwagen auf/zu heben"/>
+    <Text ID="89718" Value="Papierentfernung heben"/>
+    <Text ID="89719" Value="Papierentfernung senken"/>
+    <Text ID="89723" Value="Papierentfernung Zeiten"/>
+    <Text ID="89724" Value="Greifer schließen"/>
+    <Text ID="89725" Value="Greifer öffnen"/>
+    <Text ID="89726" Value="Timeout senken auf Rollo"/>
+    <Text ID="89727" Value="Timeout heben von Rollo"/>
+    <Text ID="89728" Value="Timeout kl. Wagen auf/zu"/>
+    <Text ID="89729" Value="Timeout gr. Wagen auf/zu"/>
+    <Text ID="533850" Value="Papierablage Pos."/>
+    <Text ID="533851" Value="Palettenerkennung"/>
+    <Text ID="533852" Value="Palettenerkennung Startpos."/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palettenerkennung Geschw."/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palettenerkennung Endpos."/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="89686" Value=""/>
+    <Text ID="89687" Value=""/>
+    <Text ID="89688" Value=""/>
+    <Text ID="89689" Value=""/>
+    <Text ID="89690" Value=""/>
+    <Text ID="89691" Value=""/>
+    <Text ID="89692" Value=""/>
+    <Text ID="89701" Value=""/>
+    <Text ID="89702" Value=""/>
+    <Text ID="89703" Value=""/>
+    <Text ID="89704" Value=""/>
+    <Text ID="89707" Value=""/>
+    <Text ID="89708" Value=""/>
+    <Text ID="89709" Value=""/>
+    <Text ID="89712" Value=""/>
+    <Text ID="89713" Value=""/>
+    <Text ID="89714" Value=""/>
+    <Text ID="89715" Value=""/>
+    <Text ID="89716" Value=""/>
+    <Text ID="89717" Value=""/>
+    <Text ID="89718" Value=""/>
+    <Text ID="89719" Value=""/>
+    <Text ID="89723" Value=""/>
+    <Text ID="89724" Value=""/>
+    <Text ID="89725" Value=""/>
+    <Text ID="89726" Value=""/>
+    <Text ID="89727" Value=""/>
+    <Text ID="89728" Value=""/>
+    <Text ID="89729" Value=""/>
+    <Text ID="533850" Value="Paper release pos."/>
+    <Text ID="533851" Value="Palette detection"/>
+    <Text ID="533852" Value="Palette detection startpos"/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palette detect speed"/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palette detection endpos"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="89686" Value="Enable feeder"/>
+    <Text ID="89687" Value="Paper release single"/>
+    <Text ID="89688" Value="Paper release pano."/>
+    <Text ID="89689" Value="Trolley detection start"/>
+    <Text ID="89690" Value="Trolley detection end"/>
+    <Text ID="89691" Value="Paper remove panorama ad."/>
+    <Text ID="89692" Value="Paper remove positions horiz."/>
+    <Text ID="89701" Value="Paper remove vertical"/>
+    <Text ID="89702" Value="Pos. up"/>
+    <Text ID="89703" Value="Pos. down"/>
+    <Text ID="89704" Value="Pos. on trolley"/>
+    <Text ID="89707" Value="Max. current down"/>
+    <Text ID="89708" Value="Max. current up"/>
+    <Text ID="89709" Value="Number of grip cycles"/>
+    <Text ID="89712" Value="Trolley op/cl horiz."/>
+    <Text ID="89713" Value="Paperremove speeds"/>
+    <Text ID="89714" Value="Trolley detection"/>
+    <Text ID="89715" Value="Paper remove horiz."/>
+    <Text ID="89716" Value="Trolley op/cl down"/>
+    <Text ID="89717" Value="Trolley op/cl up"/>
+    <Text ID="89718" Value="Paper remove up"/>
+    <Text ID="89719" Value="Paper remove down"/>
+    <Text ID="89723" Value="Paper remove times"/>
+    <Text ID="89724" Value="Close gripper"/>
+    <Text ID="89725" Value="Open gripper"/>
+    <Text ID="89726" Value="Timeout down trolley"/>
+    <Text ID="89727" Value="Timeout up trolley"/>
+    <Text ID="89728" Value="Timeout op/cl single"/>
+    <Text ID="89729" Value="Timeout op/cl double"/>
+    <Text ID="533850" Value="Paper release pos."/>
+    <Text ID="533851" Value="Palette detection"/>
+    <Text ID="533852" Value="Palette detection startpos"/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palette detect speed"/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palette detection endpos"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="89686" Value=""/>
+    <Text ID="89687" Value=""/>
+    <Text ID="89688" Value=""/>
+    <Text ID="89689" Value=""/>
+    <Text ID="89690" Value=""/>
+    <Text ID="89691" Value=""/>
+    <Text ID="89692" Value=""/>
+    <Text ID="89701" Value=""/>
+    <Text ID="89702" Value=""/>
+    <Text ID="89703" Value=""/>
+    <Text ID="89704" Value=""/>
+    <Text ID="89707" Value=""/>
+    <Text ID="89708" Value=""/>
+    <Text ID="89709" Value=""/>
+    <Text ID="89712" Value=""/>
+    <Text ID="89713" Value=""/>
+    <Text ID="89714" Value=""/>
+    <Text ID="89715" Value=""/>
+    <Text ID="89716" Value=""/>
+    <Text ID="89717" Value=""/>
+    <Text ID="89718" Value=""/>
+    <Text ID="89719" Value=""/>
+    <Text ID="89723" Value=""/>
+    <Text ID="89724" Value=""/>
+    <Text ID="89725" Value=""/>
+    <Text ID="89726" Value=""/>
+    <Text ID="89727" Value=""/>
+    <Text ID="89728" Value=""/>
+    <Text ID="89729" Value=""/>
+    <Text ID="533850" Value="Paper release pos."/>
+    <Text ID="533851" Value="Palette detection"/>
+    <Text ID="533852" Value="Palette detection startpos"/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palette detect speed"/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palette detection endpos"/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="89686" Value=""/>
+    <Text ID="89687" Value=""/>
+    <Text ID="89688" Value=""/>
+    <Text ID="89689" Value=""/>
+    <Text ID="89690" Value=""/>
+    <Text ID="89691" Value=""/>
+    <Text ID="89692" Value=""/>
+    <Text ID="89701" Value=""/>
+    <Text ID="89702" Value=""/>
+    <Text ID="89703" Value=""/>
+    <Text ID="89704" Value=""/>
+    <Text ID="89707" Value=""/>
+    <Text ID="89708" Value=""/>
+    <Text ID="89709" Value=""/>
+    <Text ID="89712" Value=""/>
+    <Text ID="89713" Value=""/>
+    <Text ID="89714" Value=""/>
+    <Text ID="89715" Value=""/>
+    <Text ID="89716" Value=""/>
+    <Text ID="89717" Value=""/>
+    <Text ID="89718" Value=""/>
+    <Text ID="89719" Value=""/>
+    <Text ID="89723" Value=""/>
+    <Text ID="89724" Value=""/>
+    <Text ID="89725" Value=""/>
+    <Text ID="89726" Value=""/>
+    <Text ID="89727" Value=""/>
+    <Text ID="89728" Value=""/>
+    <Text ID="89729" Value=""/>
+    <Text ID="533850" Value="Paper release pos."/>
+    <Text ID="533851" Value="Palette detection"/>
+    <Text ID="533852" Value="Palette detection startpos"/>
+    <Text ID="533853" Value=""/>
+    <Text ID="533854" Value="Palette detect speed"/>
+    <Text ID="533855" Value=""/>
+    <Text ID="533858" Value="Palette detection endpos"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="89686" Value="1"/>
+    <Index ID="89687" Value="2"/>
+    <Index ID="89688" Value="3"/>
+    <Index ID="89689" Value="4"/>
+    <Index ID="89690" Value="5"/>
+    <Index ID="89691" Value="6"/>
+    <Index ID="89692" Value="0"/>
+    <Index ID="89701" Value="7"/>
+    <Index ID="89702" Value="8"/>
+    <Index ID="89703" Value="9"/>
+    <Index ID="89704" Value="10"/>
+    <Index ID="89707" Value="11"/>
+    <Index ID="89708" Value="12"/>
+    <Index ID="89709" Value="13"/>
+    <Index ID="89712" Value="15"/>
+    <Index ID="89713" Value="14"/>
+    <Index ID="89714" Value="16"/>
+    <Index ID="89715" Value="17"/>
+    <Index ID="89716" Value="18"/>
+    <Index ID="89717" Value="19"/>
+    <Index ID="89718" Value="20"/>
+    <Index ID="89719" Value="21"/>
+    <Index ID="89723" Value="22"/>
+    <Index ID="89724" Value="23"/>
+    <Index ID="89725" Value="24"/>
+    <Index ID="89726" Value="25"/>
+    <Index ID="89727" Value="26"/>
+    <Index ID="89728" Value="27"/>
+    <Index ID="89729" Value="28"/>
+    <Index ID="533850" Value="29"/>
+    <Index ID="533851" Value="30"/>
+    <Index ID="533852" Value="31"/>
+    <Index ID="533853" Value="35"/>
+    <Index ID="533854" Value="33"/>
+    <Index ID="533855" Value="34"/>
+    <Index ID="533858" Value="32"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC">flow</Object>
+    <Object Type="Program" Language="ANSIC">lccount</Object>
+    <Object Type="Program" Language="ANSIC">egmio</Object>
+    <Object Type="Program" Language="ANSIC">motors</Object>
+    <Object Type="Program" Language="ANSIC">preheat</Object>
+    <Object Type="Program" Language="ANSIC">devtank</Object>
+    <Object Type="Program" Language="ANSIC">egmauto</Object>
+    <Object Type="Program" Language="ANSIC">egmser</Object>
+    <Object Type="Program" Language="ANSIC" Description="prewash, rinse and gum tank functions">tanks</Object>
+  </Objects>
+</Package>

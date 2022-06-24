@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamAuto">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="35"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="87940" Value="Speed"/>
+    <Text ID="87941" Value="Preheat temperature"/>
+    <Text ID="87942" Value="Developer temperature"/>
+    <Text ID="87943" Value="Standby after"/>
+    <Text ID="87953" Value="Automatic Parameter"/>
+    <Text ID="87962" Value="Brush speed"/>
+    <Text ID="87966" Value="Standby speed"/>
+    <Text ID="102617" Value="Maximum plate length"/>
+    <Text ID="102618" Value="Standby brush speed"/>
+    <Text ID="103432" Value="No.1"/>
+    <Text ID="108962" Value="No.2"/>
+    <Text ID="109724" Value="Gum flow back time"/>
+    <Text ID="109725" Value="Rinse time"/>
+    <Text ID="109726" Value="Rinse water flow off"/>
+    <Text ID="109727" Value="Parameters for cleaning"/>
+    <Text ID="109728" Value="Prewash Parameters"/>
+    <Text ID="109739" Value="Automatic parameters for standby"/>
+    <Text ID="116736" Value="Freshwater addition per plate"/>
+    <Text ID="116737" Value="Freshwater addition per area"/>
+    <Text ID="116738" Value="Refill pump on for"/>
+    <Text ID="116739" Value="Refill pump off for"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="87940" Value="Geschwindigkeit"/>
+    <Text ID="87941" Value="Temperatur Nacherwärmung"/>
+    <Text ID="87942" Value="Temperatur Entwickler"/>
+    <Text ID="87943" Value="Standby nach"/>
+    <Text ID="87953" Value="Automatik Parameter"/>
+    <Text ID="87962" Value="Bürstendrehzahl"/>
+    <Text ID="87966" Value="Standby Geschwindigkeit"/>
+    <Text ID="102617" Value="Maximale Plattenlänge"/>
+    <Text ID="102618" Value="Standby Bürstendrehzahl"/>
+    <Text ID="103432" Value="Nr.1"/>
+    <Text ID="108962" Value="Nr.2"/>
+    <Text ID="109724" Value="Rückfluß Gummierung"/>
+    <Text ID="109725" Value="Spülzeit"/>
+    <Text ID="109726" Value="Spülwasser Ablauf"/>
+    <Text ID="109727" Value="Parameter für Spülprogramm"/>
+    <Text ID="109728" Value="Parameter für Vorspülstation"/>
+    <Text ID="109739" Value="Automatik Parameter für standby"/>
+    <Text ID="116736" Value="Frischwasserzufuhr pro Platte"/>
+    <Text ID="116737" Value="Frischwasserzufuhr pro Fläche"/>
+    <Text ID="116738" Value="Befüllpumpe ein für"/>
+    <Text ID="116739" Value="Befüllpumpe aus für"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="87940" Value="Velocidad"/>
+    <Text ID="87941" Value="Temperatura de precalentamiento"/>
+    <Text ID="87942" Value="Temperatura de revelador"/>
+    <Text ID="87943" Value="Standby despues de"/>
+    <Text ID="87953" Value="Parametros automatico"/>
+    <Text ID="87962" Value="Revoluciones de cepillo"/>
+    <Text ID="87966" Value="Velocidad Standby"/>
+    <Text ID="102617" Value="Longitud max. plancha"/>
+    <Text ID="102618" Value="Revoluciones Standby"/>
+    <Text ID="103432" Value="No.1"/>
+    <Text ID="108962" Value="No.2"/>
+    <Text ID="109724" Value="Reflujo de goma"/>
+    <Text ID="109725" Value="Tiempo de enjuague"/>
+    <Text ID="109726" Value="Desagüe"/>
+    <Text ID="109727" Value="Parametros para lavado"/>
+    <Text ID="109728" Value="Parametros para prelavado"/>
+    <Text ID="109739" Value="Parametros automatico para Standby"/>
+    <Text ID="116736" Value="Adicion de agua fresca por plancha"/>
+    <Text ID="116737" Value="Adicion de agua fresca por area"/>
+    <Text ID="116738" Value="Refill pump on for"/>
+    <Text ID="116739" Value="Refill pump off for"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="87940" Value="Hastighet"/>
+    <Text ID="87941" Value="Temperatur ettervarming"/>
+    <Text ID="87942" Value="Temperatur fremkaller"/>
+    <Text ID="87943" Value="Standby etter"/>
+    <Text ID="87953" Value="Automatikk parametere"/>
+    <Text ID="87962" Value="Børsteturtall"/>
+    <Text ID="87966" Value="Standby hastighet"/>
+    <Text ID="102617" Value="Maks. platelengde"/>
+    <Text ID="102618" Value="Standby børsteturtall"/>
+    <Text ID="103432" Value="Nr.1"/>
+    <Text ID="108962" Value="Nr.2"/>
+    <Text ID="109724" Value="Tilbakestrømning gummiering"/>
+    <Text ID="109725" Value="Spyletid"/>
+    <Text ID="109726" Value="Spylevann avløp"/>
+    <Text ID="109727" Value="Parameter for spyleprogram"/>
+    <Text ID="109728" Value="Parameter for forspylestasjon"/>
+    <Text ID="109739" Value="Automatikk parameter for standby"/>
+    <Text ID="116736" Value="Ferskvannstilførsel per plate"/>
+    <Text ID="116737" Value="Ferskvannstilførsel per flate"/>
+    <Text ID="116738" Value="Refill pump on for"/>
+    <Text ID="116739" Value="Refill pump off for"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="87940" Value=""/>
+    <Text ID="87941" Value=""/>
+    <Text ID="87942" Value=""/>
+    <Text ID="87943" Value=""/>
+    <Text ID="87953" Value=""/>
+    <Text ID="87962" Value=""/>
+    <Text ID="87966" Value=""/>
+    <Text ID="102617" Value=""/>
+    <Text ID="102618" Value=""/>
+    <Text ID="103432" Value=""/>
+    <Text ID="108962" Value=""/>
+    <Text ID="109724" Value=""/>
+    <Text ID="109725" Value=""/>
+    <Text ID="109726" Value=""/>
+    <Text ID="109727" Value=""/>
+    <Text ID="109728" Value=""/>
+    <Text ID="109739" Value=""/>
+    <Text ID="116736" Value=""/>
+    <Text ID="116737" Value=""/>
+    <Text ID="116738" Value="Refill pump on for"/>
+    <Text ID="116739" Value="Refill pump off for"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="87940" Value=""/>
+    <Text ID="87941" Value=""/>
+    <Text ID="87942" Value=""/>
+    <Text ID="87943" Value=""/>
+    <Text ID="87953" Value=""/>
+    <Text ID="87962" Value=""/>
+    <Text ID="87966" Value=""/>
+    <Text ID="102617" Value=""/>
+    <Text ID="102618" Value=""/>
+    <Text ID="103432" Value=""/>
+    <Text ID="108962" Value=""/>
+    <Text ID="109724" Value=""/>
+    <Text ID="109725" Value=""/>
+    <Text ID="109726" Value=""/>
+    <Text ID="109727" Value=""/>
+    <Text ID="109728" Value=""/>
+    <Text ID="109739" Value=""/>
+    <Text ID="116736" Value=""/>
+    <Text ID="116737" Value=""/>
+    <Text ID="116738" Value="Refill pump on for"/>
+    <Text ID="116739" Value="Refill pump off for"/>
+    <Text ID="116740" Value="ProV Kit"/>
+    <Text ID="116741" Value=""/>
+    <Text ID="116742" Value=""/>
+    <Text ID="116743" Value=""/>
+    <Text ID="116744" Value=""/>
+    <Text ID="116745" Value=""/>
+    <Text ID="116746" Value=""/>
+    <Text ID="116747" Value=""/>
+    <Text ID="116748" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="87940" Value="1"/>
+    <Index ID="87941" Value="2"/>
+    <Index ID="87942" Value="3"/>
+    <Index ID="87943" Value="4"/>
+    <Index ID="87953" Value="0"/>
+    <Index ID="87962" Value="5"/>
+    <Index ID="87966" Value="6"/>
+    <Index ID="102617" Value="7"/>
+    <Index ID="102618" Value="8"/>
+    <Index ID="103432" Value="9"/>
+    <Index ID="108962" Value="10"/>
+    <Index ID="109724" Value="11"/>
+    <Index ID="109725" Value="12"/>
+    <Index ID="109726" Value="13"/>
+    <Index ID="109727" Value="15"/>
+    <Index ID="109728" Value="16"/>
+    <Index ID="109739" Value="14"/>
+    <Index ID="116736" Value="17"/>
+    <Index ID="116737" Value="18"/>
+    <Index ID="116738" Value="19"/>
+    <Index ID="116739" Value="20"/>
+    <Index ID="116740" Value="21"/>
+    <Index ID="116741" Value="22"/>
+    <Index ID="116742" Value="23"/>
+    <Index ID="116743" Value="24"/>
+    <Index ID="116744" Value="25"/>
+    <Index ID="116745" Value="26"/>
+    <Index ID="116746" Value="27"/>
+    <Index ID="116747" Value="28"/>
+    <Index ID="116748" Value="29"/>
+  </IndexMap>
+</TextGroup>

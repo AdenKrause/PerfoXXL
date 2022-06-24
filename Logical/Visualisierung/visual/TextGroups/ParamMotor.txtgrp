@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamMotor">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="15"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="90365" Value="Motorparameter"/>
+    <Text ID="90366" Value="Motor No."/>
+    <Text ID="90367" Value="Priority"/>
+    <Text ID="90368" Value="Function"/>
+    <Text ID="90375" Value="Reference speed"/>
+    <Text ID="90376" Value="Reference offset"/>
+    <Text ID="90377" Value="Maximum speed"/>
+    <Text ID="90378" Value="Position window"/>
+    <Text ID="90379" Value="Incr./mm"/>
+    <Text ID="90380" Value="Cont. current"/>
+    <Text ID="90381" Value="Peek current"/>
+    <Text ID="90382" Value="Controller P"/>
+    <Text ID="90383" Value="Controller I"/>
+    <Text ID="90421" Value="Acceleration"/>
+    <Text ID="90422" Value="Reference"/>
+    <Text ID="90423" Value="Default"/>
+    <Text ID="90670" Value="Reference direction neg."/>
+    <Text ID="90705" Value="pos."/>
+    <Text ID="90706" Value="neg."/>
+    <Text ID="90771" Value="+"/>
+    <Text ID="90772" Value="-"/>
+    <Text ID="90773" Value="Ref."/>
+    <Text ID="90774" Value="Current pos."/>
+    <Text ID="90775" Value="Targetpos."/>
+    <Text ID="90776" Value="Manual speed"/>
+    <Text ID="90777" Value="Limit +"/>
+    <Text ID="90783" Value="Limit -"/>
+    <Text ID="90784" Value="Act."/>
+    <Text ID="90787" Value="Error"/>
+    <Text ID="90788" Value="Ref OK"/>
+    <Text ID="91737" Value="Current"/>
+    <Text ID="91738" Value="Max. current"/>
+    <Text ID="91739" Value="Temperature"/>
+    <Text ID="91740" Value="Measured values"/>
+    <Text ID="91742" Value="Max. temperature"/>
+    <Text ID="91743" Value="Status"/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="90365" Value="Motorparameter"/>
+    <Text ID="90366" Value="Motor Nr."/>
+    <Text ID="90367" Value="Priorität"/>
+    <Text ID="90368" Value="Funktion"/>
+    <Text ID="90375" Value="Referenzgeschw."/>
+    <Text ID="90376" Value="Referenzoffset"/>
+    <Text ID="90377" Value="Maximalgeschwindigk."/>
+    <Text ID="90378" Value="Positionsfenster"/>
+    <Text ID="90379" Value="Inkr./mm"/>
+    <Text ID="90380" Value="Dauerstrom"/>
+    <Text ID="90381" Value="Spitzenstrom"/>
+    <Text ID="90382" Value="Regler P"/>
+    <Text ID="90383" Value="Regler I"/>
+    <Text ID="90421" Value="Beschleunigung"/>
+    <Text ID="90422" Value="Referenz"/>
+    <Text ID="90423" Value="Standard"/>
+    <Text ID="90670" Value="Referenzrichtung neg."/>
+    <Text ID="90705" Value="pos."/>
+    <Text ID="90706" Value="neg."/>
+    <Text ID="90771" Value="+"/>
+    <Text ID="90772" Value="-"/>
+    <Text ID="90773" Value="Ref."/>
+    <Text ID="90774" Value="Aktuelle Pos."/>
+    <Text ID="90775" Value="Zielpos."/>
+    <Text ID="90776" Value="Handgeschw."/>
+    <Text ID="90777" Value="Grenze +"/>
+    <Text ID="90783" Value="Grenze -"/>
+    <Text ID="90784" Value="Akt."/>
+    <Text ID="90787" Value="Fehler"/>
+    <Text ID="90788" Value="Ref OK"/>
+    <Text ID="91737" Value="Strom"/>
+    <Text ID="91738" Value="Max. Strom"/>
+    <Text ID="91739" Value="Temperatur"/>
+    <Text ID="91740" Value="Meßwerte"/>
+    <Text ID="91742" Value="Max. Temperatur"/>
+    <Text ID="91743" Value="Status"/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="90365" Value=""/>
+    <Text ID="90366" Value=""/>
+    <Text ID="90367" Value=""/>
+    <Text ID="90368" Value=""/>
+    <Text ID="90375" Value=""/>
+    <Text ID="90376" Value=""/>
+    <Text ID="90377" Value=""/>
+    <Text ID="90378" Value=""/>
+    <Text ID="90379" Value=""/>
+    <Text ID="90380" Value=""/>
+    <Text ID="90381" Value=""/>
+    <Text ID="90382" Value=""/>
+    <Text ID="90383" Value=""/>
+    <Text ID="90421" Value=""/>
+    <Text ID="90422" Value=""/>
+    <Text ID="90423" Value=""/>
+    <Text ID="90670" Value=""/>
+    <Text ID="90705" Value=""/>
+    <Text ID="90706" Value=""/>
+    <Text ID="90771" Value=""/>
+    <Text ID="90772" Value=""/>
+    <Text ID="90773" Value=""/>
+    <Text ID="90774" Value=""/>
+    <Text ID="90775" Value=""/>
+    <Text ID="90776" Value=""/>
+    <Text ID="90777" Value=""/>
+    <Text ID="90783" Value=""/>
+    <Text ID="90784" Value=""/>
+    <Text ID="90787" Value=""/>
+    <Text ID="90788" Value=""/>
+    <Text ID="91737" Value=""/>
+    <Text ID="91738" Value=""/>
+    <Text ID="91739" Value=""/>
+    <Text ID="91740" Value=""/>
+    <Text ID="91742" Value=""/>
+    <Text ID="91743" Value=""/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="90365" Value="Motorparameter"/>
+    <Text ID="90366" Value="Motor No."/>
+    <Text ID="90367" Value="Priority"/>
+    <Text ID="90368" Value="Function"/>
+    <Text ID="90375" Value="Reference speed"/>
+    <Text ID="90376" Value="Reference offset"/>
+    <Text ID="90377" Value="Maximum speed"/>
+    <Text ID="90378" Value="Position window"/>
+    <Text ID="90379" Value="Incr./mm"/>
+    <Text ID="90380" Value="Cont. current"/>
+    <Text ID="90381" Value="Peek current"/>
+    <Text ID="90382" Value="Controller P"/>
+    <Text ID="90383" Value="Controller I"/>
+    <Text ID="90421" Value="Acceleration"/>
+    <Text ID="90422" Value="Reference"/>
+    <Text ID="90423" Value="Default"/>
+    <Text ID="90670" Value="Reference direction neg."/>
+    <Text ID="90705" Value="pos."/>
+    <Text ID="90706" Value="neg."/>
+    <Text ID="90771" Value="+"/>
+    <Text ID="90772" Value="-"/>
+    <Text ID="90773" Value="Ref."/>
+    <Text ID="90774" Value="Current pos."/>
+    <Text ID="90775" Value="Targetpos."/>
+    <Text ID="90776" Value="Manual speed"/>
+    <Text ID="90777" Value="Limit +"/>
+    <Text ID="90783" Value="Limit -"/>
+    <Text ID="90784" Value="Act."/>
+    <Text ID="90787" Value="Error"/>
+    <Text ID="90788" Value="Ref OK"/>
+    <Text ID="91737" Value="Current"/>
+    <Text ID="91738" Value="Max. current"/>
+    <Text ID="91739" Value="Temperature"/>
+    <Text ID="91740" Value="Measured values"/>
+    <Text ID="91742" Value="Max. temperature"/>
+    <Text ID="91743" Value="Status"/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="90365" Value=""/>
+    <Text ID="90366" Value=""/>
+    <Text ID="90367" Value=""/>
+    <Text ID="90368" Value=""/>
+    <Text ID="90375" Value=""/>
+    <Text ID="90376" Value=""/>
+    <Text ID="90377" Value=""/>
+    <Text ID="90378" Value=""/>
+    <Text ID="90379" Value=""/>
+    <Text ID="90380" Value=""/>
+    <Text ID="90381" Value=""/>
+    <Text ID="90382" Value=""/>
+    <Text ID="90383" Value=""/>
+    <Text ID="90421" Value=""/>
+    <Text ID="90422" Value=""/>
+    <Text ID="90423" Value=""/>
+    <Text ID="90670" Value=""/>
+    <Text ID="90705" Value=""/>
+    <Text ID="90706" Value=""/>
+    <Text ID="90771" Value=""/>
+    <Text ID="90772" Value=""/>
+    <Text ID="90773" Value=""/>
+    <Text ID="90774" Value=""/>
+    <Text ID="90775" Value=""/>
+    <Text ID="90776" Value=""/>
+    <Text ID="90777" Value=""/>
+    <Text ID="90783" Value=""/>
+    <Text ID="90784" Value=""/>
+    <Text ID="90787" Value=""/>
+    <Text ID="90788" Value=""/>
+    <Text ID="91737" Value=""/>
+    <Text ID="91738" Value=""/>
+    <Text ID="91739" Value=""/>
+    <Text ID="91740" Value=""/>
+    <Text ID="91742" Value=""/>
+    <Text ID="91743" Value=""/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="90365" Value=""/>
+    <Text ID="90366" Value=""/>
+    <Text ID="90367" Value=""/>
+    <Text ID="90368" Value=""/>
+    <Text ID="90375" Value=""/>
+    <Text ID="90376" Value=""/>
+    <Text ID="90377" Value=""/>
+    <Text ID="90378" Value=""/>
+    <Text ID="90379" Value=""/>
+    <Text ID="90380" Value=""/>
+    <Text ID="90381" Value=""/>
+    <Text ID="90382" Value=""/>
+    <Text ID="90383" Value=""/>
+    <Text ID="90421" Value=""/>
+    <Text ID="90422" Value=""/>
+    <Text ID="90423" Value=""/>
+    <Text ID="90670" Value=""/>
+    <Text ID="90705" Value=""/>
+    <Text ID="90706" Value=""/>
+    <Text ID="90771" Value=""/>
+    <Text ID="90772" Value=""/>
+    <Text ID="90773" Value=""/>
+    <Text ID="90774" Value=""/>
+    <Text ID="90775" Value=""/>
+    <Text ID="90776" Value=""/>
+    <Text ID="90777" Value=""/>
+    <Text ID="90783" Value=""/>
+    <Text ID="90784" Value=""/>
+    <Text ID="90787" Value=""/>
+    <Text ID="90788" Value=""/>
+    <Text ID="91737" Value=""/>
+    <Text ID="91738" Value=""/>
+    <Text ID="91739" Value=""/>
+    <Text ID="91740" Value=""/>
+    <Text ID="91742" Value=""/>
+    <Text ID="91743" Value=""/>
+    <Text ID="91744" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="90365" Value="0"/>
+    <Index ID="90366" Value="1"/>
+    <Index ID="90367" Value="2"/>
+    <Index ID="90368" Value="3"/>
+    <Index ID="90375" Value="10"/>
+    <Index ID="90376" Value="11"/>
+    <Index ID="90377" Value="12"/>
+    <Index ID="90378" Value="13"/>
+    <Index ID="90379" Value="14"/>
+    <Index ID="90380" Value="15"/>
+    <Index ID="90381" Value="16"/>
+    <Index ID="90382" Value="17"/>
+    <Index ID="90383" Value="18"/>
+    <Index ID="90421" Value="4"/>
+    <Index ID="90422" Value="5"/>
+    <Index ID="90423" Value="6"/>
+    <Index ID="90670" Value="7"/>
+    <Index ID="90705" Value="8"/>
+    <Index ID="90706" Value="9"/>
+    <Index ID="90771" Value="19"/>
+    <Index ID="90772" Value="20"/>
+    <Index ID="90773" Value="21"/>
+    <Index ID="90774" Value="22"/>
+    <Index ID="90775" Value="23"/>
+    <Index ID="90776" Value="24"/>
+    <Index ID="90777" Value="25"/>
+    <Index ID="90783" Value="26"/>
+    <Index ID="90784" Value="27"/>
+    <Index ID="90787" Value="28"/>
+    <Index ID="90788" Value="29"/>
+    <Index ID="91737" Value="30"/>
+    <Index ID="91738" Value="31"/>
+    <Index ID="91739" Value="32"/>
+    <Index ID="91740" Value="33"/>
+    <Index ID="91742" Value="34"/>
+    <Index ID="91743" Value="35"/>
+    <Index ID="91744" Value="36"/>
+  </IndexMap>
+</TextGroup>

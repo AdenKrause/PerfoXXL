@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Drehzahl">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[rpm]"/>
+  <Property Name="DefaultLimit" Value="Source[embedded].Limit[MaxSpeed]"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value=" rpm"/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value="rpm"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value=" U/min"/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value="U/min"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value="rpm"/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value="rpm"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value=" rpm"/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value="rpm"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value=""/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="271" Value=""/>
+      <Text ID="272" Value=""/>
+      <Text ID="87708" Value=""/>
+      <Text ID="87709" Value=""/>
+      <Text ID="87710" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="271" Value="1"/>
+      <Index ID="272" Value="2"/>
+      <Index ID="87708" Value="5"/>
+      <Index ID="87709" Value="6"/>
+      <Index ID="87710" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000604" Name="rpm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="Source[global].Variable[Local.EGMGlobalParam.BrushFactor]"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="Source[global].Variable[Local.Visualisierung.pics.DummyZero]"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="MaxSpeed">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="32767"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

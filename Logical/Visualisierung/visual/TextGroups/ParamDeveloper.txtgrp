@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamDeveloper">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="36"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="88502" Value="Temperature Control Developer"/>
+    <Text ID="88510" Value="Switching point cooling on"/>
+    <Text ID="88511" Value="Switching point cooling off"/>
+    <Text ID="99198" Value="Current temp.:"/>
+    <Text ID="99199" Value="Heating"/>
+    <Text ID="99200" Value="Cooling"/>
+    <Text ID="106724" Value="*0,1s"/>
+    <Text ID="106726" Value="Cooling on if Y &lt;"/>
+    <Text ID="108286" Value="Min. on-time cooling"/>
+    <Text ID="108288" Value="Replenishing settings"/>
+    <Text ID="108289" Value="Replenishing in standbymode"/>
+    <Text ID="108290" Value="Replenishing per area"/>
+    <Text ID="111138" Value="Replenishing per plate"/>
+    <Text ID="111139" Value="Pump flow-rate"/>
+    <Text ID="111140" Value="Replenish every"/>
+    <Text ID="111141" Value="Min pump on time"/>
+    <Text ID="111142" Value="Next standby replenishing in"/>
+    <Text ID="111143" Value="Calculated pump time"/>
+    <Text ID="111144" Value="Remainig "/>
+    <Text ID="112235" Value="Min pump on time standby"/>
+    <Text ID="112236" Value="Manual replenishment"/>
+    <Text ID="112533" Value="Start"/>
+    <Text ID="112534" Value="Stop"/>
+    <Text ID="112535" Value="Overall replenisher used"/>
+    <Text ID="112536" Value="Reset"/>
+    <Text ID="112537" Value="Overall pump on time"/>
+    <Text ID="112541" Value="OFF Replenishing"/>
+    <Text ID="112542" Value="Offset correction"/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value="Amount flowed"/>
+    <Text ID="133590" Value="Flow detected"/>
+    <Text ID="133591" Value="Developer top-up per area"/>
+    <Text ID="133592" Value="Developer top-up per plate"/>
+    <Text ID="133593" Value="Top-Up Settings"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="88502" Value="Temperaturregelung Entwickler"/>
+    <Text ID="88510" Value="Schaltpunkt Kühlung ein"/>
+    <Text ID="88511" Value="Schaltpunkt Kühlung aus"/>
+    <Text ID="99198" Value="Ist-Temperatur:"/>
+    <Text ID="99199" Value="Heizung"/>
+    <Text ID="99200" Value="Kühlung"/>
+    <Text ID="106724" Value="*0,1s"/>
+    <Text ID="106726" Value="Kühlung ein wenn Y &lt;"/>
+    <Text ID="108286" Value="Min. Einschaltdauer Kühlung"/>
+    <Text ID="108288" Value="Regenerat Einstellungen"/>
+    <Text ID="108289" Value="Regeneratzufuhr im standby"/>
+    <Text ID="108290" Value="Regeneratzufuhr pro Fläche"/>
+    <Text ID="111138" Value="Regeneratzufuhr pro Platte"/>
+    <Text ID="111139" Value="Pumpendurchsatz"/>
+    <Text ID="111140" Value="Zufuhr alle"/>
+    <Text ID="111141" Value="Min. Pumpenlaufzeit"/>
+    <Text ID="111142" Value="Nächste standby Zufuhr in"/>
+    <Text ID="111143" Value="Berechnete Pumpenlaufzeit"/>
+    <Text ID="111144" Value="Verbleibend"/>
+    <Text ID="112235" Value="Min Pumpenlaufzeit standby"/>
+    <Text ID="112236" Value="Manuelle Regeneratzufuhr"/>
+    <Text ID="112533" Value="Start"/>
+    <Text ID="112534" Value="Stopp"/>
+    <Text ID="112535" Value="Gesamt Regeneratmenge "/>
+    <Text ID="112536" Value="Reset"/>
+    <Text ID="112537" Value="Gesamt Pumpenlaufzeit"/>
+    <Text ID="112541" Value="Regenierung nach &quot;Aus&quot;"/>
+    <Text ID="112542" Value="Offset Korrektur"/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value="Geflossene Menge"/>
+    <Text ID="133590" Value="Durchfluß erkannt"/>
+    <Text ID="133591" Value="Entwicklerzufuhr pro Fläche"/>
+    <Text ID="133592" Value="Entwicklerzufuhr pro Platte"/>
+    <Text ID="133593" Value="Top-Up Einstellung"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="88502" Value="Control temperatura revelador"/>
+    <Text ID="88510" Value="Punto conectado refrigeracion"/>
+    <Text ID="88511" Value="Punto desconectado refrigeracion"/>
+    <Text ID="99198" Value="Temperatura corriente"/>
+    <Text ID="99199" Value="Caldeo"/>
+    <Text ID="99200" Value="Refrigeracion"/>
+    <Text ID="106724" Value="*0,1s"/>
+    <Text ID="106726" Value="Refrigeracion si Y&lt;"/>
+    <Text ID="108286" Value="Tiempo minimo refrigeracion"/>
+    <Text ID="108288" Value="Ajustes regenerador"/>
+    <Text ID="108289" Value="Regenerador en standby"/>
+    <Text ID="108290" Value="Regenerador por superficie"/>
+    <Text ID="111138" Value="Regenerador por plancha"/>
+    <Text ID="111139" Value="Flujo de bomba"/>
+    <Text ID="111140" Value="Regenerador todos"/>
+    <Text ID="111141" Value="Tiempo min. bomba"/>
+    <Text ID="111142" Value="Prox. regenador Standby en"/>
+    <Text ID="111143" Value="Tiempo calculado bombeo"/>
+    <Text ID="111144" Value="Restante"/>
+    <Text ID="112235" Value="Tiempo bomba standby"/>
+    <Text ID="112236" Value="Regeneracion manual"/>
+    <Text ID="112533" Value="Comienzo"/>
+    <Text ID="112534" Value="Parada"/>
+    <Text ID="112535" Value="Regenerador total usado"/>
+    <Text ID="112536" Value="Reset"/>
+    <Text ID="112537" Value="Tiempo total bomba"/>
+    <Text ID="112541" Value="Regeneracion desactivada"/>
+    <Text ID="112542" Value="Correcion offset"/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value="Cantidad fluida"/>
+    <Text ID="133590" Value="Flujo detectado"/>
+    <Text ID="133591" Value="Rellenado revelador por area"/>
+    <Text ID="133592" Value="Rellenado Revelador por plancha"/>
+    <Text ID="133593" Value="Ajustes top-up"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="88502" Value="Temperaturregulering fremkaller"/>
+    <Text ID="88510" Value="Koblingspunkt kjøling på"/>
+    <Text ID="88511" Value="Koblingspunkt kjøling av"/>
+    <Text ID="99198" Value="Virkelig temperatur:"/>
+    <Text ID="99199" Value="Oppvarming"/>
+    <Text ID="99200" Value="Kjøling"/>
+    <Text ID="106724" Value="*0,1s"/>
+    <Text ID="106726" Value="Kjøling på når Y &lt;"/>
+    <Text ID="108286" Value="Min. innkoblingsvarighet kjøling"/>
+    <Text ID="108288" Value="Regenerat innstillinger"/>
+    <Text ID="108289" Value="Regenerattilførsel i standby"/>
+    <Text ID="108290" Value="Regenerattilførsel per flate"/>
+    <Text ID="111138" Value="Regenerattilførsel per plate"/>
+    <Text ID="111139" Value="Pumpegjennomstrømning"/>
+    <Text ID="111140" Value="Tilførsel alle"/>
+    <Text ID="111141" Value="Min. pumpeløpetid"/>
+    <Text ID="111142" Value="Neste standby tilførsel i"/>
+    <Text ID="111143" Value="Beregnet pumpeløptid"/>
+    <Text ID="111144" Value="Eksisterende"/>
+    <Text ID="112235" Value="Min. pumpeløpetid standby"/>
+    <Text ID="112236" Value="Manuell regenerattilførsel"/>
+    <Text ID="112533" Value="Start"/>
+    <Text ID="112534" Value="Stopp"/>
+    <Text ID="112535" Value="Total regneratmengde "/>
+    <Text ID="112536" Value="Nullstill"/>
+    <Text ID="112537" Value="Total pumpeløptid"/>
+    <Text ID="112541" Value="Regenerering etter &quot;Av&quot;"/>
+    <Text ID="112542" Value="Offset korrektur"/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value="Gjennomstrømmet mengde"/>
+    <Text ID="133590" Value="Gjennomstrømning registrert"/>
+    <Text ID="133591" Value="Fremkallertilførsel per flate"/>
+    <Text ID="133592" Value="Fremkallertilførsel per plate"/>
+    <Text ID="133593" Value="Top-Up innstilling"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="88502" Value=""/>
+    <Text ID="88510" Value=""/>
+    <Text ID="88511" Value=""/>
+    <Text ID="99198" Value=""/>
+    <Text ID="99199" Value=""/>
+    <Text ID="99200" Value=""/>
+    <Text ID="106724" Value=""/>
+    <Text ID="106726" Value=""/>
+    <Text ID="108286" Value=""/>
+    <Text ID="108288" Value=""/>
+    <Text ID="108289" Value=""/>
+    <Text ID="108290" Value=""/>
+    <Text ID="111138" Value=""/>
+    <Text ID="111139" Value=""/>
+    <Text ID="111140" Value=""/>
+    <Text ID="111141" Value=""/>
+    <Text ID="111142" Value=""/>
+    <Text ID="111143" Value=""/>
+    <Text ID="111144" Value=""/>
+    <Text ID="112235" Value=""/>
+    <Text ID="112236" Value=""/>
+    <Text ID="112533" Value=""/>
+    <Text ID="112534" Value=""/>
+    <Text ID="112535" Value=""/>
+    <Text ID="112536" Value=""/>
+    <Text ID="112537" Value=""/>
+    <Text ID="112541" Value=""/>
+    <Text ID="112542" Value=""/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value=""/>
+    <Text ID="133590" Value=""/>
+    <Text ID="133591" Value=""/>
+    <Text ID="133592" Value=""/>
+    <Text ID="133593" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="88502" Value=""/>
+    <Text ID="88510" Value=""/>
+    <Text ID="88511" Value=""/>
+    <Text ID="99198" Value=""/>
+    <Text ID="99199" Value=""/>
+    <Text ID="99200" Value=""/>
+    <Text ID="106724" Value=""/>
+    <Text ID="106726" Value=""/>
+    <Text ID="108286" Value=""/>
+    <Text ID="108288" Value=""/>
+    <Text ID="108289" Value=""/>
+    <Text ID="108290" Value=""/>
+    <Text ID="111138" Value=""/>
+    <Text ID="111139" Value=""/>
+    <Text ID="111140" Value=""/>
+    <Text ID="111141" Value=""/>
+    <Text ID="111142" Value=""/>
+    <Text ID="111143" Value=""/>
+    <Text ID="111144" Value=""/>
+    <Text ID="112235" Value=""/>
+    <Text ID="112236" Value=""/>
+    <Text ID="112533" Value=""/>
+    <Text ID="112534" Value=""/>
+    <Text ID="112535" Value=""/>
+    <Text ID="112536" Value=""/>
+    <Text ID="112537" Value=""/>
+    <Text ID="112541" Value=""/>
+    <Text ID="112542" Value=""/>
+    <Text ID="116432" Value=""/>
+    <Text ID="116433" Value=""/>
+    <Text ID="133584" Value=""/>
+    <Text ID="133585" Value=""/>
+    <Text ID="133586" Value=""/>
+    <Text ID="133587" Value=""/>
+    <Text ID="133588" Value=""/>
+    <Text ID="133589" Value=""/>
+    <Text ID="133590" Value=""/>
+    <Text ID="133591" Value=""/>
+    <Text ID="133592" Value=""/>
+    <Text ID="133593" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="88502" Value="0"/>
+    <Index ID="88510" Value="1"/>
+    <Index ID="88511" Value="2"/>
+    <Index ID="99198" Value="3"/>
+    <Index ID="99199" Value="4"/>
+    <Index ID="99200" Value="5"/>
+    <Index ID="106724" Value="6"/>
+    <Index ID="106726" Value="8"/>
+    <Index ID="108286" Value="7"/>
+    <Index ID="108288" Value="9"/>
+    <Index ID="108289" Value="10"/>
+    <Index ID="108290" Value="11"/>
+    <Index ID="111138" Value="12"/>
+    <Index ID="111139" Value="13"/>
+    <Index ID="111140" Value="14"/>
+    <Index ID="111141" Value="15"/>
+    <Index ID="111142" Value="16"/>
+    <Index ID="111143" Value="17"/>
+    <Index ID="111144" Value="18"/>
+    <Index ID="112235" Value="19"/>
+    <Index ID="112236" Value="20"/>
+    <Index ID="112533" Value="21"/>
+    <Index ID="112534" Value="22"/>
+    <Index ID="112535" Value="23"/>
+    <Index ID="112536" Value="24"/>
+    <Index ID="112537" Value="25"/>
+    <Index ID="112541" Value="26"/>
+    <Index ID="112542" Value="27"/>
+    <Index ID="116432" Value="38"/>
+    <Index ID="116433" Value="39"/>
+    <Index ID="133584" Value="37"/>
+    <Index ID="133585" Value="36"/>
+    <Index ID="133586" Value="35"/>
+    <Index ID="133587" Value="34"/>
+    <Index ID="133588" Value="33"/>
+    <Index ID="133589" Value="32"/>
+    <Index ID="133590" Value="31"/>
+    <Index ID="133591" Value="30"/>
+    <Index ID="133592" Value="29"/>
+    <Index ID="133593" Value="28"/>
+  </IndexMap>
+</TextGroup>

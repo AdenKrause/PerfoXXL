@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Abfrage_Wirklich">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="240"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="320"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="128481" Value="Are you sure ?"/>
+      <Text ID="128482" Value="Yes"/>
+      <Text ID="128483" Value="No"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="128481" Value="Sind Sie sicher ?"/>
+      <Text ID="128482" Value="Ja"/>
+      <Text ID="128483" Value="Nein"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="128481" Value="Esta seguro?"/>
+      <Text ID="128482" Value="Si"/>
+      <Text ID="128483" Value="No"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="128481" Value="Are you sure ?"/>
+      <Text ID="128482" Value="Yes"/>
+      <Text ID="128483" Value="No"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="128481" Value=""/>
+      <Text ID="128482" Value=""/>
+      <Text ID="128483" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="128481" Value=""/>
+      <Text ID="128482" Value=""/>
+      <Text ID="128483" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="128481" Value="3"/>
+      <Index ID="128482" Value="4"/>
+      <Index ID="128483" Value="5"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="120"/>
+      <Property Name="Left" Value="24"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="49"/>
+      <Property Name="Width" Value="277"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="120"/>
+      <Property Name="Left" Value="20"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="51"/>
+      <Property Name="Width" Value="277"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="31"/>
+      <Property Name="Left" Value="24"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_14]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="69"/>
+      <Property Name="Width" Value="272"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[Border_1]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="31"/>
+      <Property Name="Left" Value="34"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="120"/>
+      <Property Name="Width" Value="114"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[Border_1]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="31"/>
+      <Property Name="Left" Value="169"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="120"/>
+      <Property Name="Width" Value="114"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="240"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="320"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="33"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="28"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="119"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[SafetyCheckOK]"/>
+      <Property Name="Width" Value="123"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="33"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="164"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="119"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[SafetyCheckCancel]"/>
+      <Property Name="Width" Value="123"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

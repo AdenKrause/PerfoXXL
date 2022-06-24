@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="Internal">
+  <Property Name="IsIntern" Value="True" />
+  <Property Name="DefaultUpdateTime" Value="200" />
+  <Property Name="Description" Value="" />
+  <Property Name="TextGroup" Value="None" />
+  <DataPoints>
+    <Folder Name="Display">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="Backlight">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Brightness">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Contrast">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+    <Folder Name="DateTime">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="Day">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Hour">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Minute">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Month">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Second">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Year">
+        <Property Name="VCType" Value="INTEGER" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="UINT" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+    <Folder Name="Temperature">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="CPU">
+        <Property Name="DPLimit" Value="Default" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Celsius]" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+      <DataPoint Name="Room">
+        <Property Name="DPLimit" Value="Default" />
+        <Property Name="VCType" Value="SCALED" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Celsius]" />
+        <Property Name="PLCType" Value="USINT" />
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+    <Folder Name="Connection">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <DataPoint Name="IPAddress">
+        <Property Name="VCType" Value="STRING" />
+        <Property Name="Description" Value="" />
+        <Property Name="StringLength" Value="65535" />
+        <Property Name="PLCType" Value="STRING" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectedBySharedResource" Value="False" />
+      </DataPoint>
+    </Folder>
+  </DataPoints>
+</DataSource>

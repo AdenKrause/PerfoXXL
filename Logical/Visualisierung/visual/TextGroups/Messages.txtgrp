@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Messages">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="52"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="TextSnippet_1">
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.file.wStatus]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value="Are you sure ?"/>
+    <Text ID="93416" Value="Do you really want to cancel ?"/>
+    <Text ID="93417" Value="TIFF Blaster not connected,"/>
+    <Text ID="93418" Value="start anyway ?"/>
+    <Text ID="93419" Value="No trolley found !"/>
+    <Text ID="93420" Value="Invalid trolley code !"/>
+    <Text ID="93421" Value="Please check trolley !"/>
+    <Text ID="93422" Value="Please make sure that the correct"/>
+    <Text ID="93423" Value="trolley is selected and the trolley"/>
+    <Text ID="93424" Value="is open !"/>
+    <Text ID="93425" Value="Trolley not open,"/>
+    <Text ID="93426" Value="No trolley selected,"/>
+    <Text ID="93427" Value="Please select the inserted trolley"/>
+    <Text ID="93428" Value="in the service menu!"/>
+    <Text ID="93429" Value="Motors no reference,"/>
+    <Text ID="93430" Value="Please start reference cycle first!"/>
+    <Text ID="93431" Value="Trolley empty,"/>
+    <Text ID="93432" Value="Please insert full trolley"/>
+    <Text ID="93433" Value="and restart!"/>
+    <Text ID="93523" Value="System 1 (left plate)"/>
+    <Text ID="93524" Value="System 2 (right plate)"/>
+    <Text ID="93525" Value="Both systems (left and right plate)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value="Error: No answer from"/>
+    <Text ID="93533" Value="To apply the changes"/>
+    <Text ID="93534" Value="the system must be restartet."/>
+    <Text ID="93535" Value="Restart now?"/>
+    <Text ID="93536" Value="Please wait,"/>
+    <Text ID="93537" Value="system will restart NOW!"/>
+    <Text ID="93538" Value="After the next start"/>
+    <Text ID="93539" Value="the new IP Address will be set!"/>
+    <Text ID="93540" Value="Panorama adapter selected, but no"/>
+    <Text ID="93541" Value="plate type!"/>
+    <Text ID="93542" Value="Clear overall counter as well ?"/>
+    <Text ID="93543" Value="adapter found!"/>
+    <Text ID="93544" Value="Cover lock failure"/>
+    <Text ID="93545" Value="Please check covers!"/>
+    <Text ID="93546" Value="Trolley door or paper basket"/>
+    <Text ID="93547" Value="not closed!"/>
+    <Text ID="93548" Value="was opened!"/>
+    <Text ID="93549" Value="Please start a reference cycle!"/>
+    <Text ID="93550" Value="Feeder Vacuum Errror!"/>
+    <Text ID="93551" Value="Shuttle Vacuum Error!"/>
+    <Text ID="93552" Value="Plate was not picked up"/>
+    <Text ID="93553" Value="Plate was not released"/>
+    <Text ID="93554" Value="Plate lost during transport"/>
+    <Text ID="93555" Value="Adjusting failed"/>
+    <Text ID="93556" Value="Please remove plates from table !"/>
+    <Text ID="93557" Value="Setting laserpower failed !"/>
+    <Text ID="93558" Value="Laserpower not in range !"/>
+    <Text ID="93559" Value="3 times in a row!"/>
+    <Text ID="93560" Value="Paper detected 3 times in a row"/>
+    <Text ID="93561" Value="Please check paper-sensor and plate stack!"/>
+    <Text ID="93562" Value="Paper or double plates detected"/>
+    <Text ID="93563" Value="Remove plate from adjusttable!"/>
+    <Text ID="93564" Value="Timeout lowering paper remove"/>
+    <Text ID="93565" Value="to trolley drawer"/>
+    <Text ID="93566" Value="Please check positions!"/>
+    <Text ID="93567" Value="Timeout open trolley drawer"/>
+    <Text ID="93568" Value="Please check open-position"/>
+    <Text ID="93569" Value="Platetype is not in trolley!"/>
+    <Text ID="93570" Value="Insert correct trolley or select different"/>
+    <Text ID="93571" Value="data for imaging!"/>
+    <Text ID="93572" Value="No USB device found !"/>
+    <Text ID="93573" Value="File error, code {TextSnippet_1}"/>
+    <Text ID="93574" Value="Reading directory, please wait ..."/>
+    <Text ID="93575" Value="Saving active, please wait ..."/>
+    <Text ID="93576" Value="Loading active, please wait ..."/>
+    <Text ID="129001" Value="Are you sure ?"/>
+    <Text ID="129003" Value="Delete file..."/>
+    <Text ID="129004" Value="Plate too long !"/>
+    <Text ID="129005" Value="Plate didn't reach output!"/>
+    <Text ID="129006" Value="Plate jam!"/>
+    <Text ID="129453" Value="No Parameter file found !"/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value="close covers and start machine."/>
+    <Text ID="132540" Value="and power supply!"/>
+    <Text ID="132541" Value="please check CAN-Bus connection"/>
+    <Text ID="132542" Value="I/O Module failure,"/>
+    <Text ID="136059" Value="Please unlock stop switches, "/>
+    <Text ID="136060" Value="Emergency stop!"/>
+    <Text ID="136061" Value="please replace and acknowledge!"/>
+    <Text ID="136062" Value="please refill!"/>
+    <Text ID="136063" Value="Gum tank empty,"/>
+    <Text ID="136064" Value="Developer container empty,"/>
+    <Text ID="136065" Value="Replenisher container empty,"/>
+    <Text ID="136486" Value="Trolley detection error"/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value="Please wait..."/>
+    <Text ID="136490" Value="Panel will reboot NOW!"/>
+    <Text ID="136491" Value="installation of the machine !"/>
+    <Text ID="136492" Value="be changed at the very first"/>
+    <Text ID="136493" Value="CAUTION: This setting may only"/>
+    <Text ID="136497" Value="Rinse no flow,"/>
+    <Text ID="136498" Value="Prewash no flow,"/>
+    <Text ID="136499" Value="please check pipes and stopcocks."/>
+    <Text ID="136500" Value="Gum no flow,"/>
+    <Text ID="136501" Value="please check filter and stopcocks."/>
+    <Text ID="136502" Value="Developercirculation no flow,"/>
+    <Text ID="158718" Value="Trolley code found at palette position"/>
+    <Text ID="158719" Value="data for imaging!"/>
+    <Text ID="158720" Value="insert correct trolley or select different"/>
+    <Text ID="158721" Value="Platetype is not in trolley!"/>
+    <Text ID="160207" Value="Preheat overheated,"/>
+    <Text ID="160208" Value="emergancy stop triggered!"/>
+    <Text ID="160209" Value="Output sensor blocked!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value="Wash/gum container empty"/>
+    <Text ID="161736" Value="Wash/gum circulation no flow"/>
+    <Text ID="525491" Value="Please switch the service key to"/>
+    <Text ID="525492" Value="Palette code found at trolley position"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="automatic mode!"/>
+    <Text ID="525497" Value="Please switch service key back to"/>
+    <Text ID="525498" Value="(Switch to yellow light first!)"/>
+    <Text ID="525499" Value="the adjust pins on the table."/>
+    <Text ID="525500" Value="Open the cover and place the plate near"/>
+    <Text ID="525501" Value="service mode!"/>
+    <Text ID="532307" Value="Code out of range"/>
+    <Text ID="532308" Value="Code for doublesize trolley found at outer position"/>
+    <Text ID="532309" Value="Timeout lifting paper remove,"/>
+    <Text ID="532310" Value="Please check motor and sensor!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value="Sind Sie sicher ?"/>
+    <Text ID="93416" Value="Wollen Sie wirklich abbrechen ?"/>
+    <Text ID="93417" Value="Keine Verbindung zu TIFF Blaster,"/>
+    <Text ID="93418" Value="trotzdem starten ?"/>
+    <Text ID="93419" Value="Kein Plattenwagen gefunden !"/>
+    <Text ID="93420" Value="Ungueltiger Plattenwagen code !"/>
+    <Text ID="93421" Value="Bitte Plattenwagen pruefen !"/>
+    <Text ID="93422" Value="Bitte stellen Sie sicher, dass der"/>
+    <Text ID="93423" Value="richtige Plattenwagen ausgewaehlt ist"/>
+    <Text ID="93424" Value="und dass der Wagen geoeffnet ist !"/>
+    <Text ID="93425" Value="Plattenwagen nicht offen,"/>
+    <Text ID="93426" Value="Kein Plattenwagen ausgewaehlt,"/>
+    <Text ID="93427" Value="Bitte waehlen Sie den eingesetzten"/>
+    <Text ID="93428" Value="Plattenwagen im Service Bild!"/>
+    <Text ID="93429" Value="Motoren keine Referenz,"/>
+    <Text ID="93430" Value="Bitte erst Referenz fahren!"/>
+    <Text ID="93431" Value="Plattenwagen leer,"/>
+    <Text ID="93432" Value="bitte vollen Wagen einsetzen"/>
+    <Text ID="93433" Value="und neu starten!"/>
+    <Text ID="93523" Value="System 1 (linke Platte)"/>
+    <Text ID="93524" Value="System 2 (rechte Platte)"/>
+    <Text ID="93525" Value="Beide Systeme (Platte 1 und 2)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value="Fehler: Keine Antwort vom"/>
+    <Text ID="93533" Value="Damit die Aenderungen wirksam werden"/>
+    <Text ID="93534" Value="muss das System neu gestartet werden."/>
+    <Text ID="93535" Value="Neustart ausfuehren?"/>
+    <Text ID="93536" Value="Bitte warten,"/>
+    <Text ID="93537" Value="die Steuerung wird JETZT neu gestartet!"/>
+    <Text ID="93538" Value="Nach dem naechsten Start ist die neue"/>
+    <Text ID="93539" Value="IP Adresse eingstellt!"/>
+    <Text ID="93540" Value="Panorama Adapter angewaehlt, aber"/>
+    <Text ID="93541" Value="kein Plattentyp eingegeben!"/>
+    <Text ID="93542" Value="Gesamtzaehler auch loeschen ?"/>
+    <Text ID="93543" Value="kein Adapter gefunden!"/>
+    <Text ID="93544" Value="Verriegelung fehlgeschlagen"/>
+    <Text ID="93545" Value="Bitte Klappen überprüfen!"/>
+    <Text ID="93546" Value="Plattenwagentür oder Papierschublade"/>
+    <Text ID="93547" Value="nicht geschlossen!"/>
+    <Text ID="93548" Value="wurde geöffnet!"/>
+    <Text ID="93549" Value="Bitte Referenzfahrt starten!"/>
+    <Text ID="93550" Value="Vakuum Fehler an Plattenaufnahme"/>
+    <Text ID="93551" Value="Vakuum Fehler an Übergabe !"/>
+    <Text ID="93552" Value="Platte wurde nicht aufgenommen"/>
+    <Text ID="93553" Value="Platte wurde nicht losgelassen"/>
+    <Text ID="93554" Value="Platte beim Transport verloren"/>
+    <Text ID="93555" Value="Fehler beim Ausrichten"/>
+    <Text ID="93556" Value="Bitte Platten vom Ausrichttisch nehmen !"/>
+    <Text ID="93557" Value="Laserleistung setzen fehlgeschlagen !"/>
+    <Text ID="93558" Value="Laserpower Abweichung zu groß !"/>
+    <Text ID="93559" Value="erkannt!"/>
+    <Text ID="93560" Value="3 mal in Folge Papier erkannt"/>
+    <Text ID="93561" Value="Papiersensor/Plattenstapel überprüfen!"/>
+    <Text ID="93562" Value="Papier oder Doppelplatte erkannt,"/>
+    <Text ID="93563" Value="Platte vom Ausrichttisch entfernen!"/>
+    <Text ID="93564" Value="Timeout Papierentfernung senken"/>
+    <Text ID="93565" Value="auf Schublade"/>
+    <Text ID="93566" Value="Bitte Positionen prüfen!"/>
+    <Text ID="93567" Value="Timeout Schublade öffnen"/>
+    <Text ID="93568" Value="Bitte Offen-Position prüfen"/>
+    <Text ID="93569" Value="Der Plattentyp ist nicht im Plattenwagen!"/>
+    <Text ID="93570" Value="Bitte anderen Wagen einsetzen oder"/>
+    <Text ID="93571" Value="andere Daten zur Belichtung wählen!"/>
+    <Text ID="93572" Value="Kein USB Gerät gefunden !"/>
+    <Text ID="93573" Value="Dateifehler, code {TextSnippet_1}"/>
+    <Text ID="93574" Value="Lese Dateien, bitte warten ..."/>
+    <Text ID="93575" Value="Speichern aktiv, bitte warten ..."/>
+    <Text ID="93576" Value="Laden aktiv, bitte warten ..."/>
+    <Text ID="129001" Value="Sind Sie sicher ?"/>
+    <Text ID="129003" Value="Datei löschen..."/>
+    <Text ID="129004" Value="Platte zu lang !"/>
+    <Text ID="129005" Value="Platte hat Auslauf nicht erreicht!"/>
+    <Text ID="129006" Value="Plattenstau!"/>
+    <Text ID="129453" Value="Keine Parameter Datei gefunden !"/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value="Klappen schließen und Maschine starten."/>
+    <Text ID="132540" Value="Versorgungsspannung prüfen!"/>
+    <Text ID="132541" Value="bitte CAN-Bus Verbindung und"/>
+    <Text ID="132542" Value="E/A Modul Fehler,"/>
+    <Text ID="136059" Value="Bitte Schlagschalter entriegeln,"/>
+    <Text ID="136060" Value="Notaus!"/>
+    <Text ID="136061" Value="bitte austauschen und bestätigen!"/>
+    <Text ID="136062" Value="bitte auffüllen!"/>
+    <Text ID="136063" Value="Gummierungstank leer,"/>
+    <Text ID="136064" Value="Entwickler Kanister leer,"/>
+    <Text ID="136065" Value="Regenerat Kanister leer,"/>
+    <Text ID="136486" Value="Plattenwagen-Erkennung: Fehler"/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value="Bitte warten..."/>
+    <Text ID="136490" Value="Das Panel wird JETZT neu gestartet!"/>
+    <Text ID="136491" Value="geändert werden !"/>
+    <Text ID="136492" Value="nur bei der Erst-Inbetrienahme"/>
+    <Text ID="136493" Value="ACHTUNG: Diese Einstellung darf"/>
+    <Text ID="136497" Value="Nachspülen kein Durchfluß,"/>
+    <Text ID="136498" Value="Vorspülen kein Durchfluß,"/>
+    <Text ID="136499" Value="bitte Sprührohre und Hähne prüfen."/>
+    <Text ID="136500" Value="Gummierung kein Durchfluß,"/>
+    <Text ID="136501" Value="bitte Filter und Hähne prüfen."/>
+    <Text ID="136502" Value="Entwicklerzirkulation kein Durchfluß,"/>
+    <Text ID="158718" Value="Plattenwagencode an Palettenposition gefunden"/>
+    <Text ID="158719" Value="andere Daten zur Belichtung wählen!"/>
+    <Text ID="158720" Value="Bitte anderen Wagen einsetzen oder"/>
+    <Text ID="158721" Value="Der Plattentyp ist nicht im Plattenwagen"/>
+    <Text ID="160207" Value="Preheat überhitzt,"/>
+    <Text ID="160208" Value="Notaus ausgelöst!"/>
+    <Text ID="160209" Value="Auslauf blockiert!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value="Waschgummierung Kanister leer"/>
+    <Text ID="161736" Value="Waschgumm. Zirkulation kein Durchfluß"/>
+    <Text ID="525491" Value="Bitte Schlüsselschalter auf Servicemodus"/>
+    <Text ID="525492" Value="Palettencode an Wagenposition gefunden"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="auf Automatik Modus schalten!"/>
+    <Text ID="525497" Value="Bitte den Schlüsselschalter wieder"/>
+    <Text ID="525498" Value="(vorher auf Gelblicht umschalten!)"/>
+    <Text ID="525499" Value="die Platte nahe den Stiften auf den Tisch."/>
+    <Text ID="525500" Value="Öffnen Sie die Klappe und legen Sie"/>
+    <Text ID="525501" Value="schalten!"/>
+    <Text ID="532307" Value="Code ausserhalb des gültigen Bereichs"/>
+    <Text ID="532308" Value="Code für breiten Wagen an äusserer Position gefunden"/>
+    <Text ID="532309" Value="Timeout Papierentfernung heben,"/>
+    <Text ID="532310" Value="Bitte Antrieb und Sensor prüfen!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value=""/>
+    <Text ID="93416" Value=""/>
+    <Text ID="93417" Value=""/>
+    <Text ID="93418" Value=""/>
+    <Text ID="93419" Value=""/>
+    <Text ID="93420" Value=""/>
+    <Text ID="93421" Value=""/>
+    <Text ID="93422" Value=""/>
+    <Text ID="93423" Value=""/>
+    <Text ID="93424" Value=""/>
+    <Text ID="93425" Value=""/>
+    <Text ID="93426" Value=""/>
+    <Text ID="93427" Value=""/>
+    <Text ID="93428" Value=""/>
+    <Text ID="93429" Value=""/>
+    <Text ID="93430" Value=""/>
+    <Text ID="93431" Value=""/>
+    <Text ID="93432" Value=""/>
+    <Text ID="93433" Value=""/>
+    <Text ID="93523" Value="System 1 (left plate)"/>
+    <Text ID="93524" Value="System 2 (right plate)"/>
+    <Text ID="93525" Value="Both systems (left and right plate)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value=""/>
+    <Text ID="93533" Value=""/>
+    <Text ID="93534" Value=""/>
+    <Text ID="93535" Value=""/>
+    <Text ID="93536" Value=""/>
+    <Text ID="93537" Value=""/>
+    <Text ID="93538" Value=""/>
+    <Text ID="93539" Value=""/>
+    <Text ID="93540" Value=""/>
+    <Text ID="93541" Value=""/>
+    <Text ID="93542" Value=""/>
+    <Text ID="93543" Value=""/>
+    <Text ID="93544" Value=""/>
+    <Text ID="93545" Value=""/>
+    <Text ID="93546" Value=""/>
+    <Text ID="93547" Value=""/>
+    <Text ID="93548" Value=""/>
+    <Text ID="93549" Value=""/>
+    <Text ID="93550" Value=""/>
+    <Text ID="93551" Value=""/>
+    <Text ID="93552" Value=""/>
+    <Text ID="93553" Value=""/>
+    <Text ID="93554" Value=""/>
+    <Text ID="93555" Value=""/>
+    <Text ID="93556" Value=""/>
+    <Text ID="93557" Value=""/>
+    <Text ID="93558" Value=""/>
+    <Text ID="93559" Value=""/>
+    <Text ID="93560" Value=""/>
+    <Text ID="93561" Value=""/>
+    <Text ID="93562" Value=""/>
+    <Text ID="93563" Value=""/>
+    <Text ID="93564" Value=""/>
+    <Text ID="93565" Value=""/>
+    <Text ID="93566" Value=""/>
+    <Text ID="93567" Value=""/>
+    <Text ID="93568" Value=""/>
+    <Text ID="93569" Value=""/>
+    <Text ID="93570" Value=""/>
+    <Text ID="93571" Value=""/>
+    <Text ID="93572" Value="Falta dispositivo USB"/>
+    <Text ID="93573" Value="Error de fichero, code {TextSnippet_1}"/>
+    <Text ID="93574" Value="Leyendo directorios, espere ..."/>
+    <Text ID="93575" Value="Salvando activo, espere ..."/>
+    <Text ID="93576" Value="Lectura activa, espere .."/>
+    <Text ID="129001" Value="Esta seguro?"/>
+    <Text ID="129003" Value="Borrar fichero"/>
+    <Text ID="129004" Value="Plancha demasiado larga"/>
+    <Text ID="129005" Value="Plancha no alcanza salida"/>
+    <Text ID="129006" Value="Atasco de planchas"/>
+    <Text ID="129453" Value="Falta fichero de parametros !"/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value="cerrar cubiertas y activar maquina"/>
+    <Text ID="132540" Value="y alimentacion"/>
+    <Text ID="132541" Value="Chequear conexion modulo CAN"/>
+    <Text ID="132542" Value="Error modulo E/S"/>
+    <Text ID="136059" Value="Desbloquear interruptores paro"/>
+    <Text ID="136060" Value="Paro emergencia"/>
+    <Text ID="136061" Value="Reemplazar y confirmar"/>
+    <Text ID="136062" Value="Rellenar  "/>
+    <Text ID="136063" Value="Tanque goma vacio"/>
+    <Text ID="136064" Value="Envase revelador vacio"/>
+    <Text ID="136065" Value="Envase regenerador vacio"/>
+    <Text ID="136486" Value="Deteccion carro: Error"/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value="Please wait..."/>
+    <Text ID="136490" Value="Panel will reboot NOW!"/>
+    <Text ID="136491" Value="installation of the machine !"/>
+    <Text ID="136492" Value="be changed at the very first"/>
+    <Text ID="136493" Value="CAUTION: This setting may only"/>
+    <Text ID="136497" Value="No hay flujo en enjuagado"/>
+    <Text ID="136498" Value="No hay flujo en prelavado"/>
+    <Text ID="136499" Value="chequear tubos y llaves de paso"/>
+    <Text ID="136500" Value="No hay flujo de goma"/>
+    <Text ID="136501" Value="chequear filtros y llaves de paso"/>
+    <Text ID="136502" Value="No hay flujo de circulacion"/>
+    <Text ID="158718" Value="Trolley code found at palette position"/>
+    <Text ID="158719" Value="data for imaging!"/>
+    <Text ID="158720" Value="insert correct trolley or select different"/>
+    <Text ID="158721" Value="Platetype is not in trolley!"/>
+    <Text ID="160207" Value="Preheat overheated,"/>
+    <Text ID="160208" Value="emergancy stop triggered!"/>
+    <Text ID="160209" Value="Output sensor blocked!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value="Wash/gum container empty"/>
+    <Text ID="161736" Value="Wash/gum circulation no flow"/>
+    <Text ID="525491" Value="Please switch the service key to"/>
+    <Text ID="525492" Value="Palette code found at trolley position"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="automatic mode!"/>
+    <Text ID="525497" Value="Please switch service key back to"/>
+    <Text ID="525498" Value="(Switch to yellow light first!)"/>
+    <Text ID="525499" Value="the adjust pins on the table."/>
+    <Text ID="525500" Value="Open the cover and place the plate near"/>
+    <Text ID="525501" Value="service mode!"/>
+    <Text ID="532307" Value="Code out of range"/>
+    <Text ID="532308" Value="Code for doublesize trolley found at outer position"/>
+    <Text ID="532309" Value="Timeout lifting paper remove,"/>
+    <Text ID="532310" Value="Please check motor and sensor!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value=""/>
+    <Text ID="93416" Value=""/>
+    <Text ID="93417" Value=""/>
+    <Text ID="93418" Value=""/>
+    <Text ID="93419" Value=""/>
+    <Text ID="93420" Value=""/>
+    <Text ID="93421" Value=""/>
+    <Text ID="93422" Value=""/>
+    <Text ID="93423" Value=""/>
+    <Text ID="93424" Value=""/>
+    <Text ID="93425" Value=""/>
+    <Text ID="93426" Value=""/>
+    <Text ID="93427" Value=""/>
+    <Text ID="93428" Value=""/>
+    <Text ID="93429" Value=""/>
+    <Text ID="93430" Value=""/>
+    <Text ID="93431" Value=""/>
+    <Text ID="93432" Value=""/>
+    <Text ID="93433" Value=""/>
+    <Text ID="93523" Value="System 1 (left plate)"/>
+    <Text ID="93524" Value="System 2 (right plate)"/>
+    <Text ID="93525" Value="Both systems (left and right plate)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value=""/>
+    <Text ID="93533" Value=""/>
+    <Text ID="93534" Value=""/>
+    <Text ID="93535" Value=""/>
+    <Text ID="93536" Value=""/>
+    <Text ID="93537" Value=""/>
+    <Text ID="93538" Value=""/>
+    <Text ID="93539" Value=""/>
+    <Text ID="93540" Value=""/>
+    <Text ID="93541" Value=""/>
+    <Text ID="93542" Value=""/>
+    <Text ID="93543" Value=""/>
+    <Text ID="93544" Value=""/>
+    <Text ID="93545" Value=""/>
+    <Text ID="93546" Value=""/>
+    <Text ID="93547" Value=""/>
+    <Text ID="93548" Value=""/>
+    <Text ID="93549" Value=""/>
+    <Text ID="93550" Value=""/>
+    <Text ID="93551" Value=""/>
+    <Text ID="93552" Value=""/>
+    <Text ID="93553" Value=""/>
+    <Text ID="93554" Value=""/>
+    <Text ID="93555" Value=""/>
+    <Text ID="93556" Value=""/>
+    <Text ID="93557" Value=""/>
+    <Text ID="93558" Value=""/>
+    <Text ID="93559" Value=""/>
+    <Text ID="93560" Value=""/>
+    <Text ID="93561" Value=""/>
+    <Text ID="93562" Value=""/>
+    <Text ID="93563" Value=""/>
+    <Text ID="93564" Value=""/>
+    <Text ID="93565" Value=""/>
+    <Text ID="93566" Value=""/>
+    <Text ID="93567" Value=""/>
+    <Text ID="93568" Value=""/>
+    <Text ID="93569" Value=""/>
+    <Text ID="93570" Value=""/>
+    <Text ID="93571" Value=""/>
+    <Text ID="93572" Value="No USB device found !"/>
+    <Text ID="93573" Value="File error, code {TextSnippet_1}"/>
+    <Text ID="93574" Value="Reading directory, please wait ..."/>
+    <Text ID="93575" Value="Saving active, please wait ..."/>
+    <Text ID="93576" Value="Loading active, please wait ..."/>
+    <Text ID="129001" Value="Are you sure ?"/>
+    <Text ID="129003" Value="Slett fil..."/>
+    <Text ID="129004" Value="Plate for lang!"/>
+    <Text ID="129005" Value="Plate har ikke nådd utløpet!"/>
+    <Text ID="129006" Value="Plater har hopet seg opp!"/>
+    <Text ID="129453" Value="No Parameter file found !"/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value="lukk lokk og start maskinen."/>
+    <Text ID="132540" Value="forsyningsspenning!"/>
+    <Text ID="132541" Value="kontroll CAN-bus forbindelse og"/>
+    <Text ID="132542" Value="E/A-modul feil,"/>
+    <Text ID="136059" Value="Lås opp slagbryter,"/>
+    <Text ID="136060" Value="Nødstopp!"/>
+    <Text ID="136061" Value="vennligst skift ut og bekreft!"/>
+    <Text ID="136062" Value="vennligst fyll!"/>
+    <Text ID="136063" Value="gummieringstank tom,"/>
+    <Text ID="136064" Value="fremkaller kanne tom,"/>
+    <Text ID="136065" Value="regeneratkanne tom,"/>
+    <Text ID="136486" Value="Trolley detection error"/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value="Please wait..."/>
+    <Text ID="136490" Value="Panel will reboot NOW!"/>
+    <Text ID="136491" Value="installation of the machine !"/>
+    <Text ID="136492" Value="be changed at the very first"/>
+    <Text ID="136493" Value="CAUTION: This setting may only"/>
+    <Text ID="136497" Value="etterspyling ingen gjenomstrømning,"/>
+    <Text ID="136498" Value="Forspyling ingen gjennomstrømning,"/>
+    <Text ID="136499" Value="kontroller sprøyterør og kraner."/>
+    <Text ID="136500" Value="Gummiering ingen gjennomstrømning,"/>
+    <Text ID="136501" Value="kontroller filter og kraner."/>
+    <Text ID="136502" Value="Fremkallersirkulasjon ingen gjennomstrømning,"/>
+    <Text ID="158718" Value="Trolley code found at palette position"/>
+    <Text ID="158719" Value="data for imaging!"/>
+    <Text ID="158720" Value="insert correct trolley or select different"/>
+    <Text ID="158721" Value="Platetype is not in trolley!"/>
+    <Text ID="160207" Value="Preheat overheated,"/>
+    <Text ID="160208" Value="emergancy stop triggered!"/>
+    <Text ID="160209" Value="Output sensor blocked!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value="Wash/gum container empty"/>
+    <Text ID="161736" Value="Wash/gum circulation no flow"/>
+    <Text ID="525491" Value="Please switch the service key to"/>
+    <Text ID="525492" Value="Palette code found at trolley position"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="automatic mode!"/>
+    <Text ID="525497" Value="Please switch service key back to"/>
+    <Text ID="525498" Value="(Switch to yellow light first!)"/>
+    <Text ID="525499" Value="the adjust pins on the table."/>
+    <Text ID="525500" Value="Open the cover and place the plate near"/>
+    <Text ID="525501" Value="service mode!"/>
+    <Text ID="532307" Value="Code out of range"/>
+    <Text ID="532308" Value="Code for doublesize trolley found at outer position"/>
+    <Text ID="532309" Value="Timeout lifting paper remove,"/>
+    <Text ID="532310" Value="Please check motor and sensor!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value=""/>
+    <Text ID="93416" Value=""/>
+    <Text ID="93417" Value=""/>
+    <Text ID="93418" Value=""/>
+    <Text ID="93419" Value=""/>
+    <Text ID="93420" Value=""/>
+    <Text ID="93421" Value=""/>
+    <Text ID="93422" Value=""/>
+    <Text ID="93423" Value=""/>
+    <Text ID="93424" Value=""/>
+    <Text ID="93425" Value=""/>
+    <Text ID="93426" Value=""/>
+    <Text ID="93427" Value=""/>
+    <Text ID="93428" Value=""/>
+    <Text ID="93429" Value=""/>
+    <Text ID="93430" Value=""/>
+    <Text ID="93431" Value=""/>
+    <Text ID="93432" Value=""/>
+    <Text ID="93433" Value=""/>
+    <Text ID="93523" Value="System 1 (left plate)"/>
+    <Text ID="93524" Value="System 2 (right plate)"/>
+    <Text ID="93525" Value="Both systems (left and right plate)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value=""/>
+    <Text ID="93533" Value=""/>
+    <Text ID="93534" Value=""/>
+    <Text ID="93535" Value=""/>
+    <Text ID="93536" Value=""/>
+    <Text ID="93537" Value=""/>
+    <Text ID="93538" Value=""/>
+    <Text ID="93539" Value=""/>
+    <Text ID="93540" Value=""/>
+    <Text ID="93541" Value=""/>
+    <Text ID="93542" Value=""/>
+    <Text ID="93543" Value=""/>
+    <Text ID="93544" Value=""/>
+    <Text ID="93545" Value=""/>
+    <Text ID="93546" Value=""/>
+    <Text ID="93547" Value=""/>
+    <Text ID="93548" Value=""/>
+    <Text ID="93549" Value=""/>
+    <Text ID="93550" Value=""/>
+    <Text ID="93551" Value=""/>
+    <Text ID="93552" Value=""/>
+    <Text ID="93553" Value=""/>
+    <Text ID="93554" Value=""/>
+    <Text ID="93555" Value=""/>
+    <Text ID="93556" Value=""/>
+    <Text ID="93557" Value=""/>
+    <Text ID="93558" Value=""/>
+    <Text ID="93559" Value=""/>
+    <Text ID="93560" Value=""/>
+    <Text ID="93561" Value=""/>
+    <Text ID="93562" Value=""/>
+    <Text ID="93563" Value=""/>
+    <Text ID="93564" Value=""/>
+    <Text ID="93565" Value=""/>
+    <Text ID="93566" Value=""/>
+    <Text ID="93567" Value=""/>
+    <Text ID="93568" Value=""/>
+    <Text ID="93569" Value=""/>
+    <Text ID="93570" Value=""/>
+    <Text ID="93571" Value=""/>
+    <Text ID="93572" Value=""/>
+    <Text ID="93573" Value=""/>
+    <Text ID="93574" Value=""/>
+    <Text ID="93575" Value=""/>
+    <Text ID="93576" Value=""/>
+    <Text ID="129001" Value=""/>
+    <Text ID="129003" Value=""/>
+    <Text ID="129004" Value=""/>
+    <Text ID="129005" Value=""/>
+    <Text ID="129006" Value=""/>
+    <Text ID="129453" Value=""/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value=""/>
+    <Text ID="132540" Value=""/>
+    <Text ID="132541" Value=""/>
+    <Text ID="132542" Value=""/>
+    <Text ID="136059" Value=""/>
+    <Text ID="136060" Value=""/>
+    <Text ID="136061" Value=""/>
+    <Text ID="136062" Value=""/>
+    <Text ID="136063" Value=""/>
+    <Text ID="136064" Value=""/>
+    <Text ID="136065" Value=""/>
+    <Text ID="136486" Value=""/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value=""/>
+    <Text ID="136490" Value=""/>
+    <Text ID="136491" Value=""/>
+    <Text ID="136492" Value=""/>
+    <Text ID="136493" Value=""/>
+    <Text ID="136497" Value=""/>
+    <Text ID="136498" Value=""/>
+    <Text ID="136499" Value=""/>
+    <Text ID="136500" Value=""/>
+    <Text ID="136501" Value=""/>
+    <Text ID="136502" Value=""/>
+    <Text ID="158718" Value="Trolley code found at palette position"/>
+    <Text ID="158719" Value=""/>
+    <Text ID="158720" Value=""/>
+    <Text ID="158721" Value=""/>
+    <Text ID="160207" Value=""/>
+    <Text ID="160208" Value=""/>
+    <Text ID="160209" Value="Output sensor blocked!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value=""/>
+    <Text ID="161736" Value=""/>
+    <Text ID="525491" Value="Please switch the service key to"/>
+    <Text ID="525492" Value="Palette code found at trolley position"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="automatic mode!"/>
+    <Text ID="525497" Value="Please switch service key back to"/>
+    <Text ID="525498" Value="(Switch to yellow light first!)"/>
+    <Text ID="525499" Value="the adjust pins on the table."/>
+    <Text ID="525500" Value="Open the cover and place the plate near"/>
+    <Text ID="525501" Value="service mode!"/>
+    <Text ID="532307" Value="Code out of range"/>
+    <Text ID="532308" Value="Code for doublesize trolley found at outer position"/>
+    <Text ID="532309" Value="Timeout lifting paper remove,"/>
+    <Text ID="532310" Value="Please check motor and sensor!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="93414" Value=""/>
+    <Text ID="93415" Value=""/>
+    <Text ID="93416" Value=""/>
+    <Text ID="93417" Value=""/>
+    <Text ID="93418" Value=""/>
+    <Text ID="93419" Value=""/>
+    <Text ID="93420" Value=""/>
+    <Text ID="93421" Value=""/>
+    <Text ID="93422" Value=""/>
+    <Text ID="93423" Value=""/>
+    <Text ID="93424" Value=""/>
+    <Text ID="93425" Value=""/>
+    <Text ID="93426" Value=""/>
+    <Text ID="93427" Value=""/>
+    <Text ID="93428" Value=""/>
+    <Text ID="93429" Value=""/>
+    <Text ID="93430" Value=""/>
+    <Text ID="93431" Value=""/>
+    <Text ID="93432" Value=""/>
+    <Text ID="93433" Value=""/>
+    <Text ID="93523" Value="System 1 (left plate)"/>
+    <Text ID="93524" Value="System 2 (right plate)"/>
+    <Text ID="93525" Value="Both systems (left and right plate)"/>
+    <Text ID="93526" Value=""/>
+    <Text ID="93527" Value=""/>
+    <Text ID="93528" Value=""/>
+    <Text ID="93529" Value=""/>
+    <Text ID="93530" Value=""/>
+    <Text ID="93531" Value=""/>
+    <Text ID="93532" Value=""/>
+    <Text ID="93533" Value=""/>
+    <Text ID="93534" Value=""/>
+    <Text ID="93535" Value=""/>
+    <Text ID="93536" Value=""/>
+    <Text ID="93537" Value=""/>
+    <Text ID="93538" Value=""/>
+    <Text ID="93539" Value=""/>
+    <Text ID="93540" Value=""/>
+    <Text ID="93541" Value=""/>
+    <Text ID="93542" Value=""/>
+    <Text ID="93543" Value=""/>
+    <Text ID="93544" Value=""/>
+    <Text ID="93545" Value=""/>
+    <Text ID="93546" Value=""/>
+    <Text ID="93547" Value=""/>
+    <Text ID="93548" Value=""/>
+    <Text ID="93549" Value=""/>
+    <Text ID="93550" Value=""/>
+    <Text ID="93551" Value=""/>
+    <Text ID="93552" Value=""/>
+    <Text ID="93553" Value=""/>
+    <Text ID="93554" Value=""/>
+    <Text ID="93555" Value=""/>
+    <Text ID="93556" Value=""/>
+    <Text ID="93557" Value=""/>
+    <Text ID="93558" Value=""/>
+    <Text ID="93559" Value=""/>
+    <Text ID="93560" Value=""/>
+    <Text ID="93561" Value=""/>
+    <Text ID="93562" Value=""/>
+    <Text ID="93563" Value=""/>
+    <Text ID="93564" Value=""/>
+    <Text ID="93565" Value=""/>
+    <Text ID="93566" Value=""/>
+    <Text ID="93567" Value=""/>
+    <Text ID="93568" Value=""/>
+    <Text ID="93569" Value=""/>
+    <Text ID="93570" Value=""/>
+    <Text ID="93571" Value=""/>
+    <Text ID="93572" Value=""/>
+    <Text ID="93573" Value=""/>
+    <Text ID="93574" Value=""/>
+    <Text ID="93575" Value=""/>
+    <Text ID="93576" Value=""/>
+    <Text ID="129001" Value=""/>
+    <Text ID="129003" Value=""/>
+    <Text ID="129004" Value=""/>
+    <Text ID="129005" Value=""/>
+    <Text ID="129006" Value=""/>
+    <Text ID="129453" Value=""/>
+    <Text ID="132538" Value=""/>
+    <Text ID="132539" Value=""/>
+    <Text ID="132540" Value=""/>
+    <Text ID="132541" Value=""/>
+    <Text ID="132542" Value=""/>
+    <Text ID="136059" Value=""/>
+    <Text ID="136060" Value=""/>
+    <Text ID="136061" Value=""/>
+    <Text ID="136062" Value=""/>
+    <Text ID="136063" Value=""/>
+    <Text ID="136064" Value=""/>
+    <Text ID="136065" Value=""/>
+    <Text ID="136486" Value=""/>
+    <Text ID="136487" Value=""/>
+    <Text ID="136488" Value=""/>
+    <Text ID="136489" Value=""/>
+    <Text ID="136490" Value=""/>
+    <Text ID="136491" Value=""/>
+    <Text ID="136492" Value=""/>
+    <Text ID="136493" Value=""/>
+    <Text ID="136497" Value=""/>
+    <Text ID="136498" Value=""/>
+    <Text ID="136499" Value=""/>
+    <Text ID="136500" Value=""/>
+    <Text ID="136501" Value=""/>
+    <Text ID="136502" Value=""/>
+    <Text ID="158718" Value="Trolley code found at palette position"/>
+    <Text ID="158719" Value=""/>
+    <Text ID="158720" Value=""/>
+    <Text ID="158721" Value=""/>
+    <Text ID="160207" Value=""/>
+    <Text ID="160208" Value=""/>
+    <Text ID="160209" Value="Output sensor blocked!"/>
+    <Text ID="161734" Value=""/>
+    <Text ID="161735" Value=""/>
+    <Text ID="161736" Value=""/>
+    <Text ID="525491" Value="Please switch the service key to"/>
+    <Text ID="525492" Value="Palette code found at trolley position"/>
+    <Text ID="525493" Value=""/>
+    <Text ID="525496" Value="automatic mode!"/>
+    <Text ID="525497" Value="Please switch service key back to"/>
+    <Text ID="525498" Value="(Switch to yellow light first!)"/>
+    <Text ID="525499" Value="the adjust pins on the table."/>
+    <Text ID="525500" Value="Open the cover and place the plate near"/>
+    <Text ID="525501" Value="service mode!"/>
+    <Text ID="532307" Value="Code out of range"/>
+    <Text ID="532308" Value="Code for doublesize trolley found at outer position"/>
+    <Text ID="532309" Value="Timeout lifting paper remove,"/>
+    <Text ID="532310" Value="Please check motor and sensor!"/>
+    <Text ID="532311" Value=""/>
+    <Text ID="532312" Value=""/>
+    <Text ID="532313" Value=""/>
+    <Text ID="532314" Value=""/>
+    <Text ID="532315" Value=""/>
+    <Text ID="532316" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="93414" Value="0"/>
+    <Index ID="93415" Value="1"/>
+    <Index ID="93416" Value="2"/>
+    <Index ID="93417" Value="3"/>
+    <Index ID="93418" Value="4"/>
+    <Index ID="93419" Value="5"/>
+    <Index ID="93420" Value="6"/>
+    <Index ID="93421" Value="7"/>
+    <Index ID="93422" Value="8"/>
+    <Index ID="93423" Value="9"/>
+    <Index ID="93424" Value="10"/>
+    <Index ID="93425" Value="11"/>
+    <Index ID="93426" Value="12"/>
+    <Index ID="93427" Value="13"/>
+    <Index ID="93428" Value="14"/>
+    <Index ID="93429" Value="15"/>
+    <Index ID="93430" Value="16"/>
+    <Index ID="93431" Value="17"/>
+    <Index ID="93432" Value="18"/>
+    <Index ID="93433" Value="19"/>
+    <Index ID="93523" Value="20"/>
+    <Index ID="93524" Value="21"/>
+    <Index ID="93525" Value="22"/>
+    <Index ID="93526" Value="23"/>
+    <Index ID="93527" Value="24"/>
+    <Index ID="93528" Value="25"/>
+    <Index ID="93529" Value="26"/>
+    <Index ID="93530" Value="27"/>
+    <Index ID="93531" Value="28"/>
+    <Index ID="93532" Value="29"/>
+    <Index ID="93533" Value="30"/>
+    <Index ID="93534" Value="31"/>
+    <Index ID="93535" Value="32"/>
+    <Index ID="93536" Value="33"/>
+    <Index ID="93537" Value="34"/>
+    <Index ID="93538" Value="35"/>
+    <Index ID="93539" Value="36"/>
+    <Index ID="93540" Value="37"/>
+    <Index ID="93541" Value="38"/>
+    <Index ID="93542" Value="39"/>
+    <Index ID="93543" Value="40"/>
+    <Index ID="93544" Value="41"/>
+    <Index ID="93545" Value="42"/>
+    <Index ID="93546" Value="43"/>
+    <Index ID="93547" Value="44"/>
+    <Index ID="93548" Value="45"/>
+    <Index ID="93549" Value="46"/>
+    <Index ID="93550" Value="47"/>
+    <Index ID="93551" Value="48"/>
+    <Index ID="93552" Value="49"/>
+    <Index ID="93553" Value="50"/>
+    <Index ID="93554" Value="51"/>
+    <Index ID="93555" Value="52"/>
+    <Index ID="93556" Value="53"/>
+    <Index ID="93557" Value="54"/>
+    <Index ID="93558" Value="55"/>
+    <Index ID="93559" Value="56"/>
+    <Index ID="93560" Value="57"/>
+    <Index ID="93561" Value="58"/>
+    <Index ID="93562" Value="59"/>
+    <Index ID="93563" Value="60"/>
+    <Index ID="93564" Value="61"/>
+    <Index ID="93565" Value="62"/>
+    <Index ID="93566" Value="63"/>
+    <Index ID="93567" Value="64"/>
+    <Index ID="93568" Value="65"/>
+    <Index ID="93569" Value="66"/>
+    <Index ID="93570" Value="67"/>
+    <Index ID="93571" Value="68"/>
+    <Index ID="93572" Value="69"/>
+    <Index ID="93573" Value="70"/>
+    <Index ID="93574" Value="71"/>
+    <Index ID="93575" Value="72"/>
+    <Index ID="93576" Value="73"/>
+    <Index ID="129001" Value="75"/>
+    <Index ID="129003" Value="101"/>
+    <Index ID="129004" Value="102"/>
+    <Index ID="129005" Value="103"/>
+    <Index ID="129006" Value="104"/>
+    <Index ID="129453" Value="74"/>
+    <Index ID="132538" Value="132"/>
+    <Index ID="132539" Value="115"/>
+    <Index ID="132540" Value="107"/>
+    <Index ID="132541" Value="106"/>
+    <Index ID="132542" Value="105"/>
+    <Index ID="136059" Value="114"/>
+    <Index ID="136060" Value="113"/>
+    <Index ID="136061" Value="112"/>
+    <Index ID="136062" Value="111"/>
+    <Index ID="136063" Value="110"/>
+    <Index ID="136064" Value="109"/>
+    <Index ID="136065" Value="108"/>
+    <Index ID="136486" Value="76"/>
+    <Index ID="136487" Value="131"/>
+    <Index ID="136488" Value="130"/>
+    <Index ID="136489" Value="129"/>
+    <Index ID="136490" Value="128"/>
+    <Index ID="136491" Value="127"/>
+    <Index ID="136492" Value="126"/>
+    <Index ID="136493" Value="125"/>
+    <Index ID="136497" Value="121"/>
+    <Index ID="136498" Value="120"/>
+    <Index ID="136499" Value="119"/>
+    <Index ID="136500" Value="118"/>
+    <Index ID="136501" Value="117"/>
+    <Index ID="136502" Value="116"/>
+    <Index ID="158718" Value="91"/>
+    <Index ID="158719" Value="79"/>
+    <Index ID="158720" Value="78"/>
+    <Index ID="158721" Value="77"/>
+    <Index ID="160207" Value="136"/>
+    <Index ID="160208" Value="137"/>
+    <Index ID="160209" Value="138"/>
+    <Index ID="161734" Value="133"/>
+    <Index ID="161735" Value="134"/>
+    <Index ID="161736" Value="135"/>
+    <Index ID="525491" Value="80"/>
+    <Index ID="525492" Value="90"/>
+    <Index ID="525493" Value="89"/>
+    <Index ID="525496" Value="86"/>
+    <Index ID="525497" Value="85"/>
+    <Index ID="525498" Value="84"/>
+    <Index ID="525499" Value="83"/>
+    <Index ID="525500" Value="82"/>
+    <Index ID="525501" Value="81"/>
+    <Index ID="532307" Value="92"/>
+    <Index ID="532308" Value="93"/>
+    <Index ID="532309" Value="94"/>
+    <Index ID="532310" Value="95"/>
+    <Index ID="532311" Value="96"/>
+    <Index ID="532312" Value="97"/>
+    <Index ID="532313" Value="98"/>
+    <Index ID="532314" Value="99"/>
+    <Index ID="532315" Value="87"/>
+    <Index ID="532316" Value="88"/>
+  </IndexMap>
+</TextGroup>

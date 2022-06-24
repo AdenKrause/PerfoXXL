@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TemperaturesPerform">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[Celsius]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[Celsius]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.Visualisierung.pics.UnitTemperature]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.UnitTemperature]"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value="fahrenheit"/>
+      <Text ID="123297" Value=" °F"/>
+      <Text ID="123298" Value="celsius"/>
+      <Text ID="123299" Value=" °C"/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value="Fahrenheit"/>
+      <Text ID="123297" Value=" °F"/>
+      <Text ID="123298" Value="Celsius"/>
+      <Text ID="123299" Value=" °C"/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value="Fahrenheit"/>
+      <Text ID="123297" Value=" °F"/>
+      <Text ID="123298" Value="Celsius"/>
+      <Text ID="123299" Value=" °C"/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value="fahrenheit"/>
+      <Text ID="123297" Value=" °F"/>
+      <Text ID="123298" Value="celsius"/>
+      <Text ID="123299" Value=" °C"/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value=""/>
+      <Text ID="123297" Value=""/>
+      <Text ID="123298" Value=""/>
+      <Text ID="123299" Value=""/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="123295" Value=""/>
+      <Text ID="123296" Value=""/>
+      <Text ID="123297" Value=""/>
+      <Text ID="123298" Value=""/>
+      <Text ID="123299" Value=""/>
+      <Text ID="123300" Value=""/>
+      <Text ID="123301" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="123295" Value="0"/>
+      <Index ID="123296" Value="1"/>
+      <Index ID="123297" Value="2"/>
+      <Index ID="123298" Value="3"/>
+      <Index ID="123299" Value="4"/>
+      <Index ID="123300" Value="7"/>
+      <Index ID="123301" Value="8"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000602" Name="Fahrenheit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1.8"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="32"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Celsius">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="PLCUnit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value="in 1 Degree steps"/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="Developer">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="50"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+    <Limit Name="Preheat">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="500"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+    <Limit Name="Offset">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="5"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="-5"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

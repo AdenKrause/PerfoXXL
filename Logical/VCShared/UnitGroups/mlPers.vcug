@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="mlPers">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[mlPers]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_unit]"/>
+  <Property Name="Description" Value="für Regeneratpumpe"/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=" ml/s"/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=" ml/h"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=" ml/s"/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=" ml/h"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=" ml/s"/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=" ml/h"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=" ml/s"/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=" ml/h"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=""/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="110608" Value=""/>
+      <Text ID="110609" Value=""/>
+      <Text ID="110610" Value=""/>
+      <Text ID="110611" Value=""/>
+      <Text ID="110612" Value=""/>
+      <Text ID="110626" Value=""/>
+      <Text ID="110627" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="110608" Value="0"/>
+      <Index ID="110609" Value="1"/>
+      <Index ID="110610" Value="2"/>
+      <Index ID="110611" Value="3"/>
+      <Index ID="110612" Value="4"/>
+      <Index ID="110626" Value="5"/>
+      <Index ID="110627" Value="6"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLC_unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPers">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="4"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="mlPerh">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="3600"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

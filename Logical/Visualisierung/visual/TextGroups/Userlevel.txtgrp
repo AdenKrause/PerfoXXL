@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Userlevel">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="17"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="90744" Value="Service"/>
+    <Text ID="90745" Value="Admin"/>
+    <Text ID="90746" Value="Operator"/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value="Admin"/>
+    <Text ID="90763" Value="Service"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="90744" Value="Service"/>
+    <Text ID="90745" Value="Admin"/>
+    <Text ID="90746" Value="Bediener"/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value="Admin"/>
+    <Text ID="90763" Value="Service"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="90744" Value=""/>
+    <Text ID="90745" Value=""/>
+    <Text ID="90746" Value=""/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value=""/>
+    <Text ID="90763" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="90744" Value="Service"/>
+    <Text ID="90745" Value="Admin"/>
+    <Text ID="90746" Value="Operator"/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value="Admin"/>
+    <Text ID="90763" Value="Service"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="90744" Value=""/>
+    <Text ID="90745" Value=""/>
+    <Text ID="90746" Value=""/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value=""/>
+    <Text ID="90763" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="90744" Value=""/>
+    <Text ID="90745" Value=""/>
+    <Text ID="90746" Value=""/>
+    <Text ID="90757" Value=""/>
+    <Text ID="90758" Value=""/>
+    <Text ID="90759" Value=""/>
+    <Text ID="90760" Value=""/>
+    <Text ID="90761" Value=""/>
+    <Text ID="90762" Value=""/>
+    <Text ID="90763" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="90744" Value="1"/>
+    <Index ID="90745" Value="2"/>
+    <Index ID="90746" Value="0"/>
+    <Index ID="90757" Value="3"/>
+    <Index ID="90758" Value="4"/>
+    <Index ID="90759" Value="5"/>
+    <Index ID="90760" Value="6"/>
+    <Index ID="90761" Value="10"/>
+    <Index ID="90762" Value="12"/>
+    <Index ID="90763" Value="11"/>
+  </IndexMap>
+</TextGroup>

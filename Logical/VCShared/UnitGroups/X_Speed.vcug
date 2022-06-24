@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="X_Speed">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[mmPerS]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[mmPerS]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.Visualisierung.pics.UnitLength]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="91411" Value=" mm/s"/>
+      <Text ID="91412" Value=" mm/s"/>
+      <Text ID="91413" Value=" Inch/s"/>
+      <Text ID="91414" Value=" In/s"/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="91411" Value=" mm/s"/>
+      <Text ID="91412" Value=" mm/s"/>
+      <Text ID="91413" Value=" Zoll/s"/>
+      <Text ID="91414" Value=" ''/s"/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="91411" Value=" mm/s"/>
+      <Text ID="91412" Value=" mm/s"/>
+      <Text ID="91413" Value="Pulgada/s"/>
+      <Text ID="91414" Value=" ''/s"/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="91411" Value=" mm/s"/>
+      <Text ID="91412" Value=" mm/s"/>
+      <Text ID="91413" Value=" Inch/s"/>
+      <Text ID="91414" Value=" In/s"/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="91411" Value=""/>
+      <Text ID="91412" Value=""/>
+      <Text ID="91413" Value=""/>
+      <Text ID="91414" Value=""/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="91411" Value=""/>
+      <Text ID="91412" Value=""/>
+      <Text ID="91413" Value=""/>
+      <Text ID="91414" Value=""/>
+      <Text ID="91427" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="91411" Value="1"/>
+      <Index ID="91412" Value="2"/>
+      <Index ID="91413" Value="3"/>
+      <Index ID="91414" Value="4"/>
+      <Index ID="91427" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="mmPerS">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="InchPerS">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="3.93700787401575E-02"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

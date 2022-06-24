@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="Funktionen für Plattenwagen">trolley</Object>
+    <Object Type="Program" Language="ANSIC" Description="Gesamt Referenzfahrt">referenz</Object>
+    <Object Type="Program" Language="ANSIC" Description="Belichtungsablauf">expose</Object>
+    <Object Type="Program" Language="ANSIC" Description="Platte Entladen aufs Transportband">entladen</Object>
+    <Object Type="Program" Language="ANSIC" Description="Ausrichten">adjust</Object>
+    <Object Type="Program" Language="ANSIC" Description="Plattenaufnahme">aufnahme</Object>
+    <Object Type="Program" Language="ANSIC" Description="Papierentfernung">papentf</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="2.4"?>
+<PanelMap xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Description" Value="" />
+  <Property Name="HwFile" Value="PS2-Keyboard.hwx" />
+  <Property Name="Name" Value="VCPS2_Keyboard" />
+  <Property Name="NumLevel" Value="4" />
+  <Property Name="Type" Value="PS2-Keyboard" />
+  <PanelItems>
+    <PanelItem Index="1">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_ESC" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="2">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F1" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="3">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F2" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="4">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F3" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="5">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F4" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="6">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F5" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="7">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F6" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="8">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F7" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="9">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F8" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="10">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F9" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="11">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F10" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="12">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F11" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="13">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_F12" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="14">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_PRT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="15">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_SCROLL" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="16">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_BREAK" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="17">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="18">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="19">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="20">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="21">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="22">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="23">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="24">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="25">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="26">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="27">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="28">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="29">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="30">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_BCKSPC" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="31">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_INS" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="32">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_HOME" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="33">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_PGUP" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="34">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_NUM" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="35">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_DIVIDE" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="36">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_MULTIPLY" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="37">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_MINUS" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="38">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_TAB" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="39">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="40">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="41">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="42">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="43">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="44">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="45">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="46">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="47">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="48">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="49">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="50">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="51">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_RETURN" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="52">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_DEL" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="53">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_END" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="54">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_PGDN" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="55">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_7" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="56">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_8" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="57">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_9" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="58">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_PLUS" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="59">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_CAPSLCK" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="60">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="61">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="62">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="63">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="64">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="65">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="66">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="67">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="68">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="69">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="70">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="71">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="72">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_4" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="73">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_5" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="74">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_6" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="75">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_SHIFT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="76">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="77">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="78">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="79">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="80">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="81">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="82">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="83">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="84">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="85">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="86">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="87">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_SHIFT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="88">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_UP" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="89">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_1" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="90">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_2" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="91">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_3" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="92">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_ENTER" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="93">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_CTRL" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="94">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_ALT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="95">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_WINL" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="96">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_SPACE" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="97">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_ALT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="98">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_WINR" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="99">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_CTXT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="100">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_CTRL" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="101">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_LEFT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="102">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_DOWN" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="103">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_RIGHT" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="104">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_0" />
+      </KeyLevels>
+    </PanelItem>
+    <PanelItem Index="105">
+      <KeyLevels>
+        <KeyLevel Level="0" VirtualKey="VK_FUNCTION_DOT" />
+      </KeyLevels>
+    </PanelItem>
+  </PanelItems>
+</PanelMap>

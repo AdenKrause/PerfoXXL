@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamFeeder1">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="89021" Value="Up"/>
+    <Text ID="89022" Value="Enable paperremove"/>
+    <Text ID="89023" Value="Above trolley"/>
+    <Text ID="89024" Value="Slow up dist."/>
+    <Text ID="89025" Value="Slow down pos."/>
+    <Text ID="89027" Value="Handover pos. vert."/>
+    <Text ID="89028" Value="Pre-handover pos. vert."/>
+    <Text ID="89029" Value="Feeder Parameter vertical"/>
+    <Text ID="89054" Value="Panorama adapter"/>
+    <Text ID="89055" Value="Handover pos. horiz."/>
+    <Text ID="89057" Value="Feeder horizontal"/>
+    <Text ID="89061" Value="Up/down fast"/>
+    <Text ID="89062" Value="Up/down slow"/>
+    <Text ID="89063" Value="Stack detect speed"/>
+    <Text ID="89066" Value="Time vacuum on"/>
+    <Text ID="89067" Value="Time vacuum off"/>
+    <Text ID="89068" Value="Sucking repititions"/>
+    <Text ID="89069" Value="Shake repititions"/>
+    <Text ID="89070" Value="Shaking time"/>
+    <Text ID="89071" Value="Shaking way"/>
+    <Text ID="89079" Value="Feeder speed/time"/>
+    <Text ID="89081" Value="Feeder miscellaneous"/>
+    <Text ID="89085" Value="Wait for exposer start"/>
+    <Text ID="89086" Value="Ignore vacuum switch"/>
+    <Text ID="89328" Value="Table pos. for dropping plate"/>
+    <Text ID="94637" Value="Table: Feeder enable position"/>
+    <Text ID="94638" Value="Drop distance to pins"/>
+    <Text ID="94640" Value="Table Positions"/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="89021" Value="Oben"/>
+    <Text ID="89022" Value="Freigabe Papierentf."/>
+    <Text ID="89023" Value="Über Plattenwagen"/>
+    <Text ID="89024" Value="Langsam heben Dist."/>
+    <Text ID="89025" Value="Bremspos."/>
+    <Text ID="89027" Value="Übergabe Pos. vert."/>
+    <Text ID="89028" Value="Vor-Übergabe Pos. vert."/>
+    <Text ID="89029" Value="Plattenaufnahme vertikal"/>
+    <Text ID="89054" Value="Panorama Adapter"/>
+    <Text ID="89055" Value="Übergabe Pos. horiz."/>
+    <Text ID="89057" Value="Plattenaufnahme horizontal"/>
+    <Text ID="89061" Value="Heben/Senken schnell"/>
+    <Text ID="89062" Value="Heben/senken langsam"/>
+    <Text ID="89063" Value="Geschw. Stapelerkennung"/>
+    <Text ID="89066" Value="Zeit Vakuum ein"/>
+    <Text ID="89067" Value="Zeit Vakuum aus"/>
+    <Text ID="89068" Value="Ansaugwiederholungen"/>
+    <Text ID="89069" Value="Schüttelwiederholungen"/>
+    <Text ID="89070" Value="Schüttelzeit"/>
+    <Text ID="89071" Value="Schüttelweg"/>
+    <Text ID="89079" Value="Plattenaufnahme Geschw./Zeiten"/>
+    <Text ID="89081" Value="Plattenaufnahme Verschiedenes"/>
+    <Text ID="89085" Value="Warte auf Belichtungsstart"/>
+    <Text ID="89086" Value="Vakuumschalter ignorieren"/>
+    <Text ID="89328" Value="Tischpos. für Plattenablage"/>
+    <Text ID="94637" Value="Tisch: Freigabepos. für Aufnahme"/>
+    <Text ID="94638" Value="Ablageabstand zu Stiften"/>
+    <Text ID="94640" Value="Tischpositionen"/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="89021" Value=""/>
+    <Text ID="89022" Value=""/>
+    <Text ID="89023" Value=""/>
+    <Text ID="89024" Value=""/>
+    <Text ID="89025" Value=""/>
+    <Text ID="89027" Value=""/>
+    <Text ID="89028" Value=""/>
+    <Text ID="89029" Value=""/>
+    <Text ID="89054" Value=""/>
+    <Text ID="89055" Value=""/>
+    <Text ID="89057" Value=""/>
+    <Text ID="89061" Value=""/>
+    <Text ID="89062" Value=""/>
+    <Text ID="89063" Value=""/>
+    <Text ID="89066" Value=""/>
+    <Text ID="89067" Value=""/>
+    <Text ID="89068" Value=""/>
+    <Text ID="89069" Value=""/>
+    <Text ID="89070" Value=""/>
+    <Text ID="89071" Value=""/>
+    <Text ID="89079" Value=""/>
+    <Text ID="89081" Value=""/>
+    <Text ID="89085" Value=""/>
+    <Text ID="89086" Value=""/>
+    <Text ID="89328" Value="Table pos. for dropping plate"/>
+    <Text ID="94637" Value=""/>
+    <Text ID="94638" Value=""/>
+    <Text ID="94640" Value=""/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="89021" Value="Up"/>
+    <Text ID="89022" Value="Enable paperremove"/>
+    <Text ID="89023" Value="Above trolley"/>
+    <Text ID="89024" Value="Slow up dist."/>
+    <Text ID="89025" Value="Slow down pos."/>
+    <Text ID="89027" Value="Handover pos. vert."/>
+    <Text ID="89028" Value="Pre-handover pos. vert."/>
+    <Text ID="89029" Value="Feeder Parameter vertical"/>
+    <Text ID="89054" Value="Panorama adapter"/>
+    <Text ID="89055" Value="Handover pos. horiz."/>
+    <Text ID="89057" Value="Feeder horizontal"/>
+    <Text ID="89061" Value="Up/down fast"/>
+    <Text ID="89062" Value="Up/down slow"/>
+    <Text ID="89063" Value="Stack detect speed"/>
+    <Text ID="89066" Value="Time vacuum on"/>
+    <Text ID="89067" Value="Time vacuum off"/>
+    <Text ID="89068" Value="Sucking repititions"/>
+    <Text ID="89069" Value="Shake repititions"/>
+    <Text ID="89070" Value="Shaking time"/>
+    <Text ID="89071" Value="Shaking way"/>
+    <Text ID="89079" Value="Feeder speed/time"/>
+    <Text ID="89081" Value="Feeder miscellaneous"/>
+    <Text ID="89085" Value="Wait for exposer start"/>
+    <Text ID="89086" Value="Ignore vacuum switch"/>
+    <Text ID="89328" Value="Table pos. for dropping plate"/>
+    <Text ID="94637" Value="Table: Feeder enable position"/>
+    <Text ID="94638" Value="Drop distance to pins"/>
+    <Text ID="94640" Value="Table Positions"/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="89021" Value=""/>
+    <Text ID="89022" Value=""/>
+    <Text ID="89023" Value=""/>
+    <Text ID="89024" Value=""/>
+    <Text ID="89025" Value=""/>
+    <Text ID="89027" Value=""/>
+    <Text ID="89028" Value=""/>
+    <Text ID="89029" Value=""/>
+    <Text ID="89054" Value=""/>
+    <Text ID="89055" Value=""/>
+    <Text ID="89057" Value=""/>
+    <Text ID="89061" Value=""/>
+    <Text ID="89062" Value=""/>
+    <Text ID="89063" Value=""/>
+    <Text ID="89066" Value=""/>
+    <Text ID="89067" Value=""/>
+    <Text ID="89068" Value=""/>
+    <Text ID="89069" Value=""/>
+    <Text ID="89070" Value=""/>
+    <Text ID="89071" Value=""/>
+    <Text ID="89079" Value=""/>
+    <Text ID="89081" Value=""/>
+    <Text ID="89085" Value=""/>
+    <Text ID="89086" Value=""/>
+    <Text ID="89328" Value="Table pos. for dropping plate"/>
+    <Text ID="94637" Value=""/>
+    <Text ID="94638" Value=""/>
+    <Text ID="94640" Value=""/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="89021" Value=""/>
+    <Text ID="89022" Value=""/>
+    <Text ID="89023" Value=""/>
+    <Text ID="89024" Value=""/>
+    <Text ID="89025" Value=""/>
+    <Text ID="89027" Value=""/>
+    <Text ID="89028" Value=""/>
+    <Text ID="89029" Value=""/>
+    <Text ID="89054" Value=""/>
+    <Text ID="89055" Value=""/>
+    <Text ID="89057" Value=""/>
+    <Text ID="89061" Value=""/>
+    <Text ID="89062" Value=""/>
+    <Text ID="89063" Value=""/>
+    <Text ID="89066" Value=""/>
+    <Text ID="89067" Value=""/>
+    <Text ID="89068" Value=""/>
+    <Text ID="89069" Value=""/>
+    <Text ID="89070" Value=""/>
+    <Text ID="89071" Value=""/>
+    <Text ID="89079" Value=""/>
+    <Text ID="89081" Value=""/>
+    <Text ID="89085" Value=""/>
+    <Text ID="89086" Value=""/>
+    <Text ID="89328" Value="Table pos. for dropping plate"/>
+    <Text ID="94637" Value=""/>
+    <Text ID="94638" Value=""/>
+    <Text ID="94640" Value=""/>
+    <Text ID="94641" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="89021" Value="0"/>
+    <Index ID="89022" Value="1"/>
+    <Index ID="89023" Value="2"/>
+    <Index ID="89024" Value="3"/>
+    <Index ID="89025" Value="4"/>
+    <Index ID="89027" Value="5"/>
+    <Index ID="89028" Value="6"/>
+    <Index ID="89029" Value="7"/>
+    <Index ID="89054" Value="8"/>
+    <Index ID="89055" Value="9"/>
+    <Index ID="89057" Value="10"/>
+    <Index ID="89061" Value="11"/>
+    <Index ID="89062" Value="12"/>
+    <Index ID="89063" Value="13"/>
+    <Index ID="89066" Value="14"/>
+    <Index ID="89067" Value="15"/>
+    <Index ID="89068" Value="16"/>
+    <Index ID="89069" Value="17"/>
+    <Index ID="89070" Value="18"/>
+    <Index ID="89071" Value="19"/>
+    <Index ID="89079" Value="20"/>
+    <Index ID="89081" Value="21"/>
+    <Index ID="89085" Value="22"/>
+    <Index ID="89086" Value="23"/>
+    <Index ID="89328" Value="24"/>
+    <Index ID="94637" Value="25"/>
+    <Index ID="94638" Value="26"/>
+    <Index ID="94640" Value="27"/>
+    <Index ID="94641" Value="28"/>
+  </IndexMap>
+</TextGroup>

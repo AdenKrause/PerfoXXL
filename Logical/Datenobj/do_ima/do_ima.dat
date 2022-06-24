@@ -1,0 +1,23 @@
+;------------------------------------------------------------------------------------------------
+;AsIMA Konfigurations-Datenobjekt für STATION1
+;------------------------------------------------------------------------------------------------
+
+"[ROUTING_PATH]"    ;Sektionsname muss mit Klammern umrahmt werden und ist frei wählbar
+"/SECTION=INTERFACE";definiert Sektionsart
+"/CN=SL1.SS1.IF1.3" ;Routingpfad zum Server (CANModul Slot1 Schnittstelle 1 Interface 1 zu
+                    ;Knotennummer 3) ACHTUNG:
+                    ;Knotennummer muss in HEXADEZIMAL angegeben werden !
+;===============================================================================================
+"[PV_LIST_1]"       ;Sektionsname muss mit Klammern umrahmt werden und ist frei wählbar
+"/SECTION=PV"       ;definiert Sektionsart
+"/CONPV=bluefin:EnablePVComm /CONVAL=1 /MINT=0 /MAXT=0"     ;optional, gültig für ganze Sektion
+"/SV=READ /CLNTPV=bluefin:OldXMLBuffer /SERVPV=xml:XMLBuffer /EVPV=bluefin:byte_link_cnt"  ;PV-Dienst
+"/SV=WRITE /CLNTPV=bluefin:DataLock /SERVPV=xml:DataLock"
+;===============================================================================================
+"[PV_LIST_2]"       ;Sektionsname muss mit Klammern umrahmt werden und ist frei wählbar
+"/SECTION=PV"       ;definiert Sektionsart
+"/SV=READ /CLNTPV=bluefin:CAN_EGM1 /SERVPV=NoError"  ;PV-Dienst
+"/SV=READ /CLNTPV=bluefin:CAN_EGM2 /SERVPV=Ready"  ;PV-Dienst
+"/SV=READ /CLNTPV=bluefin:BFVERSION  /SERVPV=gVERSION"  ;PV-Dienst
+;===============================================================================================
+

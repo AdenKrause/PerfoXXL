@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Backlight" Value="False"/>
+  <Property Name="BeepKey" Value="False"/>
+  <Property Name="BeepTouch" Value="False"/>
+  <Property Name="CalibrationDatapoint" Value="None"/>
+  <Property Name="CalibrationStateDatapoint" Value="None"/>
+  <Property Name="ColorMode" Value="8Bit"/>
+  <Property Name="ConfigureTemplate" Value="0"/>
+  <Property Name="ConnectionErrorPage" Value="None"/>
+  <Property Name="DefaultKeyLevelNumeric" Value="None"/>
+  <Property Name="DefaultKeyLevelString" Value="None"/>
+  <Property Name="DefaultLanguage" Value="de-DE"/>
+  <Property Name="DefaultPage" Value="Source[local].Page[Init_Page]"/>
+  <Property Name="DefaultStyleSheet" Value="Source[local].StyleSheet[Gray]"/>
+  <Property Name="FocusControlDatapoint" Value="None"/>
+  <Property Name="FontAntialiasing" Value="Off"/>
+  <Property Name="HelpControlDatapoint" Value="None"/>
+  <Property Name="IPAddressDatapoint" Value="None"/>
+  <Property Name="KeyLevelChangeDatapoint" Value="None"/>
+  <Property Name="KeyLevelCurrentDatapoint" Value="None"/>
+  <Property Name="KeyMatrix" Value="None"/>
+  <Property Name="KeyRepeatDelay" Value="300"/>
+  <Property Name="KeyRepeatRate" Value="50"/>
+  <Property Name="LEDMatrix" Value="None"/>
+  <Property Name="LanguageChangeDatapoint" Value="Source[global].Variable[Local.GlobalParameter.Language]"/>
+  <Property Name="LanguageCurrentDatapoint" Value="Source[global].Variable[Local.GlobalParameter.Language]"/>
+  <Property Name="LifeSignDatapoint" Value="None"/>
+  <Property Name="ManualStart" Value="False"/>
+  <Property Name="PageChangeDatapoint" Value="Source[global].Variable[Local.wBildNeu]"/>
+  <Property Name="PageCurrentDatapoint" Value="Source[global].Variable[Local.wBildAktuell]"/>
+  <Property Name="ScreenSaver_Activate" Value="False"/>
+  <Property Name="TargetResourceRoot" Value=""/>
+  <Property Name="TextLengthOverrunBackColor" Value="None"/>
+  <Property Name="TextLengthOverrunCut" Value="False"/>
+  <Property Name="TextLengthOverrunForeColor" Value="None"/>
+  <Property Name="TouchPadCancel" Value="Default"/>
+  <Property Name="VCCVersion" Value="9"/>
+  <Property Name="WheelCountDatapoint" Value="None"/>
+  <Property Name="WheelEnterDatapoint" Value="None"/>
+  <SourceFiles>
+    <Source File="TextGroups\BypassState_short.txtgrp"/>
+    <Source File="TextGroups\AlarmState_long.txtgrp"/>
+    <Source File="TextGroups\AlarmState_short.txtgrp"/>
+    <Source File="TextGroups\BypassState_long.txtgrp"/>
+    <Source File="TextGroups\AcknowledgeState_short.txtgrp"/>
+    <Source File="TextGroups\AlarmEvent_long.txtgrp"/>
+    <Source File="TextGroups\AlarmEvent_short.txtgrp"/>
+    <Source File="TextGroups\AcknowledgeState_long.txtgrp"/>
+    <Source File="TextGroups\DateTimeFormats.txtgrp"/>
+    <Source File="TextGroups\PerformanceCommon.txtgrp"/>
+    <Source File="TextGroups\ParamFeeder1.txtgrp"/>
+    <Source File="TextGroups\ParamPaperRemove.txtgrp"/>
+    <Source File="TextGroups\ParamAdjuster.txtgrp"/>
+    <Source File="TextGroups\ParamDeloader.txtgrp"/>
+    <Source File="TextGroups\ParamMotor.txtgrp"/>
+    <Source File="TextGroups\MotorAddress.txtgrp"/>
+    <Source File="TextGroups\Userlevel.txtgrp"/>
+    <Source File="TextGroups\X_Achse.txtgrp"/>
+    <Source File="TextGroups\ParamGlobal.txtgrp"/>
+    <Source File="TextGroups\PlateParam.txtgrp"/>
+    <Source File="TextGroups\Param_E_A.txtgrp"/>
+    <Source File="TextGroups\TrolleyParam.txtgrp"/>
+    <Source File="TextGroups\File.txtgrp"/>
+    <Source File="TextGroups\FileList.txtgrp"/>
+    <Source File="TextGroups\Adresse.txtgrp"/>
+    <Source File="TextGroups\Semiauto.txtgrp"/>
+    <Source File="TextGroups\Laserpower.txtgrp"/>
+    <Source File="TextGroups\PerformanceMain.txtgrp"/>
+    <Source File="TextGroups\Autotune.txtgrp"/>
+    <Source File="TextGroups\Curves.txtgrp"/>
+    <Source File="TextGroups\Languages.txtgrp"/>
+    <Source File="TextGroups\Main.txtgrp"/>
+    <Source File="TextGroups\EGMMessages.txtgrp"/>
+    <Source File="TextGroups\Modes.txtgrp"/>
+    <Source File="TextGroups\Motors.txtgrp"/>
+    <Source File="TextGroups\ok_notok.txtgrp"/>
+    <Source File="TextGroups\ParamAuto.txtgrp"/>
+    <Source File="TextGroups\ParamPreheat.txtgrp"/>
+    <Source File="TextGroups\Passwords.txtgrp"/>
+    <Source File="TextGroups\PreWash.txtgrp"/>
+    <Source File="TextGroups\PlateTypes.txtgrp"/>
+    <Source File="TextGroups\States.txtgrp"/>
+    <Source File="TextGroups\Statistik.txtgrp"/>
+    <Source File="TextGroups\TXTGRP_Control_AlarmStatus.txtgrp"/>
+    <Source File="TextGroups\TXTGRP_Control_DateTime.txtgrp"/>
+    <Source File="TextGroups\TXTGRP_GLOBAL.txtgrp"/>
+    <Source File="TextGroups\TXTGRP_Param01.txtgrp"/>
+    <Source File="TextGroups\TXTGRP_Paramselect.txtgrp"/>
+    <Source File="TextGroups\Userlevels.txtgrp"/>
+    <Source File="TextGroups\Userlevels1.txtgrp"/>
+    <Source File="TextGroups\Common.txtgrp"/>
+    <Source File="TextGroups\ParamDeveloper.txtgrp"/>
+    <Source File="TextGroups\Messages.txtgrp"/>
+    <Source File="TextGroups\Cooler.txtgrp"/>
+    <Source File="TextGroups\EGMSetup.txtgrp"/>
+    <Source File="TextGroups\EGMFlowCalib.txtgrp"/>
+    <Source File="TextGroups\NetworkSettings.txtgrp"/>
+    <Source File="TextGroups\Ent_Washgumm.txtgrp"/>
+    <Source File="TextGroups\PlateConfig.txtgrp"/>
+    <Source File="Fonts\DefaultFont.fninfo"/>
+    <Source File="Fonts\Arial12.fninfo"/>
+    <Source File="Fonts\Arial10.fninfo"/>
+    <Source File="Fonts\Arial14.fninfo"/>
+    <Source File="Fonts\Arial8.fninfo"/>
+    <Source File="Fonts\Arial24.fninfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA1.bminfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA2.bminfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA3.bminfo"/>
+    <Source File="Bitmaps\AlphaPadVGA_pressed.bminfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA2_pressed.bminfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA3_pressed.bminfo"/>
+    <Source File="Bitmaps\AlphaPadQVGA1_pressed.bminfo"/>
+    <Source File="Bitmaps\AlphaPadVGA.bminfo"/>
+    <Source File="Bitmaps\NumPad_pressed.bminfo"/>
+    <Source File="Bitmaps\NumPad.bminfo"/>
+    <Source File="Bitmaps\AcknowledgeReset.bminfo"/>
+    <Source File="Bitmaps\AlarmActive.bminfo"/>
+    <Source File="Bitmaps\AlarmBypassOFF.bminfo"/>
+    <Source File="Bitmaps\AlarmBypassON.bminfo"/>
+    <Source File="Bitmaps\AlarmInactive.bminfo"/>
+    <Source File="Bitmaps\AlarmLatched.bminfo"/>
+    <Source File="Bitmaps\AlarmNotQuit.bminfo"/>
+    <Source File="Bitmaps\AlarmQuit.bminfo"/>
+    <Source File="Bitmaps\Reset.bminfo"/>
+    <Source File="Bitmaps\ResetAcknowledge.bminfo"/>
+    <Source File="Bitmaps\Triggered.bminfo"/>
+    <Source File="Bitmaps\ListPadHor.bminfo"/>
+    <Source File="Bitmaps\ListPadHor_pressed.bminfo"/>
+    <Source File="Bitmaps\ListPadVer.bminfo"/>
+    <Source File="Bitmaps\ListPadVer_pressed.bminfo"/>
+    <Source File="Bitmaps\ZOOM.bminfo"/>
+    <Source File="Bitmaps\CAUTION2.bminfo"/>
+    <Source File="Bitmaps\DOWN.bminfo"/>
+    <Source File="Bitmaps\DPI32.bminfo"/>
+    <Source File="Bitmaps\DPI32ROT.bminfo"/>
+    <Source File="Bitmaps\FAULHABER.bminfo"/>
+    <Source File="Bitmaps\FLGFRAN1.bminfo"/>
+    <Source File="Bitmaps\FLGFRAN2.bminfo"/>
+    <Source File="Bitmaps\FLGGERM1.bminfo"/>
+    <Source File="Bitmaps\FLGGERM2.bminfo"/>
+    <Source File="Bitmaps\FLGITALY1.bminfo"/>
+    <Source File="Bitmaps\FLGSLOWA1.bminfo"/>
+    <Source File="Bitmaps\FLGSPAIN1.bminfo"/>
+    <Source File="Bitmaps\FLGSPAIN2.bminfo"/>
+    <Source File="Bitmaps\FLGUK1.bminfo"/>
+    <Source File="Bitmaps\FLGUK2.bminfo"/>
+    <Source File="Bitmaps\GO_ICN.bminfo"/>
+    <Source File="Bitmaps\HAND_TASTE.bminfo"/>
+    <Source File="Bitmaps\ICE.bminfo"/>
+    <Source File="Bitmaps\INFO.bminfo"/>
+    <Source File="Bitmaps\IO_MODUL_SMALL.bminfo"/>
+    <Source File="Bitmaps\JET2.bminfo"/>
+    <Source File="Bitmaps\JET2_MIRROR.bminfo"/>
+    <Source File="Bitmaps\JET2OPEN.bminfo"/>
+    <Source File="Bitmaps\JET2OPEN_MIRROR.bminfo"/>
+    <Source File="Bitmaps\JET2RED.bminfo"/>
+    <Source File="Bitmaps\JET2RED_MIRROR.bminfo"/>
+    <Source File="Bitmaps\KPG_120_LOW.bminfo"/>
+    <Source File="Bitmaps\KPG_120OFFEN_LOW.bminfo"/>
+    <Source File="Bitmaps\LASERLEISTUNG32.bminfo"/>
+    <Source File="Bitmaps\LASERLEISTUNG32ROT.bminfo"/>
+    <Source File="Bitmaps\LOCKOM.bminfo"/>
+    <Source File="Bitmaps\LOGOGROUP.bminfo"/>
+    <Source File="Bitmaps\LOGOGROUPBIG.bminfo"/>
+    <Source File="Bitmaps\LOGOGROUPMID.bminfo"/>
+    <Source File="Bitmaps\LOGOGROUPMIDR.bminfo"/>
+    <Source File="Bitmaps\LOGOGROUPR.bminfo"/>
+    <Source File="Bitmaps\LOGOKPG_.bminfo"/>
+    <Source File="Bitmaps\LOGOKPGR.bminfo"/>
+    <Source File="Bitmaps\LUSTCONTROLLER.bminfo"/>
+    <Source File="Bitmaps\LUSTCONTROLLER_SMALL.bminfo"/>
+    <Source File="Bitmaps\NETHOOD.bminfo"/>
+    <Source File="Bitmaps\PLATTE32.bminfo"/>
+    <Source File="Bitmaps\PLATTE32_ROT.bminfo"/>
+    <Source File="Bitmaps\REDLIGHT.bminfo"/>
+    <Source File="Bitmaps\REDLIGHT_RED.bminfo"/>
+    <Source File="Bitmaps\REQUEST.bminfo"/>
+    <Source File="Bitmaps\SCANNER32.bminfo"/>
+    <Source File="Bitmaps\SCANNER32_ROT.bminfo"/>
+    <Source File="Bitmaps\SCHLUESSEL.bminfo"/>
+    <Source File="Bitmaps\SCHLUESSELR.bminfo"/>
+    <Source File="Bitmaps\SK_CONTR_MINUS.bminfo"/>
+    <Source File="Bitmaps\SK_CONTR_PLUS.bminfo"/>
+    <Source File="Bitmaps\SK_CURSORDOWN.bminfo"/>
+    <Source File="Bitmaps\SK_CURSORUP.bminfo"/>
+    <Source File="Bitmaps\SK_DPI.bminfo"/>
+    <Source File="Bitmaps\SK_ESC.bminfo"/>
+    <Source File="Bitmaps\SK_EXIT.bminfo"/>
+    <Source File="Bitmaps\SK_LEER.bminfo"/>
+    <Source File="Bitmaps\SK_LEER_SMALL.bminfo"/>
+    <Source File="Bitmaps\SK_LOAD.bminfo"/>
+    <Source File="Bitmaps\SK_MASCHINENPARAMETER2.bminfo"/>
+    <Source File="Bitmaps\SK_MASCHINENPARAMETER.bminfo"/>
+    <Source File="Bitmaps\SK_OK.bminfo"/>
+    <Source File="Bitmaps\SK_OK_SMALL.bminfo"/>
+    <Source File="Bitmaps\SK_SAVE.bminfo"/>
+    <Source File="Bitmaps\SK_ZAEHLER2.bminfo"/>
+    <Source File="Bitmaps\SK_ZAEHLER.bminfo"/>
+    <Source File="Bitmaps\SK_ZAEHLERRESET.bminfo"/>
+    <Source File="Bitmaps\SK_ZEIT_SETZEN.bminfo"/>
+    <Source File="Bitmaps\SK_ZEITEN1.bminfo"/>
+    <Source File="Bitmaps\SK_ZEITEN2.bminfo"/>
+    <Source File="Bitmaps\SK_ZEITEN.bminfo"/>
+    <Source File="Bitmaps\STOP.bminfo"/>
+    <Source File="Bitmaps\STOP_ICN.bminfo"/>
+    <Source File="Bitmaps\UP.bminfo"/>
+    <Source File="Bitmaps\KRAUSECTP_40MM_GRAU_256.bminfo"/>
+    <Source File="Bitmaps\LAMP.bminfo"/>
+    <Source File="Bitmaps\SK_FILE.bminfo"/>
+    <Source File="Bitmaps\SK_MOTOR.bminfo"/>
+    <Source File="Bitmaps\SK_LUPE2.bminfo"/>
+    <Source File="Bitmaps\SK_LUPE.bminfo"/>
+    <Source File="Bitmaps\SK_CONTROLLER.bminfo"/>
+    <Source File="Bitmaps\SK_SPRACHE.bminfo"/>
+    <Source File="Bitmaps\SK_Messen.bminfo"/>
+    <Source File="Bitmaps\ifra_2005.bminfo"/>
+    <Source File="Bitmaps\Kodak.bminfo"/>
+    <Source File="Bitmaps\Buersten.bminfo"/>
+    <Source File="Bitmaps\Buersten_small.bminfo"/>
+    <Source File="Bitmaps\alarm.bminfo"/>
+    <Source File="Bitmaps\Gum1.bminfo"/>
+    <Source File="Bitmaps\Gum2.bminfo"/>
+    <Source File="Bitmaps\Gum3.bminfo"/>
+    <Source File="Bitmaps\PlateLength.bminfo"/>
+    <Source File="Bitmaps\Vorschub.bminfo"/>
+    <Source File="Bitmaps\Vorschub_small.bminfo"/>
+    <Source File="Bitmaps\Wash.bminfo"/>
+    <Source File="Bitmaps\Temp_small.bminfo"/>
+    <Source File="Bitmaps\SK_EXIT_2.bminfo"/>
+    <Source File="Bitmaps\SK_START.bminfo"/>
+    <Source File="Bitmaps\SK_STOP.bminfo"/>
+    <Source File="Bitmaps\SK_ZEITEN_small.bminfo"/>
+    <Source File="Bitmaps\SK_REPLENISH.bminfo"/>
+    <Source File="Bitmaps\SK_DEVELOPER.bminfo"/>
+    <Source File="Bitmaps\SK_PREHEAT.bminfo"/>
+    <Source File="Bitmaps\SK_BRIGHTNESS_DN.bminfo"/>
+    <Source File="Bitmaps\SK_Brightn_UP.bminfo"/>
+    <Source File="Bitmaps\SK_Brightn_DN.bminfo"/>
+    <Source File="Bitmaps\SK_Mute.bminfo"/>
+    <Source File="Bitmaps\SK_MuteOk.bminfo"/>
+    <Source File="Bitmaps\GumEmpty.bminfo"/>
+    <Source File="Bitmaps\TankEmpty.bminfo"/>
+    <Source File="Bitmaps\No_Flow2.bminfo"/>
+    <Source File="Bitmaps\SK_CONTR_PLUS2.bminfo"/>
+    <Source File="Bitmaps\SK_CONTR_MINUS2.bminfo"/>
+    <Source File="Bitmaps\Krause_LogoNeu_GB_sw.bminfo"/>
+    <Source File="BitmapGroups\AlphPadQVGA.bmgrp"/>
+    <Source File="BitmapGroups\NumPad.bmgrp"/>
+    <Source File="BitmapGroups\AlphaPad.bmgrp"/>
+    <Source File="BitmapGroups\AlarmEvent.bmgrp"/>
+    <Source File="BitmapGroups\AlarmState.bmgrp"/>
+    <Source File="BitmapGroups\BypassState.bmgrp"/>
+    <Source File="BitmapGroups\AcknowledgeState.bmgrp"/>
+    <Source File="BitmapGroups\NavigationPad.bmgrp"/>
+    <Source File="BitmapGroups\Cleaning.bmgrp"/>
+    <Source File="BitmapGroups\Eigene.bmgrp"/>
+    <Source File="BitmapGroups\Icons.bmgrp"/>
+    <Source File="BitmapGroups\Symbole.bmgrp"/>
+    <Source File="BitmapGroups\HornMute.bmgrp"/>
+    <Source File="BitmapGroups\MessageSymbols.bmgrp"/>
+    <Source File="BitmapGroups\OFF_ON.bmgrp"/>
+    <Source File="Pages\Init_Page.page"/>
+    <Source File="Pages\ParamFeeder1.page"/>
+    <Source File="Pages\ParamPaperRemove.page"/>
+    <Source File="Pages\ParamAdjuster.page"/>
+    <Source File="Pages\ParamDeloader.page"/>
+    <Source File="Pages\Param_Select.page"/>
+    <Source File="Pages\ParamMotor.page"/>
+    <Source File="Pages\MotorSelect.page"/>
+    <Source File="Pages\Login.page"/>
+    <Source File="Pages\ParamXAxis.page"/>
+    <Source File="Pages\ParamGlobal.page"/>
+    <Source File="Pages\PlateSel.page"/>
+    <Source File="Pages\PlateParam.page"/>
+    <Source File="Pages\E_A_Input.page"/>
+    <Source File="Pages\Date_Time.page"/>
+    <Source File="Pages\CanDiag.page"/>
+    <Source File="Pages\Service_functions.page"/>
+    <Source File="Pages\TrolleyParam.page"/>
+    <Source File="Pages\TrolleySel.page"/>
+    <Source File="Pages\File.page"/>
+    <Source File="Pages\AlarmCurrrent.page"/>
+    <Source File="Pages\AlarmHistory.page"/>
+    <Source File="Pages\LampOff.page"/>
+    <Source File="Pages\Semiauto.page"/>
+    <Source File="Pages\Referenz.page"/>
+    <Source File="Pages\FileList.page"/>
+    <Source File="Pages\Adresse.page"/>
+    <Source File="Pages\Laserpower.page"/>
+    <Source File="Pages\PerformanceMain.page"/>
+    <Source File="Pages\EGMAlarme.page"/>
+    <Source File="Pages\EGMAlarmeHist.page"/>
+    <Source File="Pages\EGMBrushMotor.page"/>
+    <Source File="Pages\EGMCurves.page"/>
+    <Source File="Pages\EGMEmpty.page"/>
+    <Source File="Pages\EGMErrorMessage.page"/>
+    <Source File="Pages\EGMIOStatus.page"/>
+    <Source File="Pages\EGMInputOutput.page"/>
+    <Source File="Pages\EGMMain.page"/>
+    <Source File="Pages\EGMMainMotor.page"/>
+    <Source File="Pages\EGMParam02.page"/>
+    <Source File="Pages\EGMParamAuto.page"/>
+    <Source File="Pages\EGMParamDeveloper.page"/>
+    <Source File="Pages\EGMParamLanguage.page"/>
+    <Source File="Pages\EGMParamPreheat.page"/>
+    <Source File="Pages\EGMParamPreWash.page"/>
+    <Source File="Pages\EGMParamRinse.page"/>
+    <Source File="Pages\EGMParamselect.page"/>
+    <Source File="Pages\EGMParamselect1.page"/>
+    <Source File="Pages\EGMPlatetypes.page"/>
+    <Source File="Pages\EGMStatistic.page"/>
+    <Source File="Pages\EGMTouchCalib.page"/>
+    <Source File="Pages\EGMVisualisierung.page"/>
+    <Source File="Pages\EGMINIT_PIC.page"/>
+    <Source File="Pages\ErrorMessage.page"/>
+    <Source File="Pages\SelectMachine.page"/>
+    <Source File="Pages\EGMCooler.page"/>
+    <Source File="Pages\EGMFlow.page"/>
+    <Source File="Pages\EGMBrushMotorSettings.page"/>
+    <Source File="Pages\EGMMainMotorSettings.page"/>
+    <Source File="Pages\EGMTools.page"/>
+    <Source File="Pages\EmergencyStop.page"/>
+    <Source File="Pages\IP_Setting.page"/>
+    <Source File="Pages\EGMSetup.page"/>
+    <Source File="Layers\CommonLayer_1.layer"/>
+    <Source File="Layers\Param_buttons.layer"/>
+    <Source File="Layers\Param_motor_buttons.layer"/>
+    <Source File="Layers\Save_Load_buttons.layer"/>
+    <Source File="Layers\Param_buttons_next.layer"/>
+    <Source File="Layers\Krause.layer"/>
+    <Source File="Layers\Adresse_Krause.layer"/>
+    <Source File="Layers\SafetyCheck.layer"/>
+    <Source File="Layers\EmergencyStop.layer"/>
+    <Source File="Layers\ButtonNextBack.layer"/>
+    <Source File="Layers\ParamButtons.layer"/>
+    <Source File="Layers\ParamFileButtons.layer"/>
+    <Source File="Layers\Abfrage_Wirklich.layer"/>
+    <Source File="StyleSheets\Gray.vcs"/>
+    <Source File="StyleSheets\Color.vcs"/>
+    <Source File="StyleSheets\Gray1.vcs"/>
+    <Source File="Borders\Raised.bdr"/>
+    <Source File="Borders\Sunken.bdr"/>
+    <Source File="Borders\Etched.bdr"/>
+    <Source File="Borders\Bump.bdr"/>
+    <Source File="Borders\SunkenOuter.bdr"/>
+    <Source File="Borders\RaisedInner.bdr"/>
+    <Source File="Borders\Black_1pixel.bdr"/>
+    <Source File="Borders\Border_0_Pressed.bdr"/>
+    <Source File="Borders\Border_0_Released.bdr"/>
+    <Source File="Borders\Border_1.bdr"/>
+    <Source File="TouchPads\NumPad.tpr"/>
+    <Source File="TouchPads\AlphaPadQVGA.tpr"/>
+    <Source File="TouchPads\AlphaPad.tpr"/>
+    <Source File="TouchPads\NavigationPad_ver.tpr"/>
+    <Source File="TouchPads\NavigationPad_hor.tpr"/>
+    <Source File="TouchPads\NumPad40x40Mono.tpr"/>
+    <Source File="TouchPads\AlphaCompact40x40Mono1.tpr"/>
+    <Source File="Trends\TrendDataMngr_1.tdc"/>
+    <Source File="VirtualKeys.vcvk"/>
+    <Source File="Palette.vcr"/>
+  </SourceFiles>
+</Project>

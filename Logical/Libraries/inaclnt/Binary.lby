@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Library Description="With the INA2000 client library, the application can read and write PVs from other controllers, download or upload modules, etc." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>inaclnt.var</File>
+    <File>inaclnt.typ</File>
+    <File>inaclnt.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

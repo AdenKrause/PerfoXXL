@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamAdjuster">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="90072" Value="Parameter adjuster times"/>
+    <Text ID="90073" Value="Adjustpins up"/>
+    <Text ID="90074" Value="Adjust pins down"/>
+    <Text ID="90075" Value="Tablevacuum on"/>
+    <Text ID="90076" Value="Tablevacuum off"/>
+    <Text ID="90077" Value="Additional blowair on/off"/>
+    <Text ID="90078" Value="Blowair off"/>
+    <Text ID="90079" Value="Adjuster inactive"/>
+    <Text ID="90080" Value="Timeout adjusting"/>
+    <Text ID="90081" Value="Parameter adjuster"/>
+    <Text ID="90091" Value="Adjusting speed"/>
+    <Text ID="90092" Value="Deloading speed"/>
+    <Text ID="90093" Value="Stop after"/>
+    <Text ID="96450" Value="failed adjustments"/>
+    <Text ID="96451" Value="Other Parameters"/>
+    <Text ID="96452" Value="Simulate adjusting OK"/>
+    <Text ID="96453" Value="Feeder position on table"/>
+    <Text ID="96454" Value="Feeder position for adjusting"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="90072" Value="Parameter Ausrichttisch Zeiten"/>
+    <Text ID="90073" Value="Ausrichtstifte heben"/>
+    <Text ID="90074" Value="Ausrichtstifte senken"/>
+    <Text ID="90075" Value="Tischvakuum ein"/>
+    <Text ID="90076" Value="Tischvakuum aus"/>
+    <Text ID="90077" Value="Blasluft Zusatzventil ein/aus"/>
+    <Text ID="90078" Value="Blasluft aus"/>
+    <Text ID="90079" Value="Ausrichtsauger inaktiv"/>
+    <Text ID="90080" Value="Timeout Ausrichten"/>
+    <Text ID="90081" Value="Parameter Ausrichttisch"/>
+    <Text ID="90091" Value="Ausrichtgeschwindigkeit"/>
+    <Text ID="90092" Value="Entladegeschwindigkeit"/>
+    <Text ID="90093" Value="Stopp nach"/>
+    <Text ID="96450" Value="Ausrichtversuchen"/>
+    <Text ID="96451" Value="Sonstige Parameter"/>
+    <Text ID="96452" Value="Ausrichten OK simulieren"/>
+    <Text ID="96453" Value="Anleger Position auf Tisch"/>
+    <Text ID="96454" Value="Anleger Position ausrichten"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="90072" Value=""/>
+    <Text ID="90073" Value="Adjustpins up"/>
+    <Text ID="90074" Value="Adjust pins down"/>
+    <Text ID="90075" Value="Tablevacuum on"/>
+    <Text ID="90076" Value="Tablevacuum off"/>
+    <Text ID="90077" Value=""/>
+    <Text ID="90078" Value=""/>
+    <Text ID="90079" Value="Adjuster inactive"/>
+    <Text ID="90080" Value=""/>
+    <Text ID="90081" Value="Parameter adjuster"/>
+    <Text ID="90091" Value=""/>
+    <Text ID="90092" Value=""/>
+    <Text ID="90093" Value=""/>
+    <Text ID="96450" Value=""/>
+    <Text ID="96451" Value=""/>
+    <Text ID="96452" Value=""/>
+    <Text ID="96453" Value="Feeder position on table"/>
+    <Text ID="96454" Value="Feeder position for adjusting"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="90072" Value="Parameter adjuster times"/>
+    <Text ID="90073" Value="Adjustpins up"/>
+    <Text ID="90074" Value="Adjust pins down"/>
+    <Text ID="90075" Value="Tablevacuum on"/>
+    <Text ID="90076" Value="Tablevacuum off"/>
+    <Text ID="90077" Value="Additional blowair on/off"/>
+    <Text ID="90078" Value="Blowair off"/>
+    <Text ID="90079" Value="Adjuster inactive"/>
+    <Text ID="90080" Value="Timeout adjusting"/>
+    <Text ID="90081" Value="Parameter adjuster"/>
+    <Text ID="90091" Value="Adjusting speed"/>
+    <Text ID="90092" Value="Deloading speed"/>
+    <Text ID="90093" Value="Stop after"/>
+    <Text ID="96450" Value="failed adjustments"/>
+    <Text ID="96451" Value="Other Parameters"/>
+    <Text ID="96452" Value="Simulate adjusting OK"/>
+    <Text ID="96453" Value="Feeder position on table"/>
+    <Text ID="96454" Value="Feeder position for adjusting"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="90072" Value=""/>
+    <Text ID="90073" Value="Adjustpins up"/>
+    <Text ID="90074" Value="Adjust pins down"/>
+    <Text ID="90075" Value="Tablevacuum on"/>
+    <Text ID="90076" Value="Tablevacuum off"/>
+    <Text ID="90077" Value=""/>
+    <Text ID="90078" Value=""/>
+    <Text ID="90079" Value="Adjuster inactive"/>
+    <Text ID="90080" Value=""/>
+    <Text ID="90081" Value="Parameter adjuster"/>
+    <Text ID="90091" Value=""/>
+    <Text ID="90092" Value=""/>
+    <Text ID="90093" Value=""/>
+    <Text ID="96450" Value=""/>
+    <Text ID="96451" Value=""/>
+    <Text ID="96452" Value=""/>
+    <Text ID="96453" Value="Feeder position on table"/>
+    <Text ID="96454" Value="Feeder position for adjusting"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="90072" Value=""/>
+    <Text ID="90073" Value="Adjustpins up"/>
+    <Text ID="90074" Value="Adjust pins down"/>
+    <Text ID="90075" Value="Tablevacuum on"/>
+    <Text ID="90076" Value="Tablevacuum off"/>
+    <Text ID="90077" Value=""/>
+    <Text ID="90078" Value=""/>
+    <Text ID="90079" Value="Adjuster inactive"/>
+    <Text ID="90080" Value=""/>
+    <Text ID="90081" Value="Parameter adjuster"/>
+    <Text ID="90091" Value=""/>
+    <Text ID="90092" Value=""/>
+    <Text ID="90093" Value=""/>
+    <Text ID="96450" Value=""/>
+    <Text ID="96451" Value=""/>
+    <Text ID="96452" Value=""/>
+    <Text ID="96453" Value="Feeder position on table"/>
+    <Text ID="96454" Value="Feeder position for adjusting"/>
+    <Text ID="170921" Value=""/>
+    <Text ID="170922" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="90072" Value="0"/>
+    <Index ID="90073" Value="1"/>
+    <Index ID="90074" Value="2"/>
+    <Index ID="90075" Value="3"/>
+    <Index ID="90076" Value="4"/>
+    <Index ID="90077" Value="5"/>
+    <Index ID="90078" Value="6"/>
+    <Index ID="90079" Value="7"/>
+    <Index ID="90080" Value="8"/>
+    <Index ID="90081" Value="9"/>
+    <Index ID="90091" Value="10"/>
+    <Index ID="90092" Value="11"/>
+    <Index ID="90093" Value="12"/>
+    <Index ID="96450" Value="13"/>
+    <Index ID="96451" Value="14"/>
+    <Index ID="96452" Value="15"/>
+    <Index ID="96453" Value="16"/>
+    <Index ID="96454" Value="17"/>
+    <Index ID="170921" Value="18"/>
+    <Index ID="170922" Value="19"/>
+  </IndexMap>
+</TextGroup>

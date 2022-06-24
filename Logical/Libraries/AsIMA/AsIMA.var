@@ -1,0 +1,35 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsIMA
+ * File: AsIMA.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsIMA
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	ERR_IMA_DATA_INCOMPLETE	: UINT	:= 28907;	(*not enough data specified for a service*)
+	ERR_IMA_NR_CONNECTIONS	: UINT	:= 28908;	(*too few INA connections configured*)
+	ERR_IMA_DATOBJ_NAME	: UINT	:= 28901;		(*function called with invalid address of data object name or data object not found*)
+	ERR_IMA_TASK_CYCLE	: UINT	:= 28914;		(*IMA function called in task with cycle time less than 10 ms*)
+	ERR_IMA_NR_PV_LIST	: UINT	:= 28910;		(*max. number of PV lists in a configuration data object reached*)
+	ERR_IMA_INFOSTRUCT	: UINT	:= 28902;		(*0 transferred instead of "imaInfoStruct" structure address*)
+	IMA_DISCONNECTING	: UINT	:= 3;			(*disconnecting from server*)
+	ERR_IMA_TMP_ALLOC	: UINT	:= 28915;		(*necessary memory could not be allocated in temporary area of automation target system*)
+	ERR_IMA_TMP_FREE	: UINT	:= 28916;		(*temporary allocated memory could not be freed up*)
+	ERR_IMA_NR_BRMOD	: UINT	:= 28911;		(*max number of services for BR modules in a configuration data object reached*)
+	ERR_IMA_KEYWORD	: UINT	:= 28904;			(*incorrect keyword in configuration data object*)
+	IMA_CONNECTING	: UINT	:= 2;				(*no connection to server*)
+	ERR_IMA_SYNTAX	: UINT	:= 28903;			(*syntax error in configuration data object*)
+	ERR_IMA_PV_LEN	: UINT	:= 28913;			(*incorrect process variable length*)
+	ERR_IMA_PV_ADR	: UINT	:= 28912;			(*address of process variable could not be determined*)
+	ERR_IMA_INTERN	: UINT	:= 28917;			(*internal error evaluating the configuration data object*)
+	ERR_IMA_VALUE	: UINT	:= 28906;			(*invalid value in configuration data object*)
+	ERR_IMA_NR_PV	: UINT	:= 28909;			(*max. number of variable services in configuration data object reached*)
+	ERR_IMA_IDENT	: UINT	:= 28900;			(*function called with invalid ident*)
+	ERR_IMA_NAME	: UINT	:= 28905;			(*incorrect name in configuration data object*)
+	IMA_ERROR	: UINT	:= 4;					(*connection to the server is cancelled due to an error and is locked*)
+	IMA_IDLE	: UINT	:= 1;					(*no connection established since no services exist*)
+	IMA_OK	: UINT	:= 0;						(*communication is running over the defined connection and services are being executed*)
+END_VAR

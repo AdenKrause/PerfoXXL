@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Flaechen">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[QMeter]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="Source[global].Variable[Local.EGMGlobalParam.Unit_Propulsion]"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=" m²"/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=" Yd²"/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=" ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=" m²"/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=" Yd²"/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=" ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=" m²"/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=" Yd²"/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=" ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=" m²"/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=" Yd²"/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=" ft²"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=""/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=""/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="288" Value=""/>
+      <Text ID="289" Value=""/>
+      <Text ID="290" Value=""/>
+      <Text ID="291" Value=""/>
+      <Text ID="87687" Value=""/>
+      <Text ID="87688" Value=""/>
+      <Text ID="87731" Value=""/>
+      <Text ID="113358" Value=""/>
+      <Text ID="113359" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="288" Value="1"/>
+      <Index ID="289" Value="2"/>
+      <Index ID="290" Value="3"/>
+      <Index ID="291" Value="4"/>
+      <Index ID="87687" Value="5"/>
+      <Index ID="87688" Value="6"/>
+      <Index ID="87731" Value="0"/>
+      <Index ID="113358" Value="7"/>
+      <Index ID="113359" Value="8"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="QMeter">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="QYard">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1.196"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Qfeet">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="10.7639104167097"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Zeiten">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[Second]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLC_Unit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=" s"/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=" min"/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=" min"/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=" s"/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=" min"/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=" min"/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=" s"/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=" min"/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=" min"/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=" s"/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=" min"/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=" min"/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=""/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=""/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=""/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="87944" Value=""/>
+      <Text ID="87945" Value=""/>
+      <Text ID="87946" Value=""/>
+      <Text ID="87947" Value=""/>
+      <Text ID="87948" Value=""/>
+      <Text ID="87949" Value=""/>
+      <Text ID="87950" Value=""/>
+      <Text ID="87951" Value=""/>
+      <Text ID="87952" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="87944" Value="1"/>
+      <Index ID="87945" Value="2"/>
+      <Index ID="87946" Value="3"/>
+      <Index ID="87947" Value="4"/>
+      <Index ID="87948" Value="5"/>
+      <Index ID="87949" Value="6"/>
+      <Index ID="87950" Value="7"/>
+      <Index ID="87951" Value="8"/>
+      <Index ID="87952" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLC_Unit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value="in PLC all times in 0,01 s = 10ms"/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Second">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="100"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Minute">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="6000"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="Hour">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="360000"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="Limit_uint">
+      <Property Name="Description" Value="Limit for UINT datatype"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="65500"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

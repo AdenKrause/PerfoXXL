@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="Binary" Description="The Visapi library provides support to access and control visualizations at runtime.">visapi</Object>
+    <Object Type="Library" Language="Binary" Description="The SYS_LIB library contains functions f">sys_lib</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains runtime functions for IEC tasks.">runtime</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains standard function ">standard</Object>
+    <Object Type="Library" Language="Binary" Description="Built-in IEC 61131-3 standard functions">operator</Object>
+    <Object Type="Library" Language="Binary">LoopCont</Object>
+    <Object Type="Library" Language="Binary" Description="The BRSystem library provides the user with a number of system functions for e.g. handling permanent memory, accessing exception information, etc.">brsystem</Object>
+    <Object Type="Library" Language="Binary" Description="With the INA2000 client library, the app">inaclnt</Object>
+    <Object Type="Library" Language="Binary" Description="The FileIO library provides function blo">FileIO</Object>
+    <Object Type="Library" Language="Binary" Description="The EthSock library provides functions for using sockets. (obsolete)">ETHSOCK</Object>
+    <Object Type="Library" Language="Binary" Description="The Ethernet library establishes an efficient connection between the 2005 and 2010 systems and specific ethernet networks using TCP/IP and UDP. (obsolete)">ETHERNET</Object>
+    <Object Type="Library" Language="Binary" Description="The DVFrame library and the frame driver">dvframe</Object>
+    <Object Type="Library" Language="Binary" Description="The DataObj library can be used to dynam">DataObj</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains function interface">Convert</Object>
+    <Object Type="Library" Language="Binary" Description="Functions are available in the CAN Libra">CAN_Lib</Object>
+    <Object Type="Library" Language="Binary" Description="This library contains FBKs for exchangin">AsUDP</Object>
+    <Object Type="Library" Language="Binary" Description="The AsTime Library supports DATE_AND_TIM">astime</Object>
+    <Object Type="Library" Language="Binary" Description="The AsString Library contains FBKs for m">asstring</Object>
+    <Object Type="Library" Language="Binary" Description="This library provides functions for enab">AsIOMMan</Object>
+    <Object Type="Library" Language="Binary" Description="This library make an easy handle between">AsIMA</Object>
+    <Object Type="Library" Language="Binary" Description="Read and write of Automation Runtime con">AsARCfg</Object>
+  </Objects>
+</Package>

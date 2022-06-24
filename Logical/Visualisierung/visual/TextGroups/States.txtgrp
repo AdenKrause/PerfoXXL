@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="States">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="39"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="87993" Value="Heating up"/>
+    <Text ID="87994" Value="processing"/>
+    <Text ID="87995" Value="Wait for processing to end"/>
+    <Text ID="87999" Value="Off"/>
+    <Text ID="88000" Value="Ready"/>
+    <Text ID="102665" Value="Start processing"/>
+    <Text ID="108396" Value="Gum flowing back"/>
+    <Text ID="108397" Value="Rinsing gum station"/>
+    <Text ID="108398" Value="Draining rinse water"/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value="Error"/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="87993" Value="Aufwärmen"/>
+    <Text ID="87994" Value="Platte wird verarbeitet"/>
+    <Text ID="87995" Value="Warte auf Verarbeitungsende"/>
+    <Text ID="87999" Value="Aus"/>
+    <Text ID="88000" Value="Bereit"/>
+    <Text ID="102665" Value="Starte verarbeitung"/>
+    <Text ID="108396" Value="Rückfluß der Gummierung"/>
+    <Text ID="108397" Value="Gummierung spülen"/>
+    <Text ID="108398" Value="Ablauf Spülwasser"/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value="Störung"/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="87993" Value="Calentar"/>
+    <Text ID="87994" Value="Plancha en proceso"/>
+    <Text ID="87995" Value="Esperando fin de proceso"/>
+    <Text ID="87999" Value="NO "/>
+    <Text ID="88000" Value="Listo"/>
+    <Text ID="102665" Value="Comenzar proceso"/>
+    <Text ID="108396" Value="Reflujo de goma"/>
+    <Text ID="108397" Value="Lavando estacion de goma"/>
+    <Text ID="108398" Value="Desaguando"/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value="Error"/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="87993" Value="Oppvarming"/>
+    <Text ID="87994" Value="Plate blir bearbeidet"/>
+    <Text ID="87995" Value="Vent på bearbeidingsslutt"/>
+    <Text ID="87999" Value="Av"/>
+    <Text ID="88000" Value="Klar"/>
+    <Text ID="102665" Value="Start bearbeiding"/>
+    <Text ID="108396" Value="Tilbakestrømning til gummiering"/>
+    <Text ID="108397" Value="Spyle gummiering"/>
+    <Text ID="108398" Value="Avløp spylevann "/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value="Feil"/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="87993" Value=""/>
+    <Text ID="87994" Value=""/>
+    <Text ID="87995" Value=""/>
+    <Text ID="87999" Value=""/>
+    <Text ID="88000" Value=""/>
+    <Text ID="102665" Value=""/>
+    <Text ID="108396" Value=""/>
+    <Text ID="108397" Value=""/>
+    <Text ID="108398" Value=""/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value=""/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="87993" Value=""/>
+    <Text ID="87994" Value=""/>
+    <Text ID="87995" Value=""/>
+    <Text ID="87999" Value=""/>
+    <Text ID="88000" Value=""/>
+    <Text ID="102665" Value=""/>
+    <Text ID="108396" Value=""/>
+    <Text ID="108397" Value=""/>
+    <Text ID="108398" Value=""/>
+    <Text ID="108399" Value=""/>
+    <Text ID="108400" Value=""/>
+    <Text ID="120707" Value=""/>
+    <Text ID="120708" Value=""/>
+    <Text ID="120709" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="87993" Value="1"/>
+    <Index ID="87994" Value="4"/>
+    <Index ID="87995" Value="5"/>
+    <Index ID="87999" Value="0"/>
+    <Index ID="88000" Value="2"/>
+    <Index ID="102665" Value="3"/>
+    <Index ID="108396" Value="6"/>
+    <Index ID="108397" Value="7"/>
+    <Index ID="108398" Value="8"/>
+    <Index ID="108399" Value="9"/>
+    <Index ID="108400" Value="10"/>
+    <Index ID="120707" Value="11"/>
+    <Index ID="120708" Value="12"/>
+    <Index ID="120709" Value="13"/>
+  </IndexMap>
+</TextGroup>

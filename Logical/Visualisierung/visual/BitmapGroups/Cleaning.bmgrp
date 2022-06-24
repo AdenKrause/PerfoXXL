@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Cleaning">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="375" Value="Source[local].Bitmap[Gum1]"/>
+    <BitmapRef ID="376" Value="Source[local].Bitmap[Gum2]"/>
+    <BitmapRef ID="377" Value="Source[local].Bitmap[Gum3]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="375" Value="0"/>
+    <Index ID="376" Value="1"/>
+    <Index ID="377" Value="2"/>
+  </IndexMap>
+</BitmapGroup>

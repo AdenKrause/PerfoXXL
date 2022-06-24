@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.27 SP09?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">auxfunc.h</Object>
+    <Object Type="File">bit_func.h</Object>
+    <Object Type="File">egmglob_var.h</Object>
+    <Object Type="File">glob_var.h</Object>
+    <Object Type="File">in_out.h</Object>
+    <Object Type="File">motorfunc.h</Object>
+    <Object Type="File">udp.h</Object>
+  </Objects>
+</Package>

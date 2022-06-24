@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Simple">ioimgcfg</Object>
+    <Object Type="DataObject" Language="Simple">can_tab</Object>
+    <Object Type="DataObject" Language="Simple">do_ima</Object>
+    <Object Type="DataObject" Language="Simple">do_vcp</Object>
+    <Object Type="DataObject" Language="Simple">do_xsold</Object>
+  </Objects>
+</Package>

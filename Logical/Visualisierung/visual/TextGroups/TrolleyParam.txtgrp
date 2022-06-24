@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TrolleyParam">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="93048" Value="Trolley Parameter"/>
+    <Text ID="93049" Value="Number"/>
+    <Text ID="93050" Value="Name"/>
+    <Text ID="93051" Value="Plate type"/>
+    <Text ID="93052" Value="Positions"/>
+    <Text ID="93053" Value="Open"/>
+    <Text ID="93054" Value="Open"/>
+    <Text ID="93055" Value="Close"/>
+    <Text ID="93056" Value="Close"/>
+    <Text ID="93057" Value="Paper remove"/>
+    <Text ID="93058" Value="Start"/>
+    <Text ID="93066" Value="End"/>
+    <Text ID="93067" Value="Empty"/>
+    <Text ID="93068" Value="Open/close"/>
+    <Text ID="93069" Value="right"/>
+    <Text ID="142899" Value="left"/>
+    <Text ID="142900" Value="Feeder horiz."/>
+    <Text ID="146092" Value="2 Stacks"/>
+    <Text ID="533847" Value="No cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="93048" Value="Plattenwagenparameter"/>
+    <Text ID="93049" Value="Nummer"/>
+    <Text ID="93050" Value="Name"/>
+    <Text ID="93051" Value="Plattentyp"/>
+    <Text ID="93052" Value="Positionen"/>
+    <Text ID="93053" Value="Öffnen"/>
+    <Text ID="93054" Value="Offen"/>
+    <Text ID="93055" Value="Schließen"/>
+    <Text ID="93056" Value="geschlossen"/>
+    <Text ID="93057" Value="Papierentfernung"/>
+    <Text ID="93058" Value="Start"/>
+    <Text ID="93066" Value="Ende"/>
+    <Text ID="93067" Value="Leer"/>
+    <Text ID="93068" Value="Öffnen/schließen"/>
+    <Text ID="93069" Value="rechts"/>
+    <Text ID="142899" Value="links"/>
+    <Text ID="142900" Value="Aufn. horizontal"/>
+    <Text ID="146092" Value="2 Stapel"/>
+    <Text ID="533847" Value="Kein Rollo"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="93048" Value=""/>
+    <Text ID="93049" Value=""/>
+    <Text ID="93050" Value=""/>
+    <Text ID="93051" Value=""/>
+    <Text ID="93052" Value=""/>
+    <Text ID="93053" Value=""/>
+    <Text ID="93054" Value=""/>
+    <Text ID="93055" Value=""/>
+    <Text ID="93056" Value=""/>
+    <Text ID="93057" Value=""/>
+    <Text ID="93058" Value=""/>
+    <Text ID="93066" Value=""/>
+    <Text ID="93067" Value=""/>
+    <Text ID="93068" Value=""/>
+    <Text ID="93069" Value="right"/>
+    <Text ID="142899" Value="left"/>
+    <Text ID="142900" Value="Feeder horiz."/>
+    <Text ID="146092" Value="2 Stacks"/>
+    <Text ID="533847" Value="No cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="93048" Value="Trolley Parameter"/>
+    <Text ID="93049" Value="Number"/>
+    <Text ID="93050" Value="Name"/>
+    <Text ID="93051" Value="Plate type"/>
+    <Text ID="93052" Value="Positions"/>
+    <Text ID="93053" Value="Open"/>
+    <Text ID="93054" Value="Open"/>
+    <Text ID="93055" Value="Close"/>
+    <Text ID="93056" Value="Close"/>
+    <Text ID="93057" Value="Paper remove"/>
+    <Text ID="93058" Value="Start"/>
+    <Text ID="93066" Value="End"/>
+    <Text ID="93067" Value="Empty"/>
+    <Text ID="93068" Value="Open/close"/>
+    <Text ID="93069" Value="right"/>
+    <Text ID="142899" Value="left"/>
+    <Text ID="142900" Value="Feeder horiz."/>
+    <Text ID="146092" Value="2 Stacks"/>
+    <Text ID="533847" Value="No cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="93048" Value=""/>
+    <Text ID="93049" Value=""/>
+    <Text ID="93050" Value=""/>
+    <Text ID="93051" Value=""/>
+    <Text ID="93052" Value=""/>
+    <Text ID="93053" Value=""/>
+    <Text ID="93054" Value=""/>
+    <Text ID="93055" Value=""/>
+    <Text ID="93056" Value=""/>
+    <Text ID="93057" Value=""/>
+    <Text ID="93058" Value=""/>
+    <Text ID="93066" Value=""/>
+    <Text ID="93067" Value=""/>
+    <Text ID="93068" Value=""/>
+    <Text ID="93069" Value=""/>
+    <Text ID="142899" Value=""/>
+    <Text ID="142900" Value=""/>
+    <Text ID="146092" Value=""/>
+    <Text ID="533847" Value="No cover"/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="93048" Value=""/>
+    <Text ID="93049" Value=""/>
+    <Text ID="93050" Value=""/>
+    <Text ID="93051" Value=""/>
+    <Text ID="93052" Value=""/>
+    <Text ID="93053" Value=""/>
+    <Text ID="93054" Value=""/>
+    <Text ID="93055" Value=""/>
+    <Text ID="93056" Value=""/>
+    <Text ID="93057" Value=""/>
+    <Text ID="93058" Value=""/>
+    <Text ID="93066" Value=""/>
+    <Text ID="93067" Value=""/>
+    <Text ID="93068" Value=""/>
+    <Text ID="93069" Value=""/>
+    <Text ID="142899" Value=""/>
+    <Text ID="142900" Value=""/>
+    <Text ID="146092" Value=""/>
+    <Text ID="533847" Value="No cover"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="93048" Value="0"/>
+    <Index ID="93049" Value="1"/>
+    <Index ID="93050" Value="2"/>
+    <Index ID="93051" Value="3"/>
+    <Index ID="93052" Value="4"/>
+    <Index ID="93053" Value="5"/>
+    <Index ID="93054" Value="6"/>
+    <Index ID="93055" Value="7"/>
+    <Index ID="93056" Value="8"/>
+    <Index ID="93057" Value="9"/>
+    <Index ID="93058" Value="10"/>
+    <Index ID="93066" Value="11"/>
+    <Index ID="93067" Value="12"/>
+    <Index ID="93068" Value="13"/>
+    <Index ID="93069" Value="16"/>
+    <Index ID="142899" Value="15"/>
+    <Index ID="142900" Value="14"/>
+    <Index ID="146092" Value="17"/>
+    <Index ID="533847" Value="18"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Adresse">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="99587" Value="Krause - Biagosch GmbH"/>
+    <Text ID="99588" Value="Paul-Schwarze-Straße 5"/>
+    <Text ID="99589" Value="33649 Bielefeld"/>
+    <Text ID="99590" Value="Tel.: +49 (0) 521 / 4599 - 01"/>
+    <Text ID="99591" Value="Fax.: +49 (0) 521 / 4599 - 123"/>
+    <Text ID="99592" Value="www.krause.de"/>
+    <Text ID="99593" Value="Version"/>
+    <Text ID="99594" Value="Calibrate touch screen"/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value="Kodak Polychrome Graphics"/>
+    <Text ID="99598" Value="Mergenthaler Allee 79-81"/>
+    <Text ID="100592" Value="D-65760 Eschborn, Germany"/>
+    <Text ID="100593" Value="Tel.: +49 6196-7760-610"/>
+    <Text ID="100594" Value="Fax.: +49 6196-7760-699"/>
+    <Text ID="100595" Value="www.kpgraphics.com"/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="99587" Value="Krause - Biagosch GmbH"/>
+    <Text ID="99588" Value="Paul-Schwarze-Straße 5"/>
+    <Text ID="99589" Value="33649 Bielefeld"/>
+    <Text ID="99590" Value="Tel.: +49 (0) 521 / 4599 - 01"/>
+    <Text ID="99591" Value="Fax.: +49 (0) 521 / 4599 - 123"/>
+    <Text ID="99592" Value="www.krause.de"/>
+    <Text ID="99593" Value="Version"/>
+    <Text ID="99594" Value="Touchscreen kalibrieren"/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value="Kodak Polychrome Graphics"/>
+    <Text ID="99598" Value="Mergenthaler Allee 79-81"/>
+    <Text ID="100592" Value="D-65760 Eschborn, Germany"/>
+    <Text ID="100593" Value="Tel.: +49 6196-7760-610"/>
+    <Text ID="100594" Value="Fax.: +49 6196-7760-699"/>
+    <Text ID="100595" Value="www.kpgraphics.com"/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="99587" Value="Krause - Biagosch GmbH"/>
+    <Text ID="99588" Value="Paul-Schwarze-Straße 5"/>
+    <Text ID="99589" Value="33649 Bielefeld"/>
+    <Text ID="99590" Value="Tel.: +49 (0) 521 / 4599 - 01"/>
+    <Text ID="99591" Value="Fax.: +49 (0) 521 / 4599 - 123"/>
+    <Text ID="99592" Value="www.krause.de"/>
+    <Text ID="99593" Value="Version"/>
+    <Text ID="99594" Value="Calibracion pantalla tactil"/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value="Kodak Polychrome Graphics"/>
+    <Text ID="99598" Value="Mergenthaler Allee 79-81"/>
+    <Text ID="100592" Value="D-65760 Eschborn, Germany"/>
+    <Text ID="100593" Value="Tel.: +49 6196-7760-610"/>
+    <Text ID="100594" Value="Fax.: +49 6196-7760-699"/>
+    <Text ID="100595" Value="www.kpgraphics.com"/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="99587" Value="Krause - Biagosch GmbH"/>
+    <Text ID="99588" Value="Paul-Schwarze-Straße 5"/>
+    <Text ID="99589" Value="33649 Bielefeld"/>
+    <Text ID="99590" Value="Tel.: +49 (0) 521 / 4599 - 01"/>
+    <Text ID="99591" Value="Fax.: +49 (0) 521 / 4599 - 123"/>
+    <Text ID="99592" Value="www.krause.de"/>
+    <Text ID="99593" Value="Version"/>
+    <Text ID="99594" Value="Calibrate touch screen"/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value="Kodak Polychrome Graphics"/>
+    <Text ID="99598" Value="Mergenthaler Allee 79-81"/>
+    <Text ID="100592" Value="D-65760 Eschborn, Germany"/>
+    <Text ID="100593" Value="Tel.: +49 6196-7760-610"/>
+    <Text ID="100594" Value="Fax.: +49 6196-7760-699"/>
+    <Text ID="100595" Value="www.kpgraphics.com"/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="99587" Value=""/>
+    <Text ID="99588" Value=""/>
+    <Text ID="99589" Value=""/>
+    <Text ID="99590" Value=""/>
+    <Text ID="99591" Value=""/>
+    <Text ID="99592" Value=""/>
+    <Text ID="99593" Value=""/>
+    <Text ID="99594" Value=""/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value=""/>
+    <Text ID="99598" Value=""/>
+    <Text ID="100592" Value=""/>
+    <Text ID="100593" Value=""/>
+    <Text ID="100594" Value=""/>
+    <Text ID="100595" Value=""/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="99587" Value=""/>
+    <Text ID="99588" Value=""/>
+    <Text ID="99589" Value=""/>
+    <Text ID="99590" Value=""/>
+    <Text ID="99591" Value=""/>
+    <Text ID="99592" Value=""/>
+    <Text ID="99593" Value=""/>
+    <Text ID="99594" Value=""/>
+    <Text ID="99595" Value=""/>
+    <Text ID="99596" Value=""/>
+    <Text ID="99597" Value=""/>
+    <Text ID="99598" Value=""/>
+    <Text ID="100592" Value=""/>
+    <Text ID="100593" Value=""/>
+    <Text ID="100594" Value=""/>
+    <Text ID="100595" Value=""/>
+    <Text ID="100596" Value=""/>
+    <Text ID="100597" Value=""/>
+    <Text ID="100598" Value=""/>
+    <Text ID="100599" Value=""/>
+    <Text ID="100600" Value=""/>
+    <Text ID="100601" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="99587" Value="0"/>
+    <Index ID="99588" Value="1"/>
+    <Index ID="99589" Value="2"/>
+    <Index ID="99590" Value="3"/>
+    <Index ID="99591" Value="4"/>
+    <Index ID="99592" Value="5"/>
+    <Index ID="99593" Value="6"/>
+    <Index ID="99594" Value="7"/>
+    <Index ID="99595" Value="8"/>
+    <Index ID="99596" Value="9"/>
+    <Index ID="99597" Value="10"/>
+    <Index ID="99598" Value="11"/>
+    <Index ID="100592" Value="12"/>
+    <Index ID="100593" Value="13"/>
+    <Index ID="100594" Value="14"/>
+    <Index ID="100595" Value="15"/>
+    <Index ID="100596" Value="16"/>
+    <Index ID="100597" Value="17"/>
+    <Index ID="100598" Value="18"/>
+    <Index ID="100599" Value="19"/>
+    <Index ID="100600" Value="20"/>
+    <Index ID="100601" Value="21"/>
+  </IndexMap>
+</TextGroup>

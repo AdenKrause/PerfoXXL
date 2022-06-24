@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MotorSpeed_140">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[rpm]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[rpm]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.Visualisierung.pics.UnitMotorSpeed]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="88836" Value=" rpm"/>
+      <Text ID="88837" Value=" rpm"/>
+      <Text ID="88838" Value=" mm/s"/>
+      <Text ID="88839" Value=" mm/s"/>
+      <Text ID="88840" Value=" Inch/s"/>
+      <Text ID="88841" Value=" In/s"/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="88836" Value=" U/min"/>
+      <Text ID="88837" Value=" U/min"/>
+      <Text ID="88838" Value=" mm/s"/>
+      <Text ID="88839" Value=" mm/s"/>
+      <Text ID="88840" Value=" Zoll/s"/>
+      <Text ID="88841" Value=" ''/s"/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="88836" Value=" rpm"/>
+      <Text ID="88837" Value=" rpm"/>
+      <Text ID="88838" Value=" mm/s"/>
+      <Text ID="88839" Value=" mm/s"/>
+      <Text ID="88840" Value="Pulgada/s"/>
+      <Text ID="88841" Value=" ''/s"/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="88836" Value=" rpm"/>
+      <Text ID="88837" Value=" rpm"/>
+      <Text ID="88838" Value=" mm/s"/>
+      <Text ID="88839" Value=" mm/s"/>
+      <Text ID="88840" Value=" Inch/s"/>
+      <Text ID="88841" Value=" In/s"/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="88836" Value=""/>
+      <Text ID="88837" Value=""/>
+      <Text ID="88838" Value=""/>
+      <Text ID="88839" Value=""/>
+      <Text ID="88840" Value=""/>
+      <Text ID="88841" Value=""/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="88836" Value=""/>
+      <Text ID="88837" Value=""/>
+      <Text ID="88838" Value=""/>
+      <Text ID="88839" Value=""/>
+      <Text ID="88840" Value=""/>
+      <Text ID="88841" Value=""/>
+      <Text ID="90357" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="88836" Value="1"/>
+      <Index ID="88837" Value="2"/>
+      <Index ID="88838" Value="3"/>
+      <Index ID="88839" Value="4"/>
+      <Index ID="88840" Value="5"/>
+      <Index ID="88841" Value="6"/>
+      <Index ID="90357" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="rpm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="mmPerS">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.119047619047619"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="InchPerS">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="4.68691413573303E-03"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="Limit_1">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="9999"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

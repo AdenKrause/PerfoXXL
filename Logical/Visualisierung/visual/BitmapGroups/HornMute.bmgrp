@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="HornMute">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="387" Value="Source[local].Bitmap[SK_Mute]"/>
+    <BitmapRef ID="388" Value="Source[local].Bitmap[SK_MuteOk]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="387" Value="1"/>
+    <Index ID="388" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

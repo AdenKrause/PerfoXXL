@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="EGMSetup">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="54"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machine type"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value="Enable gumming"/>
+    <Text ID="134762" Value="&quot;Wide&quot; Bluefin 1250"/>
+    <Text ID="134763" Value="s"/>
+    <Text ID="134764" Value="Display off after"/>
+    <Text ID="134765" Value="Display contrast"/>
+    <Text ID="134766" Value="Plate direction left-&gt;right"/>
+    <Text ID="134767" Value="Replenishment"/>
+    <Text ID="134768" Value="Developer top-up"/>
+    <Text ID="134769" Value="Rinse circulation"/>
+    <Text ID="134770" Value="Prewash circulation"/>
+    <Text ID="134771" Value="Developer circulation"/>
+    <Text ID="134772" Value="Gum circulation"/>
+    <Text ID="134773" Value="Use flow control"/>
+    <Text ID="134774" Value="Basic Setup"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machinentyp"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value="Gummierung aktivieren"/>
+    <Text ID="134762" Value="&quot;Breiter&quot; Bluefin 1250"/>
+    <Text ID="134763" Value="s"/>
+    <Text ID="134764" Value="Display aus nach"/>
+    <Text ID="134765" Value="Display Kontrast"/>
+    <Text ID="134766" Value="Transportrichtung links-&gt;rechts"/>
+    <Text ID="134767" Value="Regeneratzufuhr"/>
+    <Text ID="134768" Value="Entwickler Befüllung"/>
+    <Text ID="134769" Value="Nachspülen Zirkulation"/>
+    <Text ID="134770" Value="Vorspülen Zirkulation"/>
+    <Text ID="134771" Value="Entwickler Zirkulation"/>
+    <Text ID="134772" Value="Gummierung Zirkulation"/>
+    <Text ID="134773" Value="Durchflußkontrolle aktivieren"/>
+    <Text ID="134774" Value="Grundeinstellungen"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machine type"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value="Enable gumming"/>
+    <Text ID="134762" Value="&quot;Wide&quot; Bluefin 1250"/>
+    <Text ID="134763" Value="seg"/>
+    <Text ID="134764" Value="Apagar display despues de"/>
+    <Text ID="134765" Value="Contraste de display"/>
+    <Text ID="134766" Value="Direccion plancha izqda-&gt;dcha"/>
+    <Text ID="134767" Value="Rellenado regenerador"/>
+    <Text ID="134768" Value="Rellenado revelador"/>
+    <Text ID="134769" Value="Circulacion enjuague"/>
+    <Text ID="134770" Value="Circulacion prelavado"/>
+    <Text ID="134771" Value="Circulacion revelador"/>
+    <Text ID="134772" Value="Circulacion goma"/>
+    <Text ID="134773" Value="Activar control flujo"/>
+    <Text ID="134774" Value="Ajustes basicos"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machine type"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value="Enable gumming"/>
+    <Text ID="134762" Value="&quot;Wide&quot; Bluefin 1250"/>
+    <Text ID="134763" Value="s"/>
+    <Text ID="134764" Value="Display off after"/>
+    <Text ID="134765" Value="Display Kontrast"/>
+    <Text ID="134766" Value="Transportretning venstre-&gt;høyre"/>
+    <Text ID="134767" Value="Regenerattilførsel"/>
+    <Text ID="134768" Value="Fremkaller fylling"/>
+    <Text ID="134769" Value="Etterspyling sirkulasjon"/>
+    <Text ID="134770" Value="Forspyling sirkulasjon"/>
+    <Text ID="134771" Value="Fremkaller sirkulasjon"/>
+    <Text ID="134772" Value="Gummiering sirkulasjon"/>
+    <Text ID="134773" Value="Aktivere gjennomstrømningskontroll"/>
+    <Text ID="134774" Value="Grunninnstillinger"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machine type"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value=""/>
+    <Text ID="134762" Value=""/>
+    <Text ID="134763" Value=""/>
+    <Text ID="134764" Value=""/>
+    <Text ID="134765" Value=""/>
+    <Text ID="134766" Value=""/>
+    <Text ID="134767" Value=""/>
+    <Text ID="134768" Value=""/>
+    <Text ID="134769" Value=""/>
+    <Text ID="134770" Value=""/>
+    <Text ID="134771" Value=""/>
+    <Text ID="134772" Value=""/>
+    <Text ID="134773" Value=""/>
+    <Text ID="134774" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="134753" Value=""/>
+    <Text ID="134754" Value=""/>
+    <Text ID="134755" Value=""/>
+    <Text ID="134756" Value=""/>
+    <Text ID="134757" Value="Machine type"/>
+    <Text ID="134758" Value="Low Chem"/>
+    <Text ID="134759" Value="Standard"/>
+    <Text ID="134760" Value="ProV kit"/>
+    <Text ID="134761" Value=""/>
+    <Text ID="134762" Value=""/>
+    <Text ID="134763" Value=""/>
+    <Text ID="134764" Value=""/>
+    <Text ID="134765" Value=""/>
+    <Text ID="134766" Value=""/>
+    <Text ID="134767" Value=""/>
+    <Text ID="134768" Value=""/>
+    <Text ID="134769" Value=""/>
+    <Text ID="134770" Value=""/>
+    <Text ID="134771" Value=""/>
+    <Text ID="134772" Value=""/>
+    <Text ID="134773" Value=""/>
+    <Text ID="134774" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="134753" Value="21"/>
+    <Index ID="134754" Value="20"/>
+    <Index ID="134755" Value="19"/>
+    <Index ID="134756" Value="18"/>
+    <Index ID="134757" Value="17"/>
+    <Index ID="134758" Value="16"/>
+    <Index ID="134759" Value="15"/>
+    <Index ID="134760" Value="14"/>
+    <Index ID="134761" Value="13"/>
+    <Index ID="134762" Value="12"/>
+    <Index ID="134763" Value="11"/>
+    <Index ID="134764" Value="10"/>
+    <Index ID="134765" Value="9"/>
+    <Index ID="134766" Value="8"/>
+    <Index ID="134767" Value="7"/>
+    <Index ID="134768" Value="6"/>
+    <Index ID="134769" Value="5"/>
+    <Index ID="134770" Value="4"/>
+    <Index ID="134771" Value="3"/>
+    <Index ID="134772" Value="2"/>
+    <Index ID="134773" Value="1"/>
+    <Index ID="134774" Value="0"/>
+  </IndexMap>
+</TextGroup>

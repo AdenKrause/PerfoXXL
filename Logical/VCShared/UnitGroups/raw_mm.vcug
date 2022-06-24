@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="raw_mm">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[raw_mm]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[raw_mm]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="Source[global].Variable[Local.Visualisierung.pics.UnitLength]"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="91338" Value=" millimeter"/>
+      <Text ID="91339" Value=" mm"/>
+      <Text ID="91415" Value=" Inch"/>
+      <Text ID="91416" Value=" In"/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="91338" Value=" Millimeter"/>
+      <Text ID="91339" Value=" mm"/>
+      <Text ID="91415" Value=" Zoll"/>
+      <Text ID="91416" Value=" ''"/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="91338" Value=" Millimetro"/>
+      <Text ID="91339" Value=" mm"/>
+      <Text ID="91415" Value="Pulgada"/>
+      <Text ID="91416" Value=" ''"/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="91338" Value=" millimeter"/>
+      <Text ID="91339" Value=" mm"/>
+      <Text ID="91415" Value=" Inch"/>
+      <Text ID="91416" Value=" In"/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="91338" Value=""/>
+      <Text ID="91339" Value=""/>
+      <Text ID="91415" Value=""/>
+      <Text ID="91416" Value=""/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="91338" Value=""/>
+      <Text ID="91339" Value=""/>
+      <Text ID="91415" Value=""/>
+      <Text ID="91416" Value=""/>
+      <Text ID="91417" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="91338" Value="1"/>
+      <Index ID="91339" Value="2"/>
+      <Index ID="91415" Value="3"/>
+      <Index ID="91416" Value="4"/>
+      <Index ID="91417" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="raw_mm">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Inch">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="3.93700787401575E-02"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+  </Units>
+  <Limits>
+    <Limit Name="MaxPlate">
+      <Property Name="Description" Value=""/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="999"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+    </Limit>
+  </Limits>
+</UnitGroup>

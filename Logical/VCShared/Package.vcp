@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="EnableEvents" Value="False"/>
+  <Property Name="SharedTargetResourceRoot" Value=""/>
+  <SourceFiles>
+    <Source File="Languages.vcr"/>
+    <Source File="UnitGroups\Length.vcug"/>
+    <Source File="UnitGroups\Mass.vcug"/>
+    <Source File="UnitGroups\Volume.vcug"/>
+    <Source File="UnitGroups\Power.vcug"/>
+    <Source File="UnitGroups\Memory.vcug"/>
+    <Source File="UnitGroups\Pressure.vcug"/>
+    <Source File="UnitGroups\Temperatures.vcug"/>
+    <Source File="UnitGroups\Speed.vcug"/>
+    <Source File="UnitGroups\PolygonRpm.vcug"/>
+    <Source File="UnitGroups\Resolution.vcug"/>
+    <Source File="UnitGroups\Percent.vcug"/>
+    <Source File="UnitGroups\MotorLength_140.vcug"/>
+    <Source File="UnitGroups\MotorLength_430.vcug"/>
+    <Source File="UnitGroups\MotorSpeed_140.vcug"/>
+    <Source File="UnitGroups\MotorSpeed_430.vcug"/>
+    <Source File="UnitGroups\Time.vcug"/>
+    <Source File="UnitGroups\PaperRemoveVertLength.vcug"/>
+    <Source File="UnitGroups\PaperRemoveVertSpeed.vcug"/>
+    <Source File="UnitGroups\Current.vcug"/>
+    <Source File="UnitGroups\AdjustSpeed.vcug"/>
+    <Source File="UnitGroups\raw_rpm.vcug"/>
+    <Source File="UnitGroups\Acceleration.vcug"/>
+    <Source File="UnitGroups\raw_incr.vcug"/>
+    <Source File="UnitGroups\raw_mm.vcug"/>
+    <Source File="UnitGroups\X_Length.vcug"/>
+    <Source File="UnitGroups\X_Speed.vcug"/>
+    <Source File="UnitGroups\Drehzahl.vcug"/>
+    <Source File="UnitGroups\Flaechen.vcug"/>
+    <Source File="UnitGroups\Laengen.vcug"/>
+    <Source File="UnitGroups\Minuten.vcug"/>
+    <Source File="UnitGroups\mlPerh.vcug"/>
+    <Source File="UnitGroups\mlPerPlate.vcug"/>
+    <Source File="UnitGroups\mlPers.vcug"/>
+    <Source File="UnitGroups\mlPerSqm.vcug"/>
+    <Source File="UnitGroups\VolumenLiter.vcug"/>
+    <Source File="UnitGroups\Volumen.vcug"/>
+    <Source File="UnitGroups\Zeiten.vcug"/>
+    <Source File="UnitGroups\Vorschub.vcug"/>
+    <Source File="UnitGroups\TemperaturesPerform.vcug"/>
+    <Source File="UnitGroups\Raw_mPerMin.vcug"/>
+    <Source File="AlarmGroups\AlarmSystem.alcfg"/>
+    <Source File="AlarmGroups\SystemAlarms.algrp"/>
+    <Source File="AlarmGroups\AlarmGroup_1.algrp"/>
+    <Source File="AlarmGroups\Group_EGM.algrp"/>
+    <Source File="AlarmGroups\Group_EGMLC.algrp"/>
+    <Source File="DataSources\Local.dso"/>
+    <Source File="DataSources\Internal.dso"/>
+    <Source File="ControlVersion.cvinfo"/>
+  </SourceFiles>
+</Project>

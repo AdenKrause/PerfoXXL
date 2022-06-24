@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.27 SP09?>
+<ObjectStates xmlns="http://br-automation.co.at/AS/ObjectStates">
+  <Object Name="flow" Memory="UserROM" Enable="true" />
+  <Object Name="lccount" Memory="UserROM" Enable="true" />
+  <Object Name="seriell" Memory="UserROM" Enable="false" />
+  <Object Name="in_out" Memory="UserROM" Enable="false" />
+  <Object Name="papentf" Memory="UserROM" Enable="false" />
+  <Object Name="aufnahme" Memory="UserROM" Enable="false" />
+  <Object Name="adjust" Memory="UserROM" Enable="false" />
+  <Object Name="entladen" Memory="UserROM" Enable="false" />
+  <Object Name="can_comm" Memory="UserROM" Enable="false" />
+  <Object Name="expose" Memory="UserROM" Enable="false" />
+  <Object Name="egmio" Memory="UserROM" Enable="true" />
+  <Object Name="lust_cdd" Memory="UserROM" Enable="false" />
+  <Object Name="ip_srv_c" Memory="UserROM" Enable="false" />
+  <Object Name="motors" Memory="UserROM" Enable="true" />
+  <Object Name="preheat" Memory="UserROM" Enable="true" />
+  <Object Name="pics" Memory="UserROM" Enable="true" />
+  <Object Name="sram" Memory="UserROM" Enable="true" />
+  <Object Name="p_achse" Memory="UserROM" Enable="false" />
+  <Object Name="motoren" Memory="UserROM" Enable="false" />
+  <Object Name="trolley" Memory="UserROM" Enable="false" />
+  <Object Name="ip_clt_c" Memory="UserROM" Enable="false" />
+  <Object Name="referenz" Memory="UserROM" Enable="false" />
+  <Object Name="system" Memory="UserROM" Enable="true" />
+  <Object Name="devtank" Memory="UserROM" Enable="true" />
+  <Object Name="egmauto" Memory="UserROM" Enable="true" />
+  <Object Name="file" Memory="UserROM" Enable="true" />
+  <Object Name="xml" Memory="UserROM" Enable="true" />
+  <Object Name="bluefin" Memory="UserROM" Enable="false" />
+  <Object Name="egmser" Memory="UserROM" Enable="true" />
+  <Object Name="tanks" Memory="UserROM" Enable="true" />
+  <Object Name="hwconfig" Memory="UserROM" Enable="true" />
+  <Object Name="udp_nl" Memory="UserROM" Enable="true" />
+  <Object Name="ioimgcfg" Memory="UserROM" Enable="true" />
+  <Object Name="can_tab" Memory="UserROM" Enable="true" />
+  <Object Name="do_ima" Memory="UserROM" Enable="true" />
+  <Object Name="do_vcp" Memory="UserROM" Enable="true" />
+  <Object Name="do_xsold" Memory="UserROM" Enable="true" />
+  <Object Name="visual" Memory="UserROM" Enable="true" />
+  <Object Name="iomap2" Memory="UserROM" Enable="true" />
+  <Object Name="iomap1" Memory="UserROM" Enable="true" />
+  <Object Name="arcfg2" Memory="UserROM" Enable="true" />
+  <Object Name="arcfg1" Memory="UserROM" Enable="true" />
+  <Object Name="AsHW" Memory="UserROM" Enable="true" />
+  <Object Name="sysconf" Memory="SystemROM" Enable="true" />
+  <Object Name="vcbmpng" Memory="UserROM" Enable="true" />
+</ObjectStates>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PerformanceCommon">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002001" Name="CurrentPage">
+      <Property Name="Content" Value="Only Value"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.Visualisierung.pics.CurrentPageOnDispl]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value="0"/>
+      <Property Name="MaxChars" Value="1"/>
+      <Property Name="MinChars" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002001" Name="MaxPages">
+      <Property Name="Content" Value="Only Value"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.Visualisierung.pics.MaxPages]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value="0"/>
+      <Property Name="MaxChars" Value="1"/>
+      <Property Name="MinChars" Value="1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="86884" Value="Please press the targetpoints successively"/>
+    <Text ID="86886" Value="Touch Calibration"/>
+    <Text ID="86889" Value="Krause CtP"/>
+    <Text ID="88725" Value="START"/>
+    <Text ID="88726" Value="STOP"/>
+    <Text ID="88732" Value="Units"/>
+    <Text ID="89093" Value="-&gt;"/>
+    <Text ID="90736" Value="Login"/>
+    <Text ID="90737" Value="Password:"/>
+    <Text ID="90740" Value="Current Userlevel:"/>
+    <Text ID="90741" Value="History"/>
+    <Text ID="90742" Value="Alarms"/>
+    <Text ID="90770" Value="&lt;-"/>
+    <Text ID="93661" Value="Reference"/>
+    <Text ID="93662" Value="Open Trolley"/>
+    <Text ID="94229" Value="Close Trolley"/>
+    <Text ID="94230" Value="Remove Paper"/>
+    <Text ID="94231" Value="Take plate"/>
+    <Text ID="94232" Value="Adjust plate"/>
+    <Text ID="94233" Value="Expose plate"/>
+    <Text ID="94234" Value="Deload plate"/>
+    <Text ID="95056" Value="OK"/>
+    <Text ID="95057" Value="Save to CF"/>
+    <Text ID="95058" Value="Load from CF"/>
+    <Text ID="98231" Value="Selected:"/>
+    <Text ID="98232" Value="Krause"/>
+    <Text ID="98233" Value="Kodak"/>
+    <Text ID="100579" Value="{CurrentPage}/{MaxPages} &gt;"/>
+    <Text ID="100580" Value="Beam ON"/>
+    <Text ID="100581" Value="Beam OFF"/>
+    <Text ID="144859" Value="{CurrentPage}/{MaxPages}"/>
+    <Text ID="159001" Value="Double"/>
+    <Text ID="159002" Value="Single"/>
+    <Text ID="159003" Value="endless"/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="86884" Value="Bitte nacheinander die Zielpunkte drücken"/>
+    <Text ID="86886" Value="Touch Kalibrieren"/>
+    <Text ID="86889" Value="Krause CtP"/>
+    <Text ID="88725" Value="START"/>
+    <Text ID="88726" Value="STOPP"/>
+    <Text ID="88732" Value="Einheiten"/>
+    <Text ID="89093" Value="-&gt;"/>
+    <Text ID="90736" Value="Login"/>
+    <Text ID="90737" Value="Passwort:"/>
+    <Text ID="90740" Value="Aktuelle Benutzerebene:"/>
+    <Text ID="90741" Value="Historie"/>
+    <Text ID="90742" Value="Alarme"/>
+    <Text ID="90770" Value="&lt;-"/>
+    <Text ID="93661" Value="Referenz"/>
+    <Text ID="93662" Value="Wagen öffnen"/>
+    <Text ID="94229" Value="Wagen schließen"/>
+    <Text ID="94230" Value="Papier entf."/>
+    <Text ID="94231" Value="Platte aufnehmen"/>
+    <Text ID="94232" Value="Platte ausrichten"/>
+    <Text ID="94233" Value="Platte belichten"/>
+    <Text ID="94234" Value="Platte entladen"/>
+    <Text ID="95056" Value="OK"/>
+    <Text ID="95057" Value="Speichern auf CF-Karte"/>
+    <Text ID="95058" Value="Von CF-Karte laden"/>
+    <Text ID="98231" Value="Auswahl:"/>
+    <Text ID="98232" Value="Krause"/>
+    <Text ID="98233" Value="Kodak"/>
+    <Text ID="100579" Value="{CurrentPage}/{MaxPages} &gt;"/>
+    <Text ID="100580" Value="Strahl EIN"/>
+    <Text ID="100581" Value="Strahl AUS"/>
+    <Text ID="144859" Value="{CurrentPage}/{MaxPages}"/>
+    <Text ID="159001" Value="Doppel"/>
+    <Text ID="159002" Value="Einzel"/>
+    <Text ID="159003" Value="endlos"/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="86884" Value="Toque las cruces sucesivamente"/>
+    <Text ID="86886" Value="Calibracion pantalla tactil"/>
+    <Text ID="86889" Value="KRAUSE  "/>
+    <Text ID="88725" Value="MARCHA"/>
+    <Text ID="88726" Value="PARO"/>
+    <Text ID="88732" Value="Unidades"/>
+    <Text ID="89093" Value="-&gt;"/>
+    <Text ID="90736" Value="Login"/>
+    <Text ID="90737" Value="Contraseña"/>
+    <Text ID="90740" Value="Nivel de usuario actual"/>
+    <Text ID="90741" Value="Historia"/>
+    <Text ID="90742" Value="Alarmas"/>
+    <Text ID="90770" Value="&lt;-"/>
+    <Text ID="93661" Value="Referencia"/>
+    <Text ID="93662" Value=""/>
+    <Text ID="94229" Value=""/>
+    <Text ID="94230" Value=""/>
+    <Text ID="94231" Value=""/>
+    <Text ID="94232" Value=""/>
+    <Text ID="94233" Value=""/>
+    <Text ID="94234" Value=""/>
+    <Text ID="95056" Value="OK"/>
+    <Text ID="95057" Value="Memorizar en CF"/>
+    <Text ID="95058" Value="Cargar de CF"/>
+    <Text ID="98231" Value="Seleccion:"/>
+    <Text ID="98232" Value="KRAUSE  "/>
+    <Text ID="98233" Value="Kodak"/>
+    <Text ID="100579" Value="{CurrentPage}/{MaxPages} &gt;"/>
+    <Text ID="100580" Value="Beam ON"/>
+    <Text ID="100581" Value="Beam ON"/>
+    <Text ID="144859" Value="{CurrentPage}/{MaxPages}"/>
+    <Text ID="159001" Value="Double"/>
+    <Text ID="159002" Value="Single"/>
+    <Text ID="159003" Value="endless"/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="86884" Value="Trykk målpunktene etter hverandre"/>
+    <Text ID="86886" Value="Kalibrere Touch "/>
+    <Text ID="86889" Value=""/>
+    <Text ID="88725" Value="START"/>
+    <Text ID="88726" Value="STOPP"/>
+    <Text ID="88732" Value="Enheter"/>
+    <Text ID="89093" Value="-&gt;"/>
+    <Text ID="90736" Value="Logg inn"/>
+    <Text ID="90737" Value="Passord:"/>
+    <Text ID="90740" Value="Aktuelt brukernivå:"/>
+    <Text ID="90741" Value="Historie"/>
+    <Text ID="90742" Value="Alarmer"/>
+    <Text ID="90770" Value="&lt;-"/>
+    <Text ID="93661" Value="Referanse"/>
+    <Text ID="93662" Value="Open Trolley"/>
+    <Text ID="94229" Value="Close Trolley"/>
+    <Text ID="94230" Value="Remove Paper"/>
+    <Text ID="94231" Value="Take plate"/>
+    <Text ID="94232" Value="Adjust plate"/>
+    <Text ID="94233" Value="Expose plate"/>
+    <Text ID="94234" Value="Deload plate"/>
+    <Text ID="95056" Value="OK"/>
+    <Text ID="95057" Value="Save to CF"/>
+    <Text ID="95058" Value="Load from CF"/>
+    <Text ID="98231" Value="Selected:"/>
+    <Text ID="98232" Value="Krause"/>
+    <Text ID="98233" Value="Kodak"/>
+    <Text ID="100579" Value="{CurrentPage}/{MaxPages} &gt;"/>
+    <Text ID="100580" Value="Beam ON"/>
+    <Text ID="100581" Value="Beam ON"/>
+    <Text ID="144859" Value="{CurrentPage}/{MaxPages}"/>
+    <Text ID="159001" Value="Double"/>
+    <Text ID="159002" Value="Single"/>
+    <Text ID="159003" Value="endless"/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="86884" Value=""/>
+    <Text ID="86886" Value=""/>
+    <Text ID="86889" Value=""/>
+    <Text ID="88725" Value=""/>
+    <Text ID="88726" Value=""/>
+    <Text ID="88732" Value=""/>
+    <Text ID="89093" Value=""/>
+    <Text ID="90736" Value=""/>
+    <Text ID="90737" Value=""/>
+    <Text ID="90740" Value=""/>
+    <Text ID="90741" Value=""/>
+    <Text ID="90742" Value=""/>
+    <Text ID="90770" Value=""/>
+    <Text ID="93661" Value=""/>
+    <Text ID="93662" Value=""/>
+    <Text ID="94229" Value=""/>
+    <Text ID="94230" Value=""/>
+    <Text ID="94231" Value=""/>
+    <Text ID="94232" Value=""/>
+    <Text ID="94233" Value=""/>
+    <Text ID="94234" Value=""/>
+    <Text ID="95056" Value=""/>
+    <Text ID="95057" Value=""/>
+    <Text ID="95058" Value=""/>
+    <Text ID="98231" Value=""/>
+    <Text ID="98232" Value=""/>
+    <Text ID="98233" Value=""/>
+    <Text ID="100579" Value=""/>
+    <Text ID="100580" Value=""/>
+    <Text ID="100581" Value=""/>
+    <Text ID="144859" Value=""/>
+    <Text ID="159001" Value=""/>
+    <Text ID="159002" Value=""/>
+    <Text ID="159003" Value=""/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="86884" Value=""/>
+    <Text ID="86886" Value=""/>
+    <Text ID="86889" Value=""/>
+    <Text ID="88725" Value=""/>
+    <Text ID="88726" Value=""/>
+    <Text ID="88732" Value=""/>
+    <Text ID="89093" Value=""/>
+    <Text ID="90736" Value=""/>
+    <Text ID="90737" Value=""/>
+    <Text ID="90740" Value=""/>
+    <Text ID="90741" Value=""/>
+    <Text ID="90742" Value=""/>
+    <Text ID="90770" Value=""/>
+    <Text ID="93661" Value=""/>
+    <Text ID="93662" Value=""/>
+    <Text ID="94229" Value=""/>
+    <Text ID="94230" Value=""/>
+    <Text ID="94231" Value=""/>
+    <Text ID="94232" Value=""/>
+    <Text ID="94233" Value=""/>
+    <Text ID="94234" Value=""/>
+    <Text ID="95056" Value=""/>
+    <Text ID="95057" Value=""/>
+    <Text ID="95058" Value=""/>
+    <Text ID="98231" Value=""/>
+    <Text ID="98232" Value=""/>
+    <Text ID="98233" Value=""/>
+    <Text ID="100579" Value=""/>
+    <Text ID="100580" Value=""/>
+    <Text ID="100581" Value=""/>
+    <Text ID="144859" Value=""/>
+    <Text ID="159001" Value=""/>
+    <Text ID="159002" Value=""/>
+    <Text ID="159003" Value=""/>
+    <Text ID="160512" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="86884" Value="0"/>
+    <Index ID="86886" Value="1"/>
+    <Index ID="86889" Value="2"/>
+    <Index ID="88725" Value="3"/>
+    <Index ID="88726" Value="4"/>
+    <Index ID="88732" Value="5"/>
+    <Index ID="89093" Value="6"/>
+    <Index ID="90736" Value="8"/>
+    <Index ID="90737" Value="9"/>
+    <Index ID="90740" Value="10"/>
+    <Index ID="90741" Value="11"/>
+    <Index ID="90742" Value="12"/>
+    <Index ID="90770" Value="7"/>
+    <Index ID="93661" Value="13"/>
+    <Index ID="93662" Value="14"/>
+    <Index ID="94229" Value="15"/>
+    <Index ID="94230" Value="16"/>
+    <Index ID="94231" Value="17"/>
+    <Index ID="94232" Value="18"/>
+    <Index ID="94233" Value="19"/>
+    <Index ID="94234" Value="20"/>
+    <Index ID="95056" Value="21"/>
+    <Index ID="95057" Value="22"/>
+    <Index ID="95058" Value="23"/>
+    <Index ID="98231" Value="24"/>
+    <Index ID="98232" Value="25"/>
+    <Index ID="98233" Value="26"/>
+    <Index ID="100579" Value="27"/>
+    <Index ID="100580" Value="29"/>
+    <Index ID="100581" Value="30"/>
+    <Index ID="144859" Value="28"/>
+    <Index ID="159001" Value="33"/>
+    <Index ID="159002" Value="32"/>
+    <Index ID="159003" Value="31"/>
+    <Index ID="160512" Value="34"/>
+  </IndexMap>
+</TextGroup>

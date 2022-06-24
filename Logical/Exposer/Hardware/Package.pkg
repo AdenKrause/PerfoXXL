@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="Referenzfahrt der Motoren">motoren</Object>
+    <Object Type="Program" Language="ANSIC" Description="LUST CDD3000 Treiber">lust_cdd</Object>
+    <Object Type="Program" Language="ANSIC" Description="CAN Kommunikationstreiber">can_comm</Object>
+    <Object Type="Program" Language="ANSIC" Description="Variablen anlegen und Bearbeiten der E/As">in_out</Object>
+    <Object Type="Program" Language="ANSIC" Description="serielle Komm. mit Faulhaber Motoren">seriell</Object>
+  </Objects>
+</Package>

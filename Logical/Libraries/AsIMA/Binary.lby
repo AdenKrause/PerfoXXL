@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Library Description="The AsIMA library supports easy handling of variable exchange between two BR PLCs." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AsIMA.var</File>
+    <File>AsIMA.typ</File>
+    <File>AsIMA.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="DataObj" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="inaclnt" />
+    <Dependency ObjectName="brsystem" />
+  </Dependencies>
+</Library>
