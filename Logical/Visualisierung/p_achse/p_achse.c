@@ -15,7 +15,7 @@
 #include "glob_var.h"
 
 #define ROT 0x002D
-#define GRUEN 0x000A
+#define GRUEN 0x00E3
 #define GRAU 0x0007
 #define SCHWARZ 0x0000
 #define RAHMEN_ROT 0x2D00
@@ -27,6 +27,9 @@
 #define WEISS_AUF_GRAU 0x0F3B
 #define SCHWARZ_AUF_GRAU 0x013B
 #define SCHWARZ_AUF_WEISS 0x010F
+
+#define SCHWARZ_AUF_GRUEN 0x00E3
+#define GELB_AUF_ROT 0x1633;
 
 typedef struct
 {
@@ -65,16 +68,58 @@ _LOCAL FU_Colors_Typ 	FU_Colors;
 _LOCAL UINT SendManSpeedStep;
 _LOCAL USINT	ExitOK,ExitCancel;
 
+static INT ENPOColor,AutoColor,ErrorColor,ActiveColor,RefOkColor,BackgroundColor;
+static INT ButtonActivColor,ButtonActivColorPressed;
+static INT ButtonHandColor,ButtonHandColorPressed;
+static INT ButtonRefColor,ButtonRefColorPressed;
+static INT ButtonPark,ButtonParkPressed;
+static INT ButtonTarget,ButtonTargetPressed;
+
 _INIT void init(void)
 {
 	loadXData = 1;
 	ACHSE_PIC = 11;
 	ACHSE_PARAM_PIC = 14;
 	SendManSpeedStep = 0;
+	ENPOColor = SCHWARZ;
+	AutoColor = SCHWARZ;
+	ErrorColor = SCHWARZ;
+	ActiveColor = SCHWARZ;
+	RefOkColor = SCHWARZ;
+	ButtonActivColor = SCHWARZ_AUF_GRAU;
+	ButtonActivColorPressed = WEISS_AUF_SCHWARZ;
+	ButtonHandColor = SCHWARZ_AUF_GRAU;
+	ButtonHandColorPressed = WEISS_AUF_SCHWARZ;
+	ButtonRefColor = SCHWARZ_AUF_GRAU;
+	ButtonRefColorPressed = WEISS_AUF_SCHWARZ;
+	ButtonPark = SCHWARZ_AUF_GRAU;
+	ButtonParkPressed = WEISS_AUF_SCHWARZ;
+	ButtonTarget = SCHWARZ_AUF_GRAU;
+	ButtonTargetPressed = WEISS_AUF_SCHWARZ;
+	BackgroundColor = WEISS;
 }
 
 _CYCLIC void cyclic(void)
 {
+	if(PanelIsTFT)
+	{
+		ENPOColor = GRUEN;
+		AutoColor = GRUEN;
+		ErrorColor = ROT;
+		ActiveColor = GRUEN;
+		RefOkColor = GRUEN;
+		ButtonActivColor = SCHWARZ_AUF_GRAU;
+		ButtonActivColorPressed = SCHWARZ_AUF_GRUEN;
+		ButtonHandColor = SCHWARZ_AUF_GRAU;
+		ButtonHandColorPressed = GELB_AUF_ROT;
+		ButtonRefColor = SCHWARZ_AUF_GRAU;
+		ButtonRefColorPressed = GELB_AUF_ROT;
+		ButtonPark = SCHWARZ_AUF_GRAU;
+		ButtonParkPressed = GELB_AUF_ROT;
+		ButtonTarget = SCHWARZ_AUF_GRAU;
+		ButtonTargetPressed = GELB_AUF_ROT;
+		BackgroundColor = WEISS;
+	}
 
 	if (wBildNr == ACHSE_PIC)
 	{
@@ -91,40 +136,41 @@ _CYCLIC void cyclic(void)
 
 	/* Farbumschläge */
 		if(FU.Error || FU.CANError)
-			FU_Colors.Error = SCHWARZ;
+			FU_Colors.Error = ErrorColor;
 		else
-			FU_Colors.Error = WEISS;
+			FU_Colors.Error = BackgroundColor;
 
 		if(FU.Activ)
 		{
-			FU_Colors.Activ = SCHWARZ;
-			FU_Colors.ButtonActiv = WEISS_AUF_SCHWARZ;
+			FU_Colors.Activ = ActiveColor;
+			FU_Colors.ButtonActiv = ButtonActivColorPressed;
 		}
 		else
 		{
 			FU_Colors.Activ = WEISS;
-			FU_Colors.ButtonActiv = SCHWARZ_AUF_GRAU;
+			FU_Colors.ButtonActiv = ButtonActivColor;
 		}
 
 		if(FU.Auto)
-			FU_Colors.Auto = SCHWARZ;
+		{
+			FU_Colors.Auto = AutoColor;
+			FU_Colors.ButtonHand = ButtonHandColor;
+		}
 		else
-			FU_Colors.Auto = WEISS;
-
-		if(!FU.Auto)
-			FU_Colors.ButtonHand = WEISS_AUF_SCHWARZ;
-		else
-			FU_Colors.ButtonHand = SCHWARZ_AUF_GRAU;
+		{
+			FU_Colors.Auto = BackgroundColor;
+			FU_Colors.ButtonHand = ButtonHandColorPressed;
+		}
 
 		if(FU.ENPO)
-			FU_Colors.ENPO = SCHWARZ;
+			FU_Colors.ENPO = ENPOColor;
 		else
-			FU_Colors.ENPO = WEISS;
+			FU_Colors.ENPO = BackgroundColor;
 
 		if(FU.RefOk)
-			FU_Colors.RefOk = SCHWARZ;
+			FU_Colors.RefOk = RefOkColor;
 		else
-			FU_Colors.RefOk = WEISS;
+			FU_Colors.RefOk = BackgroundColor;
 
 		if(FU.cmd_tipp_schnell)
 		{
@@ -139,20 +185,20 @@ _CYCLIC void cyclic(void)
 
 		if (FU.cmd_Ref)
 		{
-			FU_Colors.ButtonRef = WEISS_AUF_SCHWARZ;
+			FU_Colors.ButtonRef = ButtonRefColorPressed;
 		}
 		else
 		{
-			FU_Colors.ButtonRef = SCHWARZ_AUF_GRAU;
+			FU_Colors.ButtonRef = ButtonRefColor;
 		}
 
 		if (FU.cmd_Park)
 		{
-			FU_Colors.ButtonParkPos = WEISS_AUF_SCHWARZ;
+			FU_Colors.ButtonParkPos = ButtonParkPressed;
 		}
 		else
 		{
-			FU_Colors.ButtonParkPos = SCHWARZ_AUF_GRAU;
+			FU_Colors.ButtonParkPos = ButtonPark;
 		}
 
 		if (FU.cmd_Target)

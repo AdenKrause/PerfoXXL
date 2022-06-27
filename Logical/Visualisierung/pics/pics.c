@@ -19,13 +19,14 @@
 #include "egmglob_var.h"
 #include "in_out.h"
 #include "standard.h"
-#include "asstring.h"
+//#include "asstring.h"
 #include "sys_lib.h"
 #include <visapi.h>
-#include <string.h>
+//#include <string.h>
 #include <loopcont.h>
 #include <astime.h>
 #include "auxfunc.h"
+#include "AsBrStr.h"
 
 #define	MAXFILELIST	32
 #define MAXFILES	50
@@ -33,7 +34,7 @@
 
 #define ROT_HG		0x0056 /*Hintergrundfarbe*/
 #define ROT 			0x002D
-#define GRUEN 		0x000A
+#define GRUEN 		0x00E3
 
 #define GRAU 			0x003B
 #define DUNKELGRAU 	0x0008
@@ -140,10 +141,26 @@ typedef struct
 	REAL	AdjusterDeloadSpeed;
 }Deloader_Param_mm_Typ;
 
+typedef struct
+{
+	UINT	X;
+	UINT	Y;
+}Point_Typ;
+
+typedef struct
+{
+	Point_Typ	TopLeft;
+	UINT		Width;
+	UINT		Height;
+	USINT		ColorFill;
+	USINT		ColorFrame;
+}Rect_Typ;
 
 _GLOBAL SINT IOConfiguration _VAR_RETAIN,NewIOConfig	_VAR_RETAIN;
 _LOCAL	UINT	StartButtonColorReleased,StartButtonColorPressed;
 _LOCAL	UINT	ActiveColor,StandbyColor,ErrorColor;
+static INT ActiveColorValue,StandbyColorValue,ErrorColorValue,BackgroundColor;
+static 	Rect_Typ Rect;
 _GLOBAL USINT	TrolleyOnDisplay;
 
 _GLOBAL	STRING FileIOName[MAXFILENAMELENGTH];
@@ -161,7 +178,7 @@ _LOCAL	UINT	JetClosedInvisible;
 _LOCAL	UINT	JetRedInvisible;
 _LOCAL	UINT	BeltSensor2Invisible;
 
-_LOCAL UINT		KPGClosedInvisible,KPGOpenInvisible,KPGRedInvisible;
+_LOCAL UINT		KPGClosedInvisible,KPGOpenInvisible;
 
 _LOCAL	UINT	Trolley1Invisible;
 _LOCAL	UINT	Trolley2Invisible;
@@ -206,57 +223,27 @@ unsigned long VC_HANDLE;
 
 /*FEEDER PARAM PICS*/
 _LOCAL	Feeder_Param_Typ	FeederParamInput;
-_LOCAL	Feeder_Param_mm_Typ	FeederParameterMm;
-_LOCAL	USINT	FeederInputReady,FeederInputReadyMm,FeederInputOk;
 
 /*PAPERREMOVE PARAM PICS*/
 _LOCAL	PaperRemove_Param_Typ	PaperRemoveParamInput;
-_LOCAL	PaperRemove_Param_mm_Typ	PaperRemoveParameterMm;
-_LOCAL	USINT	PaperRemoveInputReady,PaperRemoveInputReadyMm,PaperRemoveInputOk;
 
 /*SHUTTLE PARAM PICS*/
-_LOCAL	USINT	ShuttleInputReady,ShuttleInputReadyMm,ShuttleInputOk;
 
 /*ADJUSTER PARAM PICS*/
 _LOCAL	Adjust_Param_Typ		AdjusterParamInput;
-_LOCAL	Adjuster_Param_mm_Typ	AdjusterParameterMm;
-_LOCAL	USINT	AdjusterInputReady,AdjusterInputReadyMm,AdjusterInputOk;
-_LOCAL	UINT	SlowDownEnabledOFF;
 
 /*DELOADER PARAM PICS*/
 _LOCAL	Deload_Param_Typ		DeloaderParamInput;
-_LOCAL	Deloader_Param_mm_Typ	DeloaderParameterMm;
-_LOCAL	USINT	DeloaderInputReady,DeloaderInputReadyMm,DeloaderInputOk;
 _LOCAL	BOOL	Turn90,Turn180;
 		BOOL	Turn90Old,Turn180Old;
 
 /*GLOBAL PARAM PICS*/
-_LOCAL	BOOL	deutsch,englisch,spanisch,franzoesisch,italienisch,slowakisch;
 		BOOL	deutschAlt,englischAlt,spanischAlt,franzoesischAlt,italienischAlt,slowakischAlt;
-_LOCAL	USINT	GlobalInputReady,GlobalInputReadyMm,GlobalInputOk,GlobalInputCancel;
 		USINT	LanguageOld;
 _LOCAL	Global_Data_Typ	GlobalParameterInput;
-_LOCAL	REAL			TrolleyOffsetMm;
-_LOCAL	UINT	PaperRemoveEnabledOFF,TBSimulationOFF,
-				ProcessorSimulationOFF,PunchSimulationOFF,AlternatingTrolleysOFF,
-				FlexibleFeederOFF,TurnStationOFF,AutomaticTrolleyOpenCloseOFF,
-				ShiftedLayingOffOFF,WaitForExposerEnabledOFF,
-				IgnoreFeederVacuumOFF,IgnoreShuttleVacuumOFF,StopPinsOFF,CompFlagOFF,ConveyorbeltSimOFF,
-				TransportSimOFF,MirroredMachineOFF;
 
-_LOCAL	USINT	TogglePaperRemove,ToggleAlternating,ToggleEGMSim,
-				ToggleVCPSim,ToggleTBSim,ToggleAutomaticTrolley,
-				ToggleTurnStation,ToggleFlexible,ToggleWaitForExposer,
-				ToggleIgnoreFeederVacuum,ToggleIgnoreShuttleVacuum,
-				ToggleStopPins,ToggleCompFlag,ToggleConveyorbeltSim,ToggleTransportSim,
-				ToggleMirrored;
 
-_LOCAL UINT		SeparateBeltTracksOFF,SeparateBeltSensorsOFF,MirroredInvisible;
 
-_LOCAL	USINT	ToggleSeparateBeltTracks,ToggleSeparateBeltSensors;
-/*V1.93 Papiererkennungssensor abschaltbar*/
-_LOCAL UINT		PaperDetectionOFF,EnablePlateToPaperbasketOFF;
-_LOCAL	USINT	TogglePaperDetection,TogglePlateToPaperbasket;
 
 /*time/date set*/
 _LOCAL	RTCtime_typ	RTCSetTime;
@@ -267,16 +254,14 @@ _LOCAL	USINT	ExitScreenSaver,ScreenSaverOrgBild;
 _LOCAL	STRING	VERSION[5];
 _LOCAL	UINT	CounterLineColor1,CounterLineColor2,CounterInputReady;
 
-_LOCAL	UINT	ClearLineColor1,ClearLineColor2,ClearLinePressed;
 _GLOBAL USINT	ClearLine;
 
-_LOCAL 	UINT	PanoramaInv,PanoramaButtonColor,PrevPlate,NextPlate,PlateOnScreen,PlateInputOk;
+_LOCAL 	UINT	PanoramaInv,PrevPlate,NextPlate;
 _LOCAL 	UINT	ManualModeInv;
 _LOCAL	STRING	PanoramaPlateName[32];
 UINT			LastPlateType;
 _LOCAL 	STRING	CurrentPlateName[32];
 _LOCAL	UINT	AdapterTextColor;
-_LOCAL	USINT	LengthInputReady,OffsetInputReady;
 _LOCAL	UINT	TrolleyOpenInv;
 _GLOBAL	BOOL	ReferenceStart;
 /*HA 23.10.03 V1.67 send laserpower to TiffBlaster if a value is entered (even if it didn't change) */
@@ -291,8 +276,8 @@ _LOCAL		USINT	StopPinsInputEnabled,DeloaderInputEnabled,NoDeloaderInputEnabled,T
 _LOCAL		UINT	SeparateBeltTracksEnabledColor,PlateToPaperbasketColor;
 
 /*HA 20.01.04 V1.73 enable/disable flexible feeder functions*/
-_LOCAL		UINT	FeederEnabledColor,FeederDisabledColor;
-_LOCAL		UINT	FeederEnabledInputColor,FeederDisabledInputColor;
+_LOCAL		UINT	FeederEnabledColor;
+_LOCAL		UINT	FeederEnabledInputColor;
 _LOCAL		USINT	FeederInputEnabled,RightStackInputEnabled;
 
 /*HA 22.01.04 V1.74 Make laserpower input blink during setting procedure*/
@@ -304,8 +289,7 @@ _LOCAL BOOL	QuitAllAlarms;
 _GLOBAL USINT *TmpPtr;
 _GLOBAL BOOL	PutTmpDataToSRAM,GetTmpDataFromSRAM;
 BOOL	WaitSRAM;
-_LOCAL UINT ScreensaverSec;
-_LOCAL UINT	LogoSelection;
+
 _GLOBAL UINT	HideKrause,HideKPG;
 _LOCAL UINT	AdressIndex[6];
 _LOCAL UINT SaverLogo[16];
@@ -323,7 +307,7 @@ _LOCAL	USINT	ParamNext,ParamPrev,InputOK,InputCancel,CurrentPage,CurrentPageOnDi
 				MaxPages,ChangeUnits;
 _LOCAL	USINT UnitMotorLength,UnitMotorSpeed,UnitLength,UnitTemperature;
 _LOCAL	UINT	PageInv1,PageInv2,PageInv3,PageInv4,PageInv5,PageInv6;
-_LOCAL	USINT MotorOnDisplay,NextMotor;
+_LOCAL	USINT MotorOnDisplay;
 _LOCAL	USINT	SelMotor1,SelMotor2,SelMotor4,SelMotor5,SelMotor9,SelMotor10;
 _LOCAL	USINT	MotActInv,MotErrInv,MotRefInv;
 _LOCAL	INT		MotTemp,MaxMotTemp,MotCurr,MaxMotCurr;
@@ -343,7 +327,7 @@ _LOCAL	Trolley_Data_Typ TrolleyParamInput;
 _LOCAL	STRING	PlateName[MAXPLATETYPENAMELENGTH];
 _LOCAL	INT		ChangeLanguage;
 
-USINT			tmp[32];
+char			tmp[32];
 
 /*Für E/A Bild*/
 _GLOBAL	UINT	PlateOnConveyorBeltVis,PlateAdjustedVis,TrolleyCodeSensorVis,
@@ -360,7 +344,7 @@ _LOCAL  INT     Lock2Stacks;
 /********************************************************************************/
 /** EGM  ***/
 _GLOBAL INT HideSafetyCheck,SafetyCheckOK,SafetyCheckCancel;
-_LOCAL BOOL	ZoomPlus,ZoomMinus;
+_LOCAL BOOL	ZoomPlus;
 _LOCAL	REAL	ZoomFactor,NormZoomFactor,topval;
 BOOL CurvePainted;
 int x1,y1,x2,y2;
@@ -384,21 +368,16 @@ _LOCAL INT	OutReady,OutError;
 _LOCAL	USINT	ExitScreenSaver,ScreenSaverOrgBild;
 
 _LOCAL	EGMPreheatParam_Type		InputPreHeatParam;
-_LOCAL	INT		PreheatParamExit,EGMPreheatParamStyle1,EGMPreheatParamStyle2;
 
 _LOCAL	EGMAutoParam_Type InputAutoParam;
 
-_LOCAL	INT		AutoParamExit;
-
 _LOCAL	EGMDeveloperTankParam_Type InputDeveloperParam;
-_LOCAL	INT		DeveloperParamExit;
 
 _LOCAL	EGMPrewashParam_Type	InputPreWashParam;
 _LOCAL	EGMRinseParam_Type	InputRinseParam;
 _LOCAL	EGMPlate_Type	InputPlateType;
 
 _LOCAL	EGMGlobalParam_Type	EGMInputGlobalParam;
-_LOCAL	INT		EGMGlobalParamExit;
 
 _LOCAL	BOOL	CurveReturn,CurveEnter1,CurveEnter2;
 int CurveOrgBild;
@@ -428,17 +407,16 @@ _LOCAL	UINT	ReplenishingPerPlateInv,ReplenishingPerSqmInv,StandbyReplenishingInv
 					RinseReplPerPlateInv,RinseReplPerSqmInv,RinseFreshwaterOnlyInv,
 					TopUpPerPlateInv,TopUpPerSqmInv,
 					GumFCInv,DevCircFCInv,PrewashFCInv,RinseFCInv,TopUpFCInv,ReplFCInv,
-					TranspDirInv,PlateDirLRInv,PlateDirRLInv,IOConfigWideInv,EnableWasteTankInv,
+					TranspDirInv,PlateDirLRInv,PlateDirRLInv,IOConfigWideInv,
                     GumInv,GumCheckInv,GumLevelInv,HideMarksXS,HideMarksLC,
                     PROVKitInv,XSInv,LowChemInv;
-_LOCAL	BOOL	ToggleReplenishingPerPlate,ToggleReplenishingPerSqm,ToggleStandbyReplenishing,
-					ToggleOffReplenishing,
-					TogglePreWashReplPerPlate,TogglePreWashReplPerSqm,
-					TogglePreWashFreshwaterOnly,
-					ToggleRinseReplPerPlate,ToggleRinseReplPerSqm,ToggleRinseFreshwaterOnly,
+_LOCAL	BOOL	ToggleReplenishingPerPlate,ToggleStandbyReplenishing,
+					ToggleOffReplenishing,TogglePreWashFreshwaterOnly,
+					TogglePreWashReplPerPlate,
+					ToggleRinseReplPerPlate,ToggleRinseFreshwaterOnly,
 					ToggleTopUpPerPlate,TogglePROVKit,ToggleMachineType,
 					ToggleGumFC,ToggleDevCircFC,TogglePrewashFC,ToggleRinseFC,ToggleTopUpFC,
-					ToggleReplFC,ToggleTranspDir,ToggleIOConfig,ToggleEnableWasteTank,ToggleGumSection;
+					ToggleReplFC,ToggleTranspDir,ToggleIOConfig,ToggleGumSection;
 _LOCAL	UINT	StandbyReplenishingEnabledCol,OffReplenishingEnabledCol,
 					ReplenishingPerPlateCol,ReplenishingPerSqmCol,
 					PreWashReplPerPlateCol,PreWashReplPerSqmCol,
@@ -449,7 +427,7 @@ _LOCAL	UINT	AckButtonInv,ScreenSaverSettingsInv,WideInv;
 
 _GLOBAL int	Values[350],DeveloperValues[350],AmbientValues[350];
 int *pValueTable;
-_LOCAL BOOL	ZoomPlus,ZoomMinus;
+_LOCAL BOOL	ZoomPlus;
 _LOCAL	REAL	ZoomFactor,NormZoomFactor,topval;
 BOOL CurvePainted;
 int x1,y1,x2,y2;
@@ -741,44 +719,50 @@ void TouchCalib()
 
 void PaintCurve(void)
 {
-	USINT tmp[20];
+	char tmp[20];
 
 				if (ready && !CurvePainted )
 				{
 					if (!VA_Saccess(1,VC_HANDLE))
 			  		{
 			  			int j;
-						VA_Rect (1,VC_HANDLE,7,29,301,200,15,15);
-						for (j=0;j<300;j+=10)
-							VA_Line (1,VC_HANDLE,7+j,129,7+j+5,129,0);
-
-						ftoa(YMidValueDisplay,(UDINT)&tmp[0]);
-						strcat(tmp," °C");
-						VA_Textout (1,VC_HANDLE,4,10,115,0,15,tmp);
-/*Zeitachse beschriften*/
-						ftoa((DisplaySamplingTime/100.0)*155,(UDINT)&tmp[0]);
-						strcat(tmp," s");
-						VA_Textout (1,VC_HANDLE,4,150,215,0,15,tmp);
-						ftoa((DisplaySamplingTime/100.0)*301,(UDINT)&tmp[0]);
-						strcat(tmp," s");
-						VA_Textout (1,VC_HANDLE,4,280,215,0,15,tmp);
-
-						x1 = 4;
-						y1 = 229;
-						x2 = 4;
-						y2 = 229;
-						NormZoomFactor = 100.0 /(YMidValue);
+						int n;
+#ifdef PPC2100
+						n = 2;
+#else
+						n = 1;
+#endif
+						VA_Rect (1,VC_HANDLE,Rect.TopLeft.X,Rect.TopLeft.Y,Rect.Width,Rect.Height,Rect.ColorFill,Rect.ColorFrame);
+						for (j=0;j<Rect.Width-1;j+=10)
+							VA_Line (1,VC_HANDLE,Rect.TopLeft.X+j,(Rect.Height / 2) +29,Rect.TopLeft.X+j+5,(Rect.Height / 2) +29,0);
+			
+						brsftoa(YMidValueDisplay,(UDINT)&tmp[0]);
+						brsstrcat((UDINT) tmp,(UDINT) " °C");
+						VA_Textout (1,VC_HANDLE,4,Rect.TopLeft.X+5,(Rect.Height / 2) +15,0,15,tmp);
+						/*Zeitachse beschriften*/
+						brsftoa((DisplaySamplingTime/100.0)*155,(UDINT)&tmp[0]);
+						brsstrcat((UDINT) tmp,(UDINT) " s");
+						VA_Textout (1,VC_HANDLE,4,Rect.Width/2,Rect.Height+15,0,15,tmp);
+						brsftoa((DisplaySamplingTime/100.0)*301,(UDINT)&tmp[0]);
+						brsstrcat((UDINT) tmp,(UDINT) " s");
+						VA_Textout (1,VC_HANDLE,4,Rect.Width-20,Rect.Height+15,0,15,tmp);
+			
+						x1 = Rect.TopLeft.X - 3;
+						y1 = (Rect.Height+29);
+						x2 = Rect.TopLeft.X - 3;
+						y2 = (Rect.Height+29);
+						NormZoomFactor = (Rect.Height / 2) /(YMidValue);
 						topval = YMidValue / ZoomFactor + YMidValue;
-
+			
 						for (j=0;j<301;j++)
 						{
-							x1 = 7+j;
-							x2 = x1+1;
+							x1 = Rect.TopLeft.X+(j*n);
+							x2 = x1+(n);
 							y1 = y2;
-							y2 = 229 - (((*(pValueTable+j))  * ZoomFactor )-
+							y2 = (Rect.Height+29) - (((*(pValueTable+j))  * ZoomFactor )-
 								(YMidValue*ZoomFactor - YMidValue)	)* NormZoomFactor;
 							if (y2<29)y2=29;
-							if (y2>229)y2=229;
+							if (y2>(Rect.Height+29))y2=(Rect.Height+29);
 							VA_Line (1,VC_HANDLE,x1,y1,x2,y2,0);
 						}
 						CurvePainted = 1;
@@ -790,6 +774,13 @@ void PaintCurve(void)
 
 void MainPic(void)
 {
+	if(PanelIsTFT)
+	{
+		ActiveColorValue = GELB;
+		StandbyColorValue = GRUEN;
+		ErrorColorValue = ROT;
+		BackgroundColor = WEISS;
+	}
 
 /*HA 22.01.04 V1.74 Make laserpower input blink during setting procedure*/
 	if (SendLP)
@@ -817,7 +808,7 @@ void MainPic(void)
 	if( PlateType == 0 || PlateType>=MAXPLATETYPES)
 	{
 		PlateType = 1;
-		strcpy(PanoramaPlateName,PlateTypes[PlateType].Name);
+		brsstrcpy((UDINT) PanoramaPlateName,(UDINT) PlateTypes[PlateType].Name);
 	}
 
 
@@ -842,9 +833,9 @@ void MainPic(void)
 
 
 		if(PlateType >0 && PlateType <= MAXPLATETYPES)
-			strcpy(CurrentPlateName,PlateTypes[PlateType].Name);
+			brsstrcpy((UDINT) CurrentPlateName,(UDINT) PlateTypes[PlateType].Name);
 		else
-			strcpy(CurrentPlateName,"----");
+			brsstrcpy((UDINT) CurrentPlateName,(UDINT) "----");
 	}
 
 /*****************************************************/
@@ -872,21 +863,21 @@ void MainPic(void)
 
 
 		if(PlateType >0 && PlateType <= MAXPLATETYPES)
-			strcpy(CurrentPlateName,PlateTypes[PlateType].Name);
+			brsstrcpy((UDINT) CurrentPlateName,(UDINT) PlateTypes[PlateType].Name);
 		else
-			strcpy(CurrentPlateName,"----");
+			brsstrcpy((UDINT) CurrentPlateName,(UDINT) "----");
 	}
 	else
 */
 /*	{*/
 		AlarmBitField[25] = 0;
 		if(GlobalParameter.TrolleyLeft != 0)
-			strcpy(CurrentPlateName,PlateTypes[Trolleys[GlobalParameter.TrolleyLeft].PlateType].Name);
+			brsstrcpy((UDINT) CurrentPlateName,(UDINT) PlateTypes[Trolleys[GlobalParameter.TrolleyLeft].PlateType].Name);
 		else
 			if(GlobalParameter.TrolleyRight != 0)
-				strcpy(CurrentPlateName,PlateTypes[Trolleys[GlobalParameter.TrolleyRight].PlateType].Name);
+				brsstrcpy((UDINT) CurrentPlateName,(UDINT) PlateTypes[Trolleys[GlobalParameter.TrolleyRight].PlateType].Name);
 			else
-				strcpy(CurrentPlateName,"----");
+				brsstrcpy((UDINT) CurrentPlateName,(UDINT) "----");
 /*	}*/
 
 	if(CounterInputReady)
@@ -1058,20 +1049,20 @@ void MainPic(void)
 /* active/standby/error LEDs*/
 	if(BUSY)
 	{
-			ActiveColor = SCHWARZ;
+			ActiveColor = ActiveColorValue;
 	}
 	else
 	{
-			ActiveColor = WEISS;
+			ActiveColor = BackgroundColor;
 	}
 
 	if(STANDBY)
 	{
-			StandbyColor = SCHWARZ;
+			StandbyColor = StandbyColorValue;
 	}
 	else
 	{
-			StandbyColor = WEISS;
+			StandbyColor = BackgroundColor;
 	}
 
 	if(ERROR)
@@ -1079,16 +1070,16 @@ void MainPic(void)
 			if(NEWERROR) /*New eror: blink*/
 			{
 				if(Clock_1s)
-					ErrorColor = SCHWARZ;
+					ErrorColor = ErrorColorValue;
 				else
-					ErrorColor = WEISS;
+					ErrorColor = BackgroundColor;
 			}
 			else
-				ErrorColor = SCHWARZ;
+				ErrorColor = ErrorColorValue;
 	}
 	else /*No error*/
 	{
-			ErrorColor = WEISS;
+			ErrorColor = BackgroundColor;
 	}
 
 /*Start/Stop Button*/
@@ -1109,10 +1100,10 @@ void ClearList(void)
 	int i;
 	for(i=0;i<32;i++)
 	{
-		strcpy(FileListName[i]," ");
-		strcpy(FileListStatus[i]," ");
-		strcpy(FileListTime[i]," ");
-		strcpy(FileListResolution[i]," ");
+		brsstrcpy((UDINT) FileListName[i],(UDINT) " ");
+		brsstrcpy((UDINT) FileListStatus[i],(UDINT) " ");
+		brsstrcpy((UDINT) FileListTime[i],(UDINT) " ");
+		brsstrcpy((UDINT) FileListResolution[i],(UDINT) " ");
 	}
 }
 
@@ -1521,16 +1512,27 @@ Lücke für evtl Änderungen an bestehenden Maschinen in USA
 		- Nach Trolley schließen wird die Pap.Entf. hor. jetzt nur noch 100 Inkr zurückgefahren zum Entlasten 
 	      (vorher fuhr sie auf OpenStartPos)
 
+5.00 NEUES PANEL PPC2100
+	- Konfiguration angelegt
+	- HW konfiguriert
+	- CPU Konfiguration eingestellt
+	- Schnittstellen im Sourcecode angepasst
+	- 2 getrennte Visualisierungen f?r die 2 moeglichen Konfigurationen (PP420/PPC2100)
+	- VA_Setup Aufrufe getrennt fuer die beiden Visualisierungen
+	- Farbumschlaege in Visu abhaengig vom Target (PP420/PPC2100)
+	- Curves Bild: Verschiedene Grafik-Parameter (Positionen) fuer die beiden
+	  Visu Varianten (320*240 und 640*480)
+	- ein define PPC2100, um Schnittstellen/Datenobjekte HW spezifisch zu waehlen
 */
-	strcpy(VERSION,"1.40");
+	brsstrcpy((UDINT) VERSION,(UDINT) "5.00");
 
 /* damit in der Versionsnummer deutlich wird, ob es standard oder "wide 1250" ist */
 #ifdef MODE_BLUEFIN
 	if(IOConfiguration == 2)
-		strcat(VERSION,"W"); /* w for wide */
+		brsstrcat((UDINT) VERSION,(UDINT) "W"); /* w for wide */
 #endif
 
-	strcpy(gVERSION,VERSION);
+	brsstrcpy((UDINT) gVERSION,(UDINT) VERSION);
 	MainPicNumber = 1;
 	BatteryStatus = 0;
 	InitPicReady = 0;
@@ -1577,6 +1579,25 @@ Lücke für evtl Änderungen an bestehenden Maschinen in USA
 
 	LastMinute = 0;
 	DummyZero = 0;
+	ActiveColorValue = SCHWARZ;
+	StandbyColorValue = SCHWARZ;
+	ErrorColorValue = SCHWARZ;
+	BackgroundColor = WEISS;
+#ifdef PPC2100
+	Rect.TopLeft.X = 7;
+	Rect.TopLeft.Y = 59;
+	Rect.Width = 621;
+	Rect.Height = 441;
+	Rect.ColorFill = 15;
+	Rect.ColorFrame = 15;
+#else
+	Rect.TopLeft.X = 7;
+	Rect.TopLeft.Y = 29;
+	Rect.Width = 301;
+	Rect.Height = 200;
+	Rect.ColorFill = 15;
+	Rect.ColorFrame = 15;
+#endif	
 }
 
 
@@ -1698,7 +1719,11 @@ _CYCLIC void Cyclic(void)
 
  	if (!ready)
     {
-        VC_HANDLE = VA_Setup(1 , "visual");
+#ifdef PPC2100
+		VC_HANDLE = VA_Setup(1 , "visuhr");
+#else
+		VC_HANDLE = VA_Setup(1 , "visual");
+#endif
         if (VC_HANDLE)
     	        ready = 1;
 		CalibStep = 0;
@@ -1879,15 +1904,15 @@ _CYCLIC void Cyclic(void)
 		{
 			for(i=MAXFILELIST-3;i>=0;i--)
 			{
-				strcpy(&FileListName[i+1][0],&FileListName[i][0]);
-				strcpy(&FileListStatus[i+1][0],&FileListStatus[i][0]);
-				strcpy(&FileListTime[i+1][0],&FileListTime[i][0]);
-				strcpy(&FileListResolution[i+1][0],&FileListResolution[i][0]);
+				brsstrcpy((UDINT) &FileListName[i+1][0],(UDINT) &FileListName[i][0]);
+				brsstrcpy((UDINT) &FileListStatus[i+1][0],(UDINT) &FileListStatus[i][0]);
+				brsstrcpy((UDINT) &FileListTime[i+1][0],(UDINT) &FileListTime[i][0]);
+				brsstrcpy((UDINT) &FileListResolution[i+1][0],(UDINT) &FileListResolution[i][0]);
 			}
-			strcpy(&FileListName[0][0],&FileListName[MAXFILELIST-1][0]);
-			strcpy(&FileListStatus[0][0],&FileListStatus[MAXFILELIST-1][0]);
-			strcpy(&FileListTime[0][0],&FileListTime[MAXFILELIST-1][0]);
-			strcpy(&FileListResolution[0][0],&FileListResolution[MAXFILELIST-1][0]);
+			brsstrcpy((UDINT) &FileListName[0][0],(UDINT) &FileListName[MAXFILELIST-1][0]);
+			brsstrcpy((UDINT) &FileListStatus[0][0],(UDINT) &FileListStatus[MAXFILELIST-1][0]);
+			brsstrcpy((UDINT) &FileListTime[0][0],(UDINT) &FileListTime[MAXFILELIST-1][0]);
+			brsstrcpy((UDINT) &FileListResolution[0][0],(UDINT) &FileListResolution[MAXFILELIST-1][0]);
 		}
 		FileListShift = 0;
 	}
@@ -2143,7 +2168,7 @@ _CYCLIC void Cyclic(void)
 				if (load) loadall = 1;
 				FileIOData = (UDINT *) TmpPtr;
 				FileIOLength = PERFSRAMSIZEBYTES;
-				strcpy(FileType,"SA1");
+				brsstrcpy((UDINT) FileType,(UDINT) "SA1");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -2379,7 +2404,7 @@ _CYCLIC void Cyclic(void)
 				PlateSelOk = 0;
 				for (i=1;i<MAXPLATETYPES;i++)
 				{
-					itoa(i,(UDINT) &tmp[0]);
+					brsitoa(i,(UDINT) &tmp[0]);
 					memcpy(PlateNameList[i],&tmp[0],1);
 					PlateNameList[i][1] = ' ';
 					memcpy(&PlateNameList[i][2],PlateTypes[i].Name,MAXPLATETYPENAMELENGTH-1);
@@ -2399,7 +2424,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &PlateParamInput;
 				FileIOLength = sizeof(PlateParamInput);
-				strcpy(FileType,"PLT");
+				brsstrcpy((UDINT) FileType,(UDINT) "PLT");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -2469,7 +2494,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &TrolleyParamInput;
 				FileIOLength = sizeof(TrolleyParamInput);
-				strcpy(FileType,"TRO");
+				brsstrcpy((UDINT) FileType,(UDINT) "TRO");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -2480,7 +2505,7 @@ _CYCLIC void Cyclic(void)
 			if (xBildInit && wBildLast != FILEPIC)
 			{
 				UnitLength = 0;
-				strcpy(PlateName,PlateTypes[TrolleyParamInput.PlateType].Name);
+				brsstrcpy((UDINT) PlateName,(UDINT) PlateTypes[TrolleyParamInput.PlateType].Name);
 			}
 
 			TrolleyParamInput.Single = !TrolleyParamInput.Double;
@@ -2496,7 +2521,7 @@ _CYCLIC void Cyclic(void)
 					TrolleyParamInput.PlateType++;
 				else
 					TrolleyParamInput.PlateType = 1;
-				strcpy(PlateName,PlateTypes[TrolleyParamInput.PlateType].Name);
+				brsstrcpy((UDINT) PlateName,(UDINT) PlateTypes[TrolleyParamInput.PlateType].Name);
 			}
 			if (PrevPlate)
 			{
@@ -2505,7 +2530,7 @@ _CYCLIC void Cyclic(void)
 					TrolleyParamInput.PlateType--;
 				else
 					TrolleyParamInput.PlateType = MAXPLATETYPES-1;
-				strcpy(PlateName,PlateTypes[TrolleyParamInput.PlateType].Name);
+				brsstrcpy((UDINT) PlateName,(UDINT) PlateTypes[TrolleyParamInput.PlateType].Name);
 
 			}
 
@@ -2536,7 +2561,7 @@ _CYCLIC void Cyclic(void)
 				PlateSelOk = 0;
 				for (i=1;i<MAXTROLLEYS;i++)
 				{
-					itoa(i,(UDINT) &tmp[0]);
+					brsitoa(i,(UDINT) &tmp[0]);
 					memcpy(PlateNameList[i],&tmp[0],1);
 					PlateNameList[i][1] = ' ';
 					memcpy(&PlateNameList[i][2],Trolleys[i].Name,MAXTROLLEYNAMELENGTH-1);
@@ -2708,9 +2733,9 @@ _CYCLIC void Cyclic(void)
 			{
 				LastPlateType = PlateType;
 				if(PlateType != 0)
-					strcpy(PanoramaPlateName,PlateTypes[PlateType].Name);
+					brsstrcpy((UDINT) PanoramaPlateName,(UDINT) PlateTypes[PlateType].Name);
 				else
-					strcpy(PanoramaPlateName,"----");
+					brsstrcpy((UDINT) PanoramaPlateName,(UDINT) "----");
 			}
 
 			break;
@@ -3126,7 +3151,7 @@ _CYCLIC void Cyclic(void)
 				if (load) loadall = 1;
 				FileIOData = (UDINT *) (TmpPtr + PERFSRAMSIZEBYTES);
 				FileIOLength = EGMSRAMSIZEBYTES;
-				strcpy(FileType,"EGM");
+				brsstrcpy((UDINT) FileType,(UDINT) "EGM");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3164,7 +3189,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputAutoParam;
 				FileIOLength = sizeof(InputAutoParam);
-				strcpy(FileType,"AUT");
+				brsstrcpy((UDINT) FileType,(UDINT) "AUT");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3213,7 +3238,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputPreHeatParam;
 				FileIOLength = sizeof(InputPreHeatParam);
-				strcpy(FileType,"PHT");
+				brsstrcpy((UDINT) FileType,(UDINT) "PHT");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3293,45 +3318,45 @@ _CYCLIC void Cyclic(void)
 			{
 				int a;
 				char tmp[20];
-				strcpy(ctmp,"");
+				brsstrcpy((UDINT) ctmp,(UDINT) "");
 				if (CurveEnter1)
 				{
-					strcpy(ctmp,"Kp = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Kp, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\nTn = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Tn, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\nTv = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Tv, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\nTf = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Tf, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\nKw = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Kw, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\nKfbk = ");
-					ftoa(EGMPreheatParam.ReglerParam[0].Kfbk, (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
+					brsstrcpy((UDINT) ctmp,(UDINT) "Kp = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Kp, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\nTn = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Tn, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\nTv = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Tv, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\nTf = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Tf, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\nKw = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Kw, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\nKfbk = ");
+					brsftoa(EGMPreheatParam.ReglerParam[0].Kfbk, (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
 					if (EGMPreheatParam.ReglerParam[0].d_mode ==LCPID_D_MODE_E)
-						strcat(ctmp,"\nD-Mode = e ");
+						brsstrcat((UDINT) ctmp,(UDINT) "\nD-Mode = e ");
 					else
-						strcat(ctmp,"\nD-Mode = X ");
+						brsstrcat((UDINT) ctmp,(UDINT) "\nD-Mode = X ");
 				}
-				strcat(ctmp,"\n\n ");
+				brsstrcat((UDINT) ctmp,(UDINT) "\n\n ");
 				for(a=0;a<301;a++)
 				{
-					itoa((UINT)((DisplaySamplingTime/100.0)*a), (UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,";");
-					itoa(*(pValueTable+a),(UDINT )&tmp[0]);
-					strcat(ctmp,tmp);
-					strcat(ctmp,"\n");
+					brsitoa((UINT)((DisplaySamplingTime/100.0)*a), (UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) ";");
+					brsitoa(*(pValueTable+a),(UDINT )&tmp[0]);
+					brsstrcat((UDINT) ctmp,(UDINT) tmp);
+					brsstrcat((UDINT) ctmp,(UDINT) "\n");
 				}
 				FileIOData = (UDINT *) &ctmp[0];
 				FileIOLength = strlen(ctmp);
-				strcpy(FileType,"CSV");
+				brsstrcpy((UDINT) FileType,(UDINT) "CSV");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3364,7 +3389,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputDeveloperParam;
 				FileIOLength = sizeof(InputDeveloperParam);
-				strcpy(FileType,"DEV");
+				brsstrcpy((UDINT) FileType,(UDINT) "DEV");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3460,7 +3485,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputPlateType;
 				FileIOLength = sizeof(InputPlateType);
-				strcpy(FileType,"PLT");
+				brsstrcpy((UDINT) FileType,(UDINT) "PLT");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3666,7 +3691,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputPreWashParam;
 				FileIOLength = sizeof(InputPreWashParam);
-				strcpy(FileType,"PWS");
+				brsstrcpy((UDINT) FileType,(UDINT) "PWS");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3725,7 +3750,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &InputRinseParam;
 				FileIOLength = sizeof(InputRinseParam);
-				strcpy(FileType,"RNS");
+				brsstrcpy((UDINT) FileType,(UDINT) "RNS");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;
@@ -3890,7 +3915,7 @@ _CYCLIC void Cyclic(void)
 			{
 				FileIOData = (UDINT *) &EGMInputGlobalParam;
 				FileIOLength = sizeof(EGMInputGlobalParam);
-				strcpy(FileType,"GLB");
+				brsstrcpy((UDINT) FileType,(UDINT) "GLB");
 				wBildNeu = FILEPIC;
 				OrgBildFile = wBildNr;
 				break;

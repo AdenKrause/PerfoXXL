@@ -74,6 +74,7 @@ _INIT void InitialisierungsProgramm(void) {
         InstallConfig2 = 0;
         NewIOConfig = 0;
 		WaitTimer.IN = 0;
+		PanelIsTFT = FALSE;
 }
 
 
@@ -95,6 +96,17 @@ _CYCLIC void cyclic( void )
         myHWInfo[cnt].HWSlotNo    = HWInfo_01.slot_no;          /* Steckplatz des Einschub-oder Anpassungsmoduls */
 
 		HWInfo_01.first = 0;
+
+		/* sobald ein Typcode fuer ein 5AP1120 gefunden wird, ist es ein Farb-Display */
+		if(HWInfo_01.module_typ == 0xE7AA)
+			PanelIsTFT = TRUE;
+			
+		/* sobald ein Typcode fuer ein PP420 gefunden wird, ist es ein LCD-Display (monochrom) */
+		if(  (HWInfo_01.module_typ == 0xA52E) 
+			|| (HWInfo_01.module_typ == 0x23B9)
+			)
+			PanelIsTFT = FALSE;
+
 		if(cnt < MAXHWMODULES)
 			cnt++;
 

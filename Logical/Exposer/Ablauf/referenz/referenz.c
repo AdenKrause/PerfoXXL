@@ -20,7 +20,7 @@
 #include "auxfunc.h"
 
 #define ROT 0x002D
-#define GRUEN 0x000A
+#define GRUEN 0x00E3
 #define GRAU 0x0007
 #define GRAU59 0x003B
 #define SCHWARZ 0x0000
@@ -54,6 +54,7 @@ _GLOBAL UINT MainPicNumber;
 
 static    USINT               PinsStep;       /* holds current step of fct AdjPins */
 static    TON_10ms_typ        PinsTimer;
+static  INT		MarkerColorActive,MarkerColorInactive,MarkerColorError;
 
 _INIT void Init(void)
 {
@@ -66,11 +67,21 @@ _INIT void Init(void)
 	ReferenceTimer.IN = 0;
 	ReferenceTimer.PT = 1;
 	CoverLockTimer.IN = 0;
+	PanelIsTFT = FALSE;
+	MarkerColorActive = SCHWARZ;
+	MarkerColorInactive = WEISS;
+	MarkerColorError = GRAU59;
 }
 
 
 _CYCLIC void Cyclic(void)
 {
+	if(PanelIsTFT)
+	{
+		MarkerColorActive = GRUEN;
+		MarkerColorInactive = WEISS;
+		MarkerColorError = ROT;
+	}
 
 	SequenceSteps[8] = ReferenceStep;
 
@@ -527,67 +538,67 @@ _CYCLIC void Cyclic(void)
 
 	if( Motors[FEEDER_VERTICAL].ReferenceOk)
 	{
-		FeederVerticalColor = SCHWARZ;
+		FeederVerticalColor = MarkerColorActive;
 	}
 	else
 	{
 		if(Motors[FEEDER_VERTICAL].Error)
-			FeederVerticalColor = GRAU59;
+			FeederVerticalColor = MarkerColorError;
 		else
 			if(Motors[FEEDER_VERTICAL].StartRef)
 			{
 				if(ColorToggle)
-					FeederVerticalColor = SCHWARZ;
+					FeederVerticalColor = MarkerColorActive;
 				else
-					FeederVerticalColor = WEISS;
+					FeederVerticalColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				FeederVerticalColor = WEISS;
+				FeederVerticalColor = MarkerColorInactive;
 	}
 
 /*HA 20.01.04 V1.73 */
 	if (!GlobalParameter.FlexibleFeeder)
-		FeederHorizontalColor = WEISS;
+		FeederHorizontalColor = MarkerColorInactive;
 	else
 /*END HA 20.01.04 V1.73 */
 	if( Motors[FEEDER_HORIZONTAL].ReferenceOk)
 	{
-		FeederHorizontalColor = SCHWARZ;
+		FeederHorizontalColor = MarkerColorActive;
 	}
 	else
 	{
 		if(Motors[FEEDER_HORIZONTAL].Error)
-			FeederHorizontalColor = GRAU59;
+			FeederHorizontalColor = MarkerColorError;
 		else
 			if(Motors[FEEDER_HORIZONTAL].StartRef)
 			{
 				if(ColorToggle)
-					FeederHorizontalColor = SCHWARZ;
+					FeederHorizontalColor = MarkerColorActive;
 				else
-					FeederHorizontalColor = WEISS;
+					FeederHorizontalColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				FeederHorizontalColor = WEISS;
+				FeederHorizontalColor = MarkerColorInactive;
 	}
 
 	if( Motors[PAPERREMOVE_HORIZONTAL].ReferenceOk)
 	{
-		PaperRemoveHorizontalColor = SCHWARZ;
+		PaperRemoveHorizontalColor = MarkerColorActive;
 	}
 	else
 	{
 		if(Motors[PAPERREMOVE_HORIZONTAL].Error)
-			PaperRemoveHorizontalColor = GRAU59;
+			PaperRemoveHorizontalColor = MarkerColorError;
 		else
 			if(Motors[PAPERREMOVE_HORIZONTAL].StartRef)
 			{
 				if(ColorToggle)
-					PaperRemoveHorizontalColor = SCHWARZ;
+					PaperRemoveHorizontalColor = MarkerColorActive;
 				else
-					PaperRemoveHorizontalColor = WEISS;
+					PaperRemoveHorizontalColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				PaperRemoveHorizontalColor = WEISS;
+				PaperRemoveHorizontalColor = MarkerColorInactive;
 	}
 
 	if( Motors[PAPERREMOVE_VERTICAL].ReferenceOk)
@@ -597,85 +608,85 @@ _CYCLIC void Cyclic(void)
 	else
 	{
 		if(Motors[PAPERREMOVE_VERTICAL].Error)
-			PaperRemoveVerticalColor = GRAU59;
+			PaperRemoveVerticalColor = MarkerColorError;
 		else
 			if(Motors[PAPERREMOVE_VERTICAL].StartRef)
 			{
 				if(ColorToggle)
-					PaperRemoveVerticalColor = SCHWARZ;
+					PaperRemoveVerticalColor = MarkerColorActive;
 				else
-					PaperRemoveVerticalColor = WEISS;
+					PaperRemoveVerticalColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				PaperRemoveVerticalColor = WEISS;
+				PaperRemoveVerticalColor = MarkerColorInactive;
 	}
 
 
 /*HA 20.01.04 V1.73 */
 	if (!GlobalParameter.DeloaderTurnStation)
-		DeloaderHorizontalColor = WEISS;
+		DeloaderHorizontalColor = MarkerColorInactive;
 	else
 /*END HA 20.01.04 V1.73 */
 	if( Motors[DELOADER_HORIZONTAL].ReferenceOk)
 	{
-		DeloaderHorizontalColor = SCHWARZ;
+		DeloaderHorizontalColor = MarkerColorActive;
 	}
 	else
 	{
 		if(Motors[DELOADER_HORIZONTAL].Error && GlobalParameter.DeloaderTurnStation)
-			DeloaderHorizontalColor = GRAU59;
+			DeloaderHorizontalColor = MarkerColorError;
 		else
 			if(Motors[DELOADER_HORIZONTAL].StartRef)
 			{
 				if(ColorToggle)
-					DeloaderHorizontalColor = SCHWARZ;
+					DeloaderHorizontalColor = MarkerColorActive;
 				else
-					DeloaderHorizontalColor = WEISS;
+					DeloaderHorizontalColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				DeloaderHorizontalColor = WEISS;
+				DeloaderHorizontalColor = MarkerColorInactive;
 	}
 
 /*HA 20.01.04 V1.73 */
 	if (GlobalParameter.DeloaderTurnStation!=2)
-		DeloaderTurnColor = WEISS;
+		DeloaderTurnColor = MarkerColorInactive;
 	else
 /*END HA 20.01.04 V1.73 */
 	if( Motors[DELOADER_TURN].ReferenceOk)
 	{
-		DeloaderTurnColor = SCHWARZ;
+		DeloaderTurnColor = MarkerColorActive;
 	}
 	else
 	{
 		if(Motors[DELOADER_TURN].Error)
-			DeloaderTurnColor = GRAU59;
+			DeloaderTurnColor = MarkerColorError;
 		else
 			if(Motors[DELOADER_TURN].StartRef)
 			{
 				if(ColorToggle)
-					DeloaderTurnColor = SCHWARZ;
+					DeloaderTurnColor = MarkerColorActive;
 				else
-					DeloaderTurnColor = WEISS;
+					DeloaderTurnColor = MarkerColorInactive;
 			}
 			else /*no ref and ref not running*/
-				DeloaderTurnColor = WEISS;
+				DeloaderTurnColor = MarkerColorInactive;
 	}
 
 	if(FU.Error || FU.CANError)
-		FUColor = GRAU59;
+		FUColor = MarkerColorError;
 	else
 	if(FU.cmd_Ref && !FU.RefOk)
 	{
 		if (ColorToggle)
-			FUColor = SCHWARZ;
+			FUColor = MarkerColorActive;
 		else
-			FUColor = WEISS;
+			FUColor = MarkerColorInactive;
 	}
 	else
 		if(FU.RefOk)
-			FUColor = SCHWARZ;
+			FUColor = MarkerColorActive;
 		else
-			FUColor = WEISS;
+			FUColor = MarkerColorInactive;
 
 
 }

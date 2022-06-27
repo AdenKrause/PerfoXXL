@@ -11,6 +11,8 @@
 	#include	<bur/plctypes.h>
 	#include 	<standard.h>
 
+/* Muss aktiviert sein fuer Ziel-HW PPC2100 */
+#define PPC2100
 
 	/* !!! ACHTUNG!!  Bei Veränderungen in dieser Datei immer ALLES KOMPILIEREN !!!*/
 
@@ -751,7 +753,7 @@
 	_GLOBAL	Trolley_Data_Typ *pTrolley;
 	_GLOBAL	BOOL ManualLoadingStart;
 	_GLOBAL	BOOL ManualMode;
-
+	_GLOBAL BOOL	PanelIsTFT;
 #endif
 
 
