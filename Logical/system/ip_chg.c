@@ -63,6 +63,8 @@ _LOCAL int ErrorCode;
 int WaitCounter;
 _GLOBAL USINT		gTriggerRedraw;
 
+static char ETHName[50];
+
 
 void IPString2Bytes(char *IPString,IP_typ *IP)
 {
@@ -117,6 +119,11 @@ _INIT void init(void)
 	GetIP = 0;
 	SetIP = 0;
 	SetIPStep = 0;
+#ifdef PPC2100
+	strcpy(ETHName,"IF3");
+#else
+	strcpy(ETHName,"IF5");
+#endif
 }
 
 _CYCLIC void cyclic(void)
@@ -147,7 +154,7 @@ _CYCLIC void cyclic(void)
 /* aktuelle IP auslesen */
 		case 5:
 		{
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgGetIPAddr_var.pDevice = (UDINT) &entry;
 			CfgGetIPAddr_var.pIPAddr = (UDINT) &OldIP;
 			CfgGetIPAddr_var.Len = 16;
@@ -175,7 +182,7 @@ _CYCLIC void cyclic(void)
 /* aktuelles Def. Gateway auslesen */
 		case 6:
 		{
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgGetDefaultGateway_var.pDevice = (UDINT) &entry;
 			CfgGetDefaultGateway_var.pGateway = (UDINT) &OldGateway;
 			CfgGetDefaultGateway_var.Len = 16;
@@ -214,7 +221,7 @@ _CYCLIC void cyclic(void)
 /* aktuelles Def. Gateway auslesen */
 		case 7:
 		{
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgGetSubnetMask_var.pDevice = (UDINT) &entry;
 			CfgGetSubnetMask_var.pSubnetMask = (UDINT) &OldSubnet;
 			CfgGetSubnetMask_var.Len = 16;
@@ -303,7 +310,7 @@ _CYCLIC void cyclic(void)
 				break;
 			}
 
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgSetSubnetMask_var.pDevice = (UDINT) &entry;
 			CfgSetSubnetMask_var.pSubnetMask = (UDINT) &NewIP;
 			CfgSetSubnetMask_var.Option = 1; /*NON-VOLATILE*/
@@ -346,7 +353,7 @@ _CYCLIC void cyclic(void)
 				break;
 			}
 
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgSetIPAddr_var.pDevice = (UDINT) &entry;
 			CfgSetIPAddr_var.pIPAddr = (UDINT) &NewIP;
 			CfgSetIPAddr_var.Option = 1; /*NON-VOLATILE*/
@@ -382,7 +389,7 @@ _CYCLIC void cyclic(void)
 				break;
 			}
 
-			strcpy(entry,"IF5");
+			strcpy(entry,ETHName);
 			CfgSetDefaultGateway_var.pDevice = (UDINT) &entry;
 			CfgSetDefaultGateway_var.pGateway = (UDINT) &NewIP;
 			CfgSetDefaultGateway_var.Option = 1; /*NON-VOLATILE*/

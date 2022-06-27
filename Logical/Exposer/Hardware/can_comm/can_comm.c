@@ -18,6 +18,12 @@
 #include <can_lib.h>								/*prototypes of can_lib*/
 #include <dataobj.h>								/*prototypes of dataobj*/
 
+#ifdef PPC2100
+#define CAN_DEVICE "SL1.IF3"
+#else
+#define CAN_DEVICE "SL1.SS1.IF1"
+#endif
+
 CANopen_typ _LOCAL CANopen_01;
 CANdftab_typ _LOCAL CANdftab_01;
 CANrwtab_typ _LOCAL CANrwtab_01;
@@ -35,7 +41,7 @@ void _INIT init( void )								/*init part of task*/
 	CANopen_01.baud_rate = 25;						/*define baud rate - 250 kBit/s, 12 -> 125KB/s */
 	CANopen_01.cob_anz = 20;							/*dfine number  of COB`s*/
 /*	CANopen_01.device = (UDINT) "IF3"; */				/*define device*/
-	CANopen_01.device = (UDINT) "SL1.SS1.IF1";
+	CANopen_01.device = (UDINT) CAN_DEVICE;
 	CANopen_01.error_adr = (UDINT)&error_var;				/*define error adress*/
 	CANopen(&CANopen_01);							/*initiate CANopen*/
 

@@ -302,7 +302,11 @@ _INIT void InitProgram(void)
 	StopPolling = FALSE;
 	ResendCounter = 0;
 	xopenOK = 0;
-	strcpy(&StringDevice[0], "IF1"); 							/* interface #1 */
+#ifdef PPC2100
+	strcpy(StringDevice, "SL1.IF5"); 							/* interface #1 */
+#else
+	strcpy(StringDevice, "IF1"); 							/* interface #1 */
+#endif
 	strcpy(&StringMode[0], "/BD=19200 /PA=N /DB=8 /SB=1"); 		/* RS232 interface, 19200 BAUD, no parity, 8 data bits, 1 stop bit */
 
 	/* initialize config structure */
