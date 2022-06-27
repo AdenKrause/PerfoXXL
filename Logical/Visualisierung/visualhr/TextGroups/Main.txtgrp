@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Main">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="43"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="87976" Value="Operating mode:"/>
+    <Text ID="87977" Value="Measured values"/>
+    <Text ID="87983" Value="OK"/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value="State:"/>
+    <Text ID="88097" Value="Temperatures"/>
+    <Text ID="88108" Value="Developer"/>
+    <Text ID="88109" Value="Preheat"/>
+    <Text ID="88111" Value="Set"/>
+    <Text ID="88112" Value="Actual"/>
+    <Text ID="88115" Value="Prewash"/>
+    <Text ID="88116" Value="Rinse"/>
+    <Text ID="88117" Value="Gum"/>
+    <Text ID="99660" Value="Error"/>
+    <Text ID="99661" Value="Wash-gum-solution"/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value="Remainig (Overall)"/>
+    <Text ID="109828" Value="Remainig (Current step)"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="87976" Value="Betriebsart:"/>
+    <Text ID="87977" Value="Meßwerte"/>
+    <Text ID="87983" Value="OK"/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value="Status:"/>
+    <Text ID="88097" Value="Temperaturen"/>
+    <Text ID="88108" Value="Entwickler"/>
+    <Text ID="88109" Value="Nacherwärmung"/>
+    <Text ID="88111" Value="Soll"/>
+    <Text ID="88112" Value="Ist"/>
+    <Text ID="88115" Value="Vorspülen"/>
+    <Text ID="88116" Value="Nachspülen"/>
+    <Text ID="88117" Value="Gummierung"/>
+    <Text ID="99660" Value="Fehler"/>
+    <Text ID="99661" Value="Waschgummierung"/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value="Restzeit (gesamt)"/>
+    <Text ID="109828" Value="Restzeit (aktueller Schritt)"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="87976" Value="Modo operacion"/>
+    <Text ID="87977" Value="Valores medidos"/>
+    <Text ID="87983" Value="OK"/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value="Estado:"/>
+    <Text ID="88097" Value="Temperatura"/>
+    <Text ID="88108" Value="Revelador"/>
+    <Text ID="88109" Value="Precalentamiento"/>
+    <Text ID="88111" Value="Nominal"/>
+    <Text ID="88112" Value="Actual"/>
+    <Text ID="88115" Value="Prelavado"/>
+    <Text ID="88116" Value="Enjuagado"/>
+    <Text ID="88117" Value="Engomado"/>
+    <Text ID="99660" Value="Error"/>
+    <Text ID="99661" Value="Wash-gum-solution"/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value="Tiempo restante (total)"/>
+    <Text ID="109828" Value="Tiempo restante (paso actual)"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="87976" Value="Operating mode:"/>
+    <Text ID="87977" Value="Måleverdier"/>
+    <Text ID="87983" Value=""/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value="Status:"/>
+    <Text ID="88097" Value="Temperaturer"/>
+    <Text ID="88108" Value="Fremkaller"/>
+    <Text ID="88109" Value="Ettervarming"/>
+    <Text ID="88111" Value="Settpunkt"/>
+    <Text ID="88112" Value="Virkelig"/>
+    <Text ID="88115" Value="Forspyling"/>
+    <Text ID="88116" Value="Etterspyling"/>
+    <Text ID="88117" Value="Gummiering"/>
+    <Text ID="99660" Value="Feil"/>
+    <Text ID="99661" Value="Wash-gum-solution"/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value="Resttid (til sammen)"/>
+    <Text ID="109828" Value="Resttid (aktuelt trinn)"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="87976" Value=""/>
+    <Text ID="87977" Value=""/>
+    <Text ID="87983" Value=""/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value=""/>
+    <Text ID="88097" Value=""/>
+    <Text ID="88108" Value=""/>
+    <Text ID="88109" Value=""/>
+    <Text ID="88111" Value=""/>
+    <Text ID="88112" Value=""/>
+    <Text ID="88115" Value=""/>
+    <Text ID="88116" Value=""/>
+    <Text ID="88117" Value=""/>
+    <Text ID="99660" Value=""/>
+    <Text ID="99661" Value=""/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value=""/>
+    <Text ID="109828" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="87976" Value=""/>
+    <Text ID="87977" Value=""/>
+    <Text ID="87983" Value=""/>
+    <Text ID="87984" Value=""/>
+    <Text ID="87998" Value=""/>
+    <Text ID="88097" Value=""/>
+    <Text ID="88108" Value=""/>
+    <Text ID="88109" Value=""/>
+    <Text ID="88111" Value=""/>
+    <Text ID="88112" Value=""/>
+    <Text ID="88115" Value=""/>
+    <Text ID="88116" Value=""/>
+    <Text ID="88117" Value=""/>
+    <Text ID="99660" Value=""/>
+    <Text ID="99661" Value=""/>
+    <Text ID="99662" Value=""/>
+    <Text ID="109827" Value=""/>
+    <Text ID="109828" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="87976" Value="0"/>
+    <Index ID="87977" Value="1"/>
+    <Index ID="87983" Value="3"/>
+    <Index ID="87984" Value="2"/>
+    <Index ID="87998" Value="5"/>
+    <Index ID="88097" Value="6"/>
+    <Index ID="88108" Value="7"/>
+    <Index ID="88109" Value="8"/>
+    <Index ID="88111" Value="9"/>
+    <Index ID="88112" Value="10"/>
+    <Index ID="88115" Value="11"/>
+    <Index ID="88116" Value="12"/>
+    <Index ID="88117" Value="13"/>
+    <Index ID="99660" Value="17"/>
+    <Index ID="99661" Value="18"/>
+    <Index ID="99662" Value="4"/>
+    <Index ID="109827" Value="14"/>
+    <Index ID="109828" Value="15"/>
+  </IndexMap>
+</TextGroup>

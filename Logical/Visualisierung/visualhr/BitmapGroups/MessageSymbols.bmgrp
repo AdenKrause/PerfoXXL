@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MessageSymbols">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="389" Value="Source[local].Bitmap[GumEmpty]"/>
+    <BitmapRef ID="390" Value="Source[local].Bitmap[TankEmpty]"/>
+    <BitmapRef ID="391" Value="Source[local].Bitmap[CAUTION2]"/>
+    <BitmapRef ID="392" Value="Source[local].Bitmap[No_Flow2]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="389" Value="1"/>
+    <Index ID="390" Value="2"/>
+    <Index ID="391" Value="0"/>
+    <Index ID="392" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

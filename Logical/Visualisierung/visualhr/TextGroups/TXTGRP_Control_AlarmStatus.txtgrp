@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXTGRP_Control_AlarmStatus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="46"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="5" Value="0"/>
+    <Text ID="6" Value="1"/>
+    <Text ID="7" Value=""/>
+    <Text ID="8" Value=""/>
+    <Text ID="9" Value=""/>
+    <Text ID="10" Value=""/>
+    <Text ID="11" Value=""/>
+    <Text ID="12" Value=""/>
+    <Text ID="13" Value=""/>
+    <Text ID="14" Value=""/>
+    <Text ID="15" Value=""/>
+    <Text ID="16" Value=""/>
+    <Text ID="17" Value=""/>
+    <Text ID="18" Value=""/>
+    <Text ID="19" Value=""/>
+    <Text ID="20" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="1" Value="A"/>
+    <Text ID="2" Value=" "/>
+    <Text ID="3" Value="A"/>
+    <Text ID="4" Value="A"/>
+    <Text ID="5" Value="0"/>
+    <Text ID="6" Value="1"/>
+    <Text ID="7" Value=" "/>
+    <Text ID="8" Value="B"/>
+    <Text ID="9" Value="T"/>
+    <Text ID="10" Value="R"/>
+    <Text ID="11" Value="A"/>
+    <Text ID="12" Value="A"/>
+    <Text ID="13" Value="B"/>
+    <Text ID="14" Value="U"/>
+    <Text ID="15" Value="Kommen"/>
+    <Text ID="16" Value="Gehen"/>
+    <Text ID="17" Value="Gebrückt"/>
+    <Text ID="18" Value="Entbrückt"/>
+    <Text ID="19" Value="Quittiert"/>
+    <Text ID="20" Value="Unquittiert"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="5" Value="0"/>
+    <Text ID="6" Value="1"/>
+    <Text ID="7" Value=""/>
+    <Text ID="8" Value=""/>
+    <Text ID="9" Value=""/>
+    <Text ID="10" Value=""/>
+    <Text ID="11" Value=""/>
+    <Text ID="12" Value=""/>
+    <Text ID="13" Value=""/>
+    <Text ID="14" Value=""/>
+    <Text ID="15" Value=""/>
+    <Text ID="16" Value=""/>
+    <Text ID="17" Value=""/>
+    <Text ID="18" Value=""/>
+    <Text ID="19" Value=""/>
+    <Text ID="20" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="5" Value="0"/>
+    <Text ID="6" Value="1"/>
+    <Text ID="7" Value=""/>
+    <Text ID="8" Value=""/>
+    <Text ID="9" Value=""/>
+    <Text ID="10" Value=""/>
+    <Text ID="11" Value=""/>
+    <Text ID="12" Value=""/>
+    <Text ID="13" Value=""/>
+    <Text ID="14" Value=""/>
+    <Text ID="15" Value=""/>
+    <Text ID="16" Value=""/>
+    <Text ID="17" Value=""/>
+    <Text ID="18" Value=""/>
+    <Text ID="19" Value=""/>
+    <Text ID="20" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="5" Value=""/>
+    <Text ID="6" Value=""/>
+    <Text ID="7" Value=""/>
+    <Text ID="8" Value=""/>
+    <Text ID="9" Value=""/>
+    <Text ID="10" Value=""/>
+    <Text ID="11" Value=""/>
+    <Text ID="12" Value=""/>
+    <Text ID="13" Value=""/>
+    <Text ID="14" Value=""/>
+    <Text ID="15" Value=""/>
+    <Text ID="16" Value=""/>
+    <Text ID="17" Value=""/>
+    <Text ID="18" Value=""/>
+    <Text ID="19" Value=""/>
+    <Text ID="20" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="1" Value=""/>
+    <Text ID="2" Value=""/>
+    <Text ID="3" Value=""/>
+    <Text ID="4" Value=""/>
+    <Text ID="5" Value=""/>
+    <Text ID="6" Value=""/>
+    <Text ID="7" Value=""/>
+    <Text ID="8" Value=""/>
+    <Text ID="9" Value=""/>
+    <Text ID="10" Value=""/>
+    <Text ID="11" Value=""/>
+    <Text ID="12" Value=""/>
+    <Text ID="13" Value=""/>
+    <Text ID="14" Value=""/>
+    <Text ID="15" Value=""/>
+    <Text ID="16" Value=""/>
+    <Text ID="17" Value=""/>
+    <Text ID="18" Value=""/>
+    <Text ID="19" Value=""/>
+    <Text ID="20" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1" Value="0"/>
+    <Index ID="2" Value="1"/>
+    <Index ID="3" Value="2"/>
+    <Index ID="4" Value="3"/>
+    <Index ID="5" Value="4"/>
+    <Index ID="6" Value="5"/>
+    <Index ID="7" Value="6"/>
+    <Index ID="8" Value="7"/>
+    <Index ID="9" Value="8"/>
+    <Index ID="10" Value="9"/>
+    <Index ID="11" Value="10"/>
+    <Index ID="12" Value="11"/>
+    <Index ID="13" Value="12"/>
+    <Index ID="14" Value="13"/>
+    <Index ID="15" Value="14"/>
+    <Index ID="16" Value="15"/>
+    <Index ID="17" Value="16"/>
+    <Index ID="18" Value="17"/>
+    <Index ID="19" Value="18"/>
+    <Index ID="20" Value="19"/>
+  </IndexMap>
+</TextGroup>

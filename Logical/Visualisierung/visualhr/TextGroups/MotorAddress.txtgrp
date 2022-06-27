@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MotorAddress">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value="Platefeeder vertical"/>
+    <Text ID="90390" Value="Platefeeder horizontal"/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value="Paperremove horizontal"/>
+    <Text ID="90393" Value="Paperremove vertical"/>
+    <Text ID="90394" Value="Adjustbelt"/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value="Conveyor belt"/>
+    <Text ID="165512" Value="Paperremove vertical 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value="Plattenaufn. vertikal"/>
+    <Text ID="90390" Value="Plattenaufn. horizontal"/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value="Papierentf. horizontal"/>
+    <Text ID="90393" Value="Papierentf. vertikal"/>
+    <Text ID="90394" Value="Ausrichtband"/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value="Auslaufband"/>
+    <Text ID="165512" Value="Papierentf. vertikal 2"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value=""/>
+    <Text ID="90390" Value=""/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value=""/>
+    <Text ID="90393" Value=""/>
+    <Text ID="90394" Value=""/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value=""/>
+    <Text ID="165512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value="Platefeeder vertical"/>
+    <Text ID="90390" Value="Platefeeder horizontal"/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value="Paperremove horizontal"/>
+    <Text ID="90393" Value="Paperremove vertical"/>
+    <Text ID="90394" Value="Adjustbelt"/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value="Conveyor belt"/>
+    <Text ID="165512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value=""/>
+    <Text ID="90390" Value=""/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value=""/>
+    <Text ID="90393" Value=""/>
+    <Text ID="90394" Value=""/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value=""/>
+    <Text ID="165512" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="90388" Value=""/>
+    <Text ID="90389" Value=""/>
+    <Text ID="90390" Value=""/>
+    <Text ID="90391" Value=""/>
+    <Text ID="90392" Value=""/>
+    <Text ID="90393" Value=""/>
+    <Text ID="90394" Value=""/>
+    <Text ID="90395" Value=""/>
+    <Text ID="90396" Value=""/>
+    <Text ID="90397" Value=""/>
+    <Text ID="165512" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="90388" Value="0"/>
+    <Index ID="90389" Value="1"/>
+    <Index ID="90390" Value="2"/>
+    <Index ID="90391" Value="3"/>
+    <Index ID="90392" Value="4"/>
+    <Index ID="90393" Value="5"/>
+    <Index ID="90394" Value="6"/>
+    <Index ID="90395" Value="7"/>
+    <Index ID="90396" Value="8"/>
+    <Index ID="90397" Value="9"/>
+    <Index ID="165512" Value="10"/>
+  </IndexMap>
+</TextGroup>

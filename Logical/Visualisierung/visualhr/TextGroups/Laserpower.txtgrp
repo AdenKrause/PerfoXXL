@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Laserpower">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="29"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="100385" Value="Platetype Number"/>
+    <Text ID="100386" Value="Resol.[dpi]"/>
+    <Text ID="100387" Value="All plate types equal"/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="100385" Value="Plattentyp Nummer"/>
+    <Text ID="100386" Value="Aufl.[dpi]"/>
+    <Text ID="100387" Value="Alle Plattentypen gleich"/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="100385" Value=""/>
+    <Text ID="100386" Value=""/>
+    <Text ID="100387" Value=""/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="100385" Value="Platetype Number"/>
+    <Text ID="100386" Value="Resol.[dpi]"/>
+    <Text ID="100387" Value="All plate types equal"/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="100385" Value=""/>
+    <Text ID="100386" Value=""/>
+    <Text ID="100387" Value=""/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="100385" Value=""/>
+    <Text ID="100386" Value=""/>
+    <Text ID="100387" Value=""/>
+    <Text ID="100388" Value=""/>
+    <Text ID="100389" Value=""/>
+    <Text ID="100390" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="100385" Value="0"/>
+    <Index ID="100386" Value="1"/>
+    <Index ID="100387" Value="2"/>
+    <Index ID="100388" Value="3"/>
+    <Index ID="100389" Value="4"/>
+    <Index ID="100390" Value="5"/>
+  </IndexMap>
+</TextGroup>

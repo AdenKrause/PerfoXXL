@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PlateConfig">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="58"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="170685" Value="Left only"/>
+    <Text ID="170686" Value="Right only"/>
+    <Text ID="170687" Value="Both"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="Cross"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="170685" Value="nur links"/>
+    <Text ID="170686" Value="nur rechts"/>
+    <Text ID="170687" Value="beide"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="single quer"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="170685" Value="Left only"/>
+    <Text ID="170686" Value="Right only"/>
+    <Text ID="170687" Value="Both"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="Cross"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="170685" Value="Left only"/>
+    <Text ID="170686" Value="Right only"/>
+    <Text ID="170687" Value="Both"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="Cross"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="170685" Value="Left only"/>
+    <Text ID="170686" Value="Right only"/>
+    <Text ID="170687" Value="Both"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="Cross"/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="170685" Value=""/>
+    <Text ID="170686" Value="Right only"/>
+    <Text ID="170687" Value="Both"/>
+    <Text ID="170688" Value="Pano"/>
+    <Text ID="170689" Value="Cross"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="170685" Value="0"/>
+    <Index ID="170686" Value="1"/>
+    <Index ID="170687" Value="2"/>
+    <Index ID="170688" Value="3"/>
+    <Index ID="170689" Value="4"/>
+  </IndexMap>
+</TextGroup>

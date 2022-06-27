@@ -24,7 +24,7 @@
         <Property Name="PLCType" Value="USINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Contrast">
@@ -33,7 +33,7 @@
         <Property Name="PLCType" Value="USINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
     </Folder>
@@ -46,7 +46,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Hour">
@@ -55,7 +55,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Minute">
@@ -64,7 +64,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Month">
@@ -73,7 +73,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Second">
@@ -82,7 +82,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Year">
@@ -91,7 +91,7 @@
         <Property Name="PLCType" Value="UINT" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
     </Folder>
@@ -107,7 +107,7 @@
         <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
       <DataPoint Name="Room">
@@ -119,7 +119,7 @@
         <Property Name="UnitGroup" Value="Source[global].UnitGroup[Temperatures]" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
     </Folder>
@@ -133,7 +133,7 @@
         <Property Name="PLCType" Value="STRING" />
         <Property Name="UpdateTime" Value="Default" />
         <Property Name="UserID" Value="None" />
-        <Property Name="ConnectingVisus" Value="visual" />
+        <Property Name="ConnectingVisus" Value="Visualisierung\visual,Visualisierung\visual1" />
         <Property Name="ConnectedBySharedResource" Value="False" />
       </DataPoint>
     </Folder>

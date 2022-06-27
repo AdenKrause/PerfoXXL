@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Languages">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="32"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="78" Value="German"/>
+    <Text ID="81" Value="English"/>
+    <Text ID="84" Value="Current Language:"/>
+    <Text ID="294" Value="Language"/>
+    <Text ID="140825" Value="Norwegian"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="78" Value="Deutsch"/>
+    <Text ID="81" Value="Englisch"/>
+    <Text ID="84" Value="Aktuelle Sparache:"/>
+    <Text ID="294" Value="Sprache"/>
+    <Text ID="140825" Value="Norwegisch"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="78" Value="Aleman"/>
+    <Text ID="81" Value="Ingles"/>
+    <Text ID="84" Value="Idioma actual"/>
+    <Text ID="294" Value="Idioma  "/>
+    <Text ID="140825" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="78" Value="Tysk"/>
+    <Text ID="81" Value="Engelsk"/>
+    <Text ID="84" Value="Aktuell språk:"/>
+    <Text ID="294" Value="Språk"/>
+    <Text ID="140825" Value="Norsk"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="78" Value=""/>
+    <Text ID="81" Value=""/>
+    <Text ID="84" Value=""/>
+    <Text ID="294" Value=""/>
+    <Text ID="140825" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="78" Value=""/>
+    <Text ID="81" Value=""/>
+    <Text ID="84" Value=""/>
+    <Text ID="294" Value=""/>
+    <Text ID="140825" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="78" Value="1"/>
+    <Index ID="81" Value="0"/>
+    <Index ID="84" Value="23"/>
+    <Index ID="294" Value="24"/>
+    <Index ID="140825" Value="3"/>
+  </IndexMap>
+</TextGroup>

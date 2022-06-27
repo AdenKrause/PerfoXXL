@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Param_buttons_next">
+  <Property Name="BackColor" Value="15" />
+  <Property Name="Description" Value="Only Next-Button on Parameter pages" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Left" Value="0" />
+  <Property Name="StatusDatapoint" Value="None" />
+  <Property Name="Top" Value="0" />
+  <Property Name="Width" Value="320" />
+  <TextGroup>
+    <TextLayer LanguageId="en-GB" />
+    <TextLayer LanguageId="de-DE" />
+    <TextLayer LanguageId="es-ES" />
+    <TextLayer LanguageId="no-NO" />
+    <TextLayer LanguageId="nl-NL" />
+    <TextLayer LanguageId="tr-TR" />
+    <IndexMap />
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001002" Name="Button_4">
+      <Property Name="BitmapAlignmentHorizontal" Value="Center" />
+      <Property Name="BitmapIndexDatapoint" Value="None" />
+      <Property Name="BitmapSource" Value="None" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="EmbVirtualKey" Value="None" />
+      <Property Name="Font" Value="Source[local].Font[Arial8]" />
+      <Property Name="Height" Value="46" />
+      <Property Name="KeyMatrixOffset" Value="None" />
+      <Property Name="Left" Value="558" />
+      <Property Name="PressedBitmapSource" Value="None" />
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
+      <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
+      <Property Name="TextIndex" Value="27" />
+      <Property Name="TextIndexDatapoint" Value="None" />
+      <Property Name="TextSimulationValue" Value="0" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="38" />
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[ParamNext]" />
+      <Property Name="Width" Value="80" />
+    </Control>
+  </Controls>
+  <KeyMapping />
+</Layer>

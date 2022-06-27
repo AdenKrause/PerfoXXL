@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="EGMParam02">
+  <Property Name="Description" Value="" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Index" Value="113" />
+  <Property Name="MoveFocus" Value="Circular" />
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+  <Property Name="Width" Value="320" />
+  <Layers>
+    <LayerRef Source="Source[local].Layer[CommonLayer_1]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="CommonLayer_1" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Z-Order" Value="0" />
+    </LayerRef>
+    <Layer Name="DEFAULT">
+      <Property Name="BackColor" Value="14" />
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Normal" />
+      <Property Name="Height" Value="240" />
+      <Property Name="Left" Value="0" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="StatusDatapoint" Value="None" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Width" Value="320" />
+      <Property Name="Z-Order" Value="1" />
+      <TextGroup>
+        <TextLayer LanguageId="en-GB" />
+        <TextLayer LanguageId="de-DE" />
+        <TextLayer LanguageId="es-ES" />
+        <TextLayer LanguageId="no-NO" />
+        <TextLayer LanguageId="nl-NL" />
+        <TextLayer LanguageId="tr-TR" />
+        <IndexMap />
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="BackColor" Value="14" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_MOTOR]" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="FillStyle" Value="Opaque" />
+          <Property Name="Height" Value="80" />
+          <Property Name="IndexDatapoint" Value="None" />
+          <Property Name="Left" Value="22" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="104" />
+          <Property Name="Width" Value="78" />
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="BackColor" Value="14" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_MOTOR]" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="FillStyle" Value="Opaque" />
+          <Property Name="Height" Value="80" />
+          <Property Name="IndexDatapoint" Value="None" />
+          <Property Name="Left" Value="22" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="312" />
+          <Property Name="Width" Value="78" />
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line38">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EndX" Value="638" />
+          <Property Name="EndY" Value="224" />
+          <Property Name="StartX" Value="0" />
+          <Property Name="StartY" Value="224" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="BackColor" Value="10" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_EXIT_2]" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="66" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="570" />
+          <Property Name="PressedBackColor" Value="6" />
+          <Property Name="PressedBitmap" Value="Source[local].Bitmap[SK_EXIT]" />
+          <Property Name="PressedBitmapSource" Value="SingleBitmap" />
+          <Property Name="PressedTextSource" Value="None" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="412" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMBW_ParamMore]" />
+          <Property Name="Width" Value="66" />
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_3">
+          <Property Name="BackColor" Value="15" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Vorschub]" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="FillStyle" Value="Opaque" />
+          <Property Name="Height" Value="110" />
+          <Property Name="IndexDatapoint" Value="None" />
+          <Property Name="Left" Value="126" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="90" />
+          <Property Name="Width" Value="140" />
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_5">
+          <Property Name="BackColor" Value="15" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Buersten]" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="FillStyle" Value="Opaque" />
+          <Property Name="Height" Value="140" />
+          <Property Name="IndexDatapoint" Value="None" />
+          <Property Name="Left" Value="142" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="282" />
+          <Property Name="Width" Value="110" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="BackColor" Value="10" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_MASCHINENPARAMETER2]" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="66" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="434" />
+          <Property Name="Locking" Value="Datapoint &lt; Level" />
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.UserLevel]" />
+          <Property Name="LockingLevel" Value="1" />
+          <Property Name="PressedBackColor" Value="6" />
+          <Property Name="PressedBitmap" Value="Source[local].Bitmap[SK_MASCHINENPARAMETER]" />
+          <Property Name="PressedBitmapSource" Value="SingleBitmap" />
+          <Property Name="PressedTextSource" Value="None" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="116" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMBW_MainMotor]" />
+          <Property Name="Width" Value="66" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="32" />
+          <Property Name="Left" Value="362" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Motors]" />
+          <Property Name="TextIndexOffset" Value="0" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="112" />
+          <Property Name="Width" Value="64" />
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_1">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="42" />
+          <Property Name="Left" Value="298" />
+          <Property Name="Shape" Value="Ellipse" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="104" />
+          <Property Name="Width" Value="42" />
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_2">
+          <Property Name="BackColor" Value="0" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="30" />
+          <Property Name="Left" Value="304" />
+          <Property Name="Shape" Value="Ellipse" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.EGMMainMotor.Manual]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="110" />
+          <Property Name="Width" Value="30" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Left" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="24" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="None" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="None" />
+          <Property Name="SimulationValue" Value="8594.62295081968" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="156" />
+          <Property Name="UnitText" Value="Abbreviation" />
+          <Property Name="UnitTextAlignment" Value="Right" />
+          <Property Name="UnitTextPosition" Value="Right" />
+          <Property Name="UnitTextWidth" Value="70" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.EGMMainMotor.RealRpm]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="124" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="40" />
+          <Property Name="Left" Value="16" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Motors]" />
+          <Property Name="TextIndexOffset" Value="8" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="44" />
+          <Property Name="Width" Value="500" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_3">
+          <Property Name="BackColor" Value="10" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_MASCHINENPARAMETER2]" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="66" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="434" />
+          <Property Name="Locking" Value="Datapoint &lt; Level" />
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[Local.UserLevel]" />
+          <Property Name="LockingLevel" Value="1" />
+          <Property Name="PressedBackColor" Value="6" />
+          <Property Name="PressedBitmap" Value="Source[local].Bitmap[SK_MASCHINENPARAMETER]" />
+          <Property Name="PressedBitmapSource" Value="SingleBitmap" />
+          <Property Name="PressedTextSource" Value="None" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="340" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMBW_BrushMotor]" />
+          <Property Name="Width" Value="66" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="32" />
+          <Property Name="Left" Value="362" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Motors]" />
+          <Property Name="TextIndexOffset" Value="0" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="334" />
+          <Property Name="Width" Value="64" />
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_3">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="42" />
+          <Property Name="Left" Value="298" />
+          <Property Name="Shape" Value="Ellipse" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="326" />
+          <Property Name="Width" Value="42" />
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_4">
+          <Property Name="BackColor" Value="0" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="30" />
+          <Property Name="Left" Value="304" />
+          <Property Name="Shape" Value="Ellipse" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.EGMBrushMotor.Manual]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="Top" Value="332" />
+          <Property Name="Width" Value="30" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AlignmentHorizontal" Value="Left" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="24" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="None" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="None" />
+          <Property Name="SimulationValue" Value="27535.2941176471" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="378" />
+          <Property Name="UnitText" Value="Abbreviation" />
+          <Property Name="UnitTextAlignment" Value="Right" />
+          <Property Name="UnitTextPosition" Value="Right" />
+          <Property Name="UnitTextWidth" Value="70" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.EGMBrushMotor.RealRpm]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="124" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="40" />
+          <Property Name="Left" Value="16" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Motors]" />
+          <Property Name="TextIndexOffset" Value="9" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="234" />
+          <Property Name="Width" Value="500" />
+        </Control>
+      </Controls>
+      <KeyMapping />
+    </Layer>
+    <LayerRef Source="Source[local].Layer[EmergencyStop]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="EmergencyStop" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Z-Order" Value="2" />
+    </LayerRef>
+  </Layers>
+  <MovementOrder />
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[DEFAULT].Control[Numeric_1]" />
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[DEFAULT].Control[Numeric_2]" />
+  </TabSequence>
+</Page>

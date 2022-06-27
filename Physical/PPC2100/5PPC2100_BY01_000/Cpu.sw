@@ -46,6 +46,9 @@
   <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8" />
+  <VcDataObjects>
+    <VcDataObject Name="visuhr" Source="Visualisierung.visualhr.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+  </VcDataObjects>
   <Binaries>
     <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
@@ -53,4 +56,23 @@
     <BinaryObject Name="pvmap" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
   </Binaries>
+  <Libraries>
+    <LibraryObject Name="ethernet" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="ethsock" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="fileio" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="visapi" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="asstring" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="standard" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="astime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="asiomman" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="dataobj" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="runtime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="dvframe" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="can_lib" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="asarcfg" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="brsystem" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="loopcont" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="asudp" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="sys_lib" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+  </Libraries>
 </SwConfiguration>

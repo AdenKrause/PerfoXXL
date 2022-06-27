@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamPreheat">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="37"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="88333" Value="Temperature Control Preheat"/>
+    <Text ID="88334" Value="Set temperature"/>
+    <Text ID="88335" Value="Max. positive deviation"/>
+    <Text ID="88336" Value="Max. negative deviation"/>
+    <Text ID="88337" Value="Switching point heating on"/>
+    <Text ID="88338" Value="Switching point heating off"/>
+    <Text ID="88345" Value="T"/>
+    <Text ID="88346" Value="On"/>
+    <Text ID="88347" Value="Off"/>
+    <Text ID="88350" Value="Set"/>
+    <Text ID="88352" Value="Max. Dev."/>
+    <Text ID="88353" Value="Min. dev."/>
+    <Text ID="88356" Value="t"/>
+    <Text ID="88432" Value="Min. tolerated temperature"/>
+    <Text ID="88433" Value="Max. tolerated temperature"/>
+    <Text ID="88442" Value="Heating on delay"/>
+    <Text ID="88444" Value="Heating off delay"/>
+    <Text ID="88445" Value="Minimum on time"/>
+    <Text ID="88449" Value="Temp. Correction Preheat"/>
+    <Text ID="88487" Value="Minimum off time"/>
+    <Text ID="99275" Value="Heating 1"/>
+    <Text ID="99276" Value="Heating 2"/>
+    <Text ID="99277" Value="Add. heating"/>
+    <Text ID="99278" Value="Set-temp. correction 1"/>
+    <Text ID="103068" Value="Set-temp. correction 2"/>
+    <Text ID="103069" Value="Reg. var. in %"/>
+    <Text ID="103070" Value="Output"/>
+    <Text ID="103071" Value="min Pulse time"/>
+    <Text ID="103644" Value="period time"/>
+    <Text ID="103645" Value="ms"/>
+    <Text ID="103646" Value="Set value"/>
+    <Text ID="103647" Value="Kp"/>
+    <Text ID="103648" Value="Tn"/>
+    <Text ID="103649" Value="Tv"/>
+    <Text ID="103650" Value="Enter"/>
+    <Text ID="103651" Value="Kw"/>
+    <Text ID="103652" Value="Kfbk"/>
+    <Text ID="103837" Value="status"/>
+    <Text ID="103838" Value="Yp"/>
+    <Text ID="103839" Value="Yi"/>
+    <Text ID="103843" Value="Yd"/>
+    <Text ID="103844" Value="Heating 1"/>
+    <Text ID="103845" Value="Heating 2"/>
+    <Text ID="103846" Value="Manual"/>
+    <Text ID="103847" Value="Autotune"/>
+    <Text ID="103848" Value="Tf"/>
+    <Text ID="104588" Value="log"/>
+    <Text ID="104589" Value="curve"/>
+    <Text ID="104590" Value="e"/>
+    <Text ID="105576" Value="D-mode X"/>
+    <Text ID="105577" Value="D-mode e"/>
+    <Text ID="105857" Value="sampling time"/>
+    <Text ID="105858" Value="set point tracking"/>
+    <Text ID="105859" Value="Corr."/>
+    <Text ID="105866" Value="Startvalue"/>
+    <Text ID="105867" Value="Time constant"/>
+    <Text ID="106205" Value="min"/>
+    <Text ID="106206" Value="Ambient"/>
+    <Text ID="106207" Value="Setpoint correction"/>
+    <Text ID="106208" Value="Setpoint corr. at start"/>
+    <Text ID="106209" Value="Ambient temp. at start"/>
+    <Text ID="106210" Value="Setpoint after 2 hours"/>
+    <Text ID="106211" Value="Ambient temp. after 2 hours"/>
+    <Text ID="119863" Value="Temp. dec. per plate"/>
+    <Text ID="119864" Value="Temp. inc. per min"/>
+    <Text ID="119865" Value="Max. decease by"/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value="Heating 3"/>
+    <Text ID="131844" Value="Decrease if ambient &gt;"/>
+    <Text ID="150937" Value="Heating 4"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="88333" Value="Temp.-Regelung Nacherwärmung"/>
+    <Text ID="88334" Value="Soll Temperatur"/>
+    <Text ID="88335" Value="Max. positive Abweichung"/>
+    <Text ID="88336" Value="Max. negative Abweichung"/>
+    <Text ID="88337" Value="Schaltpunkt Heizung ein"/>
+    <Text ID="88338" Value="Schaltpunkt Heizung aus"/>
+    <Text ID="88345" Value="T"/>
+    <Text ID="88346" Value="Ein"/>
+    <Text ID="88347" Value="Aus"/>
+    <Text ID="88350" Value="Soll"/>
+    <Text ID="88352" Value="Max. Abw."/>
+    <Text ID="88353" Value="Min. Abw."/>
+    <Text ID="88356" Value="t"/>
+    <Text ID="88432" Value="Min. zulässige Temperatur"/>
+    <Text ID="88433" Value="Max. zulässige Temperatur"/>
+    <Text ID="88442" Value="Verzögerung Heizung ein"/>
+    <Text ID="88444" Value="Verzögerung Heizung aus"/>
+    <Text ID="88445" Value="Minimale Einschaltdauer"/>
+    <Text ID="88449" Value="Temp. Korrektur Nacherwärmung"/>
+    <Text ID="88487" Value="Minimale Ausschaltdauer"/>
+    <Text ID="99275" Value="Heizkreis 1"/>
+    <Text ID="99276" Value="Heizkreis 2"/>
+    <Text ID="99277" Value="Zusatzheizung"/>
+    <Text ID="99278" Value="Sollwertkorrektur Kreis 1"/>
+    <Text ID="103068" Value="Sollwertkorrektur Kreis 2"/>
+    <Text ID="103069" Value="Stellgröße in %"/>
+    <Text ID="103070" Value="Ausgang"/>
+    <Text ID="103071" Value="min Pulsdauer"/>
+    <Text ID="103644" Value="Periodendauer"/>
+    <Text ID="103645" Value="ms"/>
+    <Text ID="103646" Value="Sollwert"/>
+    <Text ID="103647" Value="Kp"/>
+    <Text ID="103648" Value="Tn"/>
+    <Text ID="103649" Value="Tv"/>
+    <Text ID="103650" Value="Enter"/>
+    <Text ID="103651" Value="Kw"/>
+    <Text ID="103652" Value="Kfbk"/>
+    <Text ID="103837" Value="status"/>
+    <Text ID="103838" Value="Yp"/>
+    <Text ID="103839" Value="Yi"/>
+    <Text ID="103843" Value="Yd"/>
+    <Text ID="103844" Value="Heizkreis 1"/>
+    <Text ID="103845" Value="Heizkreis 2"/>
+    <Text ID="103846" Value="Manuell"/>
+    <Text ID="103847" Value="Autotune"/>
+    <Text ID="103848" Value="Tf"/>
+    <Text ID="104588" Value="log"/>
+    <Text ID="104589" Value="Kurve"/>
+    <Text ID="104590" Value="e"/>
+    <Text ID="105576" Value="D-Mode X"/>
+    <Text ID="105577" Value="D-Mode e"/>
+    <Text ID="105857" Value="Abtastzeit"/>
+    <Text ID="105858" Value="Sollwertnachf."/>
+    <Text ID="105859" Value="Korr."/>
+    <Text ID="105866" Value="Startwert"/>
+    <Text ID="105867" Value="Zeitkonstante"/>
+    <Text ID="106205" Value="min"/>
+    <Text ID="106206" Value="Umgebung"/>
+    <Text ID="106207" Value="Sollwertnachführung"/>
+    <Text ID="106208" Value="SW - Überhöhung am Anfang"/>
+    <Text ID="106209" Value="Umgebungstemp. am Anfang"/>
+    <Text ID="106210" Value="SW nach 2 Stunden"/>
+    <Text ID="106211" Value="Umgebungstemp. nach 2 Stunden"/>
+    <Text ID="119863" Value="Temp. Absenkung pro Platte"/>
+    <Text ID="119864" Value="Temp. Anhebung pro Min."/>
+    <Text ID="119865" Value="Max. Absenkung um"/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value="Heizkreis 3"/>
+    <Text ID="131844" Value="Absenken, wenn Umgebung &gt;"/>
+    <Text ID="150937" Value="Heizkreis 4"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="88333" Value="Control temperatura precalentamiento"/>
+    <Text ID="88334" Value="Temperatura nominal"/>
+    <Text ID="88335" Value="Desviacion positiva max."/>
+    <Text ID="88336" Value="Desviacion negativa max."/>
+    <Text ID="88337" Value="Punto activacion precalentamiento"/>
+    <Text ID="88338" Value="Punto desactivacion precalentamiento"/>
+    <Text ID="88345" Value="T"/>
+    <Text ID="88346" Value="SI"/>
+    <Text ID="88347" Value="NO"/>
+    <Text ID="88350" Value="Nominal"/>
+    <Text ID="88352" Value="Desv. max."/>
+    <Text ID="88353" Value="Desv. min."/>
+    <Text ID="88356" Value="t"/>
+    <Text ID="88432" Value="Temperatura min. tolerada"/>
+    <Text ID="88433" Value="Temperatura max. tolerada"/>
+    <Text ID="88442" Value="Dilacion conex. calentado"/>
+    <Text ID="88444" Value="Dilacion desconex. calentado"/>
+    <Text ID="88445" Value="Tiempo min. conexion"/>
+    <Text ID="88449" Value="Correcion temp. Precalentamiento"/>
+    <Text ID="88487" Value="Tiempo min. desconexion"/>
+    <Text ID="99275" Value="Circulo caldeo 1"/>
+    <Text ID="99276" Value="Circulo caldeo 2"/>
+    <Text ID="99277" Value="Caldeo adicional"/>
+    <Text ID="99278" Value="Correcion temp. nominal 1"/>
+    <Text ID="103068" Value="Correcion temp. nominal 2"/>
+    <Text ID="103069" Value="Regulacion en %"/>
+    <Text ID="103070" Value="Salida"/>
+    <Text ID="103071" Value="Tiempo impulso min."/>
+    <Text ID="103644" Value="Tiempo periodo"/>
+    <Text ID="103645" Value="ms"/>
+    <Text ID="103646" Value="Valor nominal"/>
+    <Text ID="103647" Value="Kp"/>
+    <Text ID="103648" Value="Tn"/>
+    <Text ID="103649" Value="Tv"/>
+    <Text ID="103650" Value="Enter"/>
+    <Text ID="103651" Value="Kw"/>
+    <Text ID="103652" Value="Kfbk"/>
+    <Text ID="103837" Value="status"/>
+    <Text ID="103838" Value="Yp"/>
+    <Text ID="103839" Value="Yi"/>
+    <Text ID="103843" Value="Yd"/>
+    <Text ID="103844" Value="Circulo caldeo 1"/>
+    <Text ID="103845" Value="Circulo caldeo 2"/>
+    <Text ID="103846" Value="Manual"/>
+    <Text ID="103847" Value="Autotune"/>
+    <Text ID="103848" Value="Tf"/>
+    <Text ID="104588" Value="log"/>
+    <Text ID="104589" Value="curva"/>
+    <Text ID="104590" Value="Enter"/>
+    <Text ID="105576" Value="D-modo X"/>
+    <Text ID="105577" Value="D-Modo e"/>
+    <Text ID="105857" Value="Tiempo de registro"/>
+    <Text ID="105858" Value="Rastreo valor nominal"/>
+    <Text ID="105859" Value="Corr."/>
+    <Text ID="105866" Value="Valor inicial"/>
+    <Text ID="105867" Value="Constante tiempo"/>
+    <Text ID="106205" Value="min"/>
+    <Text ID="106206" Value="Entorno"/>
+    <Text ID="106207" Value="Correccion valor nominal"/>
+    <Text ID="106208" Value="Correccion inicial valor nominal"/>
+    <Text ID="106209" Value="Temp. ambiental inicial"/>
+    <Text ID="106210" Value="Correccion inicial valor nominal"/>
+    <Text ID="106211" Value="Temp. ambiental despues de 2 horas"/>
+    <Text ID="119863" Value="Bajada temperatura por plancha"/>
+    <Text ID="119864" Value="Subida temperatura por minuto"/>
+    <Text ID="119865" Value="Bajada maxima de "/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value="Circulo caldeo 3"/>
+    <Text ID="131844" Value="Bajar si entorno &gt;"/>
+    <Text ID="150937" Value="Circulo caldeo 4"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="88333" Value="Temp.-regulering ettervarming"/>
+    <Text ID="88334" Value="Settpunkt-temperatur"/>
+    <Text ID="88335" Value="Maks. positivt avvik"/>
+    <Text ID="88336" Value="Maks. negativt avvik"/>
+    <Text ID="88337" Value="Koblingspunkt oppvarming på"/>
+    <Text ID="88338" Value="Koblingspunkt oppvarming av"/>
+    <Text ID="88345" Value="T"/>
+    <Text ID="88346" Value="On"/>
+    <Text ID="88347" Value="Off"/>
+    <Text ID="88350" Value="Set"/>
+    <Text ID="88352" Value="Max. Dev."/>
+    <Text ID="88353" Value="Min. dev."/>
+    <Text ID="88356" Value="t"/>
+    <Text ID="88432" Value="Min. tillatt temperatur"/>
+    <Text ID="88433" Value="Maks. tillatt temperatur"/>
+    <Text ID="88442" Value="Forsinkelse oppvarming på"/>
+    <Text ID="88444" Value="Forsinkelse oppvarming av"/>
+    <Text ID="88445" Value="Minimal innkoblingsvarighet"/>
+    <Text ID="88449" Value="Temp.-korrektur ettervarming"/>
+    <Text ID="88487" Value="Minimal utkoblingsvarighet"/>
+    <Text ID="99275" Value="Varmekrets 1"/>
+    <Text ID="99276" Value="Varmekrets 2"/>
+    <Text ID="99277" Value="Tilleggsoppvarming"/>
+    <Text ID="99278" Value="Settpunktkorrektur krets 1"/>
+    <Text ID="103068" Value="Set-temp. correction 2"/>
+    <Text ID="103069" Value="Pådrag i %"/>
+    <Text ID="103070" Value="Utgang"/>
+    <Text ID="103071" Value="min. pulsvarighet"/>
+    <Text ID="103644" Value="Periodelengde"/>
+    <Text ID="103645" Value="ms"/>
+    <Text ID="103646" Value="Settpunkt"/>
+    <Text ID="103647" Value="Kp"/>
+    <Text ID="103648" Value="Tn"/>
+    <Text ID="103649" Value="Tv"/>
+    <Text ID="103650" Value="Enter"/>
+    <Text ID="103651" Value="Kw"/>
+    <Text ID="103652" Value="Kfbk"/>
+    <Text ID="103837" Value="status"/>
+    <Text ID="103838" Value="Yp"/>
+    <Text ID="103839" Value="Yi"/>
+    <Text ID="103843" Value="Yd"/>
+    <Text ID="103844" Value="Heating 1"/>
+    <Text ID="103845" Value="Heating 2"/>
+    <Text ID="103846" Value="Manual"/>
+    <Text ID="103847" Value="Autotune"/>
+    <Text ID="103848" Value="Tf"/>
+    <Text ID="104588" Value="log"/>
+    <Text ID="104589" Value="curve"/>
+    <Text ID="104590" Value="e"/>
+    <Text ID="105576" Value="D-mode X"/>
+    <Text ID="105577" Value="D-mode e"/>
+    <Text ID="105857" Value="sampling time"/>
+    <Text ID="105858" Value="set point tracking"/>
+    <Text ID="105859" Value="Corr."/>
+    <Text ID="105866" Value="Startvalue"/>
+    <Text ID="105867" Value="Time constant"/>
+    <Text ID="106205" Value="min"/>
+    <Text ID="106206" Value="Ambient"/>
+    <Text ID="106207" Value="Settpunkt-tilbakekobling"/>
+    <Text ID="106208" Value="SP - Forhøyning i begynnelsen"/>
+    <Text ID="106209" Value="Omgivelsestemp. i begynnelsen"/>
+    <Text ID="106210" Value="SP etter 2 timer"/>
+    <Text ID="106211" Value="Omgivelsestemp. etter 2 timer"/>
+    <Text ID="119863" Value="Temp. senking per plate"/>
+    <Text ID="119864" Value="Temp. senking per min."/>
+    <Text ID="119865" Value="Maks. senking med"/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value="Heating 3"/>
+    <Text ID="131844" Value="Senking, når omgivelse &gt;"/>
+    <Text ID="150937" Value="Heating 4"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="88333" Value=""/>
+    <Text ID="88334" Value=""/>
+    <Text ID="88335" Value=""/>
+    <Text ID="88336" Value=""/>
+    <Text ID="88337" Value=""/>
+    <Text ID="88338" Value=""/>
+    <Text ID="88345" Value=""/>
+    <Text ID="88346" Value=""/>
+    <Text ID="88347" Value=""/>
+    <Text ID="88350" Value=""/>
+    <Text ID="88352" Value=""/>
+    <Text ID="88353" Value=""/>
+    <Text ID="88356" Value=""/>
+    <Text ID="88432" Value=""/>
+    <Text ID="88433" Value=""/>
+    <Text ID="88442" Value=""/>
+    <Text ID="88444" Value=""/>
+    <Text ID="88445" Value=""/>
+    <Text ID="88449" Value=""/>
+    <Text ID="88487" Value=""/>
+    <Text ID="99275" Value=""/>
+    <Text ID="99276" Value=""/>
+    <Text ID="99277" Value=""/>
+    <Text ID="99278" Value=""/>
+    <Text ID="103068" Value=""/>
+    <Text ID="103069" Value=""/>
+    <Text ID="103070" Value=""/>
+    <Text ID="103071" Value=""/>
+    <Text ID="103644" Value=""/>
+    <Text ID="103645" Value=""/>
+    <Text ID="103646" Value=""/>
+    <Text ID="103647" Value=""/>
+    <Text ID="103648" Value=""/>
+    <Text ID="103649" Value=""/>
+    <Text ID="103650" Value=""/>
+    <Text ID="103651" Value=""/>
+    <Text ID="103652" Value=""/>
+    <Text ID="103837" Value=""/>
+    <Text ID="103838" Value=""/>
+    <Text ID="103839" Value=""/>
+    <Text ID="103843" Value=""/>
+    <Text ID="103844" Value=""/>
+    <Text ID="103845" Value=""/>
+    <Text ID="103846" Value=""/>
+    <Text ID="103847" Value=""/>
+    <Text ID="103848" Value=""/>
+    <Text ID="104588" Value=""/>
+    <Text ID="104589" Value=""/>
+    <Text ID="104590" Value=""/>
+    <Text ID="105576" Value=""/>
+    <Text ID="105577" Value=""/>
+    <Text ID="105857" Value=""/>
+    <Text ID="105858" Value=""/>
+    <Text ID="105859" Value=""/>
+    <Text ID="105866" Value=""/>
+    <Text ID="105867" Value=""/>
+    <Text ID="106205" Value=""/>
+    <Text ID="106206" Value=""/>
+    <Text ID="106207" Value=""/>
+    <Text ID="106208" Value=""/>
+    <Text ID="106209" Value=""/>
+    <Text ID="106210" Value=""/>
+    <Text ID="106211" Value=""/>
+    <Text ID="119863" Value=""/>
+    <Text ID="119864" Value=""/>
+    <Text ID="119865" Value=""/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value=""/>
+    <Text ID="131844" Value=""/>
+    <Text ID="150937" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="88333" Value=""/>
+    <Text ID="88334" Value=""/>
+    <Text ID="88335" Value=""/>
+    <Text ID="88336" Value=""/>
+    <Text ID="88337" Value=""/>
+    <Text ID="88338" Value=""/>
+    <Text ID="88345" Value=""/>
+    <Text ID="88346" Value=""/>
+    <Text ID="88347" Value=""/>
+    <Text ID="88350" Value=""/>
+    <Text ID="88352" Value=""/>
+    <Text ID="88353" Value=""/>
+    <Text ID="88356" Value=""/>
+    <Text ID="88432" Value=""/>
+    <Text ID="88433" Value=""/>
+    <Text ID="88442" Value=""/>
+    <Text ID="88444" Value=""/>
+    <Text ID="88445" Value=""/>
+    <Text ID="88449" Value=""/>
+    <Text ID="88487" Value=""/>
+    <Text ID="99275" Value=""/>
+    <Text ID="99276" Value=""/>
+    <Text ID="99277" Value=""/>
+    <Text ID="99278" Value=""/>
+    <Text ID="103068" Value=""/>
+    <Text ID="103069" Value=""/>
+    <Text ID="103070" Value=""/>
+    <Text ID="103071" Value=""/>
+    <Text ID="103644" Value=""/>
+    <Text ID="103645" Value=""/>
+    <Text ID="103646" Value=""/>
+    <Text ID="103647" Value=""/>
+    <Text ID="103648" Value=""/>
+    <Text ID="103649" Value=""/>
+    <Text ID="103650" Value=""/>
+    <Text ID="103651" Value=""/>
+    <Text ID="103652" Value=""/>
+    <Text ID="103837" Value=""/>
+    <Text ID="103838" Value=""/>
+    <Text ID="103839" Value=""/>
+    <Text ID="103843" Value=""/>
+    <Text ID="103844" Value=""/>
+    <Text ID="103845" Value=""/>
+    <Text ID="103846" Value=""/>
+    <Text ID="103847" Value=""/>
+    <Text ID="103848" Value=""/>
+    <Text ID="104588" Value=""/>
+    <Text ID="104589" Value=""/>
+    <Text ID="104590" Value=""/>
+    <Text ID="105576" Value=""/>
+    <Text ID="105577" Value=""/>
+    <Text ID="105857" Value=""/>
+    <Text ID="105858" Value=""/>
+    <Text ID="105859" Value=""/>
+    <Text ID="105866" Value=""/>
+    <Text ID="105867" Value=""/>
+    <Text ID="106205" Value=""/>
+    <Text ID="106206" Value=""/>
+    <Text ID="106207" Value=""/>
+    <Text ID="106208" Value=""/>
+    <Text ID="106209" Value=""/>
+    <Text ID="106210" Value=""/>
+    <Text ID="106211" Value=""/>
+    <Text ID="119863" Value=""/>
+    <Text ID="119864" Value=""/>
+    <Text ID="119865" Value=""/>
+    <Text ID="119866" Value=""/>
+    <Text ID="131838" Value=""/>
+    <Text ID="131839" Value=""/>
+    <Text ID="131840" Value=""/>
+    <Text ID="131841" Value=""/>
+    <Text ID="131842" Value=""/>
+    <Text ID="131843" Value=""/>
+    <Text ID="131844" Value=""/>
+    <Text ID="150937" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="88333" Value="0"/>
+    <Index ID="88334" Value="1"/>
+    <Index ID="88335" Value="2"/>
+    <Index ID="88336" Value="3"/>
+    <Index ID="88337" Value="4"/>
+    <Index ID="88338" Value="5"/>
+    <Index ID="88345" Value="6"/>
+    <Index ID="88346" Value="7"/>
+    <Index ID="88347" Value="8"/>
+    <Index ID="88350" Value="9"/>
+    <Index ID="88352" Value="10"/>
+    <Index ID="88353" Value="11"/>
+    <Index ID="88356" Value="12"/>
+    <Index ID="88432" Value="13"/>
+    <Index ID="88433" Value="14"/>
+    <Index ID="88442" Value="15"/>
+    <Index ID="88444" Value="16"/>
+    <Index ID="88445" Value="17"/>
+    <Index ID="88449" Value="19"/>
+    <Index ID="88487" Value="18"/>
+    <Index ID="99275" Value="20"/>
+    <Index ID="99276" Value="21"/>
+    <Index ID="99277" Value="22"/>
+    <Index ID="99278" Value="23"/>
+    <Index ID="103068" Value="24"/>
+    <Index ID="103069" Value="25"/>
+    <Index ID="103070" Value="26"/>
+    <Index ID="103071" Value="27"/>
+    <Index ID="103644" Value="28"/>
+    <Index ID="103645" Value="29"/>
+    <Index ID="103646" Value="30"/>
+    <Index ID="103647" Value="31"/>
+    <Index ID="103648" Value="32"/>
+    <Index ID="103649" Value="33"/>
+    <Index ID="103650" Value="34"/>
+    <Index ID="103651" Value="35"/>
+    <Index ID="103652" Value="36"/>
+    <Index ID="103837" Value="37"/>
+    <Index ID="103838" Value="38"/>
+    <Index ID="103839" Value="39"/>
+    <Index ID="103843" Value="40"/>
+    <Index ID="103844" Value="41"/>
+    <Index ID="103845" Value="42"/>
+    <Index ID="103846" Value="43"/>
+    <Index ID="103847" Value="44"/>
+    <Index ID="103848" Value="45"/>
+    <Index ID="104588" Value="46"/>
+    <Index ID="104589" Value="47"/>
+    <Index ID="104590" Value="48"/>
+    <Index ID="105576" Value="49"/>
+    <Index ID="105577" Value="50"/>
+    <Index ID="105857" Value="51"/>
+    <Index ID="105858" Value="52"/>
+    <Index ID="105859" Value="53"/>
+    <Index ID="105866" Value="54"/>
+    <Index ID="105867" Value="55"/>
+    <Index ID="106205" Value="56"/>
+    <Index ID="106206" Value="57"/>
+    <Index ID="106207" Value="58"/>
+    <Index ID="106208" Value="59"/>
+    <Index ID="106209" Value="60"/>
+    <Index ID="106210" Value="61"/>
+    <Index ID="106211" Value="62"/>
+    <Index ID="119863" Value="63"/>
+    <Index ID="119864" Value="64"/>
+    <Index ID="119865" Value="65"/>
+    <Index ID="119866" Value="74"/>
+    <Index ID="131838" Value="73"/>
+    <Index ID="131839" Value="72"/>
+    <Index ID="131840" Value="71"/>
+    <Index ID="131841" Value="70"/>
+    <Index ID="131842" Value="69"/>
+    <Index ID="131843" Value="67"/>
+    <Index ID="131844" Value="66"/>
+    <Index ID="150937" Value="68"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Common">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="51"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="157" Value="Please calibrate touchpanel:"/>
+    <Text ID="158" Value="Press the target spots successively"/>
+    <Text ID="292" Value="Units"/>
+    <Text ID="296" Value="English: ft, In, F"/>
+    <Text ID="297" Value="German: m, mm, °C"/>
+    <Text ID="300" Value="Current setting:"/>
+    <Text ID="87963" Value="Parameter:"/>
+    <Text ID="88110" Value="In-/ Output"/>
+    <Text ID="88623" Value="Input"/>
+    <Text ID="88624" Value="Output"/>
+    <Text ID="88625" Value="I/O"/>
+    <Text ID="88626" Value="Gum valve"/>
+    <Text ID="88627" Value="Waterpump Prewash"/>
+    <Text ID="88628" Value="Waterpump Rinse"/>
+    <Text ID="88629" Value="Fan drying"/>
+    <Text ID="88630" Value="Replenisher pump"/>
+    <Text ID="88631" Value="Gum pump"/>
+    <Text ID="88632" Value="Developer circulation"/>
+    <Text ID="88633" Value="Developer refill"/>
+    <Text ID="88634" Value="Developer cooling pump"/>
+    <Text ID="88635" Value="Valve prewash"/>
+    <Text ID="88636" Value="Valve rinse"/>
+    <Text ID="88637" Value="Valve gum rinse"/>
+    <Text ID="88638" Value="Developer heating"/>
+    <Text ID="88639" Value="Preheat Heating 1"/>
+    <Text ID="88931" Value="Preheat Heating 2"/>
+    <Text ID="88932" Value="Preheat additional Heating"/>
+    <Text ID="88933" Value="Prewash Heating"/>
+    <Text ID="88934" Value="No Emergency Stop"/>
+    <Text ID="88935" Value="Pulse Sensor Propulsion"/>
+    <Text ID="88936" Value="Input sensor"/>
+    <Text ID="88937" Value="Level switch prewash"/>
+    <Text ID="88955" Value="Level switch developer"/>
+    <Text ID="88956" Value="Level switch rinse"/>
+    <Text ID="88957" Value="Level switch gum"/>
+    <Text ID="88970" Value="Outlet sensor"/>
+    <Text ID="102662" Value="Ignore Heating"/>
+    <Text ID="102854" Value="Plates in machine"/>
+    <Text ID="115313" Value="Recognized plate: "/>
+    <Text ID="115314" Value="Lamp test"/>
+    <Text ID="115315" Value="Signal &quot;ready&quot;"/>
+    <Text ID="115316" Value="Signal &quot;No error&quot;"/>
+    <Text ID="120725" Value="Active Errors"/>
+    <Text ID="120726" Value="&lt;"/>
+    <Text ID="120727" Value="Modulstate"/>
+    <Text ID="121350" Value="Alarmlist"/>
+    <Text ID="121351" Value="History"/>
+    <Text ID="121352" Value="Alarmhistory"/>
+    <Text ID="122239" Value="Platesensor"/>
+    <Text ID="122761" Value="Service key"/>
+    <Text ID="122763" Value="Adjustment functions"/>
+    <Text ID="142438" Value="Level switch wash/gum sol."/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="157" Value="Bitte Touchpanel kalibrieren:"/>
+    <Text ID="158" Value="Nacheinander die Zielpunkte drücken"/>
+    <Text ID="292" Value="Einheiten"/>
+    <Text ID="296" Value="Englisch: Fuss. Zoll. F"/>
+    <Text ID="297" Value="Deutsch: m, mm, °C"/>
+    <Text ID="300" Value="Aktuelle Einstellung:"/>
+    <Text ID="87963" Value="Parameter:"/>
+    <Text ID="88110" Value="Ein-/Ausgänge"/>
+    <Text ID="88623" Value="Eingänge"/>
+    <Text ID="88624" Value="Ausgänge"/>
+    <Text ID="88625" Value="E/A"/>
+    <Text ID="88626" Value="Gummi Ventil"/>
+    <Text ID="88627" Value="Wasserpumpe Vorreinigung"/>
+    <Text ID="88628" Value="Wasserpumpe Spülen"/>
+    <Text ID="88629" Value="Lüfter Trocknung"/>
+    <Text ID="88630" Value="Regeneratpumpe"/>
+    <Text ID="88631" Value="Gummi Pumpe"/>
+    <Text ID="88632" Value="Entwickler Zirkulation"/>
+    <Text ID="88633" Value="Entwickler nachfüllen"/>
+    <Text ID="88634" Value="Pumpe Entwicklerkühlung"/>
+    <Text ID="88635" Value="Ventil Vorreinigung"/>
+    <Text ID="88636" Value="Ventil Spülen"/>
+    <Text ID="88637" Value="Ventil Gummi spülen"/>
+    <Text ID="88638" Value="Entwicklerheizung"/>
+    <Text ID="88639" Value="Nacherwärmung Heizkreis 1"/>
+    <Text ID="88931" Value="Nacherwärmung Heizkreis 2"/>
+    <Text ID="88932" Value="Nacherwärmung Zusatzheizung"/>
+    <Text ID="88933" Value="Heizung Vorreiniging"/>
+    <Text ID="88934" Value="Kein Not-Aus"/>
+    <Text ID="88935" Value="Takt Antrieb"/>
+    <Text ID="88936" Value="Einlaufsensor"/>
+    <Text ID="88937" Value="Niveauschalter Vorreinigung"/>
+    <Text ID="88955" Value="Niveauschalter Entwickler"/>
+    <Text ID="88956" Value="Niveauschalter Spülen"/>
+    <Text ID="88957" Value="Niveauschalter Gummierung"/>
+    <Text ID="88970" Value="Auslaufsensor"/>
+    <Text ID="102662" Value="Heizung ignorieren"/>
+    <Text ID="102854" Value="Platten in der Maschine"/>
+    <Text ID="115313" Value="Erkannte Platte: "/>
+    <Text ID="115314" Value="Lampentest"/>
+    <Text ID="115315" Value="Signal &quot;bereit&quot;"/>
+    <Text ID="115316" Value="Signal &quot;Kein Fehler&quot;"/>
+    <Text ID="120725" Value="Aktuelle Fehler"/>
+    <Text ID="120726" Value="&lt;"/>
+    <Text ID="120727" Value="Modulstatus"/>
+    <Text ID="121350" Value="Alarmliste"/>
+    <Text ID="121351" Value="Historie"/>
+    <Text ID="121352" Value="Alarmhistorie"/>
+    <Text ID="122239" Value="Durchlaufsensor"/>
+    <Text ID="122761" Value="Service-Schlüssel"/>
+    <Text ID="122763" Value="Einstell- Funktionen"/>
+    <Text ID="142438" Value="Niveauschalter Waschgummierung"/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="157" Value="Calibrar pantalla tactil"/>
+    <Text ID="158" Value="Pulse las cruces sucesivamente"/>
+    <Text ID="292" Value="Unidades"/>
+    <Text ID="296" Value="Ingles: Pies, Pulgadas, F"/>
+    <Text ID="297" Value="Aleman: m, mm, °C"/>
+    <Text ID="300" Value="Valores actuales:"/>
+    <Text ID="87963" Value="Parametros"/>
+    <Text ID="88110" Value="Entradas/Salidas"/>
+    <Text ID="88623" Value="Entradas"/>
+    <Text ID="88624" Value="Salidas"/>
+    <Text ID="88625" Value="E/S"/>
+    <Text ID="88626" Value="Valvula goma"/>
+    <Text ID="88627" Value="Bomba prelavado"/>
+    <Text ID="88628" Value="Bomba enjuagado"/>
+    <Text ID="88629" Value="Ventilador de secado"/>
+    <Text ID="88630" Value="Bomba regenerador"/>
+    <Text ID="88631" Value="Bomba goma"/>
+    <Text ID="88632" Value="Circulacion revelador"/>
+    <Text ID="88633" Value="Rellenar revelador"/>
+    <Text ID="88634" Value="Bomba refrigeracion revelador"/>
+    <Text ID="88635" Value="Valvula prelavado"/>
+    <Text ID="88636" Value="Valvula enjuagado"/>
+    <Text ID="88637" Value="Valvula goma"/>
+    <Text ID="88638" Value="Caldeo revelador"/>
+    <Text ID="88639" Value="Precalentamiento 1"/>
+    <Text ID="88931" Value="Precalentamiento 2"/>
+    <Text ID="88932" Value="Precalentamiento adicional"/>
+    <Text ID="88933" Value="Caldeo prelavado"/>
+    <Text ID="88934" Value="No paro de emergencia"/>
+    <Text ID="88935" Value="Impulso propulsion"/>
+    <Text ID="88936" Value="Sensor entrada"/>
+    <Text ID="88937" Value="Interruptor nivel prelavado"/>
+    <Text ID="88955" Value="Interruptor nivel revelador"/>
+    <Text ID="88956" Value="Interruptor nivel enjuagado"/>
+    <Text ID="88957" Value="Interruptor nivel goma"/>
+    <Text ID="88970" Value="Sensor salida"/>
+    <Text ID="102662" Value="Ignorar caldeo"/>
+    <Text ID="102854" Value="Planchas en maquina"/>
+    <Text ID="115313" Value="Planchas reconocidas:"/>
+    <Text ID="115314" Value="Test lampara"/>
+    <Text ID="115315" Value="Señal &quot;Listo&quot;"/>
+    <Text ID="115316" Value="Señal &quot;Ningun error&quot;"/>
+    <Text ID="120725" Value="Errores activos"/>
+    <Text ID="120726" Value="&lt;"/>
+    <Text ID="120727" Value="Estado de modulo"/>
+    <Text ID="121350" Value="Lista de alarmas"/>
+    <Text ID="121351" Value="Historia"/>
+    <Text ID="121352" Value="Historia de alarmas"/>
+    <Text ID="122239" Value="Sensor de plancha"/>
+    <Text ID="122761" Value="Lllave de servicio"/>
+    <Text ID="122763" Value="Funciones de ajuste"/>
+    <Text ID="142438" Value="Level switch wash/gum sol."/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="157" Value="Kalibrer touchpanel:"/>
+    <Text ID="158" Value="Trykk målpunktene etter hverandre"/>
+    <Text ID="292" Value="Enheter"/>
+    <Text ID="296" Value="Engelsk: Fot. Tomme. F"/>
+    <Text ID="297" Value="Tysk: m, mm, °C"/>
+    <Text ID="300" Value="Aktuell innstilling:"/>
+    <Text ID="87963" Value="Parameter:"/>
+    <Text ID="88110" Value="Inn-/utganger"/>
+    <Text ID="88623" Value="Innganger"/>
+    <Text ID="88624" Value="Utganger"/>
+    <Text ID="88625" Value="E/A"/>
+    <Text ID="88626" Value="Gummi Ventil"/>
+    <Text ID="88627" Value="Vannpumpe forrengjøring"/>
+    <Text ID="88628" Value="Vannpumpe spyling"/>
+    <Text ID="88629" Value="Vifte tørking"/>
+    <Text ID="88630" Value="Regeneratpumpe"/>
+    <Text ID="88631" Value="Gummi pumpe"/>
+    <Text ID="88632" Value="Fremkaller sirkulasjon"/>
+    <Text ID="88633" Value="Etterfylle fremkaller"/>
+    <Text ID="88634" Value="Pumpe fremkallerkjøling"/>
+    <Text ID="88635" Value="Ventil forrengjøring"/>
+    <Text ID="88636" Value="Ventil spyle"/>
+    <Text ID="88637" Value="Ventil Gummi spyle"/>
+    <Text ID="88638" Value="Fremkalleroppvarming"/>
+    <Text ID="88639" Value="Ettervarming Varmekrets 1"/>
+    <Text ID="88931" Value="Ettervarming Varmekrets 2"/>
+    <Text ID="88932" Value="Ettervarming tilleggsvarme"/>
+    <Text ID="88933" Value="Oppvarming forrengjøring"/>
+    <Text ID="88934" Value="Ingen nødstopp"/>
+    <Text ID="88935" Value="Takt drev"/>
+    <Text ID="88936" Value="Innløpsføler"/>
+    <Text ID="88937" Value="Nivåbryter forrengjøring"/>
+    <Text ID="88955" Value="Nivåbryter fremkaller"/>
+    <Text ID="88956" Value="Nivåbryter spyle"/>
+    <Text ID="88957" Value="Nivåbryter gummiering"/>
+    <Text ID="88970" Value="Utløpsføler"/>
+    <Text ID="102662" Value="Ignorere oppvarming "/>
+    <Text ID="102854" Value="Plater i maskinen"/>
+    <Text ID="115313" Value="Registrert plate: "/>
+    <Text ID="115314" Value="Lampetest"/>
+    <Text ID="115315" Value="Signal &quot;klart&quot;"/>
+    <Text ID="115316" Value="Signal &quot;Ingen feil&quot;"/>
+    <Text ID="120725" Value="Gjeldende feil"/>
+    <Text ID="120726" Value="&lt;"/>
+    <Text ID="120727" Value="Modulstatus"/>
+    <Text ID="121350" Value="Alarmliste"/>
+    <Text ID="121351" Value="Historie"/>
+    <Text ID="121352" Value="Alarmhistorikk"/>
+    <Text ID="122239" Value="Gjennomløpsføler"/>
+    <Text ID="122761" Value="Servicenøkkel"/>
+    <Text ID="122763" Value="Adjustment functions"/>
+    <Text ID="142438" Value="Level switch wash/gum sol."/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="157" Value=""/>
+    <Text ID="158" Value=""/>
+    <Text ID="292" Value=""/>
+    <Text ID="296" Value=""/>
+    <Text ID="297" Value=""/>
+    <Text ID="300" Value=""/>
+    <Text ID="87963" Value=""/>
+    <Text ID="88110" Value=""/>
+    <Text ID="88623" Value=""/>
+    <Text ID="88624" Value=""/>
+    <Text ID="88625" Value=""/>
+    <Text ID="88626" Value=""/>
+    <Text ID="88627" Value=""/>
+    <Text ID="88628" Value=""/>
+    <Text ID="88629" Value=""/>
+    <Text ID="88630" Value=""/>
+    <Text ID="88631" Value=""/>
+    <Text ID="88632" Value=""/>
+    <Text ID="88633" Value=""/>
+    <Text ID="88634" Value=""/>
+    <Text ID="88635" Value=""/>
+    <Text ID="88636" Value=""/>
+    <Text ID="88637" Value=""/>
+    <Text ID="88638" Value=""/>
+    <Text ID="88639" Value=""/>
+    <Text ID="88931" Value=""/>
+    <Text ID="88932" Value=""/>
+    <Text ID="88933" Value=""/>
+    <Text ID="88934" Value=""/>
+    <Text ID="88935" Value=""/>
+    <Text ID="88936" Value=""/>
+    <Text ID="88937" Value=""/>
+    <Text ID="88955" Value=""/>
+    <Text ID="88956" Value=""/>
+    <Text ID="88957" Value=""/>
+    <Text ID="88970" Value=""/>
+    <Text ID="102662" Value=""/>
+    <Text ID="102854" Value=""/>
+    <Text ID="115313" Value=""/>
+    <Text ID="115314" Value=""/>
+    <Text ID="115315" Value=""/>
+    <Text ID="115316" Value=""/>
+    <Text ID="120725" Value=""/>
+    <Text ID="120726" Value=""/>
+    <Text ID="120727" Value=""/>
+    <Text ID="121350" Value=""/>
+    <Text ID="121351" Value=""/>
+    <Text ID="121352" Value=""/>
+    <Text ID="122239" Value=""/>
+    <Text ID="122761" Value=""/>
+    <Text ID="122763" Value=""/>
+    <Text ID="142438" Value=""/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="157" Value=""/>
+    <Text ID="158" Value=""/>
+    <Text ID="292" Value=""/>
+    <Text ID="296" Value=""/>
+    <Text ID="297" Value=""/>
+    <Text ID="300" Value=""/>
+    <Text ID="87963" Value=""/>
+    <Text ID="88110" Value=""/>
+    <Text ID="88623" Value=""/>
+    <Text ID="88624" Value=""/>
+    <Text ID="88625" Value=""/>
+    <Text ID="88626" Value=""/>
+    <Text ID="88627" Value=""/>
+    <Text ID="88628" Value=""/>
+    <Text ID="88629" Value=""/>
+    <Text ID="88630" Value=""/>
+    <Text ID="88631" Value=""/>
+    <Text ID="88632" Value=""/>
+    <Text ID="88633" Value=""/>
+    <Text ID="88634" Value=""/>
+    <Text ID="88635" Value=""/>
+    <Text ID="88636" Value=""/>
+    <Text ID="88637" Value=""/>
+    <Text ID="88638" Value=""/>
+    <Text ID="88639" Value=""/>
+    <Text ID="88931" Value=""/>
+    <Text ID="88932" Value=""/>
+    <Text ID="88933" Value=""/>
+    <Text ID="88934" Value=""/>
+    <Text ID="88935" Value=""/>
+    <Text ID="88936" Value=""/>
+    <Text ID="88937" Value=""/>
+    <Text ID="88955" Value=""/>
+    <Text ID="88956" Value=""/>
+    <Text ID="88957" Value=""/>
+    <Text ID="88970" Value=""/>
+    <Text ID="102662" Value=""/>
+    <Text ID="102854" Value=""/>
+    <Text ID="115313" Value=""/>
+    <Text ID="115314" Value=""/>
+    <Text ID="115315" Value=""/>
+    <Text ID="115316" Value=""/>
+    <Text ID="120725" Value=""/>
+    <Text ID="120726" Value=""/>
+    <Text ID="120727" Value=""/>
+    <Text ID="121350" Value=""/>
+    <Text ID="121351" Value=""/>
+    <Text ID="121352" Value=""/>
+    <Text ID="122239" Value=""/>
+    <Text ID="122761" Value=""/>
+    <Text ID="122763" Value=""/>
+    <Text ID="142438" Value=""/>
+    <Text ID="142439" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="157" Value="0"/>
+    <Index ID="158" Value="1"/>
+    <Index ID="292" Value="2"/>
+    <Index ID="296" Value="5"/>
+    <Index ID="297" Value="4"/>
+    <Index ID="300" Value="3"/>
+    <Index ID="87963" Value="6"/>
+    <Index ID="88110" Value="7"/>
+    <Index ID="88623" Value="8"/>
+    <Index ID="88624" Value="9"/>
+    <Index ID="88625" Value="10"/>
+    <Index ID="88626" Value="11"/>
+    <Index ID="88627" Value="12"/>
+    <Index ID="88628" Value="13"/>
+    <Index ID="88629" Value="14"/>
+    <Index ID="88630" Value="15"/>
+    <Index ID="88631" Value="16"/>
+    <Index ID="88632" Value="17"/>
+    <Index ID="88633" Value="18"/>
+    <Index ID="88634" Value="19"/>
+    <Index ID="88635" Value="20"/>
+    <Index ID="88636" Value="21"/>
+    <Index ID="88637" Value="22"/>
+    <Index ID="88638" Value="23"/>
+    <Index ID="88639" Value="24"/>
+    <Index ID="88931" Value="25"/>
+    <Index ID="88932" Value="26"/>
+    <Index ID="88933" Value="27"/>
+    <Index ID="88934" Value="28"/>
+    <Index ID="88935" Value="29"/>
+    <Index ID="88936" Value="30"/>
+    <Index ID="88937" Value="31"/>
+    <Index ID="88955" Value="34"/>
+    <Index ID="88956" Value="32"/>
+    <Index ID="88957" Value="33"/>
+    <Index ID="88970" Value="35"/>
+    <Index ID="102662" Value="36"/>
+    <Index ID="102854" Value="37"/>
+    <Index ID="115313" Value="38"/>
+    <Index ID="115314" Value="39"/>
+    <Index ID="115315" Value="40"/>
+    <Index ID="115316" Value="41"/>
+    <Index ID="120725" Value="42"/>
+    <Index ID="120726" Value="43"/>
+    <Index ID="120727" Value="44"/>
+    <Index ID="121350" Value="45"/>
+    <Index ID="121351" Value="46"/>
+    <Index ID="121352" Value="47"/>
+    <Index ID="122239" Value="48"/>
+    <Index ID="122761" Value="49"/>
+    <Index ID="122763" Value="50"/>
+    <Index ID="142438" Value="51"/>
+    <Index ID="142439" Value="52"/>
+  </IndexMap>
+</TextGroup>

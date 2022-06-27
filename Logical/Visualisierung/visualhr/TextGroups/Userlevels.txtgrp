@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Userlevels">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="49"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="96" Value="Operator"/>
+    <Text ID="97" Value="Service"/>
+    <Text ID="98" Value="Admin"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="96" Value="Bediener"/>
+    <Text ID="97" Value="Service"/>
+    <Text ID="98" Value="Admin"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="96" Value="Operador"/>
+    <Text ID="97" Value="Servicio"/>
+    <Text ID="98" Value="Admin"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="96" Value="Bruker"/>
+    <Text ID="97" Value="Service"/>
+    <Text ID="98" Value="Admin"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="96" Value=""/>
+    <Text ID="97" Value=""/>
+    <Text ID="98" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="96" Value=""/>
+    <Text ID="97" Value=""/>
+    <Text ID="98" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="96" Value="0"/>
+    <Index ID="97" Value="1"/>
+    <Index ID="98" Value="2"/>
+  </IndexMap>
+</TextGroup>

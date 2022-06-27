@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Ent_Washgumm">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="57"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="162057" Value="Developer"/>
+    <Text ID="162058" Value="Developer"/>
+    <Text ID="162059" Value="Wash/Gum-Solution"/>
+    <Text ID="162060" Value="Developer"/>
+    <Text ID="162061" Value="Wash/Gum"/>
+    <Text ID="162062" Value="Developer circulation"/>
+    <Text ID="162063" Value="Wash/Gum circulation"/>
+    <Text ID="162064" Value="Developer refill"/>
+    <Text ID="162065" Value="Wash/Gum solution refill"/>
+    <Text ID="162066" Value="Developer heating"/>
+    <Text ID="162067" Value="Wash/Gum heating"/>
+    <Text ID="162068" Value="Developer cooling pump"/>
+    <Text ID="162069" Value="Pump wash/gum cooling"/>
+    <Text ID="162070" Value="Developer temperature"/>
+    <Text ID="162071" Value="Temperature wash/gum solution"/>
+    <Text ID="162072" Value="Temperature control developer"/>
+    <Text ID="162073" Value="Temperature contr. wash/gum sol."/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="162057" Value="Entwickler"/>
+    <Text ID="162058" Value="Entwickler"/>
+    <Text ID="162059" Value="Waschgummierung"/>
+    <Text ID="162060" Value="Entwickler"/>
+    <Text ID="162061" Value="Waschgumm."/>
+    <Text ID="162062" Value="Entwickler Zirkulation"/>
+    <Text ID="162063" Value="Waschgummierung Zirkulation"/>
+    <Text ID="162064" Value="Entwickler nachfüllen"/>
+    <Text ID="162065" Value="Waschgummierung nachfüllen"/>
+    <Text ID="162066" Value="Entwicklerheizung"/>
+    <Text ID="162067" Value="Waschgummierung Heizung"/>
+    <Text ID="162068" Value="Pumpe Entwicklerkühlung"/>
+    <Text ID="162069" Value="Pumpe Waschgummierungskühlung"/>
+    <Text ID="162070" Value="Temperatur Entwickler"/>
+    <Text ID="162071" Value="Temperatur Waschgummierung"/>
+    <Text ID="162072" Value="Temperaturregelung Entwickler"/>
+    <Text ID="162073" Value="Temperaturreg. Waschgummierung"/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="162057" Value="Developer"/>
+    <Text ID="162058" Value="Developer"/>
+    <Text ID="162059" Value="Wash/Gum-Solution"/>
+    <Text ID="162060" Value="Developer"/>
+    <Text ID="162061" Value="Wash/Gum"/>
+    <Text ID="162062" Value="Developer circulation"/>
+    <Text ID="162063" Value="Wash/Gum circulation"/>
+    <Text ID="162064" Value="Developer refill"/>
+    <Text ID="162065" Value="Wash/Gum solution refill"/>
+    <Text ID="162066" Value="Developer heating"/>
+    <Text ID="162067" Value="Wash/Gum heating"/>
+    <Text ID="162068" Value="Developer cooling pump"/>
+    <Text ID="162069" Value="Pump wash/gum cooling"/>
+    <Text ID="162070" Value="Developer temperature"/>
+    <Text ID="162071" Value="Temperature wash/gum solution"/>
+    <Text ID="162072" Value="Temperature control developer"/>
+    <Text ID="162073" Value="Temperature contr. wash/gum sol."/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="162057" Value="Developer"/>
+    <Text ID="162058" Value="Developer"/>
+    <Text ID="162059" Value="Wash/Gum-Solution"/>
+    <Text ID="162060" Value="Developer"/>
+    <Text ID="162061" Value="Wash/Gum"/>
+    <Text ID="162062" Value="Developer circulation"/>
+    <Text ID="162063" Value="Wash/Gum circulation"/>
+    <Text ID="162064" Value="Developer refill"/>
+    <Text ID="162065" Value="Wash/Gum solution refill"/>
+    <Text ID="162066" Value="Developer heating"/>
+    <Text ID="162067" Value="Wash/Gum heating"/>
+    <Text ID="162068" Value="Developer cooling pump"/>
+    <Text ID="162069" Value="Pump wash/gum cooling"/>
+    <Text ID="162070" Value="Developer temperature"/>
+    <Text ID="162071" Value="Temperature wash/gum solution"/>
+    <Text ID="162072" Value="Temperature control developer"/>
+    <Text ID="162073" Value="Temperature contr. wash/gum sol."/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="162057" Value=""/>
+    <Text ID="162058" Value=""/>
+    <Text ID="162059" Value=""/>
+    <Text ID="162060" Value=""/>
+    <Text ID="162061" Value=""/>
+    <Text ID="162062" Value=""/>
+    <Text ID="162063" Value=""/>
+    <Text ID="162064" Value=""/>
+    <Text ID="162065" Value=""/>
+    <Text ID="162066" Value=""/>
+    <Text ID="162067" Value=""/>
+    <Text ID="162068" Value=""/>
+    <Text ID="162069" Value=""/>
+    <Text ID="162070" Value=""/>
+    <Text ID="162071" Value=""/>
+    <Text ID="162072" Value=""/>
+    <Text ID="162073" Value=""/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="162057" Value=""/>
+    <Text ID="162058" Value=""/>
+    <Text ID="162059" Value=""/>
+    <Text ID="162060" Value=""/>
+    <Text ID="162061" Value=""/>
+    <Text ID="162062" Value=""/>
+    <Text ID="162063" Value=""/>
+    <Text ID="162064" Value=""/>
+    <Text ID="162065" Value=""/>
+    <Text ID="162066" Value=""/>
+    <Text ID="162067" Value=""/>
+    <Text ID="162068" Value=""/>
+    <Text ID="162069" Value=""/>
+    <Text ID="162070" Value=""/>
+    <Text ID="162071" Value=""/>
+    <Text ID="162072" Value=""/>
+    <Text ID="162073" Value=""/>
+    <Text ID="162074" Value=""/>
+    <Text ID="162075" Value=""/>
+    <Text ID="162076" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="162057" Value="0"/>
+    <Index ID="162058" Value="1"/>
+    <Index ID="162059" Value="2"/>
+    <Index ID="162060" Value="3"/>
+    <Index ID="162061" Value="4"/>
+    <Index ID="162062" Value="5"/>
+    <Index ID="162063" Value="6"/>
+    <Index ID="162064" Value="7"/>
+    <Index ID="162065" Value="8"/>
+    <Index ID="162066" Value="9"/>
+    <Index ID="162067" Value="10"/>
+    <Index ID="162068" Value="11"/>
+    <Index ID="162069" Value="12"/>
+    <Index ID="162070" Value="13"/>
+    <Index ID="162071" Value="14"/>
+    <Index ID="162072" Value="15"/>
+    <Index ID="162073" Value="16"/>
+    <Index ID="162074" Value="17"/>
+    <Index ID="162075" Value="18"/>
+    <Index ID="162076" Value="19"/>
+  </IndexMap>
+</TextGroup>

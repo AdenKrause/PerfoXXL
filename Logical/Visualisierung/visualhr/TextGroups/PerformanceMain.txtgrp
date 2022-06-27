@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PerformanceMain">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="89382" Value="Feeder"/>
+    <Text ID="89383" Value="Global"/>
+    <Text ID="89386" Value="Language"/>
+    <Text ID="89734" Value="Paper rem."/>
+    <Text ID="90233" Value="Parameter"/>
+    <Text ID="90242" Value="Adjuster"/>
+    <Text ID="90243" Value="Deloading"/>
+    <Text ID="90244" Value="Motors"/>
+    <Text ID="90245" Value="X-Axis"/>
+    <Text ID="91783" Value="Global param."/>
+    <Text ID="91784" Value="Plate parameter"/>
+    <Text ID="91785" Value="Please select a platetype"/>
+    <Text ID="91989" Value="Plate parameter"/>
+    <Text ID="91990" Value="In-/Output"/>
+    <Text ID="92926" Value="Service funct."/>
+    <Text ID="93078" Value="Trolleys"/>
+    <Text ID="93079" Value="Please select a trolley"/>
+    <Text ID="95067" Value="Semiautomatic"/>
+    <Text ID="95068" Value="Trolley"/>
+    <Text ID="95101" Value="Platetype"/>
+    <Text ID="95102" Value="Busy"/>
+    <Text ID="95103" Value="Standby"/>
+    <Text ID="95808" Value="Error"/>
+    <Text ID="95809" Value="Plate taking"/>
+    <Text ID="95827" Value="Adjusttable (X-Axis)"/>
+    <Text ID="95828" Value="Start Reference"/>
+    <Text ID="96560" Value="Plates/hour"/>
+    <Text ID="96561" Value="Plates in trolley"/>
+    <Text ID="99022" Value="Open"/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="89382" Value="Plattenaufnahme"/>
+    <Text ID="89383" Value="Allgemein"/>
+    <Text ID="89386" Value="Sprache"/>
+    <Text ID="89734" Value="Papierentf."/>
+    <Text ID="90233" Value="Parameter"/>
+    <Text ID="90242" Value="Ausrichttisch"/>
+    <Text ID="90243" Value="Entladen"/>
+    <Text ID="90244" Value="Motoren"/>
+    <Text ID="90245" Value="X-Achse"/>
+    <Text ID="91783" Value="Globale Param."/>
+    <Text ID="91784" Value="Plattenparameter"/>
+    <Text ID="91785" Value="Bitte einen Plattentyp auswählen"/>
+    <Text ID="91989" Value="Plattenparameter"/>
+    <Text ID="91990" Value="Ein-/Ausgänge"/>
+    <Text ID="92926" Value="Service Funkt."/>
+    <Text ID="93078" Value="Plattenwagen"/>
+    <Text ID="93079" Value="Bitte einen Plattenwagen auswählen"/>
+    <Text ID="95067" Value="Semiautomatik"/>
+    <Text ID="95068" Value="Plattenwagen"/>
+    <Text ID="95101" Value="Plattentyp"/>
+    <Text ID="95102" Value="Aktiv"/>
+    <Text ID="95103" Value="Bereit"/>
+    <Text ID="95808" Value="Fehler"/>
+    <Text ID="95809" Value="Plattenaufnahme"/>
+    <Text ID="95827" Value="Ausrichttisch (X-Achse)"/>
+    <Text ID="95828" Value="Start Referenz"/>
+    <Text ID="96560" Value="Platten/Stunde"/>
+    <Text ID="96561" Value="Platten im Wagen"/>
+    <Text ID="99022" Value="Offen"/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="89382" Value=""/>
+    <Text ID="89383" Value=""/>
+    <Text ID="89386" Value=""/>
+    <Text ID="89734" Value=""/>
+    <Text ID="90233" Value=""/>
+    <Text ID="90242" Value=""/>
+    <Text ID="90243" Value=""/>
+    <Text ID="90244" Value=""/>
+    <Text ID="90245" Value=""/>
+    <Text ID="91783" Value=""/>
+    <Text ID="91784" Value=""/>
+    <Text ID="91785" Value=""/>
+    <Text ID="91989" Value=""/>
+    <Text ID="91990" Value=""/>
+    <Text ID="92926" Value=""/>
+    <Text ID="93078" Value=""/>
+    <Text ID="93079" Value=""/>
+    <Text ID="95067" Value=""/>
+    <Text ID="95068" Value=""/>
+    <Text ID="95101" Value=""/>
+    <Text ID="95102" Value=""/>
+    <Text ID="95103" Value=""/>
+    <Text ID="95808" Value=""/>
+    <Text ID="95809" Value=""/>
+    <Text ID="95827" Value=""/>
+    <Text ID="95828" Value=""/>
+    <Text ID="96560" Value=""/>
+    <Text ID="96561" Value=""/>
+    <Text ID="99022" Value="Open"/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="89382" Value="Feeder"/>
+    <Text ID="89383" Value="Global"/>
+    <Text ID="89386" Value="Language"/>
+    <Text ID="89734" Value="Paper rem."/>
+    <Text ID="90233" Value="Parameter"/>
+    <Text ID="90242" Value="Adjuster"/>
+    <Text ID="90243" Value="Deloading"/>
+    <Text ID="90244" Value="Motors"/>
+    <Text ID="90245" Value="X-Axis"/>
+    <Text ID="91783" Value="Global param."/>
+    <Text ID="91784" Value="Plate parameter"/>
+    <Text ID="91785" Value="Please select a platetype"/>
+    <Text ID="91989" Value="Plate parameter"/>
+    <Text ID="91990" Value="In-/Output"/>
+    <Text ID="92926" Value="Service funct."/>
+    <Text ID="93078" Value="Trolleys"/>
+    <Text ID="93079" Value="Please select a trolley"/>
+    <Text ID="95067" Value="Semiautomatic"/>
+    <Text ID="95068" Value="Trolley"/>
+    <Text ID="95101" Value="Platetype"/>
+    <Text ID="95102" Value="Busy"/>
+    <Text ID="95103" Value="Standby"/>
+    <Text ID="95808" Value="Error"/>
+    <Text ID="95809" Value="Plate taking"/>
+    <Text ID="95827" Value="Adjusttable (X-Axis)"/>
+    <Text ID="95828" Value="Start Reference"/>
+    <Text ID="96560" Value="Plates/hour"/>
+    <Text ID="96561" Value="Plates in trolley"/>
+    <Text ID="99022" Value="Open"/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="89382" Value=""/>
+    <Text ID="89383" Value=""/>
+    <Text ID="89386" Value=""/>
+    <Text ID="89734" Value=""/>
+    <Text ID="90233" Value=""/>
+    <Text ID="90242" Value=""/>
+    <Text ID="90243" Value=""/>
+    <Text ID="90244" Value=""/>
+    <Text ID="90245" Value=""/>
+    <Text ID="91783" Value=""/>
+    <Text ID="91784" Value=""/>
+    <Text ID="91785" Value=""/>
+    <Text ID="91989" Value=""/>
+    <Text ID="91990" Value=""/>
+    <Text ID="92926" Value=""/>
+    <Text ID="93078" Value=""/>
+    <Text ID="93079" Value=""/>
+    <Text ID="95067" Value=""/>
+    <Text ID="95068" Value=""/>
+    <Text ID="95101" Value=""/>
+    <Text ID="95102" Value=""/>
+    <Text ID="95103" Value=""/>
+    <Text ID="95808" Value=""/>
+    <Text ID="95809" Value=""/>
+    <Text ID="95827" Value=""/>
+    <Text ID="95828" Value=""/>
+    <Text ID="96560" Value=""/>
+    <Text ID="96561" Value=""/>
+    <Text ID="99022" Value=""/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="89382" Value=""/>
+    <Text ID="89383" Value=""/>
+    <Text ID="89386" Value=""/>
+    <Text ID="89734" Value=""/>
+    <Text ID="90233" Value=""/>
+    <Text ID="90242" Value=""/>
+    <Text ID="90243" Value=""/>
+    <Text ID="90244" Value=""/>
+    <Text ID="90245" Value=""/>
+    <Text ID="91783" Value=""/>
+    <Text ID="91784" Value=""/>
+    <Text ID="91785" Value=""/>
+    <Text ID="91989" Value=""/>
+    <Text ID="91990" Value=""/>
+    <Text ID="92926" Value=""/>
+    <Text ID="93078" Value=""/>
+    <Text ID="93079" Value=""/>
+    <Text ID="95067" Value=""/>
+    <Text ID="95068" Value=""/>
+    <Text ID="95101" Value=""/>
+    <Text ID="95102" Value=""/>
+    <Text ID="95103" Value=""/>
+    <Text ID="95808" Value=""/>
+    <Text ID="95809" Value=""/>
+    <Text ID="95827" Value=""/>
+    <Text ID="95828" Value=""/>
+    <Text ID="96560" Value=""/>
+    <Text ID="96561" Value=""/>
+    <Text ID="99022" Value=""/>
+    <Text ID="99023" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="89382" Value="0"/>
+    <Index ID="89383" Value="1"/>
+    <Index ID="89386" Value="2"/>
+    <Index ID="89734" Value="3"/>
+    <Index ID="90233" Value="4"/>
+    <Index ID="90242" Value="5"/>
+    <Index ID="90243" Value="6"/>
+    <Index ID="90244" Value="7"/>
+    <Index ID="90245" Value="8"/>
+    <Index ID="91783" Value="9"/>
+    <Index ID="91784" Value="10"/>
+    <Index ID="91785" Value="11"/>
+    <Index ID="91989" Value="12"/>
+    <Index ID="91990" Value="13"/>
+    <Index ID="92926" Value="14"/>
+    <Index ID="93078" Value="15"/>
+    <Index ID="93079" Value="16"/>
+    <Index ID="95067" Value="17"/>
+    <Index ID="95068" Value="18"/>
+    <Index ID="95101" Value="19"/>
+    <Index ID="95102" Value="20"/>
+    <Index ID="95103" Value="21"/>
+    <Index ID="95808" Value="22"/>
+    <Index ID="95809" Value="23"/>
+    <Index ID="95827" Value="24"/>
+    <Index ID="95828" Value="25"/>
+    <Index ID="96560" Value="26"/>
+    <Index ID="96561" Value="27"/>
+    <Index ID="99022" Value="28"/>
+    <Index ID="99023" Value="29"/>
+  </IndexMap>
+</TextGroup>

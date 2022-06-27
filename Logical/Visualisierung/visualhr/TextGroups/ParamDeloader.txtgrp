@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamDeloader">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="14"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="90181" Value="Parameter deloading"/>
+    <Text ID="90182" Value="Table startposition for deloading"/>
+    <Text ID="90183" Value="Table endposition for deloading"/>
+    <Text ID="90184" Value="Platelength addition"/>
+    <Text ID="90185" Value="Adjustbelt speed"/>
+    <Text ID="90186" Value="Conveyorbelt speed"/>
+    <Text ID="90187" Value="Delay processor error "/>
+    <Text ID="90188" Value="Delay conveyorbelt off"/>
+    <Text ID="90189" Value="Stoppins"/>
+    <Text ID="90190" Value="Delay up"/>
+    <Text ID="90191" Value="Delay down"/>
+    <Text ID="172512" Value="Lateral transp. pulse length"/>
+    <Text ID="172513" Value="Lateral transp. transport time"/>
+    <Text ID="172514" Value="Table speed deloading (auto)"/>
+    <Text ID="527617" Value="Table speed deloading (manual)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="90181" Value="Parameter entladen"/>
+    <Text ID="90182" Value="Tisch Startposition für Entladen"/>
+    <Text ID="90183" Value="Tisch Endposition für Entladen"/>
+    <Text ID="90184" Value="Plattenlängenzugabe"/>
+    <Text ID="90185" Value="Geschw. Ausrichtband"/>
+    <Text ID="90186" Value="Geschw. Auslaufband"/>
+    <Text ID="90187" Value="Verzögerung EGM-Fehler"/>
+    <Text ID="90188" Value="Verzögerung Auslaufband aus"/>
+    <Text ID="90189" Value="Stoppstifte"/>
+    <Text ID="90190" Value="Verzögerung heben"/>
+    <Text ID="90191" Value="Verzögerung senken"/>
+    <Text ID="172512" Value="Querförderung Impulsdauer"/>
+    <Text ID="172513" Value="Querförderung Förderdauer"/>
+    <Text ID="172514" Value="Tischgeschw. entladen (auto)"/>
+    <Text ID="527617" Value="Tischgeschw. entladen (manuell)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="90181" Value=""/>
+    <Text ID="90182" Value="Table startposition for deloading"/>
+    <Text ID="90183" Value="Table endposition for deloading"/>
+    <Text ID="90184" Value=""/>
+    <Text ID="90185" Value=""/>
+    <Text ID="90186" Value=""/>
+    <Text ID="90187" Value=""/>
+    <Text ID="90188" Value=""/>
+    <Text ID="90189" Value=""/>
+    <Text ID="90190" Value=""/>
+    <Text ID="90191" Value=""/>
+    <Text ID="172512" Value="Lateral transp. pulse length"/>
+    <Text ID="172513" Value="Lateral transp. transport time"/>
+    <Text ID="172514" Value="Table speed deloading (auto)"/>
+    <Text ID="527617" Value="Table speed deloading (manual)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="90181" Value="Parameter deloading"/>
+    <Text ID="90182" Value="Table startposition for deloading"/>
+    <Text ID="90183" Value="Table endposition for deloading"/>
+    <Text ID="90184" Value="Platelength addition"/>
+    <Text ID="90185" Value="Adjustbelt speed"/>
+    <Text ID="90186" Value="Conveyorbelt speed"/>
+    <Text ID="90187" Value="Delay processor error "/>
+    <Text ID="90188" Value="Delay conveyorbelt off"/>
+    <Text ID="90189" Value="Stoppins"/>
+    <Text ID="90190" Value="Delay up"/>
+    <Text ID="90191" Value="Delay down"/>
+    <Text ID="172512" Value="Lateral transp. pulse length"/>
+    <Text ID="172513" Value="Lateral transp. transport time"/>
+    <Text ID="172514" Value="Table speed deloading (auto)"/>
+    <Text ID="527617" Value="Table speed deloading (manual)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="90181" Value=""/>
+    <Text ID="90182" Value="Table startposition for deloading"/>
+    <Text ID="90183" Value="Table endposition for deloading"/>
+    <Text ID="90184" Value=""/>
+    <Text ID="90185" Value=""/>
+    <Text ID="90186" Value=""/>
+    <Text ID="90187" Value=""/>
+    <Text ID="90188" Value=""/>
+    <Text ID="90189" Value=""/>
+    <Text ID="90190" Value=""/>
+    <Text ID="90191" Value=""/>
+    <Text ID="172512" Value="Lateral transp. pulse length"/>
+    <Text ID="172513" Value="Lateral transp. transport time"/>
+    <Text ID="172514" Value="Table speed deloading (auto)"/>
+    <Text ID="527617" Value="Table speed deloading (manual)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="90181" Value=""/>
+    <Text ID="90182" Value="Table startposition for deloading"/>
+    <Text ID="90183" Value="Table endposition for deloading"/>
+    <Text ID="90184" Value=""/>
+    <Text ID="90185" Value=""/>
+    <Text ID="90186" Value=""/>
+    <Text ID="90187" Value=""/>
+    <Text ID="90188" Value=""/>
+    <Text ID="90189" Value=""/>
+    <Text ID="90190" Value=""/>
+    <Text ID="90191" Value=""/>
+    <Text ID="172512" Value="Lateral transp. pulse length"/>
+    <Text ID="172513" Value="Lateral transp. transport time"/>
+    <Text ID="172514" Value="Table speed deloading (auto)"/>
+    <Text ID="527617" Value="Table speed deloading (manual)"/>
+    <Text ID="527618" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="90181" Value="0"/>
+    <Index ID="90182" Value="1"/>
+    <Index ID="90183" Value="2"/>
+    <Index ID="90184" Value="3"/>
+    <Index ID="90185" Value="4"/>
+    <Index ID="90186" Value="5"/>
+    <Index ID="90187" Value="6"/>
+    <Index ID="90188" Value="7"/>
+    <Index ID="90189" Value="8"/>
+    <Index ID="90190" Value="9"/>
+    <Index ID="90191" Value="10"/>
+    <Index ID="172512" Value="11"/>
+    <Index ID="172513" Value="12"/>
+    <Index ID="172514" Value="13"/>
+    <Index ID="527617" Value="14"/>
+    <Index ID="527618" Value="15"/>
+  </IndexMap>
+</TextGroup>

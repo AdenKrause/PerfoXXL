@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.1.4.402?>
+<?AutomationStudio Version=4.1.16.135 SP?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Program" Language="ANSIC" Description="Bild &quot;X-Achse&quot; bearbeiten">p_achse</Object>
     <Object Type="DataObject" Language="Vc" Description="Visualization">visual</Object>
     <Object Type="Program" Language="ANSIC" Description="Handling von Visualisierungsfunktionen">pics</Object>
+    <Object Type="DataObject" Language="Vc" Description="640x480">visualhr</Object>
   </Objects>
 </Package>

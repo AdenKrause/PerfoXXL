@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ok_notok">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="34"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="121862" Value="Not OK"/>
+    <Text ID="121863" Value="OK"/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="121862" Value="nicht OK"/>
+    <Text ID="121863" Value="OK"/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="121862" Value="No OK"/>
+    <Text ID="121863" Value="OK"/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="121862" Value="ikke OK"/>
+    <Text ID="121863" Value=""/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="121862" Value=""/>
+    <Text ID="121863" Value=""/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="121862" Value=""/>
+    <Text ID="121863" Value=""/>
+    <Text ID="121864" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="121862" Value="0"/>
+    <Index ID="121863" Value="1"/>
+    <Index ID="121864" Value="2"/>
+  </IndexMap>
+</TextGroup>

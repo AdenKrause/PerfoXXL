@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="File">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="98692" Value="USB Device"/>
+    <Text ID="98693" Value="Save to CF-card"/>
+    <Text ID="98694" Value="Load from CF-card"/>
+    <Text ID="98695" Value="Internal"/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value="Load from USB device"/>
+    <Text ID="129477" Value="Save to USB device"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="98692" Value="USB Gerät"/>
+    <Text ID="98693" Value="Speichern auf CF-Karte"/>
+    <Text ID="98694" Value="Laden von CF-Karte"/>
+    <Text ID="98695" Value="intern"/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value="Laden von USB Gerät"/>
+    <Text ID="129477" Value="Speichern auf USB Gerät"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="98692" Value="dispositivo USB"/>
+    <Text ID="98693" Value="Salvar en tarjeta interna CF"/>
+    <Text ID="98694" Value="Cargar de tarjeta interna CF"/>
+    <Text ID="98695" Value="interna"/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value="Cargar de dispositivo USB"/>
+    <Text ID="129477" Value="Salvar en dispositivo USB"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="98692" Value="USB-apparat"/>
+    <Text ID="98693" Value="Lagre på CF-kort"/>
+    <Text ID="98694" Value="Lasting av CF-kort"/>
+    <Text ID="98695" Value="internt"/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value="Lasting av USB-apparat"/>
+    <Text ID="129477" Value="Lagre på USB-apparat"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="98692" Value=""/>
+    <Text ID="98693" Value=""/>
+    <Text ID="98694" Value=""/>
+    <Text ID="98695" Value=""/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value=""/>
+    <Text ID="129477" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="98692" Value=""/>
+    <Text ID="98693" Value=""/>
+    <Text ID="98694" Value=""/>
+    <Text ID="98695" Value=""/>
+    <Text ID="98696" Value=""/>
+    <Text ID="129476" Value=""/>
+    <Text ID="129477" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="98692" Value="0"/>
+    <Index ID="98693" Value="1"/>
+    <Index ID="98694" Value="2"/>
+    <Index ID="98695" Value="3"/>
+    <Index ID="98696" Value="6"/>
+    <Index ID="129476" Value="5"/>
+    <Index ID="129477" Value="4"/>
+  </IndexMap>
+</TextGroup>

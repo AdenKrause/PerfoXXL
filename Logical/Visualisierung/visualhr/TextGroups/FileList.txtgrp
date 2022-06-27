@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="FileList">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="26"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="98838" Value="Exposed Jobs"/>
+    <Text ID="98839" Value="Filename"/>
+    <Text ID="98840" Value="Resol."/>
+    <Text ID="98841" Value="State"/>
+    <Text ID="98861" Value="Time"/>
+    <Text ID="99010" Value="Overall exposures"/>
+    <Text ID="99011" Value="today"/>
+    <Text ID="99012" Value=":"/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="98838" Value="Belichtete Jobs"/>
+    <Text ID="98839" Value="Dateiname"/>
+    <Text ID="98840" Value="Aufl."/>
+    <Text ID="98841" Value="Status"/>
+    <Text ID="98861" Value="Zeit"/>
+    <Text ID="99010" Value="Belichtungen gesamt"/>
+    <Text ID="99011" Value="heute"/>
+    <Text ID="99012" Value=":"/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="98838" Value=""/>
+    <Text ID="98839" Value=""/>
+    <Text ID="98840" Value=""/>
+    <Text ID="98841" Value=""/>
+    <Text ID="98861" Value=""/>
+    <Text ID="99010" Value=""/>
+    <Text ID="99011" Value=""/>
+    <Text ID="99012" Value=""/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="98838" Value="Exposed Jobs"/>
+    <Text ID="98839" Value="Filename"/>
+    <Text ID="98840" Value="Resol."/>
+    <Text ID="98841" Value="State"/>
+    <Text ID="98861" Value="Time"/>
+    <Text ID="99010" Value="Overall exposures"/>
+    <Text ID="99011" Value="today"/>
+    <Text ID="99012" Value=":"/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="98838" Value=""/>
+    <Text ID="98839" Value=""/>
+    <Text ID="98840" Value=""/>
+    <Text ID="98841" Value=""/>
+    <Text ID="98861" Value=""/>
+    <Text ID="99010" Value=""/>
+    <Text ID="99011" Value=""/>
+    <Text ID="99012" Value=""/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="98838" Value=""/>
+    <Text ID="98839" Value=""/>
+    <Text ID="98840" Value=""/>
+    <Text ID="98841" Value=""/>
+    <Text ID="98861" Value=""/>
+    <Text ID="99010" Value=""/>
+    <Text ID="99011" Value=""/>
+    <Text ID="99012" Value=""/>
+    <Text ID="99013" Value=""/>
+    <Text ID="99014" Value=""/>
+    <Text ID="99015" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="98838" Value="0"/>
+    <Index ID="98839" Value="1"/>
+    <Index ID="98840" Value="2"/>
+    <Index ID="98841" Value="3"/>
+    <Index ID="98861" Value="4"/>
+    <Index ID="99010" Value="5"/>
+    <Index ID="99011" Value="6"/>
+    <Index ID="99012" Value="7"/>
+    <Index ID="99013" Value="8"/>
+    <Index ID="99014" Value="9"/>
+    <Index ID="99015" Value="10"/>
+  </IndexMap>
+</TextGroup>

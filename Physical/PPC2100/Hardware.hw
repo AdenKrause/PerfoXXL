@@ -4,11 +4,22 @@
   <Module Name="5ACCIF01.FPSC-001" Type="5ACCIF01.FPSC-001" Version="1.8.1.0">
     <Connection Connector="SL" TargetModule="5PPC2100_BY01_000" TargetConnector="SL1" />
   </Module>
-  <Module Name="5AP1120.0573-000" Type="5AP1120.0573-000" Version="2.0.0.0" />
+  <Module Name="5AP1120.0573-000" Type="5AP1120.0573-000" Version="2.0.0.0">
+    <Parameter ID="VcObjectName" Value="visuhr" />
+  </Module>
   <Module Name="5PPC2100_BY01_000" Type="5PPC2100.BY01-000" Version="1.4.0.0">
     <Connection Connector="SY" TargetModule="5AP1120.0573-000" TargetConnector="SY1" />
     <Connector Name="IF3">
       <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="visuhr" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncAuthentication1" Value="1" />
+      <Parameter ID="VncPasswordViewControl1" Value="laser" />
+      <Parameter ID="VncMaxConnections1" Value="4" />
+      <Parameter ID="InternetAddress" Value="192.168.77.100" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
     </Connector>
     <Connector Name="IF4">
       <Parameter ID="ActivateDevice" Value="1" />

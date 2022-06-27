@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PlateTypes">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="45"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="113154" Value="Plate Types"/>
+    <Text ID="113155" Value="Size X (moving dir.)"/>
+    <Text ID="113156" Value="Size Y"/>
+    <Text ID="113157" Value="Area"/>
+    <Text ID="113158" Value="Name"/>
+    <Text ID="113159" Value="Manufacturer"/>
+    <Text ID="113160" Value="Dip time"/>
+    <Text ID="113161" Value="No."/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="113154" Value="Plattentypen"/>
+    <Text ID="113155" Value="Größe in X (Vorschubricht.)"/>
+    <Text ID="113156" Value="Größe in Y"/>
+    <Text ID="113157" Value="Fläche"/>
+    <Text ID="113158" Value="Name"/>
+    <Text ID="113159" Value="Hersteller"/>
+    <Text ID="113160" Value="Dip Zeit"/>
+    <Text ID="113161" Value="Nr."/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="113154" Value="Tipos de planchas"/>
+    <Text ID="113155" Value="Tamaño X (Sentido transporte)"/>
+    <Text ID="113156" Value="Tamaño Y"/>
+    <Text ID="113157" Value="Area"/>
+    <Text ID="113158" Value="Nombre"/>
+    <Text ID="113159" Value="Fabricante"/>
+    <Text ID="113160" Value="Tiempo inmersion"/>
+    <Text ID="113161" Value="N°"/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="113154" Value="Platetyper"/>
+    <Text ID="113155" Value="Størrelse i X (framføringsretn.)"/>
+    <Text ID="113156" Value="Størrelse i Y"/>
+    <Text ID="113157" Value="Flate"/>
+    <Text ID="113158" Value="Navn"/>
+    <Text ID="113159" Value="Produsent"/>
+    <Text ID="113160" Value="Dip time"/>
+    <Text ID="113161" Value="Nr."/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="113154" Value=""/>
+    <Text ID="113155" Value=""/>
+    <Text ID="113156" Value=""/>
+    <Text ID="113157" Value=""/>
+    <Text ID="113158" Value=""/>
+    <Text ID="113159" Value=""/>
+    <Text ID="113160" Value=""/>
+    <Text ID="113161" Value=""/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="113154" Value=""/>
+    <Text ID="113155" Value=""/>
+    <Text ID="113156" Value=""/>
+    <Text ID="113157" Value=""/>
+    <Text ID="113158" Value=""/>
+    <Text ID="113159" Value=""/>
+    <Text ID="113160" Value=""/>
+    <Text ID="113161" Value=""/>
+    <Text ID="113163" Value=""/>
+    <Text ID="113164" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="113154" Value="0"/>
+    <Index ID="113155" Value="1"/>
+    <Index ID="113156" Value="2"/>
+    <Index ID="113157" Value="3"/>
+    <Index ID="113158" Value="4"/>
+    <Index ID="113159" Value="5"/>
+    <Index ID="113160" Value="6"/>
+    <Index ID="113161" Value="7"/>
+    <Index ID="113163" Value="9"/>
+    <Index ID="113164" Value="10"/>
+  </IndexMap>
+</TextGroup>

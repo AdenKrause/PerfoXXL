@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="SafetyCheck">
+  <Property Name="BackColor" Value="15" />
+  <Property Name="Description" Value="Safety check for saving Param" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Left" Value="0" />
+  <Property Name="StatusDatapoint" Value="None" />
+  <Property Name="Top" Value="0" />
+  <Property Name="Width" Value="320" />
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="101090" Value="Save changes ?" />
+      <Text ID="101091" Value="Yes, OK" />
+      <Text ID="101092" Value="No, cancel" />
+    </TextLayer>
+    <TextLayer LanguageId="de-DE">
+      <Text ID="101090" Value="Änderungen übernehmen ?" />
+      <Text ID="101091" Value="Ja, OK" />
+      <Text ID="101092" Value="Nein, abbruch" />
+    </TextLayer>
+    <TextLayer LanguageId="es-ES">
+      <Text ID="101090" Value="Salvar cambios?" />
+      <Text ID="101091" Value="Si, OK" />
+      <Text ID="101092" Value="No, cancelar" />
+    </TextLayer>
+    <TextLayer LanguageId="no-NO">
+      <Text ID="101090" Value="Legg inn endringer?" />
+      <Text ID="101091" Value="Ja, OK" />
+      <Text ID="101092" Value="Nei, avbrudd" />
+    </TextLayer>
+    <TextLayer LanguageId="nl-NL">
+      <Text ID="101090" Value="" />
+      <Text ID="101091" Value="" />
+      <Text ID="101092" Value="" />
+    </TextLayer>
+    <TextLayer LanguageId="tr-TR">
+      <Text ID="101090" Value="" />
+      <Text ID="101091" Value="" />
+      <Text ID="101092" Value="" />
+    </TextLayer>
+    <IndexMap>
+      <Index ID="101090" Value="6" />
+      <Index ID="101091" Value="7" />
+      <Index ID="101092" Value="8" />
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_3">
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="FillStyle" Value="Transparent" />
+      <Property Name="ForeColor" Value="16" />
+      <Property Name="Height" Value="480" />
+      <Property Name="Left" Value="0" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]" />
+      <Property Name="Top" Value="0" />
+      <Property Name="Width" Value="640" />
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="8" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="ForeColor" Value="8" />
+      <Property Name="Height" Value="266" />
+      <Property Name="Left" Value="34" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]" />
+      <Property Name="Top" Value="102" />
+      <Property Name="Width" Value="576" />
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="BackColor" Value="16" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Height" Value="266" />
+      <Property Name="Left" Value="28" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]" />
+      <Property Name="Top" Value="108" />
+      <Property Name="Width" Value="576" />
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center" />
+      <Property Name="AlignmentVertical" Value="Center" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Font" Value="Source[local].Font[Arial14]" />
+      <Property Name="Height" Value="60" />
+      <Property Name="Left" Value="44" />
+      <Property Name="SimulationIndex" Value="0" />
+      <Property Name="SimulationValue" Value="0" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+      <Property Name="TextIndexOffset" Value="6" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="158" />
+      <Property Name="Width" Value="540" />
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center" />
+      <Property Name="AlignmentVertical" Value="Center" />
+      <Property Name="Border" Value="Source[local].Border[Black_1pixel]" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Font" Value="Source[local].Font[Arial12]" />
+      <Property Name="Height" Value="60" />
+      <Property Name="Left" Value="74" />
+      <Property Name="SimulationIndex" Value="0" />
+      <Property Name="SimulationValue" Value="0" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+      <Property Name="TextIndexOffset" Value="7" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="286" />
+      <Property Name="Width" Value="180" />
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center" />
+      <Property Name="AlignmentVertical" Value="Center" />
+      <Property Name="Border" Value="Source[local].Border[Black_1pixel]" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Font" Value="Source[local].Font[Arial12]" />
+      <Property Name="Height" Value="60" />
+      <Property Name="Left" Value="332" />
+      <Property Name="SimulationIndex" Value="0" />
+      <Property Name="SimulationValue" Value="0" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+      <Property Name="TextIndexOffset" Value="8" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="286" />
+      <Property Name="Width" Value="226" />
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="EmbVirtualKey" Value="None" />
+      <Property Name="Height" Value="72" />
+      <Property Name="KeyMatrixOffset" Value="None" />
+      <Property Name="Left" Value="68" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]" />
+      <Property Name="Top" Value="282" />
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[SafetyCheckOK]" />
+      <Property Name="Width" Value="186" />
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_2">
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="EmbVirtualKey" Value="None" />
+      <Property Name="Height" Value="72" />
+      <Property Name="KeyMatrixOffset" Value="None" />
+      <Property Name="Left" Value="328" />
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.HideSafetyCheck]" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]" />
+      <Property Name="Top" Value="278" />
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[SafetyCheckCancel]" />
+      <Property Name="Width" Value="232" />
+    </Control>
+  </Controls>
+  <KeyMapping />
+</Layer>

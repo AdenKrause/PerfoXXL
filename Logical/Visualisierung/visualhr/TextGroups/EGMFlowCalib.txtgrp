@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="EGMFlowCalib">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="55"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002004" Name="TextSnippet_2">
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.Visualisierung.pics.TextSnippetNr]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[EGMFlowCalib]"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002004" Name="TextSnippet_3">
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.Visualisierung.pics.TextSnippetNr]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[EGMFlowCalib]"/>
+      <Property Name="TextIndexOffset" Value="19"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="141959" Value="Calibration of {TextSnippet_2} pump"/>
+    <Text ID="141963" Value="{TextSnippet_3} Pump ON"/>
+    <Text ID="141964" Value="Measured pulses"/>
+    <Text ID="141970" Value="Actual amount flowed:"/>
+    <Text ID="141971" Value="ml"/>
+    <Text ID="141972" Value="Finished"/>
+    <Text ID="141973" Value="Please pump an arbitrary amount of {TextSnippet_2} (100 - 5000 ml) into a measuring jug and enter the actually measured amount below."/>
+    <Text ID="141981" Value="Cancel"/>
+    <Text ID="141982" Value="-&gt;"/>
+    <Text ID="141985" Value="The calibration was successfully completed!"/>
+    <Text ID="141986" Value="The calibration failed. Too little pulses were detected!"/>
+    <Text ID="141990" Value="The calibration was aborted by user!"/>
+    <Text ID="141991" Value="OK"/>
+    <Text ID="141998" Value="replenisher"/>
+    <Text ID="141999" Value="developer"/>
+    <Text ID="142001" Value="gum"/>
+    <Text ID="142002" Value="Gum"/>
+    <Text ID="142003" Value="Developer"/>
+    <Text ID="142004" Value="Replenisher"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="141959" Value="Kalibrierung der {TextSnippet_2} Pumpe"/>
+    <Text ID="141963" Value="{TextSnippet_3} Pumpe EIN"/>
+    <Text ID="141964" Value="Gemessene Pulse"/>
+    <Text ID="141970" Value="Tatsächlich geförderte Menge:"/>
+    <Text ID="141971" Value="ml"/>
+    <Text ID="141972" Value="Fertig"/>
+    <Text ID="141973" Value="Bitte fördern Sie eine beliebige Menge {TextSnippet_2} (100 - 5000 ml) in einen Meßbecher und geben Sie die tatsächlich geflossene Menge unten ein."/>
+    <Text ID="141981" Value="Abbrechen"/>
+    <Text ID="141982" Value="-&gt;"/>
+    <Text ID="141985" Value="Die Kalibrierung wurde erfolgreich abgeschlossen!"/>
+    <Text ID="141986" Value="Die Kalibrierung ist fehlgeschlagen. Es wurden zu wenig Pule gemessen!"/>
+    <Text ID="141990" Value="Die Kalibrierung wurde durch den Benutzer abgebrochen!"/>
+    <Text ID="141991" Value="OK"/>
+    <Text ID="141998" Value="Regenerat"/>
+    <Text ID="141999" Value="Entwickler"/>
+    <Text ID="142001" Value="Gummierung"/>
+    <Text ID="142002" Value="Gummierung"/>
+    <Text ID="142003" Value="Entwickler"/>
+    <Text ID="142004" Value="Regenerat"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="141959" Value="Calibracion de bomba de {TextSnippet_2}"/>
+    <Text ID="141963" Value="Activar bomba de {TextSnippet_3}"/>
+    <Text ID="141964" Value="Impulsos medidos"/>
+    <Text ID="141970" Value="Cantidad actual fluida"/>
+    <Text ID="141971" Value="ml"/>
+    <Text ID="141972" Value="Terminado"/>
+    <Text ID="141973" Value="Bombee una cantidad arbitraria de {TextSnippet_2} (100 - 5000 ml) en  una jarra de medida y entre abajo la cantidad medida actualmente"/>
+    <Text ID="141981" Value="Cancelar"/>
+    <Text ID="141982" Value="-&gt;"/>
+    <Text ID="141985" Value="Calibracion ha tenido exito."/>
+    <Text ID="141986" Value="Error de calibracion. Detectados impulsos muy cortos!"/>
+    <Text ID="141990" Value="Calibracion ha sido interrumpida por el usuario!"/>
+    <Text ID="141991" Value="OK"/>
+    <Text ID="141998" Value="regenerador"/>
+    <Text ID="141999" Value="revelador "/>
+    <Text ID="142001" Value="goma"/>
+    <Text ID="142002" Value="goma"/>
+    <Text ID="142003" Value="revelador "/>
+    <Text ID="142004" Value="regenerador"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="141959" Value="Calibration of {TextSnippet_2} pump"/>
+    <Text ID="141963" Value="{TextSnippet_3} Pump ON"/>
+    <Text ID="141964" Value="Measured pulses"/>
+    <Text ID="141970" Value="Actual amount flowed:"/>
+    <Text ID="141971" Value="ml"/>
+    <Text ID="141972" Value="Finished"/>
+    <Text ID="141973" Value="Please pump an arbitrary amount of {TextSnippet_2} (100 - 5000 ml) into a measuring jug and enter the actually measured amount below."/>
+    <Text ID="141981" Value="Cancel"/>
+    <Text ID="141982" Value="-&gt;"/>
+    <Text ID="141985" Value="The calibration was successfully completed!"/>
+    <Text ID="141986" Value="The calibration failed. Too little pulses were detected!"/>
+    <Text ID="141990" Value="The calibration was aborted by user!"/>
+    <Text ID="141991" Value="OK"/>
+    <Text ID="141998" Value="replenisher"/>
+    <Text ID="141999" Value="developer"/>
+    <Text ID="142001" Value="gum"/>
+    <Text ID="142002" Value="Gum"/>
+    <Text ID="142003" Value="Developer"/>
+    <Text ID="142004" Value="Replenisher"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="141959" Value=""/>
+    <Text ID="141963" Value=""/>
+    <Text ID="141964" Value=""/>
+    <Text ID="141970" Value=""/>
+    <Text ID="141971" Value=""/>
+    <Text ID="141972" Value=""/>
+    <Text ID="141973" Value=""/>
+    <Text ID="141981" Value=""/>
+    <Text ID="141982" Value=""/>
+    <Text ID="141985" Value=""/>
+    <Text ID="141986" Value=""/>
+    <Text ID="141990" Value=""/>
+    <Text ID="141991" Value=""/>
+    <Text ID="141998" Value=""/>
+    <Text ID="141999" Value=""/>
+    <Text ID="142001" Value=""/>
+    <Text ID="142002" Value=""/>
+    <Text ID="142003" Value=""/>
+    <Text ID="142004" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="141959" Value=""/>
+    <Text ID="141963" Value=""/>
+    <Text ID="141964" Value=""/>
+    <Text ID="141970" Value=""/>
+    <Text ID="141971" Value=""/>
+    <Text ID="141972" Value=""/>
+    <Text ID="141973" Value=""/>
+    <Text ID="141981" Value=""/>
+    <Text ID="141982" Value=""/>
+    <Text ID="141985" Value=""/>
+    <Text ID="141986" Value=""/>
+    <Text ID="141990" Value=""/>
+    <Text ID="141991" Value=""/>
+    <Text ID="141998" Value=""/>
+    <Text ID="141999" Value=""/>
+    <Text ID="142001" Value=""/>
+    <Text ID="142002" Value=""/>
+    <Text ID="142003" Value=""/>
+    <Text ID="142004" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="141959" Value="0"/>
+    <Index ID="141963" Value="6"/>
+    <Index ID="141964" Value="7"/>
+    <Index ID="141970" Value="8"/>
+    <Index ID="141971" Value="9"/>
+    <Index ID="141972" Value="10"/>
+    <Index ID="141973" Value="11"/>
+    <Index ID="141981" Value="12"/>
+    <Index ID="141982" Value="13"/>
+    <Index ID="141985" Value="14"/>
+    <Index ID="141986" Value="15"/>
+    <Index ID="141990" Value="16"/>
+    <Index ID="141991" Value="17"/>
+    <Index ID="141998" Value="3"/>
+    <Index ID="141999" Value="4"/>
+    <Index ID="142001" Value="5"/>
+    <Index ID="142002" Value="21"/>
+    <Index ID="142003" Value="20"/>
+    <Index ID="142004" Value="19"/>
+  </IndexMap>
+</TextGroup>

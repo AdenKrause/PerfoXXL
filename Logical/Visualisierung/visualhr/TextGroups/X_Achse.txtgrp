@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="X_Achse">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="19"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="91323" Value="ENPO"/>
+    <Text ID="91324" Value="Active"/>
+    <Text ID="91325" Value="Auto"/>
+    <Text ID="91326" Value="Ref OK"/>
+    <Text ID="91327" Value="Error"/>
+    <Text ID="91328" Value="Enable Controller"/>
+    <Text ID="91329" Value="Start Reference"/>
+    <Text ID="91330" Value="Move to parkpos."/>
+    <Text ID="91331" Value="Manual"/>
+    <Text ID="91332" Value="Reference speed 1"/>
+    <Text ID="91356" Value="Reference speed 2"/>
+    <Text ID="91357" Value="Reference speed 3"/>
+    <Text ID="91358" Value="Parkspeed"/>
+    <Text ID="91359" Value="Manual speed slow"/>
+    <Text ID="91360" Value="Manual speed fast"/>
+    <Text ID="91361" Value="Parkposition"/>
+    <Text ID="91362" Value="Increments / mm"/>
+    <Text ID="91396" Value="X-Axis Speeds"/>
+    <Text ID="91397" Value="X-Axis Parameter"/>
+    <Text ID="92900" Value="Fast"/>
+    <Text ID="96198" Value="Limits"/>
+    <Text ID="96199" Value="Limit +"/>
+    <Text ID="96200" Value="Limit -"/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="91323" Value="ENPO"/>
+    <Text ID="91324" Value="Aktiv"/>
+    <Text ID="91325" Value="Auto"/>
+    <Text ID="91326" Value="Ref OK"/>
+    <Text ID="91327" Value="Fehler"/>
+    <Text ID="91328" Value="Reglerfreigabe"/>
+    <Text ID="91329" Value="Start Referenz"/>
+    <Text ID="91330" Value="Parkpos. anfahren"/>
+    <Text ID="91331" Value="Hand"/>
+    <Text ID="91332" Value="Referenzgeschwindigkeit 1"/>
+    <Text ID="91356" Value="Referenzgeschwindigkeit 2"/>
+    <Text ID="91357" Value="Referenzgeschwindigkeit 3"/>
+    <Text ID="91358" Value="Parkgeschwindigkeit"/>
+    <Text ID="91359" Value="Handgeschwindigkeit langsam"/>
+    <Text ID="91360" Value="Handgeschwindigkeit schnell"/>
+    <Text ID="91361" Value="Parkposition"/>
+    <Text ID="91362" Value="Inkremente / mm"/>
+    <Text ID="91396" Value="X-Achse Geschwindigkeiten"/>
+    <Text ID="91397" Value="X-Achse Parameter"/>
+    <Text ID="92900" Value="Schnell"/>
+    <Text ID="96198" Value="Verfahrweg"/>
+    <Text ID="96199" Value="Grenze +"/>
+    <Text ID="96200" Value="Grenze -"/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="91323" Value=""/>
+    <Text ID="91324" Value=""/>
+    <Text ID="91325" Value=""/>
+    <Text ID="91326" Value=""/>
+    <Text ID="91327" Value=""/>
+    <Text ID="91328" Value=""/>
+    <Text ID="91329" Value=""/>
+    <Text ID="91330" Value=""/>
+    <Text ID="91331" Value=""/>
+    <Text ID="91332" Value=""/>
+    <Text ID="91356" Value=""/>
+    <Text ID="91357" Value=""/>
+    <Text ID="91358" Value=""/>
+    <Text ID="91359" Value=""/>
+    <Text ID="91360" Value=""/>
+    <Text ID="91361" Value=""/>
+    <Text ID="91362" Value=""/>
+    <Text ID="91396" Value=""/>
+    <Text ID="91397" Value=""/>
+    <Text ID="92900" Value=""/>
+    <Text ID="96198" Value=""/>
+    <Text ID="96199" Value=""/>
+    <Text ID="96200" Value=""/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="91323" Value="ENPO"/>
+    <Text ID="91324" Value="Active"/>
+    <Text ID="91325" Value="Auto"/>
+    <Text ID="91326" Value="Ref OK"/>
+    <Text ID="91327" Value="Error"/>
+    <Text ID="91328" Value="Enable Controller"/>
+    <Text ID="91329" Value="Start Reference"/>
+    <Text ID="91330" Value="Move to parkpos."/>
+    <Text ID="91331" Value="Manual"/>
+    <Text ID="91332" Value="Reference speed 1"/>
+    <Text ID="91356" Value="Reference speed 2"/>
+    <Text ID="91357" Value="Reference speed 3"/>
+    <Text ID="91358" Value="Parkspeed"/>
+    <Text ID="91359" Value="Manual speed slow"/>
+    <Text ID="91360" Value="Manual speed fast"/>
+    <Text ID="91361" Value="Parkposition"/>
+    <Text ID="91362" Value="Increments / mm"/>
+    <Text ID="91396" Value="X-Axis Speeds"/>
+    <Text ID="91397" Value="X-Axis Parameter"/>
+    <Text ID="92900" Value="Fast"/>
+    <Text ID="96198" Value="Limits"/>
+    <Text ID="96199" Value="Limit +"/>
+    <Text ID="96200" Value="Limit -"/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="91323" Value=""/>
+    <Text ID="91324" Value=""/>
+    <Text ID="91325" Value=""/>
+    <Text ID="91326" Value=""/>
+    <Text ID="91327" Value=""/>
+    <Text ID="91328" Value=""/>
+    <Text ID="91329" Value=""/>
+    <Text ID="91330" Value=""/>
+    <Text ID="91331" Value=""/>
+    <Text ID="91332" Value=""/>
+    <Text ID="91356" Value=""/>
+    <Text ID="91357" Value=""/>
+    <Text ID="91358" Value=""/>
+    <Text ID="91359" Value=""/>
+    <Text ID="91360" Value=""/>
+    <Text ID="91361" Value=""/>
+    <Text ID="91362" Value=""/>
+    <Text ID="91396" Value=""/>
+    <Text ID="91397" Value=""/>
+    <Text ID="92900" Value=""/>
+    <Text ID="96198" Value=""/>
+    <Text ID="96199" Value=""/>
+    <Text ID="96200" Value=""/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="91323" Value=""/>
+    <Text ID="91324" Value=""/>
+    <Text ID="91325" Value=""/>
+    <Text ID="91326" Value=""/>
+    <Text ID="91327" Value=""/>
+    <Text ID="91328" Value=""/>
+    <Text ID="91329" Value=""/>
+    <Text ID="91330" Value=""/>
+    <Text ID="91331" Value=""/>
+    <Text ID="91332" Value=""/>
+    <Text ID="91356" Value=""/>
+    <Text ID="91357" Value=""/>
+    <Text ID="91358" Value=""/>
+    <Text ID="91359" Value=""/>
+    <Text ID="91360" Value=""/>
+    <Text ID="91361" Value=""/>
+    <Text ID="91362" Value=""/>
+    <Text ID="91396" Value=""/>
+    <Text ID="91397" Value=""/>
+    <Text ID="92900" Value=""/>
+    <Text ID="96198" Value=""/>
+    <Text ID="96199" Value=""/>
+    <Text ID="96200" Value=""/>
+    <Text ID="96201" Value=""/>
+    <Text ID="96557" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="91323" Value="0"/>
+    <Index ID="91324" Value="1"/>
+    <Index ID="91325" Value="2"/>
+    <Index ID="91326" Value="3"/>
+    <Index ID="91327" Value="4"/>
+    <Index ID="91328" Value="5"/>
+    <Index ID="91329" Value="6"/>
+    <Index ID="91330" Value="7"/>
+    <Index ID="91331" Value="8"/>
+    <Index ID="91332" Value="9"/>
+    <Index ID="91356" Value="10"/>
+    <Index ID="91357" Value="11"/>
+    <Index ID="91358" Value="12"/>
+    <Index ID="91359" Value="13"/>
+    <Index ID="91360" Value="14"/>
+    <Index ID="91361" Value="15"/>
+    <Index ID="91362" Value="16"/>
+    <Index ID="91396" Value="17"/>
+    <Index ID="91397" Value="18"/>
+    <Index ID="92900" Value="19"/>
+    <Index ID="96198" Value="20"/>
+    <Index ID="96199" Value="21"/>
+    <Index ID="96200" Value="22"/>
+    <Index ID="96201" Value="23"/>
+    <Index ID="96557" Value="24"/>
+  </IndexMap>
+</TextGroup>

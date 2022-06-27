@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamGlobal">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="20"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="91884" Value="Global parameters"/>
+    <Text ID="91885" Value="Maximum platelength"/>
+    <Text ID="91886" Value="Paper remove active"/>
+    <Text ID="91887" Value="Distance between trolleys"/>
+    <Text ID="91888" Value="Open/close trolley automatically"/>
+    <Text ID="91889" Value="Alternating stacks"/>
+    <Text ID="91890" Value="Processor simulation"/>
+    <Text ID="91891" Value="Punch simulation"/>
+    <Text ID="91892" Value="Conveyorbelt sensor simulation"/>
+    <Text ID="91893" Value="Tiffblaster simulation"/>
+    <Text ID="91894" Value="Plate transport simulation"/>
+    <Text ID="91895" Value="Machine number"/>
+    <Text ID="91896" Value="Machine type"/>
+    <Text ID="91897" Value="Customer"/>
+    <Text ID="91898" Value="Flexible feeder"/>
+    <Text ID="91899" Value="Plate transport simulation"/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value="Type"/>
+    <Text ID="136976" Value="Wait time :"/>
+    <Text ID="136977" Value="Activate slowmode"/>
+    <Text ID="530013" Value="Palette loading"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="91884" Value="Globale Parameter"/>
+    <Text ID="91885" Value="Maximale Plattenlänge"/>
+    <Text ID="91886" Value="Papierentfernung aktiv"/>
+    <Text ID="91887" Value="Abstand zwischen Plattenw."/>
+    <Text ID="91888" Value="Plattenwagen automatisch öffnen/schließen"/>
+    <Text ID="91889" Value="Wechselseitige Plattenaufnahme"/>
+    <Text ID="91890" Value="EGM Simulation"/>
+    <Text ID="91891" Value="Stanze Simulation"/>
+    <Text ID="91892" Value="Auslaufsensor Simulation"/>
+    <Text ID="91893" Value="Tiffblaster Simulation"/>
+    <Text ID="91894" Value="Durchlaufsimulation"/>
+    <Text ID="91895" Value="Maschinennummer"/>
+    <Text ID="91896" Value="Maschinentyp"/>
+    <Text ID="91897" Value="Kunde"/>
+    <Text ID="91898" Value="Flexible Zuführung"/>
+    <Text ID="91899" Value="Durchlaufsimulation (Abl. ohne Plattentransp.)"/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value="Typ"/>
+    <Text ID="136976" Value="Wartezeit :"/>
+    <Text ID="136977" Value="Langsamen Modus aktivieren"/>
+    <Text ID="530013" Value="Laden von Palette"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="91884" Value=""/>
+    <Text ID="91885" Value=""/>
+    <Text ID="91886" Value=""/>
+    <Text ID="91887" Value=""/>
+    <Text ID="91888" Value=""/>
+    <Text ID="91889" Value=""/>
+    <Text ID="91890" Value=""/>
+    <Text ID="91891" Value=""/>
+    <Text ID="91892" Value=""/>
+    <Text ID="91893" Value=""/>
+    <Text ID="91894" Value=""/>
+    <Text ID="91895" Value=""/>
+    <Text ID="91896" Value=""/>
+    <Text ID="91897" Value=""/>
+    <Text ID="91898" Value=""/>
+    <Text ID="91899" Value=""/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value="Type"/>
+    <Text ID="136976" Value=""/>
+    <Text ID="136977" Value=""/>
+    <Text ID="530013" Value="Palette loading"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="91884" Value="Global parameters"/>
+    <Text ID="91885" Value="Maximum platelength"/>
+    <Text ID="91886" Value="Paper remove active"/>
+    <Text ID="91887" Value="Distance between trolleys"/>
+    <Text ID="91888" Value="Open/close trolley automatically"/>
+    <Text ID="91889" Value="Alternating stacks"/>
+    <Text ID="91890" Value="Processor simulation"/>
+    <Text ID="91891" Value="Punch simulation"/>
+    <Text ID="91892" Value="Conveyorbelt sensor simulation"/>
+    <Text ID="91893" Value="Tiffblaster simulation"/>
+    <Text ID="91894" Value="Plate transport simulation"/>
+    <Text ID="91895" Value="Machine number"/>
+    <Text ID="91896" Value="Machine type"/>
+    <Text ID="91897" Value="Customer"/>
+    <Text ID="91898" Value="Flexible feeder"/>
+    <Text ID="91899" Value="Plate transport simulation"/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value="Type"/>
+    <Text ID="136976" Value="Wait time :"/>
+    <Text ID="136977" Value="Activate slowmode"/>
+    <Text ID="530013" Value="Palette loading"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="91884" Value=""/>
+    <Text ID="91885" Value=""/>
+    <Text ID="91886" Value=""/>
+    <Text ID="91887" Value=""/>
+    <Text ID="91888" Value=""/>
+    <Text ID="91889" Value=""/>
+    <Text ID="91890" Value=""/>
+    <Text ID="91891" Value=""/>
+    <Text ID="91892" Value=""/>
+    <Text ID="91893" Value=""/>
+    <Text ID="91894" Value=""/>
+    <Text ID="91895" Value=""/>
+    <Text ID="91896" Value=""/>
+    <Text ID="91897" Value=""/>
+    <Text ID="91898" Value=""/>
+    <Text ID="91899" Value=""/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value=""/>
+    <Text ID="136976" Value=""/>
+    <Text ID="136977" Value=""/>
+    <Text ID="530013" Value="Palette loading"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="91884" Value=""/>
+    <Text ID="91885" Value=""/>
+    <Text ID="91886" Value=""/>
+    <Text ID="91887" Value=""/>
+    <Text ID="91888" Value=""/>
+    <Text ID="91889" Value=""/>
+    <Text ID="91890" Value=""/>
+    <Text ID="91891" Value=""/>
+    <Text ID="91892" Value=""/>
+    <Text ID="91893" Value=""/>
+    <Text ID="91894" Value=""/>
+    <Text ID="91895" Value=""/>
+    <Text ID="91896" Value=""/>
+    <Text ID="91897" Value=""/>
+    <Text ID="91898" Value=""/>
+    <Text ID="91899" Value=""/>
+    <Text ID="91900" Value=""/>
+    <Text ID="136975" Value=""/>
+    <Text ID="136976" Value=""/>
+    <Text ID="136977" Value=""/>
+    <Text ID="530013" Value="Palette loading"/>
+    <Text ID="530014" Value=""/>
+    <Text ID="530015" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="91884" Value="0"/>
+    <Index ID="91885" Value="1"/>
+    <Index ID="91886" Value="2"/>
+    <Index ID="91887" Value="3"/>
+    <Index ID="91888" Value="4"/>
+    <Index ID="91889" Value="5"/>
+    <Index ID="91890" Value="6"/>
+    <Index ID="91891" Value="7"/>
+    <Index ID="91892" Value="8"/>
+    <Index ID="91893" Value="9"/>
+    <Index ID="91894" Value="10"/>
+    <Index ID="91895" Value="11"/>
+    <Index ID="91896" Value="12"/>
+    <Index ID="91897" Value="13"/>
+    <Index ID="91898" Value="14"/>
+    <Index ID="91899" Value="15"/>
+    <Index ID="91900" Value="19"/>
+    <Index ID="136975" Value="18"/>
+    <Index ID="136976" Value="17"/>
+    <Index ID="136977" Value="16"/>
+    <Index ID="530013" Value="20"/>
+    <Index ID="530014" Value="21"/>
+    <Index ID="530015" Value="22"/>
+  </IndexMap>
+</TextGroup>

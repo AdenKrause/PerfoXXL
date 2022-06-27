@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Curves">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="31"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="104910" Value="T"/>
+    <Text ID="104911" Value="t"/>
+    <Text ID="104912" Value="+"/>
+    <Text ID="105416" Value="-"/>
+    <Text ID="105417" Value="Zoom"/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="104910" Value="T"/>
+    <Text ID="104911" Value="t"/>
+    <Text ID="104912" Value="+"/>
+    <Text ID="105416" Value="-"/>
+    <Text ID="105417" Value="Zoom"/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="104910" Value="T"/>
+    <Text ID="104911" Value="t"/>
+    <Text ID="104912" Value="+"/>
+    <Text ID="105416" Value="-"/>
+    <Text ID="105417" Value="Zoom"/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="104910" Value="T"/>
+    <Text ID="104911" Value="t"/>
+    <Text ID="104912" Value="+"/>
+    <Text ID="105416" Value="-"/>
+    <Text ID="105417" Value="Zoom"/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="104910" Value=""/>
+    <Text ID="104911" Value=""/>
+    <Text ID="104912" Value=""/>
+    <Text ID="105416" Value=""/>
+    <Text ID="105417" Value=""/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="104910" Value=""/>
+    <Text ID="104911" Value=""/>
+    <Text ID="104912" Value=""/>
+    <Text ID="105416" Value=""/>
+    <Text ID="105417" Value=""/>
+    <Text ID="105418" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="104910" Value="0"/>
+    <Index ID="104911" Value="1"/>
+    <Index ID="104912" Value="2"/>
+    <Index ID="105416" Value="3"/>
+    <Index ID="105417" Value="4"/>
+    <Index ID="105418" Value="5"/>
+  </IndexMap>
+</TextGroup>

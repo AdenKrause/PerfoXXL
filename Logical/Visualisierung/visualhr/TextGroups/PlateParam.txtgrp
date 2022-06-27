@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PlateParam">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="21"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="91995" Value="Number"/>
+    <Text ID="91996" Value="Name"/>
+    <Text ID="91997" Value="X-offset"/>
+    <Text ID="91998" Value="Y-offset"/>
+    <Text ID="91999" Value="Length"/>
+    <Text ID="92000" Value="Width"/>
+    <Text ID="92001" Value="Thickness"/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value="Horizontal Releasepos."/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="91995" Value="Nummer"/>
+    <Text ID="91996" Value="Name"/>
+    <Text ID="91997" Value="X-Offset"/>
+    <Text ID="91998" Value="Y-Offset"/>
+    <Text ID="91999" Value="Länge"/>
+    <Text ID="92000" Value="Breite"/>
+    <Text ID="92001" Value="Dicke"/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value="Horizontale Ablagepos."/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="91995" Value=""/>
+    <Text ID="91996" Value=""/>
+    <Text ID="91997" Value=""/>
+    <Text ID="91998" Value=""/>
+    <Text ID="91999" Value=""/>
+    <Text ID="92000" Value=""/>
+    <Text ID="92001" Value=""/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value="Horizontal Releasepos."/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="91995" Value="Number"/>
+    <Text ID="91996" Value="Name"/>
+    <Text ID="91997" Value="X-offset"/>
+    <Text ID="91998" Value="Y-offset"/>
+    <Text ID="91999" Value="Length"/>
+    <Text ID="92000" Value="Width"/>
+    <Text ID="92001" Value="Thickness"/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value="Horizontal Releasepos."/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="91995" Value=""/>
+    <Text ID="91996" Value=""/>
+    <Text ID="91997" Value=""/>
+    <Text ID="91998" Value=""/>
+    <Text ID="91999" Value=""/>
+    <Text ID="92000" Value=""/>
+    <Text ID="92001" Value=""/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="91995" Value=""/>
+    <Text ID="91996" Value=""/>
+    <Text ID="91997" Value=""/>
+    <Text ID="91998" Value=""/>
+    <Text ID="91999" Value=""/>
+    <Text ID="92000" Value=""/>
+    <Text ID="92001" Value=""/>
+    <Text ID="92002" Value=""/>
+    <Text ID="147033" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="91995" Value="0"/>
+    <Index ID="91996" Value="1"/>
+    <Index ID="91997" Value="2"/>
+    <Index ID="91998" Value="3"/>
+    <Index ID="91999" Value="4"/>
+    <Index ID="92000" Value="5"/>
+    <Index ID="92001" Value="6"/>
+    <Index ID="92002" Value="8"/>
+    <Index ID="147033" Value="7"/>
+  </IndexMap>
+</TextGroup>

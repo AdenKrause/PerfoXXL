@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Statistik">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="40"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002004" Name="TextSnippet_1">
+      <Property Name="Datapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Statistik]"/>
+      <Property Name="TextIndexOffset" Value="6"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002001" Name="TextSnippet_2">
+      <Property Name="Alignment" Value="Justify"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[Local.Visualisierung.pics.DaysSinceDeveloperChange]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="115811" Value="Production-Statistics"/>
+    <Text ID="115812" Value="Plates processed"/>
+    <Text ID="115813" Value="Plates made today"/>
+    <Text ID="115814" Value="Plate area processed "/>
+    <Text ID="115815" Value="Overall"/>
+    <Text ID="115816" Value="Today"/>
+    <Text ID="115817" Value="Last developer change on "/>
+    <Text ID="115818" Value="Replenisher consumption"/>
+    <Text ID="115819" Value="Days"/>
+    <Text ID="115820" Value="on"/>
+    <Text ID="115821" Value="Age {TextSnippet_2} days"/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value="Production-Statistics"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="115811" Value="Produktions-Statistik"/>
+    <Text ID="115812" Value="Produzierte Platten"/>
+    <Text ID="115813" Value="Produzierte Platten heute"/>
+    <Text ID="115814" Value="Verarbeitete Plattenfläche"/>
+    <Text ID="115815" Value="Gesamt"/>
+    <Text ID="115816" Value="Heute"/>
+    <Text ID="115817" Value="Letzter Entwickler- Wechsel am "/>
+    <Text ID="115818" Value="Regeneratverbrauch"/>
+    <Text ID="115819" Value="Tage"/>
+    <Text ID="115820" Value="am"/>
+    <Text ID="115821" Value="Alter {TextSnippet_2} Tage"/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value="Produktions-Statistik"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="115811" Value="Estadistica de produccion"/>
+    <Text ID="115812" Value="Planchas procesadas"/>
+    <Text ID="115813" Value="Planchas procesadas hoy"/>
+    <Text ID="115814" Value="Area plachas procesadas"/>
+    <Text ID="115815" Value="Suma"/>
+    <Text ID="115816" Value="Hoy"/>
+    <Text ID="115817" Value="Ultimo cambio de revelador"/>
+    <Text ID="115818" Value="Consumo de regenerador"/>
+    <Text ID="115819" Value="Dias"/>
+    <Text ID="115820" Value="el"/>
+    <Text ID="115821" Value="Edad {TextSnippet_2} Dias"/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value="Estadistica de prod."/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="115811" Value="Produksjonsstatistikk"/>
+    <Text ID="115812" Value="Produserte plater"/>
+    <Text ID="115813" Value="Produserte plater i dag"/>
+    <Text ID="115814" Value="Bearbeidet plateflate"/>
+    <Text ID="115815" Value="Totalt"/>
+    <Text ID="115816" Value="I dag"/>
+    <Text ID="115817" Value="Siste fremkaller- skifting på "/>
+    <Text ID="115818" Value="Regeneratforbruk"/>
+    <Text ID="115819" Value="Dager"/>
+    <Text ID="115820" Value="på"/>
+    <Text ID="115821" Value="Gammel {TextSnippet_2} Dager"/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value="Produksjonsstatistikk"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="115811" Value=""/>
+    <Text ID="115812" Value=""/>
+    <Text ID="115813" Value=""/>
+    <Text ID="115814" Value=""/>
+    <Text ID="115815" Value=""/>
+    <Text ID="115816" Value=""/>
+    <Text ID="115817" Value=""/>
+    <Text ID="115818" Value=""/>
+    <Text ID="115819" Value=""/>
+    <Text ID="115820" Value=""/>
+    <Text ID="115821" Value=""/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="115811" Value=""/>
+    <Text ID="115812" Value=""/>
+    <Text ID="115813" Value=""/>
+    <Text ID="115814" Value=""/>
+    <Text ID="115815" Value=""/>
+    <Text ID="115816" Value=""/>
+    <Text ID="115817" Value=""/>
+    <Text ID="115818" Value=""/>
+    <Text ID="115819" Value=""/>
+    <Text ID="115820" Value=""/>
+    <Text ID="115821" Value=""/>
+    <Text ID="115822" Value=""/>
+    <Text ID="115823" Value=""/>
+    <Text ID="115824" Value=""/>
+    <Text ID="115825" Value=""/>
+    <Text ID="115826" Value=""/>
+    <Text ID="115827" Value=""/>
+    <Text ID="115828" Value=""/>
+    <Text ID="115829" Value=""/>
+    <Text ID="115830" Value=""/>
+    <Text ID="148581" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="115811" Value="0"/>
+    <Index ID="115812" Value="1"/>
+    <Index ID="115813" Value="2"/>
+    <Index ID="115814" Value="3"/>
+    <Index ID="115815" Value="4"/>
+    <Index ID="115816" Value="5"/>
+    <Index ID="115817" Value="6"/>
+    <Index ID="115818" Value="7"/>
+    <Index ID="115819" Value="8"/>
+    <Index ID="115820" Value="9"/>
+    <Index ID="115821" Value="10"/>
+    <Index ID="115822" Value="12"/>
+    <Index ID="115823" Value="13"/>
+    <Index ID="115824" Value="14"/>
+    <Index ID="115825" Value="15"/>
+    <Index ID="115826" Value="16"/>
+    <Index ID="115827" Value="17"/>
+    <Index ID="115828" Value="18"/>
+    <Index ID="115829" Value="19"/>
+    <Index ID="115830" Value="20"/>
+    <Index ID="148581" Value="11"/>
+  </IndexMap>
+</TextGroup>

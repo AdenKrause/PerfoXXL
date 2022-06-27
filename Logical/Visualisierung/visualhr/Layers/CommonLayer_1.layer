@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="CommonLayer_1">
+  <Property Name="BackColor" Value="15" />
+  <Property Name="Description" Value="Global layer for status line" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Left" Value="0" />
+  <Property Name="StatusDatapoint" Value="None" />
+  <Property Name="Top" Value="0" />
+  <Property Name="Width" Value="320" />
+  <TextGroup>
+    <TextLayer LanguageId="en-GB" />
+    <TextLayer LanguageId="de-DE" />
+    <TextLayer LanguageId="es-ES" />
+    <TextLayer LanguageId="no-NO" />
+    <TextLayer LanguageId="nl-NL" />
+    <TextLayer LanguageId="tr-TR" />
+    <IndexMap />
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentVertical" Value="Center" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Height" Value="32" />
+      <Property Name="Left" Value="6" />
+      <Property Name="SimulationIndex" Value="0" />
+      <Property Name="SimulationValue" Value="0" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+      <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
+      <Property Name="TextIndexOffset" Value="25" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="0" />
+      <Property Name="Width" Value="162" />
+    </Control>
+    <Control ClassId="0x0000100A" Name="DateTime_1">
+      <Property Name="AlignmentHorizontal" Value="Right" />
+      <Property Name="BackColor" Value="15" />
+      <Property Name="Border" Value="None" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Font" Value="Source[local].Font[Arial8]" />
+      <Property Name="Height" Value="38" />
+      <Property Name="Left" Value="404" />
+      <Property Name="SimulationValue" Value="00.00.000 00:00:00" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DateTime]" />
+      <Property Name="TextGroup" Value="Source[local].TextGroup[DateTimeFormats]" />
+      <Property Name="TextIndex" Value="0" />
+      <Property Name="TextSource" Value="SingleText" />
+      <Property Name="Top" Value="2" />
+      <Property Name="ValueDatapoint" Value="None" />
+      <Property Name="Width" Value="236" />
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="EndX" Value="638" />
+      <Property Name="EndY" Value="34" />
+      <Property Name="StartX" Value="0" />
+      <Property Name="StartY" Value="34" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]" />
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_4">
+      <Property Name="AlignmentVertical" Value="Center" />
+      <Property Name="ControlID" Value="0" />
+      <Property Name="Description" Value="" />
+      <Property Name="Height" Value="32" />
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.UserLevel]" />
+      <Property Name="Left" Value="182" />
+      <Property Name="SimulationIndex" Value="0" />
+      <Property Name="SimulationValue" Value="1" />
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Userlevel]" />
+      <Property Name="TextIndexOffset" Value="10" />
+      <Property Name="TextSource" Value="MultipleTexts" />
+      <Property Name="Top" Value="0" />
+      <Property Name="Width" Value="134" />
+    </Control>
+  </Controls>
+  <KeyMapping />
+</Layer>

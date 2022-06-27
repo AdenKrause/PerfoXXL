@@ -1,0 +1,2939 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Laserpower">
+  <Property Name="Description" Value="" />
+  <Property Name="EditBackColor" Value="59" />
+  <Property Name="FocusBackColor" Value="59" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Index" Value="29" />
+  <Property Name="MoveFocus" Value="Circular" />
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]" />
+  <Property Name="Width" Value="320" />
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Param_buttons_next]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="Param_buttons_next" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Z-Order" Value="0" />
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[CommonLayer_1]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="CommonLayer_1" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Z-Order" Value="1" />
+    </LayerRef>
+    <Layer Name="Page2">
+      <Property Name="BackColor" Value="9" />
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Normal" />
+      <Property Name="Height" Value="240" />
+      <Property Name="Left" Value="0" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="StatusDatapoint" Value="None" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Width" Value="320" />
+      <Property Name="Z-Order" Value="2" />
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="100239" Value="6" />
+          <Text ID="100240" Value="7" />
+          <Text ID="100241" Value="8" />
+          <Text ID="100242" Value="9" />
+          <Text ID="100244" Value="%" />
+          <Text ID="100245" Value="%" />
+          <Text ID="100246" Value="%" />
+          <Text ID="100247" Value="%" />
+          <Text ID="100248" Value="%" />
+          <Text ID="100249" Value="%" />
+          <Text ID="100250" Value="%" />
+          <Text ID="100251" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="de-DE">
+          <Text ID="100239" Value="6" />
+          <Text ID="100240" Value="7" />
+          <Text ID="100241" Value="8" />
+          <Text ID="100242" Value="9" />
+          <Text ID="100244" Value="%" />
+          <Text ID="100245" Value="%" />
+          <Text ID="100246" Value="%" />
+          <Text ID="100247" Value="%" />
+          <Text ID="100248" Value="%" />
+          <Text ID="100249" Value="%" />
+          <Text ID="100250" Value="%" />
+          <Text ID="100251" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="es-ES">
+          <Text ID="100239" Value="6" />
+          <Text ID="100240" Value="7" />
+          <Text ID="100241" Value="8" />
+          <Text ID="100242" Value="9" />
+          <Text ID="100244" Value="%" />
+          <Text ID="100245" Value="%" />
+          <Text ID="100246" Value="%" />
+          <Text ID="100247" Value="%" />
+          <Text ID="100248" Value="%" />
+          <Text ID="100249" Value="%" />
+          <Text ID="100250" Value="%" />
+          <Text ID="100251" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="no-NO">
+          <Text ID="100239" Value="6" />
+          <Text ID="100240" Value="7" />
+          <Text ID="100241" Value="8" />
+          <Text ID="100242" Value="9" />
+          <Text ID="100244" Value="%" />
+          <Text ID="100245" Value="%" />
+          <Text ID="100246" Value="%" />
+          <Text ID="100247" Value="%" />
+          <Text ID="100248" Value="%" />
+          <Text ID="100249" Value="%" />
+          <Text ID="100250" Value="%" />
+          <Text ID="100251" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="nl-NL">
+          <Text ID="100239" Value="" />
+          <Text ID="100240" Value="" />
+          <Text ID="100241" Value="" />
+          <Text ID="100242" Value="" />
+          <Text ID="100244" Value="" />
+          <Text ID="100245" Value="" />
+          <Text ID="100246" Value="" />
+          <Text ID="100247" Value="" />
+          <Text ID="100248" Value="" />
+          <Text ID="100249" Value="" />
+          <Text ID="100250" Value="" />
+          <Text ID="100251" Value="" />
+        </TextLayer>
+        <TextLayer LanguageId="tr-TR">
+          <Text ID="100239" Value="" />
+          <Text ID="100240" Value="" />
+          <Text ID="100241" Value="" />
+          <Text ID="100242" Value="" />
+          <Text ID="100244" Value="" />
+          <Text ID="100245" Value="" />
+          <Text ID="100246" Value="" />
+          <Text ID="100247" Value="" />
+          <Text ID="100248" Value="" />
+          <Text ID="100249" Value="" />
+          <Text ID="100250" Value="" />
+          <Text ID="100251" Value="" />
+        </TextLayer>
+        <IndexMap>
+          <Index ID="100239" Value="24" />
+          <Index ID="100240" Value="25" />
+          <Index ID="100241" Value="26" />
+          <Index ID="100242" Value="27" />
+          <Index ID="100244" Value="29" />
+          <Index ID="100245" Value="30" />
+          <Index ID="100246" Value="31" />
+          <Index ID="100247" Value="32" />
+          <Index ID="100248" Value="33" />
+          <Index ID="100249" Value="34" />
+          <Index ID="100250" Value="35" />
+          <Index ID="100251" Value="36" />
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="156" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="24" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="240" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="25" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="318" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="26" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="392" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="27" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_10">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_12">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_13">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_14">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_15">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_16">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[6]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_17">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_18">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_19">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_20">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_21">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_22">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_23">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_24">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[7]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_25">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_26">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_27">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_28">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_29">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_30">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_31">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_32">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[8]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_33">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_34">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_35">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_36">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_37">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_38">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_39">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_40">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="325" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[9]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="29" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="124" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="30" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="160" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="31" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="196" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="32" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="232" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_12">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="33" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="268" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_13">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="34" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="304" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_14">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="35" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="340" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_15">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="460" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv2]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="36" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="376" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="None" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Font" Value="Source[local].Font[Arial10]" />
+          <Property Name="Height" Value="60" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="18" />
+          <Property Name="PressedBitmapSource" Value="None" />
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Laserpower]" />
+          <Property Name="TextIndex" Value="2" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="414" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[LPAllEqual]" />
+          <Property Name="Width" Value="388" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_ESC]" />
+          <Property Name="BitmapAlignmentHorizontal" Value="Center" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="70" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="556" />
+          <Property Name="PressedBitmapSource" Value="None" />
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="408" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[ParamCancel]" />
+          <Property Name="Width" Value="80" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_3">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_OK]" />
+          <Property Name="BitmapAlignmentHorizontal" Value="Center" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="70" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="470" />
+          <Property Name="PressedBitmapSource" Value="None" />
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="408" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[ParamOK]" />
+          <Property Name="Width" Value="80" />
+        </Control>
+      </Controls>
+      <KeyMapping />
+    </Layer>
+    <Layer Name="Page1">
+      <Property Name="BackColor" Value="9" />
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Normal" />
+      <Property Name="Height" Value="240" />
+      <Property Name="Left" Value="0" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="StatusDatapoint" Value="None" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Hidden" />
+      <Property Name="Width" Value="320" />
+      <Property Name="Z-Order" Value="3" />
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="99761" Value="1" />
+          <Text ID="99762" Value="2" />
+          <Text ID="99763" Value="3" />
+          <Text ID="99764" Value="4" />
+          <Text ID="99765" Value="5" />
+          <Text ID="99771" Value="%" />
+          <Text ID="99772" Value="%" />
+          <Text ID="99773" Value="%" />
+          <Text ID="99774" Value="%" />
+          <Text ID="99775" Value="%" />
+          <Text ID="99776" Value="%" />
+          <Text ID="99777" Value="%" />
+          <Text ID="99778" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="de-DE">
+          <Text ID="99761" Value="1" />
+          <Text ID="99762" Value="2" />
+          <Text ID="99763" Value="3" />
+          <Text ID="99764" Value="4" />
+          <Text ID="99765" Value="5" />
+          <Text ID="99771" Value="%" />
+          <Text ID="99772" Value="%" />
+          <Text ID="99773" Value="%" />
+          <Text ID="99774" Value="%" />
+          <Text ID="99775" Value="%" />
+          <Text ID="99776" Value="%" />
+          <Text ID="99777" Value="%" />
+          <Text ID="99778" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="es-ES">
+          <Text ID="99761" Value="1" />
+          <Text ID="99762" Value="2" />
+          <Text ID="99763" Value="3" />
+          <Text ID="99764" Value="4" />
+          <Text ID="99765" Value="5" />
+          <Text ID="99771" Value="%" />
+          <Text ID="99772" Value="%" />
+          <Text ID="99773" Value="%" />
+          <Text ID="99774" Value="%" />
+          <Text ID="99775" Value="%" />
+          <Text ID="99776" Value="%" />
+          <Text ID="99777" Value="%" />
+          <Text ID="99778" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="no-NO">
+          <Text ID="99761" Value="1" />
+          <Text ID="99762" Value="2" />
+          <Text ID="99763" Value="3" />
+          <Text ID="99764" Value="4" />
+          <Text ID="99765" Value="5" />
+          <Text ID="99771" Value="%" />
+          <Text ID="99772" Value="%" />
+          <Text ID="99773" Value="%" />
+          <Text ID="99774" Value="%" />
+          <Text ID="99775" Value="%" />
+          <Text ID="99776" Value="%" />
+          <Text ID="99777" Value="%" />
+          <Text ID="99778" Value="%" />
+        </TextLayer>
+        <TextLayer LanguageId="nl-NL">
+          <Text ID="99761" Value="" />
+          <Text ID="99762" Value="" />
+          <Text ID="99763" Value="" />
+          <Text ID="99764" Value="" />
+          <Text ID="99765" Value="" />
+          <Text ID="99771" Value="" />
+          <Text ID="99772" Value="" />
+          <Text ID="99773" Value="" />
+          <Text ID="99774" Value="" />
+          <Text ID="99775" Value="" />
+          <Text ID="99776" Value="" />
+          <Text ID="99777" Value="" />
+          <Text ID="99778" Value="" />
+        </TextLayer>
+        <TextLayer LanguageId="tr-TR">
+          <Text ID="99761" Value="" />
+          <Text ID="99762" Value="" />
+          <Text ID="99763" Value="" />
+          <Text ID="99764" Value="" />
+          <Text ID="99765" Value="" />
+          <Text ID="99771" Value="" />
+          <Text ID="99772" Value="" />
+          <Text ID="99773" Value="" />
+          <Text ID="99774" Value="" />
+          <Text ID="99775" Value="" />
+          <Text ID="99776" Value="" />
+          <Text ID="99777" Value="" />
+          <Text ID="99778" Value="" />
+        </TextLayer>
+        <IndexMap>
+          <Index ID="99761" Value="2" />
+          <Index ID="99762" Value="3" />
+          <Index ID="99763" Value="4" />
+          <Index ID="99764" Value="5" />
+          <Index ID="99765" Value="6" />
+          <Index ID="99771" Value="12" />
+          <Index ID="99772" Value="13" />
+          <Index ID="99773" Value="14" />
+          <Index ID="99774" Value="15" />
+          <Index ID="99775" Value="16" />
+          <Index ID="99776" Value="17" />
+          <Index ID="99777" Value="18" />
+          <Index ID="99778" Value="19" />
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="10" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Laserpower]" />
+          <Property Name="TextIndexOffset" Value="1" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="78" />
+          <Property Name="Width" Value="112" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="136" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Laserpower]" />
+          <Property Name="TextIndexOffset" Value="0" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="50" />
+          <Property Name="Width" Value="204" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="156" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="2" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="240" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="3" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="318" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="4" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="392" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="5" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="28" />
+          <Property Name="Left" Value="476" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="6" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="76" />
+          <Property Name="Width" Value="26" />
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EndX" Value="120" />
+          <Property Name="EndY" Value="410" />
+          <Property Name="StartX" Value="120" />
+          <Property Name="StartY" Value="52" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]" />
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_2">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EndX" Value="562" />
+          <Property Name="EndY" Value="110" />
+          <Property Name="StartX" Value="4" />
+          <Property Name="StartY" Value="110" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_4">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="22" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="5000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="1270" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].Resolution]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="76" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="33.5" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_10">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_12">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_13">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_14">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_15">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_16">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="130" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[1]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_17">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="30.5" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_18">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_19">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_20">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_21">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_22">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_23">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_24">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="210" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[2]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_25">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="30.5" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_26">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_27">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_28">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_29">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_30">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_31">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_32">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="290" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[3]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_33">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="30.5" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_34">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_35">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_36">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_37">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_38">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_39">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="338" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_40">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="370" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[4]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_41">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="30.5" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="122" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[1].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_42">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="158" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[2].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_43">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="194" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[3].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_44">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="230" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[4].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_45">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="266" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[5].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_46">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="302" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[6].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_47">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="334" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[7].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_48">
+          <Property Name="AlignmentVertical" Value="Center" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="450" />
+          <Property Name="MaxDatapoint" Value="None" />
+          <Property Name="MaxValue" Value="1000" />
+          <Property Name="MinDatapoint" Value="None" />
+          <Property Name="MinValue" Value="0" />
+          <Property Name="SimulationValue" Value="99" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
+          <Property Name="TeachDatapoint" Value="None" />
+          <Property Name="Top" Value="374" />
+          <Property Name="UnitText" Value="None" />
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.LaserPowerSettings[8].LaserPower[5]]" />
+          <Property Name="ValueMode" Value="Standard" />
+          <Property Name="Width" Value="70" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="12" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="124" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="13" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="160" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="14" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="196" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="15" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="232" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_12">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="16" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="268" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_13">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="17" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="304" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_14">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="18" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="340" />
+          <Property Name="Width" Value="52" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_15">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="34" />
+          <Property Name="Left" Value="532" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
+          <Property Name="TextIndexOffset" Value="19" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="376" />
+          <Property Name="Width" Value="52" />
+        </Control>
+      </Controls>
+      <KeyMapping />
+    </Layer>
+    <LayerRef Source="Source[local].Layer[SafetyCheck]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="SafetyCheck" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Hidden" />
+      <Property Name="Z-Order" Value="4" />
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_9]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_9]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_9]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_9]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_9]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_10]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_10]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_10]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_10]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_10]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_11]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_11]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_11]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_11]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_11]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_12]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_12]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_12]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_12]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_12]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_13]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_13]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_13]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_13]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_13]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_14]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_14]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_14]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_14]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_14]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_15]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_15]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_15]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_15]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_15]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_16]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_16]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_16]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_16]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_16]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_17]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_17]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_17]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_17]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_17]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_18]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_18]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_18]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_18]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_18]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_19]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_19]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_19]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_19]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_19]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_20]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_20]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_20]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_20]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_20]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_21]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_21]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_21]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_21]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_21]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_22]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_22]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_22]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_22]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_22]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_23]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_23]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_23]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_23]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_23]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_24]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_24]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_24]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_24]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_24]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_25]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_25]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_25]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_25]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_25]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_26]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_26]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_26]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_26]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_26]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_27]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_27]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_27]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_27]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_27]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_28]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_28]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_28]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_28]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_28]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_29]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_29]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_29]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_29]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_29]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_30]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_30]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_30]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_30]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_30]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_31]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_31]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_31]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_31]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_31]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_32]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_32]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_32]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_32]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_32]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_33]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_33]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_33]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_33]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_33]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_34]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_34]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_34]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_34]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_34]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_35]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_35]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_35]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_35]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_35]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_36]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_36]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_36]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_36]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_36]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_37]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_37]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_37]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_37]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_37]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_38]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_38]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_38]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_38]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_38]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_39]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_39]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_39]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_39]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_39]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page2].Control[Numeric_40]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_40]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_40]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_40]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_40]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_2]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_41]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_9]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_8]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_3]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_42]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_10]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_1]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_4]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_43]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_11]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_2]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_4]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_5]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_44]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_12]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_3]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_6]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_45]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_13]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_4]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_7]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_46]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_14]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_5]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_8]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_15]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_6]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_8]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_1]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_48]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_16]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_7]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_9]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_10]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_1]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_17]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_16]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_10]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_11]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_2]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_18]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_9]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_11]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_12]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_3]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_19]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_10]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_12]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_13]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_4]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_20]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_11]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_13]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_14]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_5]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_21]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_12]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_14]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_15]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_6]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_22]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_13]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_15]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_16]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_7]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_23]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_14]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_16]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_9]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_8]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_24]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_15]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_17]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_18]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_9]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_25]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_24]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_18]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_19]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_10]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_26]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_17]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_19]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_20]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_11]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_27]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_18]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_20]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_21]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_12]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_28]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_19]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_21]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_22]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_13]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_29]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_20]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_22]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_23]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_14]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_30]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_21]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_23]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_24]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_15]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_31]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_22]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_24]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_17]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_16]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_32]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_23]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_25]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_26]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_17]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_33]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_32]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_26]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_27]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_18]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_34]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_25]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_27]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_28]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_19]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_35]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_26]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_28]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_29]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_20]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_36]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_27]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_29]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_30]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_21]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_37]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_28]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_30]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_31]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_22]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_38]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_29]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_31]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_32]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_23]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_39]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_30]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_32]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_25]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_24]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page2].Control[Numeric_40]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_31]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_33]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_34]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_25]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_41]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_40]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_34]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_35]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_26]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_42]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_33]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_35]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_36]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_27]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_43]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_34]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_36]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_37]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_28]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_44]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_35]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_37]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_38]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_29]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_45]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_36]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_38]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_39]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_30]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_46]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_37]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_39]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_40]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_31]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_38]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_40]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page2].Control[Numeric_33]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_32]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_48]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page2].Control[Numeric_39]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_41]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_42]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_33]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_1]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_48]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_42]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_43]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_34]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_2]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_41]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_43]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_44]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_35]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_3]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_42]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_44]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_45]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_36]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_4]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_43]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_45]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_46]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_37]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_5]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_44]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_46]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_45]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_47]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_48]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_38]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_6]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_46]" />
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Page1].Control[Numeric_48]">
+      <Property Name="Down" Value="Source[embedded].Layer[Page1].Control[Numeric_41]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Page2].Control[Numeric_40]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Page1].Control[Numeric_8]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Page1].Control[Numeric_1]" />
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Page1].Control[Numeric_2]" />
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Page1].Control[Numeric_3]" />
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Page1].Control[Numeric_4]" />
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Page1].Control[Numeric_5]" />
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Page1].Control[Numeric_6]" />
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Page1].Control[Numeric_7]" />
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Page1].Control[Numeric_8]" />
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Page1].Control[Numeric_9]" />
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Page1].Control[Numeric_10]" />
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Page1].Control[Numeric_11]" />
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Page1].Control[Numeric_12]" />
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Page1].Control[Numeric_13]" />
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Page1].Control[Numeric_14]" />
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Page1].Control[Numeric_15]" />
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Page1].Control[Numeric_16]" />
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Page1].Control[Numeric_17]" />
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Page1].Control[Numeric_18]" />
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[Page1].Control[Numeric_19]" />
+    <TabSeqItem Index="19" Value="Source[embedded].Layer[Page1].Control[Numeric_20]" />
+    <TabSeqItem Index="20" Value="Source[embedded].Layer[Page1].Control[Numeric_21]" />
+    <TabSeqItem Index="21" Value="Source[embedded].Layer[Page1].Control[Numeric_22]" />
+    <TabSeqItem Index="22" Value="Source[embedded].Layer[Page1].Control[Numeric_23]" />
+    <TabSeqItem Index="23" Value="Source[embedded].Layer[Page1].Control[Numeric_24]" />
+    <TabSeqItem Index="24" Value="Source[embedded].Layer[Page1].Control[Numeric_25]" />
+    <TabSeqItem Index="25" Value="Source[embedded].Layer[Page1].Control[Numeric_26]" />
+    <TabSeqItem Index="26" Value="Source[embedded].Layer[Page1].Control[Numeric_27]" />
+    <TabSeqItem Index="27" Value="Source[embedded].Layer[Page1].Control[Numeric_28]" />
+    <TabSeqItem Index="28" Value="Source[embedded].Layer[Page1].Control[Numeric_29]" />
+    <TabSeqItem Index="29" Value="Source[embedded].Layer[Page1].Control[Numeric_30]" />
+    <TabSeqItem Index="30" Value="Source[embedded].Layer[Page1].Control[Numeric_31]" />
+    <TabSeqItem Index="31" Value="Source[embedded].Layer[Page1].Control[Numeric_32]" />
+    <TabSeqItem Index="32" Value="Source[embedded].Layer[Page1].Control[Numeric_33]" />
+    <TabSeqItem Index="33" Value="Source[embedded].Layer[Page1].Control[Numeric_34]" />
+    <TabSeqItem Index="34" Value="Source[embedded].Layer[Page1].Control[Numeric_35]" />
+    <TabSeqItem Index="35" Value="Source[embedded].Layer[Page1].Control[Numeric_36]" />
+    <TabSeqItem Index="36" Value="Source[embedded].Layer[Page1].Control[Numeric_37]" />
+    <TabSeqItem Index="37" Value="Source[embedded].Layer[Page1].Control[Numeric_38]" />
+    <TabSeqItem Index="38" Value="Source[embedded].Layer[Page1].Control[Numeric_39]" />
+    <TabSeqItem Index="39" Value="Source[embedded].Layer[Page1].Control[Numeric_40]" />
+    <TabSeqItem Index="40" Value="Source[embedded].Layer[Page1].Control[Numeric_41]" />
+    <TabSeqItem Index="41" Value="Source[embedded].Layer[Page1].Control[Numeric_42]" />
+    <TabSeqItem Index="42" Value="Source[embedded].Layer[Page1].Control[Numeric_43]" />
+    <TabSeqItem Index="43" Value="Source[embedded].Layer[Page1].Control[Numeric_44]" />
+    <TabSeqItem Index="44" Value="Source[embedded].Layer[Page1].Control[Numeric_45]" />
+    <TabSeqItem Index="45" Value="Source[embedded].Layer[Page1].Control[Numeric_46]" />
+    <TabSeqItem Index="46" Value="Source[embedded].Layer[Page1].Control[Numeric_47]" />
+    <TabSeqItem Index="47" Value="Source[embedded].Layer[Page1].Control[Numeric_48]" />
+    <TabSeqItem Index="48" Value="Source[embedded].Layer[Page2].Control[Numeric_9]" />
+    <TabSeqItem Index="49" Value="Source[embedded].Layer[Page2].Control[Numeric_10]" />
+    <TabSeqItem Index="50" Value="Source[embedded].Layer[Page2].Control[Numeric_11]" />
+    <TabSeqItem Index="51" Value="Source[embedded].Layer[Page2].Control[Numeric_12]" />
+    <TabSeqItem Index="52" Value="Source[embedded].Layer[Page2].Control[Numeric_13]" />
+    <TabSeqItem Index="53" Value="Source[embedded].Layer[Page2].Control[Numeric_14]" />
+    <TabSeqItem Index="54" Value="Source[embedded].Layer[Page2].Control[Numeric_15]" />
+    <TabSeqItem Index="55" Value="Source[embedded].Layer[Page2].Control[Numeric_16]" />
+    <TabSeqItem Index="56" Value="Source[embedded].Layer[Page2].Control[Numeric_17]" />
+    <TabSeqItem Index="57" Value="Source[embedded].Layer[Page2].Control[Numeric_18]" />
+    <TabSeqItem Index="58" Value="Source[embedded].Layer[Page2].Control[Numeric_19]" />
+    <TabSeqItem Index="59" Value="Source[embedded].Layer[Page2].Control[Numeric_20]" />
+    <TabSeqItem Index="60" Value="Source[embedded].Layer[Page2].Control[Numeric_21]" />
+    <TabSeqItem Index="61" Value="Source[embedded].Layer[Page2].Control[Numeric_22]" />
+    <TabSeqItem Index="62" Value="Source[embedded].Layer[Page2].Control[Numeric_23]" />
+    <TabSeqItem Index="63" Value="Source[embedded].Layer[Page2].Control[Numeric_24]" />
+    <TabSeqItem Index="64" Value="Source[embedded].Layer[Page2].Control[Numeric_25]" />
+    <TabSeqItem Index="65" Value="Source[embedded].Layer[Page2].Control[Numeric_26]" />
+    <TabSeqItem Index="66" Value="Source[embedded].Layer[Page2].Control[Numeric_27]" />
+    <TabSeqItem Index="67" Value="Source[embedded].Layer[Page2].Control[Numeric_28]" />
+    <TabSeqItem Index="68" Value="Source[embedded].Layer[Page2].Control[Numeric_29]" />
+    <TabSeqItem Index="69" Value="Source[embedded].Layer[Page2].Control[Numeric_30]" />
+    <TabSeqItem Index="70" Value="Source[embedded].Layer[Page2].Control[Numeric_31]" />
+    <TabSeqItem Index="71" Value="Source[embedded].Layer[Page2].Control[Numeric_32]" />
+    <TabSeqItem Index="72" Value="Source[embedded].Layer[Page2].Control[Numeric_33]" />
+    <TabSeqItem Index="73" Value="Source[embedded].Layer[Page2].Control[Numeric_34]" />
+    <TabSeqItem Index="74" Value="Source[embedded].Layer[Page2].Control[Numeric_35]" />
+    <TabSeqItem Index="75" Value="Source[embedded].Layer[Page2].Control[Numeric_36]" />
+    <TabSeqItem Index="76" Value="Source[embedded].Layer[Page2].Control[Numeric_37]" />
+    <TabSeqItem Index="77" Value="Source[embedded].Layer[Page2].Control[Numeric_38]" />
+    <TabSeqItem Index="78" Value="Source[embedded].Layer[Page2].Control[Numeric_39]" />
+    <TabSeqItem Index="79" Value="Source[embedded].Layer[Page2].Control[Numeric_40]" />
+  </TabSequence>
+</Page>

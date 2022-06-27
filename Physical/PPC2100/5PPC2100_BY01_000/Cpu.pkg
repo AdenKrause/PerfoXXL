@@ -6,6 +6,7 @@
     <Object Type="File" Description="Permanente Variablen">Cpu.per</Object>
     <Object Type="File" Description="Variablenzuordnung">PvMap.vvm</Object>
     <Object Type="File" Description="I/O Zuordnungsdatei">IoMap.iom</Object>
+    <Object Type="Package">VC</Object>
   </Objects>
   <Configuration ModuleId="5PPC2100.BY01-000">
     <AutomationRuntime Version="S4.10" />

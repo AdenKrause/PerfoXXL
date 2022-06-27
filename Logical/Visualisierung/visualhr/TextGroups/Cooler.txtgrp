@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Cooler">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="53"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value="Limit low"/>
+    <Text ID="130419" Value="new"/>
+    <Text ID="130420" Value="actual"/>
+    <Text ID="130421" Value="Setpoint"/>
+    <Text ID="130422" Value="Cooling/heating device"/>
+    <Text ID="130426" Value="D"/>
+    <Text ID="130427" Value="I"/>
+    <Text ID="130428" Value="P"/>
+    <Text ID="130429" Value="Cooling"/>
+    <Text ID="130430" Value="Heating"/>
+    <Text ID="130431" Value="Limit high"/>
+    <Text ID="130444" Value="Status"/>
+    <Text ID="130445" Value="Apply"/>
+    <Text ID="130446" Value="Off"/>
+    <Text ID="130447" Value="On"/>
+    <Text ID="130507" Value="Heater On"/>
+    <Text ID="130508" Value="Compressor On"/>
+    <Text ID="130509" Value="Pump On"/>
+    <Text ID="130510" Value="Unit On"/>
+    <Text ID="130514" Value="Low Level Fault"/>
+    <Text ID="130515" Value="Low Temp. Warn"/>
+    <Text ID="130516" Value="High Temp. Fault"/>
+    <Text ID="130517" Value="High Temp. Warn"/>
+    <Text ID="130518" Value="Low Temp. Fault"/>
+    <Text ID="130519" Value="Low Level Warn"/>
+    <Text ID="130520" Value="Act. Value"/>
+    <Text ID="130521" Value="Refrig High Temp."/>
+    <Text ID="130533" Value="HTC Fault"/>
+    <Text ID="130534" Value="Unit faulted"/>
+    <Text ID="130535" Value="Unit stopping"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value="Untere Grenze"/>
+    <Text ID="130419" Value="neu"/>
+    <Text ID="130420" Value="aktuell"/>
+    <Text ID="130421" Value="Sollwert"/>
+    <Text ID="130422" Value="Kühl-/Heizgerät"/>
+    <Text ID="130426" Value="D"/>
+    <Text ID="130427" Value="I"/>
+    <Text ID="130428" Value="P"/>
+    <Text ID="130429" Value="Kühlung"/>
+    <Text ID="130430" Value="Heizung"/>
+    <Text ID="130431" Value="Obere Grenze"/>
+    <Text ID="130444" Value="Status"/>
+    <Text ID="130445" Value="Setzen"/>
+    <Text ID="130446" Value="Aus"/>
+    <Text ID="130447" Value="Ein"/>
+    <Text ID="130507" Value="Heizung Ein"/>
+    <Text ID="130508" Value="Kompressor Ein"/>
+    <Text ID="130509" Value="Pumpe Ein"/>
+    <Text ID="130510" Value="Gerät Ein"/>
+    <Text ID="130514" Value="Fehler: Niedr. Füllstand"/>
+    <Text ID="130515" Value="Warnung: Niedr. Temp."/>
+    <Text ID="130516" Value="Fehler: Hohe Temp."/>
+    <Text ID="130517" Value="Warnung: Hohe Temp."/>
+    <Text ID="130518" Value="Fehler: Niedr. Temp."/>
+    <Text ID="130519" Value="Warnung: Niedr. Füllstand"/>
+    <Text ID="130520" Value="Istwert"/>
+    <Text ID="130521" Value="Kühler Temp. zu hoch"/>
+    <Text ID="130533" Value="HTC Fehler"/>
+    <Text ID="130534" Value="Gerätefehler"/>
+    <Text ID="130535" Value="Gerät stoppt"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value="Limite inferior"/>
+    <Text ID="130419" Value="nuevo"/>
+    <Text ID="130420" Value="actual"/>
+    <Text ID="130421" Value="Valor nominal"/>
+    <Text ID="130422" Value="sistema caldeo/refrigeracion"/>
+    <Text ID="130426" Value="D"/>
+    <Text ID="130427" Value="I"/>
+    <Text ID="130428" Value="P"/>
+    <Text ID="130429" Value="Refrigeracion"/>
+    <Text ID="130430" Value="Caldeo"/>
+    <Text ID="130431" Value="Limite superior"/>
+    <Text ID="130444" Value="Status"/>
+    <Text ID="130445" Value="Aplicar"/>
+    <Text ID="130446" Value="NO"/>
+    <Text ID="130447" Value="SI "/>
+    <Text ID="130507" Value="Caldeo activo"/>
+    <Text ID="130508" Value="Compresor activo"/>
+    <Text ID="130509" Value="Bomba activa"/>
+    <Text ID="130510" Value="Unidad activa"/>
+    <Text ID="130514" Value="Error nivel bajo"/>
+    <Text ID="130515" Value="Aviso temperatura baja"/>
+    <Text ID="130516" Value="Error temperatura alta"/>
+    <Text ID="130517" Value="Aviso temperatura alta"/>
+    <Text ID="130518" Value="Error temperatura baja"/>
+    <Text ID="130519" Value="Aviso nivel bajo"/>
+    <Text ID="130520" Value="Valor actual"/>
+    <Text ID="130521" Value="Temp. refriegracion alta"/>
+    <Text ID="130533" Value="Error HTC"/>
+    <Text ID="130534" Value="Unidad defectuosa"/>
+    <Text ID="130535" Value="Unidad parando"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value="Nedre grense"/>
+    <Text ID="130419" Value="ny"/>
+    <Text ID="130420" Value="virkelig"/>
+    <Text ID="130421" Value="Settpunkt"/>
+    <Text ID="130422" Value="kjøle-/varmeapparat"/>
+    <Text ID="130426" Value="D"/>
+    <Text ID="130427" Value="I"/>
+    <Text ID="130428" Value="P"/>
+    <Text ID="130429" Value="Kjøling"/>
+    <Text ID="130430" Value="Oppvarming"/>
+    <Text ID="130431" Value="Øvre grense"/>
+    <Text ID="130444" Value="Status"/>
+    <Text ID="130445" Value="Angi"/>
+    <Text ID="130446" Value="Av"/>
+    <Text ID="130447" Value="På"/>
+    <Text ID="130507" Value="Oppvarming på"/>
+    <Text ID="130508" Value="Kompressor på"/>
+    <Text ID="130509" Value="Pumpe på"/>
+    <Text ID="130510" Value="Apparat på"/>
+    <Text ID="130514" Value="Feil: Nedre fyllenivå"/>
+    <Text ID="130515" Value="Advarsel: Nedre Temp."/>
+    <Text ID="130516" Value="Feil: Høy temp."/>
+    <Text ID="130517" Value="Advarsel: Høy temp."/>
+    <Text ID="130518" Value="Feil: Nedre Temp."/>
+    <Text ID="130519" Value="Advarsel: Nedre fyllenivå"/>
+    <Text ID="130520" Value="Virkelig verdi"/>
+    <Text ID="130521" Value="Kjøler temp. for høy"/>
+    <Text ID="130533" Value="HTC-feil"/>
+    <Text ID="130534" Value="Apparatfeil"/>
+    <Text ID="130535" Value="Apparat stopper"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value=""/>
+    <Text ID="130419" Value=""/>
+    <Text ID="130420" Value=""/>
+    <Text ID="130421" Value=""/>
+    <Text ID="130422" Value=""/>
+    <Text ID="130426" Value=""/>
+    <Text ID="130427" Value=""/>
+    <Text ID="130428" Value=""/>
+    <Text ID="130429" Value=""/>
+    <Text ID="130430" Value=""/>
+    <Text ID="130431" Value=""/>
+    <Text ID="130444" Value=""/>
+    <Text ID="130445" Value=""/>
+    <Text ID="130446" Value=""/>
+    <Text ID="130447" Value=""/>
+    <Text ID="130507" Value=""/>
+    <Text ID="130508" Value=""/>
+    <Text ID="130509" Value=""/>
+    <Text ID="130510" Value=""/>
+    <Text ID="130514" Value=""/>
+    <Text ID="130515" Value=""/>
+    <Text ID="130516" Value=""/>
+    <Text ID="130517" Value=""/>
+    <Text ID="130518" Value=""/>
+    <Text ID="130519" Value=""/>
+    <Text ID="130520" Value=""/>
+    <Text ID="130521" Value=""/>
+    <Text ID="130533" Value=""/>
+    <Text ID="130534" Value=""/>
+    <Text ID="130535" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="130417" Value=""/>
+    <Text ID="130418" Value=""/>
+    <Text ID="130419" Value=""/>
+    <Text ID="130420" Value=""/>
+    <Text ID="130421" Value=""/>
+    <Text ID="130422" Value=""/>
+    <Text ID="130426" Value=""/>
+    <Text ID="130427" Value=""/>
+    <Text ID="130428" Value=""/>
+    <Text ID="130429" Value=""/>
+    <Text ID="130430" Value=""/>
+    <Text ID="130431" Value=""/>
+    <Text ID="130444" Value=""/>
+    <Text ID="130445" Value=""/>
+    <Text ID="130446" Value=""/>
+    <Text ID="130447" Value=""/>
+    <Text ID="130507" Value=""/>
+    <Text ID="130508" Value=""/>
+    <Text ID="130509" Value=""/>
+    <Text ID="130510" Value=""/>
+    <Text ID="130514" Value=""/>
+    <Text ID="130515" Value=""/>
+    <Text ID="130516" Value=""/>
+    <Text ID="130517" Value=""/>
+    <Text ID="130518" Value=""/>
+    <Text ID="130519" Value=""/>
+    <Text ID="130520" Value=""/>
+    <Text ID="130521" Value=""/>
+    <Text ID="130533" Value=""/>
+    <Text ID="130534" Value=""/>
+    <Text ID="130535" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="130417" Value="32"/>
+    <Index ID="130418" Value="4"/>
+    <Index ID="130419" Value="3"/>
+    <Index ID="130420" Value="2"/>
+    <Index ID="130421" Value="1"/>
+    <Index ID="130422" Value="0"/>
+    <Index ID="130426" Value="10"/>
+    <Index ID="130427" Value="9"/>
+    <Index ID="130428" Value="8"/>
+    <Index ID="130429" Value="7"/>
+    <Index ID="130430" Value="6"/>
+    <Index ID="130431" Value="5"/>
+    <Index ID="130444" Value="14"/>
+    <Index ID="130445" Value="13"/>
+    <Index ID="130446" Value="12"/>
+    <Index ID="130447" Value="11"/>
+    <Index ID="130507" Value="18"/>
+    <Index ID="130508" Value="17"/>
+    <Index ID="130509" Value="16"/>
+    <Index ID="130510" Value="15"/>
+    <Index ID="130514" Value="20"/>
+    <Index ID="130515" Value="21"/>
+    <Index ID="130516" Value="26"/>
+    <Index ID="130517" Value="22"/>
+    <Index ID="130518" Value="23"/>
+    <Index ID="130519" Value="19"/>
+    <Index ID="130520" Value="31"/>
+    <Index ID="130521" Value="27"/>
+    <Index ID="130533" Value="30"/>
+    <Index ID="130534" Value="29"/>
+    <Index ID="130535" Value="28"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlarmState_short">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="25" Value="1"/>
+    <Text ID="27" Value="0"/>
+  </TextLayer>
+  <TextLayer LanguageId="de-DE">
+    <Text ID="25" Value="1"/>
+    <Text ID="27" Value="0"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-ES">
+    <Text ID="25" Value="1"/>
+    <Text ID="27" Value="0"/>
+  </TextLayer>
+  <TextLayer LanguageId="no-NO">
+    <Text ID="25" Value="1"/>
+    <Text ID="27" Value="0"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-NL">
+    <Text ID="25" Value=""/>
+    <Text ID="27" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="tr-TR">
+    <Text ID="25" Value=""/>
+    <Text ID="27" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="25" Value="1"/>
+    <Index ID="27" Value="0"/>
+  </IndexMap>
+</TextGroup>

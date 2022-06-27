@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.4.402"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Login">
+  <Property Name="Description" Value="" />
+  <Property Name="EditBackColor" Value="12" />
+  <Property Name="FocusBackColor" Value="12" />
+  <Property Name="Height" Value="240" />
+  <Property Name="Index" Value="10" />
+  <Property Name="MoveFocus" Value="Circular" />
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]" />
+  <Property Name="Width" Value="320" />
+  <Layers>
+    <LayerRef Source="Source[local].Layer[CommonLayer_1]">
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Frozen" />
+      <Property Name="Left" Value="0" />
+      <Property Name="Name" Value="CommonLayer_1" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Z-Order" Value="0" />
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9" />
+      <Property Name="Description" Value="" />
+      <Property Name="EditingMode" Value="Normal" />
+      <Property Name="Height" Value="240" />
+      <Property Name="Left" Value="0" />
+      <Property Name="OutlineColor" Value="0" />
+      <Property Name="OutlineDisplayControl" Value="False" />
+      <Property Name="OutlineDisplayName" Value="True" />
+      <Property Name="OutlineHatched" Value="False" />
+      <Property Name="StatusDatapoint" Value="None" />
+      <Property Name="Top" Value="0" />
+      <Property Name="VisibilityMode" Value="Normal" />
+      <Property Name="Width" Value="320" />
+      <Property Name="Z-Order" Value="1" />
+      <TextGroup>
+        <TextLayer LanguageId="en-GB" />
+        <TextLayer LanguageId="de-DE" />
+        <TextLayer LanguageId="es-ES" />
+        <TextLayer LanguageId="no-NO" />
+        <TextLayer LanguageId="nl-NL" />
+        <TextLayer LanguageId="tr-TR" />
+        <IndexMap />
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x0000100C" Name="Password_1">
+          <Property Name="BackColor" Value="12" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="44" />
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]" />
+          <Property Name="Left" Value="342" />
+          <Property Name="LevelDatapoint" Value="Source[global].Variable[Local.UserLevel]" />
+          <Property Name="MaxChars" Value="4" />
+          <Property Name="MaxLevel" Value="2" />
+          <Property Name="SimulationValue" Value="" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Password]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Passwords]" />
+          <Property Name="TextIndexOffset" Value="0" />
+          <Property Name="TextSource" Value="MultipleTexts" />
+          <Property Name="Top" Value="210" />
+          <Property Name="Width" Value="212" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="44" />
+          <Property Name="Left" Value="42" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
+          <Property Name="TextIndexOffset" Value="9" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="214" />
+          <Property Name="Width" Value="158" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="54" />
+          <Property Name="Left" Value="32" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_gr]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
+          <Property Name="TextIndexOffset" Value="8" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="54" />
+          <Property Name="Width" Value="486" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="44" />
+          <Property Name="Left" Value="42" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
+          <Property Name="TextIndexOffset" Value="10" />
+          <Property Name="TextSource" Value="SingleText" />
+          <Property Name="Top" Value="136" />
+          <Property Name="Width" Value="306" />
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="Border" Value="Source[local].Border[Black_1pixel]" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="Height" Value="44" />
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.UserLevel]" />
+          <Property Name="Left" Value="340" />
+          <Property Name="SimulationIndex" Value="0" />
+          <Property Name="SimulationValue" Value="0" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Userlevel]" />
+          <Property Name="TextIndexOffset" Value="0" />
+          <Property Name="TextSource" Value="MultipleTexts" />
+          <Property Name="Top" Value="132" />
+          <Property Name="Width" Value="212" />
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_EXIT]" />
+          <Property Name="BitmapAlignmentHorizontal" Value="Center" />
+          <Property Name="BitmapIndexDatapoint" Value="None" />
+          <Property Name="BitmapSource" Value="SingleBitmap" />
+          <Property Name="ControlID" Value="0" />
+          <Property Name="Description" Value="" />
+          <Property Name="EmbVirtualKey" Value="None" />
+          <Property Name="Height" Value="70" />
+          <Property Name="KeyMatrixOffset" Value="None" />
+          <Property Name="Left" Value="554" />
+          <Property Name="PressedBitmapSource" Value="None" />
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
+          <Property Name="TextIndexDatapoint" Value="None" />
+          <Property Name="TextSimulationValue" Value="0" />
+          <Property Name="TextSource" Value="None" />
+          <Property Name="Top" Value="408" />
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BW_Main]" />
+          <Property Name="Width" Value="80" />
+        </Control>
+      </Controls>
+      <KeyMapping />
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Password_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Password_1]" />
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Password_1]" />
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Password_1]" />
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Password_1]" />
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Password_1]" />
+  </TabSequence>
+</Page>
