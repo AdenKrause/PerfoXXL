@@ -189,7 +189,7 @@ _LOCAL	UINT	StartRedInvisible,StartGreenInvisible;
 _LOCAL	BOOL	IOButton,IOExit,load,save,loadall,saveall;
 _LOCAL	UINT	HeaderNumber;
 
-_GLOBAL BOOL	RedLight,noRedLight;
+_GLOBAL BOOL	RedLight;
 _GLOBAL BOOL	BUSY;
 _GLOBAL BOOL	ERROR,NEWERROR;
 _GLOBAL BOOL	STANDBY;

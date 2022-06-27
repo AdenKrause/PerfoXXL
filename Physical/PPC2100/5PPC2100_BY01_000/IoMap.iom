@@ -16,9 +16,6 @@
 	
 	 ********************************************************************)
 VAR_CONFIG
-	Cyclic#1.CPUTemp AT %IW."PLC1".TemperatureCPU;
-	Cyclic#1.AmbientTemp AT %IW."PLC1".TemperatureENV;
-	Cyclic#1.BatteryStatus AT %IB."PLC1".BatteryStatusCPU;
 	Cyclic#1.egmio:EGMModule1Out[0] AT %QX."X20DO9322c".DigitalOutput01;
 	Cyclic#1.egmio:EGMModule1Out[1] AT %QX."X20DO9322c".DigitalOutput02;
 	Cyclic#1.egmio:EGMModule1Out[2] AT %QX."X20DO9322c".DigitalOutput03;
@@ -96,7 +93,6 @@ VAR_CONFIG
 	Cyclic#1.egmio:EGMModule2In[9] AT %IX."X20DI9371c".DigitalInput10;
 	Cyclic#1.egmio:EGMModule2In[10] AT %IX."X20DI9371c".DigitalInput11;
 	Cyclic#1.egmio:EGMModule2In[11] AT %IX."X20DI9371c".DigitalInput12;
-	Cyclic#1.CANNodeNumber AT %IB."3IF771.9".IF1.NodeSwitch;
 	Cyclic#1.In_ServiceMode AT %IX."X20DI9371".DigitalInput01;
 	Cyclic#1.In_PaperSensor[0] AT %IX."X20DI9371".DigitalInput03;
 	Cyclic#1.In_PaperSensor[1] AT %IX."X20DI9371".DigitalInput04;
@@ -153,4 +149,6 @@ VAR_CONFIG
 	Cyclic#1.in_out:Module6[11] AT %QX."X20DO9322b".DigitalOutput12;
 	Cyclic#1.CoverLockOK AT %IX."X20DI9371a".DigitalInput09;
 	Cyclic#1.DoorsOK AT %IX."X20DI9371a".DigitalInput10;
+	Cyclic#1.::CPUTemp AT %IW."5PPC2100_BY01_000".TemperatureCPU;
+	Cyclic#1.::AmbientTemp AT %IW."5PPC2100_BY01_000".TemperatureRAM;
 END_VAR
