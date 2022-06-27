@@ -5,6 +5,6 @@
     <Object Type="Program" Language="ANSIC" Description="Bild &quot;X-Achse&quot; bearbeiten">p_achse</Object>
     <Object Type="DataObject" Language="Vc" Description="Visualization">visual</Object>
     <Object Type="Program" Language="ANSIC" Description="Handling von Visualisierungsfunktionen">pics</Object>
-    <Object Type="DataObject" Language="Vc" Description="640x480">visualhr</Object>
+    <Object Type="DataObject" Language="Vc" Description="640x480">visuhr</Object>
   </Objects>
 </Package>
