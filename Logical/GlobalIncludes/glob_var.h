@@ -14,9 +14,6 @@
 
 	/* !!! ACHTUNG!!  Bei Veränderungen in dieser Datei immer ALLES KOMPILIEREN !!!*/
 
-	/*kennzeichnet die EasyLoad Version im Gegensatz zu LSJet*/
-	#define PERFORMANCE
-
 
 	/* Auswahl der Maschine: Performance, Bluefin oder Kombination*/
 

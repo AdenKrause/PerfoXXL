@@ -150,9 +150,7 @@ _INIT void init(void)
 /****************************************************************************/
 _CYCLIC void cyclic(void)
 {
-#ifdef PERFORMANCE
 	GlobalParameter.DeloaderTurnStation = 0;
-#endif
 
 	if( GlobalParameter.DisableSlowMode )
 		SlowMode = 0;

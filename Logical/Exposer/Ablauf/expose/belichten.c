@@ -359,19 +359,11 @@ to make sure, the plate cannot be under the beam during power setting
 
 		case 25:
 		{
-#ifdef PERFORMANCE
 			if ((FU.aktuellePosition_mm <= Expose_Param.PEGStartPosition) && (PlateParameter.Length > 1))
 			{
 				ExposureProgress = ((Expose_Param.PEGStartPosition - FU.aktuellePosition_mm) *100.0)
 									 / PlateParameter.Length;
 			}
-#else
-			if ((FU.aktuellePosition_mm > Expose_Param.PEGStartPosition) && (PlateParameter.Length > 1))
-			{
-				ExposureProgress = ((FU.aktuellePosition_mm-Expose_Param.PEGStartPosition) *100.0)
-									 / PlateParameter.Length;
-			}
-#endif
 			else
 				ExposureProgress = 0;
 /*Wait for Exposure ready*/
