@@ -4,7 +4,7 @@
 
 "[ROUTING_PATH]"    ;Sektionsname muss mit Klammern umrahmt werden und ist frei wählbar
 "/SECTION=INTERFACE";definiert Sektionsart
-"/CN=SL1.IF3.3" ;Routingpfad zum Server (CANModul Slot1 Schnittstelle 1 Interface 1 zu
+"/CN=SL1.SS1.IF1.3" ;Routingpfad zum Server (CANModul Slot1 Schnittstelle 1 Interface 1 zu
                     ;Knotennummer 3) ACHTUNG:
                     ;Knotennummer muss in HEXADEZIMAL angegeben werden !
 ;===============================================================================================
@@ -18,6 +18,7 @@
 "/SECTION=PV"       ;definiert Sektionsart
 "/SV=READ /CLNTPV=bluefin:CAN_EGM1 /SERVPV=NoError"  ;PV-Dienst
 "/SV=READ /CLNTPV=bluefin:CAN_EGM2 /SERVPV=Ready"  ;PV-Dienst
+"/SV=READ /CLNTPV=bluefin:CAN_VCP  /SERVPV=VCP_OK"  ;PV-Dienst
 "/SV=READ /CLNTPV=bluefin:BFVERSION  /SERVPV=gVERSION"  ;PV-Dienst
 ;===============================================================================================
 

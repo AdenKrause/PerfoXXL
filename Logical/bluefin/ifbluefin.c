@@ -160,9 +160,15 @@ _LOCAL UINT                VisConnOK;
 /**                                                                        **/
 /****************************************************************************/
 /* for IMA Comm */
+#ifdef PPC2100
 static    STRING              DOName[32]="do_ima";
 static    STRING              DONameVCP[32]="do_vcp";
 static    STRING              DONameXSOld[32]="do_xsold";
+#else
+static    STRING              DOName[32]="do_imaPP420";
+static    STRING              DONameVCP[32]="do_vcpPP420";
+static    STRING              DONameXSOld[32]="do_xsoldPP420";
+#endif
 /* for Ethernet server */
 static    SINT                SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
 static    SINT                RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];

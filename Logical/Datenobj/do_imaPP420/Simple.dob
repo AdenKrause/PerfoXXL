@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.1.16.135 SP?>
+<?AutomationStudio Version=4.1.4.402?>
 <DataObject Version="0.00.0" xmlns="http://br-automation.co.at/AS/DataObject">
   <Files>
-    <File>do_xsold.dat</File>
+    <File>do_ima.dat</File>
   </Files>
 </DataObject>
