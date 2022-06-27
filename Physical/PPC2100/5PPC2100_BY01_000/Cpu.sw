@@ -47,7 +47,7 @@
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8" />
   <VcDataObjects>
-    <VcDataObject Name="visuhr" Source="Visualisierung.visualhr.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+    <VcDataObject Name="visuhr" Source="Visualisierung.visuhr.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
   </VcDataObjects>
   <Binaries>
     <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
@@ -74,5 +74,6 @@
     <LibraryObject Name="loopcont" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="asudp" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="sys_lib" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsBrStr" Source="Libraries.AsBrStr.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

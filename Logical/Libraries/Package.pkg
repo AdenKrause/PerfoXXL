@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.1.4.402?>
+<?AutomationStudio Version=4.1.16.135 SP?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Library" Language="Binary" Description="The Visapi library provides support to access and control visualizations at runtime.">visapi</Object>
@@ -23,5 +23,6 @@
     <Object Type="Library" Language="Binary" Description="This library provides functions for enab">AsIOMMan</Object>
     <Object Type="Library" Language="Binary" Description="This library make an easy handle between">AsIMA</Object>
     <Object Type="Library" Language="Binary" Description="Read and write of Automation Runtime con">AsARCfg</Object>
+    <Object Type="Library" Language="Binary" Description="The AsBrStr Library contains FBKs for memory and character string handling.">AsBrStr</Object>
   </Objects>
 </Package>

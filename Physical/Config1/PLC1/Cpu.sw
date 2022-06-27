@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.1.4.402?>
+<?AutomationStudio Version=4.1.16.135 SP?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Exception" />
   <TaskClass Name="Cyclic#1">
@@ -50,9 +50,9 @@
   <DataObjects>
     <DataObject Name="ioimgcfg" Source="Datenobj.ioimgcfg.dob" Memory="UserROM" Language="Simple" />
     <DataObject Name="can_tab" Source="Datenobj.can_tab.dob" Memory="UserROM" Language="Simple" />
-    <DataObject Name="do_ima" Source="Datenobj.do_ima.dob" Memory="UserROM" Language="Simple" />
-    <DataObject Name="do_vcp" Source="Datenobj.do_vcp.dob" Memory="UserROM" Language="Simple" />
-    <DataObject Name="do_xsold" Source="Datenobj.do_xsold.dob" Memory="UserROM" Language="Simple" />
+    <DataObject Name="do_imaPP42" Source="Datenobj.do_imaPP420.dob" Memory="UserROM" Language="Simple" />
+    <DataObject Name="do_vcpPP42" Source="Datenobj.do_vcpPP420.dob" Memory="UserROM" Language="Simple" />
+    <DataObject Name="do_xsoldPP" Source="Datenobj.do_xsoldPP420.dob" Memory="UserROM" Language="Simple" />
   </DataObjects>
   <VcDataObjects>
     <VcDataObject Name="visual" Source="Visualisierung.visual.dob" Memory="UserROM" Language="vc" Version="0.00.0" WarningLevel="2" Compress="false" />
@@ -88,5 +88,6 @@
     <LibraryObject Name="AsIOMMan" Source="Libraries.AsIOMMan.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsIMA" Source="Libraries.AsIMA.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsARCfg" Source="Libraries.AsARCfg.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsBrStr" Source="Libraries.AsBrStr.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
