@@ -29,11 +29,11 @@
     <Task Name="p_achse" Source="Visualisierung.p_achse.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="motoren" Source="Exposer.Hardware.motoren.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="trolley" Source="Exposer.Ablauf.trolley.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
-    <Task Name="ip_clt_c" Source="ip_clt_c.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="referenz" Source="Exposer.Ablauf.referenz.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="system" Source="system.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="devtank" Source="Processor.devtank.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
     <Task Name="egmauto" Source="Processor.egmauto.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />
+    <Task Name="ping" Source="ping.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5">
     <Task Name="file" Source="file.prg" Memory="UserROM" Language="ANSIC" Debugging="false" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.1.4.402?>
+<?AutomationStudio Version=4.1.16.135 SP?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package">GlobalIncludes</Object>
@@ -8,7 +8,7 @@
     <Object Type="Package">Libraries</Object>
     <Object Type="Program" Language="ANSIC" Description="TCP IP Server für zykl. Datenaustausch">ip_srv_c</Object>
     <Object Type="Program" Language="ANSIC" Description="Daten in SRAM sichern bzw wieder auslesen">sram</Object>
-    <Object Type="Program" Language="ANSIC" Description="TCP IP Client">ip_clt_c</Object>
+    <Object Type="Program" Language="ANSIC" Description="ping Funktion">ping</Object>
     <Object Type="Program" Language="ANSIC" Description="System Einstellungen vornehmen">system</Object>
     <Object Type="Program" Language="ANSIC" Description="File handling">file</Object>
     <Object Type="Program" Language="ANSIC">xml</Object>
