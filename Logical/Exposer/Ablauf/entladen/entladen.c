@@ -26,7 +26,6 @@ USINT			tmp[20];
 
 _LOCAL TON_10ms_typ CycleTimer,CycleTimer2,TestTimer;
 _LOCAL R_TRIGtyp R_TRIG_01;
-_LOCAL F_TRIGtyp F_TRIG_01,F_TRIG_02;
 
 BOOL	Started;
 _GLOBAL UDINT PlatesPerHour;
@@ -53,7 +52,7 @@ _GLOBAL	BOOL			StopPinsUp;
 /*HA 05.09.03 V1.51 to avoid adjustsensor triggered by deloaded plate*/
 /*HA 08.09.03 V1.52 disable-flags for right adjuster*/
 _GLOBAL 	BOOL			DisableAdjustSensor,DisableAdjusterUp,EnableShuttle;
-_LOCAL	BOOL			StartConveyorBelt,StopConveyorBelt;
+
 		BOOL			LayOffPos2;
 		UDINT			TempPlateReleasePosition,TempTurnPosition,TempTakePosition;
 

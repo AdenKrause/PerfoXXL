@@ -61,13 +61,11 @@ _LOCAL    TCPsend_typ         TCP_Send[MAXCLIENTS];
 _LOCAL    TCPclose_typ        TCP_Close[MAXCLIENTS];
 
 _LOCAL    SINT                Step[MAXCLIENTS];
-_LOCAL    UINT                RcvLength;
 _LOCAL    USINT               Count[MAXCLIENTS];
 _LOCAL    USINT               SendDataCnt[MAXCLIENTS];
 /* Buffer for XML Message */
 _LOCAL    SINT                XMLBuffer[SEND_BUFFER_LEN];
 _LOCAL    UINT                SendTimeout[MAXCLIENTS];
-_LOCAL    UINT                Len;
 _LOCAL    UINT                DataLock;
 
 /* Variablen: */

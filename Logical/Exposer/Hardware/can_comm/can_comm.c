@@ -30,7 +30,6 @@ CANrwtab_typ _LOCAL CANrwtab_01;
 
 /* === variables declaration === */
 _LOCAL UDINT error_var;
-_LOCAL USINT memorytype;
 _LOCAL DatObjInfo_typ DOInfo;
 _GLOBAL BOOL CAN_ok;
 

@@ -35,8 +35,6 @@ _GLOBAL REAL PlateLength;
 /* zum Entprellen des Eingangssensors*/
 TON_10ms_typ	InputSensorOnDelay;
 TOF_10ms_typ	InputSensorOffDelay;
-_LOCAL REAL TEST;
-
 
 /* ohne Mittelwertbildung */
 void MeasureCurrentSpeed(void)

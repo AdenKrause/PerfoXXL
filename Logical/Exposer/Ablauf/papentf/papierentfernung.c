@@ -135,7 +135,6 @@ _GLOBAL   BOOL                DisablePaperRemove;
 /****************************************************************************/
 _LOCAL    USINT               PaperRemoveStep;
 _LOCAL    BOOL                AUTOSTART;
-_LOCAL    USINT               TestStack;
 
 /****************************************************************************/
 /**                                                                        **/

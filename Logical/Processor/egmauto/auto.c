@@ -88,8 +88,6 @@ _LOCAL BOOL	OnButton,OffButton;
 _LOCAL UDINT CleaningTimerDisplay,CleaningTimerOverallDisplay;
 
 
-_LOCAL UDINT	TEST;
-
 /* Variable, die genauso lange true ist, wie der sensor Eingang, aber über  ein- und ausschaltverzögerung entprellt*/
 _GLOBAL	BOOL PlateOverSensor;
 
