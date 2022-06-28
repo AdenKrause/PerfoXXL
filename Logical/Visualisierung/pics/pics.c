@@ -28,10 +28,6 @@
 #include "auxfunc.h"
 #include "AsBrStr.h"
 
-#define	MAXFILELIST	32
-#define MAXFILES	50
-#define MAXFILENAMELENGTH	32
-
 #define ROT_HG		0x0056 /*Hintergrundfarbe*/
 #define ROT 			0x002D
 #define GRUEN 		0x00E3

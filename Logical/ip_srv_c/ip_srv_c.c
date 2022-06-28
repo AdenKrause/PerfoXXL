@@ -64,8 +64,6 @@
 #define WAIT_CLOSE_PORT		7
 
 
-#define MAXFILENAMELENGTH	32
-
 typedef struct {
 	REAL		XPosMm;
 	DINT		MotorPos[16];

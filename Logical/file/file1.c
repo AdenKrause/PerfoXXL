@@ -1,256 +1,399 @@
 #ifdef _DEFAULT_INCLUDES
 	#include <AsDefault.h>
 #endif
-/****************************************************************************/
-/*	Datei handling für Speichern/Laden von Einstellungen */
-/*																			*/
-/*																			*/
-/*	Versionsgeschichte:														*/
-/*  Version		Datum		Änderung								von		*/
-/*	1.00		12.12.02	erste Implementation					HA		*/
-/*	1.50		04.10.05	Statt Floppy jetzt Zugriff auf USB Stick*/
-/*		*/
-/*																			*/
-/****************************************************************************/
+/**
+                             *******************
+******************************* C SOURCE FILE *******************************
+**                           *******************                           **
+**                                                                         **
+** project  : LS JET II                                                    **
+** filename : FILE1.C                                                      **
+** version  : 1.61                                                         **
+** date     : 12.07.2010                                                   **
+**                                                                         **
+*****************************************************************************
+** Abstract                                                                **
+** ========                                                                **
+** This task implements file handling routines to save/load parameter      **
+** files to CF card or USB device. Communication with the application is   **
+** established via command bits. This task also handles the File-picture   **
+** on the display.                                                         **
+**                                                                         **
+** Copyright (c) 2006, Krause-Biagosch GmbH                                **
+** All rights reserved.                                                    **
+**                                                                         **
+*****************************************************************************
+VERSION HISTORY:
+----------------
+Version     : 1.00
+Date        : 12.02.2002
+Revised by  : Herbert Aden
+Description : Original version.
 
-/***** Header files *****/
+Version     : 1.50
+Date        : 04.10.2005
+Revised by  : Herbert Aden
+Description : using USB device now instead of floppy
+
+Version     : 1.51
+Date        : 31.08.2006
+Revised by  : Herbert Aden
+Description : now both USB ports are supported
+
+Version     : 1.60
+Date        : 29.11.2006
+Revised by  : Herbert Aden
+Description : general code review, safety (replaced strcpy by strncpy and
+              increased buffer length)
+
+Version     : 1.61
+Date        : 12.07.2010
+Revised by  : Herbert Aden
+Description : if the file to write to already exists, it can be deleted
+              and newly created by an extra global flag
+
+*/
+
+#define _FILE1_C_SRC
+
+/****************************************************************************/
+/**                                                                        **/
+/**                           INCLUDE FILES                                **/
+/**                                                                        **/
+/****************************************************************************/
 #include <bur\plctypes.h>
 #include <fileio.h>
+#include <ctype.h>
 #include <string.h>
+#include "brsystem.h"
 #include "glob_var.h"
+#include "egmglob_var.h"
 #include "auxfunc.h"
 
+/****************************************************************************/
+/**                                                                        **/
+/**                       DEFINITIONS AND MACROS                           **/
+/**                                                                        **/
+/****************************************************************************/
 #define WEISS	4096
 #define SCHWARZ	0
 
 #define MAXFILES	50
-#define MAXFILENAMELENGTH	32
+
+#define MESSAGEPIC 41
+#define FILEPIC 42
 
 #define READDIR		71
 #define READDATA	73
 #define WRITEDATA	72
 #define NOFILE		74
 
-/***** Variable declaration *****/
-_LOCAL USINT byStep, byErrorLevel;
-_LOCAL UDINT dwIdent;
-_LOCAL UINT wStatus;
-_LOCAL FileOpen_typ FOpen;
-_LOCAL FileClose_typ FClose;
-_LOCAL FileCreate_typ FCreate;
-_LOCAL FileRead_typ FRead;
-_LOCAL FileWrite_typ FWrite;
-_LOCAL FileDelete_typ FDelete;
+#define FILENAMEINFODISPLAYLENGTH 40
 
-_GLOBAL	STRING FileIOName[MAXFILENAMELENGTH];
-_GLOBAL	STRING	FileType[5];
-_GLOBAL	UDINT *FileIOData;
-_GLOBAL	UDINT	FileIOLength;
-_GLOBAL	BOOL	WriteFileCmd,ReadFileCmd,DeleteFileCmd,WriteFileOK,ReadFileOK,DeleteFileOK,
-				FileNotExisting,ReadDirCmd,ReadDirOK,NoDisk;
+#define CFCARD      (0)
+#define USB         (1)
+#define LISTEMPTY   (-1)
+
+#define FUB_OK   (0)
+#define FUB_BUSY (65535)
+/****************************************************************************/
+/**                                                                        **/
+/**                      TYPEDEFS AND STRUCTURES                           **/
+/**                                                                        **/
+/****************************************************************************/
+/* NONE */
+
+/****************************************************************************/
+/**                                                                        **/
+/**                      PROTOTYPES OF LOCAL FUNCTIONS                     **/
+/**                                                                        **/
+/****************************************************************************/
+extern void usbcyclic(void);
+extern void usbinit(void);
+/****************************************************************************/
+/**                                                                        **/
+/**                      EXPORTED VARIABLES                                **/
+/**                                                                        **/
+/****************************************************************************/
+/* NONE */
+
+/****************************************************************************/
+/**                                                                        **/
+/**                           GLOBAL VARIABLES                             **/
+/**                                                                        **/
+/****************************************************************************/
+_GLOBAL   STRING              FileIOName[MAXFILENAMELENGTH];
+_GLOBAL   STRING              FileType[MAXFILETYPELENGTH];
+_GLOBAL   void               *FileIOData;
+_GLOBAL   UDINT               FileIOLength;
+_GLOBAL   BOOL                WriteFileCmd,
+                              ReadFileCmd,
+                              DeleteFileCmd,
+                              WriteFileOK,
+                              ReadFileOK,
+                              DeleteFileOK,
+                              FileNotExisting,
+                              ReadDirCmd,
+                              ReadDirOK,
+                              NoDisk,
+                              DeleteFileFirst;
+_GLOBAL   UINT                DeviceType;   /* 0->CF, 1->USB*/
+
+/****************************************************************************/
+/**                                                                        **/
+/**                      TASK-LOCAL VARIABLES                              **/
+/**                                                                        **/
+/****************************************************************************/
+_LOCAL    USINT               byStep,DeleteRetStep;
+_LOCAL    UDINT               dwIdent;
+_LOCAL    UINT                wStatus;
+_LOCAL    FileOpen_typ        FOpen;
+_LOCAL    FileClose_typ       FClose;
+_LOCAL    FileCreate_typ      FCreate;
+_LOCAL    FileRead_typ        FRead;
+_LOCAL    FileWrite_typ       FWrite;
+_LOCAL    FileDelete_typ      FDelete;
+_LOCAL    UDINT               dwDirNum,
+                              dwFileNum,
+                              dwCounter;
+_LOCAL    DirInfo_typ         DInfo;
+_LOCAL    DirRead_typ         DRead;
+_LOCAL    fiDIR_READ_DATA     ReadData[MAXFILES];
+_LOCAL    STRING              FileNames[MAXFILES][MAXFILENAMELENGTH];
+_LOCAL    STRING              Device[10];
+_LOCAL    BOOL                ReadDirData,
+                              ReadDirFloppy,
+                              DeleteFile,
+                              SelectionEnd;
+_LOCAL    SINT                FileListSelected;
+_LOCAL    UINT                DeviceDataInvisible,
+                              DeviceFloppyInvisible;
+
+_LOCAL    UINT                DiskButtonPressed1,
+                              DiskButtonPressed2,
+                              FloppyButtonPressed1,
+                              FloppyButtonPressed2,
+                              DelButtonPressed1,
+                              DelButtonPressed2,
+                              FloppyInvisible,
+                              DeleteInvisible;
+_LOCAL    UINT                HideWait,
+                              MessageNumber,
+                              Progress;
+_LOCAL    STRING              FileNameDisplay[FILENAMEINFODISPLAYLENGTH];
+_LOCAL    TARGETInfo_typ      TARGETInfo_01;
+_LOCAL    STRING              OSVersionString[10];
+_LOCAL    char                USBDeviceStr[32];
+/****************************************************************************/
+/**                                                                        **/
+/**                    MODULE-LOCAL VARIABLES                              **/
+/**                                                                        **/
+/****************************************************************************/
+static    BOOL                FirstTime,
+                              ReadDataActive,
+                              DeleteActive;
+static    STRING              TmpFileName[MAXFILENAMELENGTH+MAXFILETYPELENGTH];
+static    int                 FileListCounter;
+static    BOOL                AbfrageAktiv;
+static    UINT                CycleCounter;
+static    UINT                FloppyInvOld;
 
 
-/***** Variable declaration *****/
-_LOCAL UDINT 		dwDirNum, dwFileNum, dwCounter;
-_LOCAL DirInfo_typ 	DInfo;
-_LOCAL DirRead_typ 	DRead;
-_LOCAL fiDIR_READ_DATA 	ReadData[MAXFILES];
-_LOCAL	STRING	FileNames[MAXFILES][MAXFILENAMELENGTH];
-_LOCAL	STRING Device[10];
-_LOCAL BOOL	ReadDirData,ReadDirFloppy,DeleteFile,SelectionEnd;
-_LOCAL	SINT	FileListPointer;
-_LOCAL	UINT	DeviceDataInvisible,DeviceFloppyInvisible;
-
-		BOOL	FirstTime,ReadDataActive,DeleteActive;
-_LOCAL	UINT	DiskButtonPressed1,DiskButtonPressed2,FloppyButtonPressed1,FloppyButtonPressed2,
-				DelButtonPressed1,DelButtonPressed2,FloppyInvisible,DeleteInvisible;
-STRING	TmpFileName[MAXFILENAMELENGTH];
-int FileListCounter;
-BOOL	AbfrageAktiv;
-_LOCAL UINT	HideWait,MessageNumber,Progress;
-_LOCAL STRING FileNameDisplay[30];
-_GLOBAL	UINT	DeviceType;
-UINT	CycleCounter;
-
-/***** Init part *****/
+/****************************************************************************/
+/**                                                                        **/
+/**                          LOCAL FUNCTIONS                               **/
+/**                                                                        **/
+/****************************************************************************/
+/****************************************************************************/
+/*     INIT FUNCTION                                                        */
+/****************************************************************************/
 _INIT void Init(void)
 {
-	NoDisk = 0;
-	/* Initialize variables */
-	byStep 		= 0;
-	byErrorLevel	= 0;
-
 	/* Initialize file enable bits*/
-	FOpen.enable 	= 1;
-	FClose.enable 	= 1;
-	FCreate.enable 	= 1;
-	FRead.enable 	= 1;
-	FWrite.enable 	= 1;
-	FDelete.enable 	= 1;
-	WriteFileOK = 0;
-	ReadFileOK = 0;
-	WriteFileCmd = 0;
-	ReadFileCmd = 0;
-	FileNotExisting = 0;
-	ReadDirCmd = 0;
-	ReadDirOK = 0;
-	DeviceFloppyInvisible = 1;
-	DeviceDataInvisible = 1;
-	FirstTime = 1;
-	DeleteFile = 0;
-	DeleteActive = 0;
+	FOpen.enable 	= TRUE;
+	FClose.enable 	= TRUE;
+	FCreate.enable 	= TRUE;
+	FRead.enable 	= TRUE;
+	FWrite.enable 	= TRUE;
+	FDelete.enable 	= TRUE;
+	WriteFileOK     = FALSE;
+	ReadFileOK      = FALSE;
+	WriteFileCmd    = FALSE;
+	ReadFileCmd     = FALSE;
+	FileNotExisting = FALSE;
+	ReadDirCmd      = FALSE;
+	ReadDirOK       = FALSE;
+	DeviceFloppyInvisible = TRUE;
+	DeviceDataInvisible   = TRUE;
+	FirstTime             = TRUE;
+	HideWait              = TRUE;
+	DeleteFile            = FALSE;
+	DeleteActive          = FALSE;
+	NoDisk                = FALSE;
+	DelButtonPressed1     = WEISS;
+	DelButtonPressed2     = SCHWARZ;
+	DiskButtonPressed1    = WEISS;
+	DiskButtonPressed2    = SCHWARZ;
+	FloppyButtonPressed1  = WEISS;
+	FloppyButtonPressed2  = SCHWARZ;
+	byStep 		    = 0;
 	strcpy(Device,"DATA");
-	DelButtonPressed1 = WEISS;
-	DelButtonPressed2 = SCHWARZ;
-	DiskButtonPressed1 = WEISS;
-	DiskButtonPressed2 = SCHWARZ;
-	FloppyButtonPressed1 = WEISS;
-	FloppyButtonPressed2 = SCHWARZ;
-	HideWait = 1;
+	strcpy(FileIOName,"");
+	DeleteFileFirst = FALSE;
+
+	TARGETInfo_01.enable = 1;                         /* Funktion wird nur ausgeführt wenn ENABLE <> 0 ist. */
+	TARGETInfo_01.pOSVersion = (UDINT) &OSVersionString;  /* Zeiger auf einen String mit vorgegebener Länge, in den die Betriebssystemversion geschrieben wird */
+	do
+		TARGETInfo(&TARGETInfo_01);
+	while (TARGETInfo_01.status == ERR_FUB_BUSY);
+
+	if(OSVersionString[2] >= '4')
+		usbinit();
+	else
+		strcpy(USBDeviceStr,"USBStick");
 }
 
-/***** Cyclic part *****/
+/****************************************************************************/
+/*     CYCLIC FUNCTION                                                      */
+/****************************************************************************/
 _CYCLIC void Cyclic(void)
 {
-	if (!strcmp(Device,"DATA"))
-		DeviceType = 0; /* CF Card*/
+	if(OSVersionString[2] >= '4')
+		usbcyclic();
 	else
-		DeviceType = 1; /* USB */
+	{ 
+	/* bei statischer Zuordnung immer die Möglichkeit, USB anzuwählen */
+		FloppyInvisible = FALSE;
+	}
+	if ( STREQ(Device,"DATA") )
+		DeviceType = CFCARD;
+	else
+		DeviceType = USB;
 
 	if(UserLevel < 2)
 	{
-		DeleteInvisible = 1;
-		DeleteFile = 0;
+		DeleteInvisible = TRUE;
+		DeleteFile = FALSE;
 	}
 	else
 	{
-		FloppyInvisible = 0;
-		DeleteInvisible = 0;
+//		FloppyInvisible = FALSE;
+		DeleteInvisible = FALSE;
 	}
 
-	if(FileListPointer >= FileListCounter )FileListPointer = FileListCounter-1;
+	if(FileListSelected >= FileListCounter )FileListSelected = FileListCounter-1;
 	if(SelectionEnd)
 	{
-		if(FileListPointer < 0)
-			FileListPointer = FileListCounter-1;
+		if(FileListSelected < 0)
+			FileListSelected = FileListCounter-1;
 
-		if(FileListPointer >= FileListCounter || FileListPointer < 0)
-			FileListPointer = 0;
+		if(FileListSelected >= FileListCounter || FileListSelected < 0)
+			FileListSelected = 0;
 
-		strcpy(FileIOName,FileNames[FileListPointer]);
-		SelectionEnd = 0;
+		strncpy(FileIOName,FileNames[FileListSelected],MAXFILENAMELENGTH-1);
+		SelectionEnd = FALSE;
 	}
 
-	if(DeleteFile && !DeleteInvisible)
+	if(DeleteFile && !DeleteInvisible && FileListSelected != LISTEMPTY)
 	{
 		DelButtonPressed1 = SCHWARZ;
 		DelButtonPressed2 = WEISS;
 
 		if( !AbfrageAktiv)
 		{
-			ShowMessage(101,1,0,REQUEST,OKCANCEL, FALSE);
-/*
-			if(wBildAktuell != MESSAGEPIC )
-				OrgBild = wBildAktuell;
-			wBildNeu = MESSAGEPIC;
-			AbfrageOK = 0;
-			AbfrageCancel = 0;
-			IgnoreButtons = 0;
-			OK_CancelButtonInv = 0;
-			OK_ButtonInv = 1;
-			AbfrageText1 = 102;
-			AbfrageText2 = 1;
-			AbfrageText3 = 0;
-			AbfrageIcon = REQUEST;*/
-			AbfrageAktiv = 1;
+			ShowMessage(101,1,0,REQUEST,OKCANCEL,FALSE);
+			AbfrageAktiv = TRUE;
 		}
 		else
 		{
 			if(AbfrageOK)
 			{
-				AbfrageOK = 0;
-				DeleteActive = 1;
-				DeleteFile = 0;
-				strcpy(FileIOName,FileNames[FileListPointer]);
+				AbfrageOK = FALSE;
+				DeleteActive = TRUE;
+				DeleteFile = FALSE;
+				strncpy(FileIOName,FileNames[FileListSelected],MAXFILENAMELENGTH-1);
 				if(strlen(FileIOName) > 0 && strlen(FileIOName) < MAXFILENAMELENGTH)
-					DeleteFileCmd = 1;
+					DeleteFileCmd = TRUE;
 				else
 				{
-					DeleteFile = 0;
+					DeleteFile = FALSE;
 					DelButtonPressed1 = WEISS;
 					DelButtonPressed2 = SCHWARZ;
 				}
-				AbfrageAktiv = 0;
+				AbfrageAktiv = FALSE;
 			}
 			if(AbfrageCancel)
 			{
-				AbfrageCancel = 0;
-				DeleteFile = 0;
+				AbfrageCancel = FALSE;
+				DeleteFile = FALSE;
 				DelButtonPressed1 = WEISS;
 				DelButtonPressed2 = SCHWARZ;
-				AbfrageAktiv = 0;
+				AbfrageAktiv = FALSE;
 			}
-
 		}
-
 	}
 
-	if( DeleteActive == 1 )
+	if( DeleteActive == TRUE )
 	{
 		if(DeleteFileOK)
 		{
-			DeleteFileOK = 0;
-			DeleteActive = 0;
-			ReadDirCmd = 1;
-			ReadDirOK = 0;
+			DeleteFileOK = FALSE;
+			DeleteActive = FALSE;
+			ReadDirCmd = TRUE;
+			ReadDirOK = FALSE;
 			DelButtonPressed1 = WEISS;
 			DelButtonPressed2 = SCHWARZ;
-			FileListPointer = 0;
-			strcpy(FileIOName,FileNames[FileListPointer]);
+			FileListSelected = 0;
+			strncpy(FileIOName,FileNames[FileListSelected],MAXFILENAMELENGTH-1);
 		}
 	}
 
 	if(FirstTime && wBildNr == FILEPIC)
 	{
-		DeleteFile = 0;
-		DeleteActive = 0;
-		ReadDirData = 1;
-		FirstTime = 0;
-		FileListPointer = 0;
-		strcpy(FileIOName,FileNames[FileListPointer]);
+		DeleteFile = FALSE;
+		DeleteActive = FALSE;
+		ReadDirData = TRUE;
+		FirstTime = FALSE;
+		FileListSelected = 0;
+		strncpy(FileIOName,FileNames[FileListSelected],MAXFILENAMELENGTH-1);
 		DelButtonPressed1 = WEISS;
 		DelButtonPressed2 = SCHWARZ;
 	}
 	if(wBildAktuell != FILEPIC && wBildAktuell != MESSAGEPIC)
-		FirstTime = 1;
+		FirstTime = TRUE;
+
+	/* wenn USB Stick gezogen wird, das interne Verzeichnis auslesen */	
+	if(FloppyInvisible && !FloppyInvOld)
+		ReadDirData = TRUE;
+	FloppyInvOld = FloppyInvisible;
 
 	if((ReadDirData || (ReadDirFloppy && !FloppyInvisible)) && !ReadDataActive)
 	{
-		ReadDirCmd = 1;
-		ReadDirOK = 0;
-		ReadDataActive = 1;
+		ReadDirCmd = TRUE;
+		ReadDirOK = FALSE;
+		ReadDataActive = TRUE;
 	}
 
 	if(ReadDataActive)
 	{
 		if( ReadDirOK )
 		{
-			ReadDirOK = 0;
-			ReadDataActive = 0;
+			ReadDirOK = FALSE;
+			ReadDataActive = FALSE;
 			DiskButtonPressed1 = WEISS;
 			DiskButtonPressed2 = SCHWARZ;
 			FloppyButtonPressed1 = WEISS;
 			FloppyButtonPressed2 = SCHWARZ;
-			FileListPointer = 0;
-			strcpy(FileIOName,FileNames[FileListPointer]);
+			FileListSelected = 0;
+			strncpy(FileIOName,FileNames[FileListSelected],MAXFILENAMELENGTH-1);
 		}
 		if(NoDisk)
 		{
-			ReadDataActive = 0;
-			ReadDirData = 1;
+			ReadDataActive = FALSE;
+			ReadDirData = TRUE;
 			strcpy(FileNames[0],"NO DISK!");
-			NoDisk = 0;
-			FileListPointer = 0;
+			NoDisk = FALSE;
+			FileListSelected = 0;
 			DiskButtonPressed1 = WEISS;
 			DiskButtonPressed2 = SCHWARZ;
 			FloppyButtonPressed1 = WEISS;
@@ -266,39 +409,40 @@ _CYCLIC void Cyclic(void)
 
 			if(!WriteFileCmd && !ReadFileCmd &&  !DeleteFileCmd && !ReadDirCmd)
 			{
-				HideWait = 1;
+				HideWait = TRUE;
 				break;
 			}
 /*safety: if both commands: read is preferred*/
 			if(WriteFileCmd && ReadFileCmd)
-				WriteFileCmd = 0;
+				WriteFileCmd = FALSE;
 			if( DeleteFileCmd )
 			{
 				byStep = 40;
+				DeleteRetStep = 0;
 				break;
 			}
 			if(ReadDirCmd)
 			{
 				byStep = 100;
-				ReadDirOK = 0;
-				HideWait = 0;
+				ReadDirOK = FALSE;
+				HideWait = FALSE;
 				MessageNumber = READDIR;
 				break;
 			}
 
-			FileNotExisting = 0;
-			WriteFileOK = 0;
-			ReadFileOK = 0;
-			DeleteFileOK = 0;
+			FileNotExisting = FALSE;
+			WriteFileOK = FALSE;
+			ReadFileOK = FALSE;
+			DeleteFileOK = FALSE;
 /*wenn SRAM Daten automatisch gespeichert werden, dann immer auf CF !*/
-			if (!strcmp(FileType,"SAV"))
+			if (STREQ(FileType,"SAV"))
 				strcpy(Device,"DATA");
 	/* Initialize file open structrue */
 			FOpen.pDevice 	= (UDINT) Device;
 
-			strcpy(TmpFileName,FileIOName);
+			strncpy(TmpFileName,FileIOName,MAXFILENAMELENGTH-MAXFILETYPELENGTH-1);
 			strcat(TmpFileName,".");
-			strcat(TmpFileName,FileType);
+			strncat(TmpFileName,FileType,MAXFILETYPELENGTH);
 			FOpen.pFile 	= (UDINT) &TmpFileName[0]; 	/* File name */
 			FOpen.mode 	= FILE_RW; 		/* Read and write access */
 			/* Call FUB */
@@ -308,7 +452,7 @@ _CYCLIC void Cyclic(void)
 			dwIdent = FOpen.ident;
 			wStatus = FOpen.status;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 		/*wait */
 				break;
@@ -318,58 +462,72 @@ _CYCLIC void Cyclic(void)
 			{
 				if(ReadFileCmd)
 				{
-					ReadFileCmd = 0;
-					FileNotExisting = 1;
+					ReadFileCmd = FALSE;
+					FileNotExisting = TRUE;
 					break;
 				}
 				if(!WriteFileCmd)
 				{
+				/*VOID should never happen !*/
 					break;
 				}
 				else
 				{
 /*File does not exist->create it*/
 					byStep = 5;
-					HideWait = 0;
+					HideWait = FALSE;
 					MessageNumber = WRITEDATA;
 					break;
 				}
 			}
-			else if (wStatus != 0)
+			else
+			if (wStatus != FUB_OK) /*any other error -> Error message*/
 			{
 				byStep = 50;
-				WriteFileCmd = 0;
+				WriteFileCmd = FALSE;
+				break;
 			}
 
 /* no error, go ahead*/
 			if( WriteFileCmd )
 			{
-				byStep = 10;
-				HideWait = 0;
+				if(DeleteFileFirst)
+					byStep = 2;
+				else
+					byStep = 10;
+
+				DeleteFileFirst = FALSE;
+				HideWait = FALSE;
 				MessageNumber = WRITEDATA;
 			}
 			if( ReadFileCmd )
 			{
 				byStep = 20;
-				HideWait = 0;
+				HideWait = FALSE;
 				MessageNumber = READDATA;
 			}
 
 			FClose.ident 	= dwIdent;
 			FRead.ident 	= dwIdent;
 			FWrite.ident 	= dwIdent;
+			break;
+		}
 
+		case 2: /**** delete file ****/
+		{
+			byStep = 40;
+			DeleteRetStep = 5;
 			break;
 		}
 
 		case 5: /**** create file ****/
 		{
 			/* Initialize file create structure */
-			FCreate.enable 	= 1;
+			FCreate.enable 	= TRUE;
 			FCreate.pDevice = (UDINT) Device;
-			strcpy(TmpFileName,FileIOName);
+			strncpy(TmpFileName,FileIOName,MAXFILENAMELENGTH-MAXFILETYPELENGTH-1);
 			strcat(TmpFileName,".");
-			strcat(TmpFileName,FileType);
+			strncat(TmpFileName,FileType,MAXFILETYPELENGTH);
 			FCreate.pFile 	= (UDINT) &TmpFileName[0]; 	/* File name */
 
 		/* Call FUB */
@@ -379,17 +537,17 @@ _CYCLIC void Cyclic(void)
 			dwIdent = FCreate.ident;
 			wStatus = FCreate.status;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 		/*wait */
 				break;
 			}
 
 			/* any error-> error message */
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
 				byStep = 50;
-				WriteFileCmd = 0;
+				WriteFileCmd = FALSE;
 				break;
 			}
 
@@ -405,7 +563,7 @@ _CYCLIC void Cyclic(void)
 			/* Initialize file write structure */
 			FWrite.offset 	= 0;
 			FWrite.pSrc 	= (UDINT) FileIOData;
-			FWrite.len 	= FileIOLength;
+			FWrite.len 	    = FileIOLength;
 
 			/* Call FUB */
 			FileWrite(&FWrite);
@@ -413,16 +571,16 @@ _CYCLIC void Cyclic(void)
 			/* Get status */
 			wStatus = FWrite.status;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				break;
 			}
 
 			/* any error -> error message */
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
 				byStep 		= 50;
-				WriteFileCmd = 0;
+				WriteFileCmd = FALSE;
 			}
 			else
 			{
@@ -437,7 +595,7 @@ _CYCLIC void Cyclic(void)
 			/* Initialize file read structure */
 			FRead.offset 	= 0;
 			FRead.pDest 	= (UDINT) FileIOData;
-			FRead.len 	= FileIOLength;
+			FRead.len 	    = FileIOLength;
 
 			/* Call FUB */
 			FileRead(&FRead);
@@ -445,13 +603,13 @@ _CYCLIC void Cyclic(void)
 			/* Get status */
 			wStatus = FRead.status;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				break;
 			}
 
 			/* any error -> error message*/
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
 				byStep = 50;
 			}
@@ -475,29 +633,29 @@ _CYCLIC void Cyclic(void)
 			/* Get status */
 			wStatus = FClose.status;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				break;
 			}
 
 			/* any error -> error message */
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
 				byStep = 50;
 			}
 			else
 			{
 				byStep = 0;	/* Set new step value */
-				HideWait = 1;
+				HideWait = TRUE;
 				if(WriteFileCmd)
 				{
-					WriteFileCmd = 0;
-					WriteFileOK = 1;
+					WriteFileCmd = FALSE;
+					WriteFileOK = TRUE;
 				}
 				if(ReadFileCmd)
 				{
-					ReadFileCmd = 0;
-					ReadFileOK = 1;
+					ReadFileCmd = FALSE;
+					ReadFileOK = TRUE;
 				}
 			}
 
@@ -508,9 +666,9 @@ _CYCLIC void Cyclic(void)
 		{
 			/* Initialize file delete structure */
 			FDelete.pDevice = (UDINT) Device;
-			strcpy(TmpFileName,FileIOName);
+			strncpy(TmpFileName,FileIOName,MAXFILENAMELENGTH-MAXFILETYPELENGTH-1);
 			strcat(TmpFileName,".");
-			strcat(TmpFileName,FileType);
+			strncat(TmpFileName,FileType,MAXFILETYPELENGTH);
 			FDelete.pName 	= (UDINT) &TmpFileName[0]; 	/* File name */
 
 			/* Call FUB */
@@ -520,46 +678,31 @@ _CYCLIC void Cyclic(void)
 			wStatus = FDelete.status;
 
 			/* Verify status */
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				break;
 			}
 
 			/* Verify status */
-			if (wStatus == 26205)
+			if (wStatus == fiERR_FILE_NOT_FOUND)
 			{
-				FileNotExisting = 1;
+				FileNotExisting = TRUE;
 			}
 			else
-			if(wStatus != 0)
-				byErrorLevel = 6; 	/* Set error level for FileDelete */
-			else
+			if(wStatus == FUB_OK)
 			{
-				DeleteFileOK = 1;
+				DeleteFileOK = TRUE;
 			}
-			byStep = 0; 						/* Reset step variable */
-			DeleteFileCmd = 0;
+			byStep = DeleteRetStep;	/* jump back to returnstep  */
+			DeleteFileCmd = FALSE;
 			break;
 		}
 
 
 		case 50: /* ERROR */
 		{
-			HideWait = 1;
-			ShowMessage(0,70,0,CAUTION,OKONLY, FALSE);
-/*
-			if(wBildAktuell != MESSAGEPIC )
-				OrgBild = wBildAktuell;
-			wBildNeu = MESSAGEPIC;
-			AbfrageOK = 0;
-			AbfrageCancel = 0;
-			IgnoreButtons = 0;
-			OK_CancelButtonInv = 1;
-			OK_ButtonInv = 0;
-			AbfrageText1 = 0;
-			AbfrageText2 = 70;
-			AbfrageText3 = 0;
-			AbfrageIcon = CAUTION;*/
+			HideWait = TRUE;
+			ShowMessage(0,70,0,CAUTION,OKONLY,FALSE);
 			byStep = 51;
 			break;
 		}
@@ -582,27 +725,28 @@ _CYCLIC void Cyclic(void)
 
 			for(i=0;i<MAXFILES;i++)
 				FileNames[i][0] = 0;
+
 			if(ReadDirData)
 			{
 				strcpy(Device,"DATA");
-				DeviceFloppyInvisible = 1;
-				DeviceDataInvisible = 0;
+				DeviceFloppyInvisible = TRUE;
+				DeviceDataInvisible = FALSE;
 				DiskButtonPressed1 = SCHWARZ;
 				DiskButtonPressed2 = WEISS;
 			}
 			if(ReadDirFloppy && !FloppyInvisible)
 			{
-				strcpy(Device,"USBStick");
-				DeviceFloppyInvisible = 0;
-				DeviceDataInvisible = 1;
+				strcpy(Device,USBDeviceStr);
+				DeviceFloppyInvisible = FALSE;
+				DeviceDataInvisible = TRUE;
 				FloppyButtonPressed1 = SCHWARZ;
 				FloppyButtonPressed2 = WEISS;
 			}
 
 	/* Initialize info structure */
-			DInfo.enable 	= 1;
+			DInfo.enable 	= TRUE;
 			DInfo.pDevice 	= (UDINT) Device;
-			DInfo.pPath 	= 0;
+			DInfo.pPath 	= NULL;
 
 	/* Call FUB */
 			DirInfo(&DInfo);
@@ -612,44 +756,59 @@ _CYCLIC void Cyclic(void)
 			dwDirNum 	= DInfo.dirnum;
 			dwFileNum 	= DInfo.filenum;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				/*busy: just wait*/
 				break;
 			}
 
 	/* Verify status */
-			if (wStatus == fiERR_FILE_DEVICE)
+//			if (wStatus == fiERR_FILE_DEVICE)
+			if( (wStatus == fiERR_FILE_DEVICE) || (wStatus == fiERR_DEVICE_MANAGER) || (wStatus == fiERR_FILE_DEVICE ))
 			{
-/* V4.02 if 1st USB device fails, check 2nd*/
+			/* 1st USB port fails: try 2nd*/
 				if (ReadDirFloppy)
 				{
-					byStep = 102;
+					if(OSVersionString[2] >= '4')
+					{
+						/* USB not available */ 
+						HideWait = TRUE;
+						NoDisk = TRUE;
+						ReadDirCmd = FALSE;
+						ReadDirOK = FALSE;
+						byStep = 0;
+						ReadDirFloppy = FALSE;
+						ReadDirData = FALSE;
+					}
+					else
+					{
+						byStep = 102;
+					}
 				}
 				else
 				{
-					NoDisk = 1;
-					ReadDirCmd = 0;
-					ReadDirOK = 0;
+					NoDisk = TRUE;
+					ReadDirCmd = FALSE;
+					ReadDirOK = FALSE;
 					byStep = 0;
-					ReadDirFloppy = 0;
-					ReadDirData = 0;
-					HideWait = 1;
+					ReadDirFloppy = FALSE;
+					ReadDirData = FALSE;
+					HideWait = TRUE;
 				}
 			}
 			else
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
-				ReadDirCmd = 0;
-				ReadDirOK = 0;
-				ReadDirFloppy = 0;
-				ReadDirData = 0;
-				HideWait = 1;
+				ReadDirCmd = FALSE;
+				ReadDirOK = FALSE;
+				ReadDirFloppy = FALSE;
+				ReadDirData = FALSE;
+				HideWait = TRUE;
 				byStep = 50;
 			}
 			else
 			{
-				NoDisk = 0;
+				NoDisk = FALSE;
 
 	/* Verify number of found files */
 				if (dwFileNum > MAXFILES)
@@ -663,14 +822,15 @@ _CYCLIC void Cyclic(void)
 			break;
 		}
 
+
 		case 102: /* read DIR Info 2nd USB Port*/
 		{
-			strcpy(Device,"USBStick2");
+			strcpy(Device,"USB2");
 
 	/* Initialize info structure */
-			DInfo.enable 	= 1;
+			DInfo.enable 	= TRUE;
 			DInfo.pDevice 	= (UDINT) Device;
-			DInfo.pPath 	= 0;
+			DInfo.pPath 	= NULL;
 
 	/* Call FUB */
 			DirInfo(&DInfo);
@@ -680,7 +840,7 @@ _CYCLIC void Cyclic(void)
 			dwDirNum 	= DInfo.dirnum;
 			dwFileNum 	= DInfo.filenum;
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				/*busy: just wait*/
 				break;
@@ -689,43 +849,29 @@ _CYCLIC void Cyclic(void)
 	/* Verify status */
 			if (wStatus == fiERR_FILE_DEVICE)
 			{
-				HideWait = 1;
-				NoDisk = 1;
-				ReadDirCmd = 0;
-				ReadDirOK = 0;
+				HideWait = TRUE;
+				NoDisk = TRUE;
+				ReadDirCmd = FALSE;
+				ReadDirOK = FALSE;
 				byStep = 0;
-				ReadDirFloppy = 0;
-				ReadDirData = 0;
+				ReadDirFloppy = FALSE;
+				ReadDirData = FALSE;
 
-				ShowMessage(0,69,0,CAUTION,OKONLY, TRUE);
-
-/*				if(wBildAktuell != MESSAGEPIC )
-					OrgBild = wBildAktuell;
-				wBildNeu = MESSAGEPIC;
-				AbfrageOK = 0;
-				AbfrageCancel = 0;
-				IgnoreButtons = 1;
-				OK_CancelButtonInv = 1;
-				OK_ButtonInv = 0;
-				AbfrageText1 = 0;
-				AbfrageText2 = 69;
-				AbfrageText3 = 0;
-				AbfrageIcon = CAUTION;*/
-
+				ShowMessage(0,69,0,CAUTION,OKONLY,TRUE);
 			}
 			else
-			if (wStatus != 0)
+			if (wStatus != FUB_OK)
 			{
-				HideWait = 1;
-				ReadDirCmd = 0;
-				ReadDirOK = 0;
-				ReadDirFloppy = 0;
-				ReadDirData = 0;
+				HideWait = TRUE;
+				ReadDirCmd = FALSE;
+				ReadDirOK = FALSE;
+				ReadDirFloppy = FALSE;
+				ReadDirData = FALSE;
 				byStep = 50;
 			}
 			else
 			{
-				NoDisk = 0;
+				NoDisk = FALSE;
 
 	/* Verify number of found files */
 				if (dwFileNum > MAXFILES)
@@ -743,14 +889,13 @@ _CYCLIC void Cyclic(void)
 		{
 			ReadDirFloppy = 0;
 			ReadDirData = 0;
-
-		/* Verify counter variable */
+		/* read all filenames in a loop */
 			while (dwCounter < dwFileNum)
 			{
 			/* Initialize read directory structure */
-				DRead.enable 	= 1;
+				DRead.enable 	= TRUE;
 				DRead.pDevice 	= (UDINT) Device;
-				DRead.pPath 	= 0;
+				DRead.pPath 	= NULL;
 				DRead.entry 	= dwCounter;
 				DRead.option 	= FILE_FILE;
 				DRead.pData 	= (UDINT) &ReadData[dwCounter];
@@ -762,48 +907,48 @@ _CYCLIC void Cyclic(void)
 			/* Get status */
 				wStatus = DRead.status;
 
-				if (wStatus == 65535)
+				if (wStatus == FUB_BUSY)
 				{
 					/*busy: just wait*/
 					break;
 				}
 
 			/* Verify status */
-				if (wStatus != 0)
+				if (wStatus != FUB_OK)
 				{
-					ReadDirCmd = 0;
-					ReadDirOK = 0;
-					HideWait = 1;
+					ReadDirCmd = FALSE;
+					ReadDirOK = FALSE;
+					HideWait = TRUE;
 					byStep = 50;
 					break;
 				}
 				else
 				{
-					int i = strlen(ReadData[dwCounter].Filename);
-					STRING TypeFound[5];
-					USINT *p;
+					int i = strlen((char *) ReadData[dwCounter].Filename);
+					STRING TypeFound[MAXFILETYPELENGTH];
+					char *p;
 
-/* für info display */
-					if (i<=28)
-						strcpy(FileNameDisplay,ReadData[dwCounter].Filename);
+/* for info display */
+					if (i < FILENAMEINFODISPLAYLENGTH-1)
+						strncpy(FileNameDisplay,(char *)ReadData[dwCounter].Filename,FILENAMEINFODISPLAYLENGTH-1);
 					else
 					{
-						strncpy(FileNameDisplay,ReadData[dwCounter].Filename,25);
-						FileNameDisplay[25]=0;
+						strncpy(FileNameDisplay,(char *)ReadData[dwCounter].Filename,
+						         FILENAMEINFODISPLAYLENGTH-1-strlen("...") );
+						FileNameDisplay[FILENAMEINFODISPLAYLENGTH-1-strlen("...")] = 0;
 						strcat(FileNameDisplay,"...");
 					}
-
-					strcpy(TmpFileName,ReadData[dwCounter].Filename);
-
-					while(i-->1)
+/* separate the filetype and compare it to the wanted filetype*/
+					while(i-- > 1)
 					{
-						if( TmpFileName[i] == '.' )
+						ReadData[dwCounter].Filename[i] = toupper(ReadData[dwCounter].Filename[i]);
+						if( ReadData[dwCounter].Filename[i] == '.' )
 						{
-							TmpFileName[i] = 0;
-							p = &TmpFileName[i+1];
-								strcpy(TypeFound,p);
-							if( !strcmp(TypeFound,FileType) )
-								strcpy(FileNames[FileListCounter++],TmpFileName);
+							ReadData[dwCounter].Filename[i] = 0;
+							p = &ReadData[dwCounter].Filename[i+1];
+								strncpy(TypeFound,p,MAXFILETYPELENGTH-1);
+							if( STREQN(TypeFound,FileType,MAXFILETYPELENGTH-1)  )
+								strncpy(FileNames[FileListCounter++],(char *)ReadData[dwCounter].Filename,MAXFILENAMELENGTH);
 							i=0;
 						}
 					}
@@ -812,25 +957,26 @@ _CYCLIC void Cyclic(void)
 				}
 			}
 
-			if (wStatus == 65535)
+			if (wStatus == FUB_BUSY)
 			{
 				/*busy: just wait*/
 				break;
 			}
 /* keine Datei gefunden*/
-			if (!FileListCounter)
+			if (FileListCounter == 0)
 			{
 				MessageNumber = NOFILE; /* no file found */
+				strcpy(FileIOName,"");
 				byStep = 106;
 				CycleCounter = 0;
 			}
 			else
 			{
 				byStep = 0;
-				HideWait = 1;
+				HideWait = TRUE;
 			}
-			ReadDirCmd = 0;
-			ReadDirOK = 1;
+			ReadDirCmd = FALSE;
+			ReadDirOK = TRUE;
 			Progress = 0;
 			strcpy(FileNameDisplay,"");
 			break;
@@ -842,11 +988,16 @@ _CYCLIC void Cyclic(void)
 			{
 				CycleCounter = 0;
 				byStep = 0;
-				HideWait = 1;
+				HideWait = TRUE;
 			}
 			break;
 		}
 	}
 }
+/****************************************************************************/
+/**                                                                        **/
+/**                                 EOF                                    **/
+/**                                                                        **/
+/****************************************************************************/
 
 
