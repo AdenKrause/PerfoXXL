@@ -34,7 +34,7 @@
 #include <Ethernet.h>
 #include <string.h>
 #include <ctype.h>
-#include "asstring.h"
+#include "AsBrStr.h"
 #include "glob_var.h"
 #include "in_out.h"
 #include "egmglob_var.h"
@@ -106,9 +106,9 @@ _LOCAL	TCPsend_typ			TCP_Send[MAXCLIENTS];
 _LOCAL	TCPclose_typ		TCP_Close[MAXCLIENTS];
 
 /* Variablen: */
-SINT	SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
-SINT	RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
-SINT	RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
+char	SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
+char	RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
+char	RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
 
 _LOCAL	SINT	Step[MAXCLIENTS];
 _LOCAL	UINT	SendTimeout;
@@ -117,7 +117,7 @@ _LOCAL	USINT	LiveByteCnt;
 _LOCAL	UINT	ConnectionInvisible;
 
 
-_LOCAL USINT	tmp[20],test[100];
+_LOCAL char	tmp[20];
 
 int CurrentClient,Status,parse;
 _LOCAL USINT Count[MAXCLIENTS];
@@ -126,7 +126,7 @@ _LOCAL USINT Count[MAXCLIENTS];
 /*therefore SendLP must be GLOBAL*/
 _GLOBAL 	BOOL	SendYOffset,SendLP,SendOSCommand;
 
-_LOCAL	USINT	TimeoutCounter,SendYOffsetStep,SendLPStep,BeamStep,TBShutdownStep,
+_LOCAL	USINT	SendYOffsetStep,SendLPStep,BeamStep,TBShutdownStep,
 				SendOSCommandStep;
 		UINT	SendYOffsetTimeout,SendLPTimeout,BeamTimeout,OSTimeout;
 int i,j,SendCounter,RcvTimeout;
@@ -147,7 +147,7 @@ _LOCAL	BOOL	LoadParamFile,ReadActive;
 int LoadParamFileClient;
 
 _GLOBAL	STRING FileIOName[MAXFILENAMELENGTH];
-_GLOBAL	STRING	FileType[5];
+_GLOBAL	STRING	FileType[MAXFILETYPELENGTH];
 _GLOBAL	UDINT *FileIOData;
 _GLOBAL	UDINT	FileIOLength;
 _GLOBAL	BOOL	WriteFileCmd,ReadFileCmd,DeleteFileCmd,WriteFileOK,ReadFileOK,DeleteFileOK,
@@ -186,7 +186,7 @@ void StatusToSendBuffer(void)
 
 				if (GlobalParameter.TrolleyLeft != 0)
 				{
-					tmplength = itoa((UDINT)(GlobalParameter.TrolleyLeft),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(GlobalParameter.TrolleyLeft),(UDINT) &tmp[0]);
 					SendBuffer[0][5] = '0';
 					SendBuffer[0][6] = '0';
 					if(tmplength==1)
@@ -197,7 +197,7 @@ void StatusToSendBuffer(void)
 						SendBuffer[0][6] = tmp[1];
 					}
 /*left platetype*/
-					tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
 					SendBuffer[0][9] = '0';
 					SendBuffer[0][10] = '0';
 					if(tmplength==1)
@@ -208,7 +208,7 @@ void StatusToSendBuffer(void)
 						SendBuffer[0][10] = tmp[1];
 					}
 /*left platestack*/
-					tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlatesLeft),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlatesLeft),(UDINT) &tmp[0]);
 					SendBuffer[0][13] = '0';
 					SendBuffer[0][14] = '0';
 					SendBuffer[0][15] = '0';
@@ -238,7 +238,7 @@ void StatusToSendBuffer(void)
 
 				if (GlobalParameter.TrolleyRight != 0)
 				{
-					tmplength = itoa((UDINT)(GlobalParameter.TrolleyRight),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(GlobalParameter.TrolleyRight),(UDINT) &tmp[0]);
 					SendBuffer[0][7] = '0';
 					SendBuffer[0][8] = '0';
 					if(tmplength==1)
@@ -249,7 +249,7 @@ void StatusToSendBuffer(void)
 						SendBuffer[0][8] = tmp[1];
 					}
 /*right platetype*/
-					tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyRight].PlateType),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyRight].PlateType),(UDINT) &tmp[0]);
 					SendBuffer[0][11] = '0';
 					SendBuffer[0][12] = '0';
 					if(tmplength==1)
@@ -260,7 +260,7 @@ void StatusToSendBuffer(void)
 						SendBuffer[0][12] = tmp[1];
 					}
 /*right platestack*/
-					tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyRight].PlatesLeft),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyRight].PlatesLeft),(UDINT) &tmp[0]);
 					SendBuffer[0][16] = '0';
 					SendBuffer[0][17] = '0';
 					SendBuffer[0][18] = '0';
@@ -286,7 +286,7 @@ void StatusToSendBuffer(void)
 					{
 						if (Trolleys[GlobalParameter.TrolleyLeft].Double && Trolleys[GlobalParameter.TrolleyLeft].RightStack)
 						{
-							tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
+							tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
 							SendBuffer[0][11] = '0';
 							SendBuffer[0][12] = '0';
 							if(tmplength==1)
@@ -297,7 +297,7 @@ void StatusToSendBuffer(void)
 								SendBuffer[0][12] = tmp[1];
 							}
 /*right platestack*/
-							tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlatesRight),(UDINT) &tmp[0]);
+							tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlatesRight),(UDINT) &tmp[0]);
 							SendBuffer[0][16] = '0';
 							SendBuffer[0][17] = '0';
 							SendBuffer[0][18] = '0';
@@ -330,7 +330,7 @@ void StatusToSendBuffer(void)
 				{
 					SendBuffer[0][19] = 'P';
 /*Plate Type from Pano Input*/
-					tmplength = itoa((UDINT)(PlateType),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(PlateType),(UDINT) &tmp[0]);
 					SendBuffer[0][9] = '0';
 					SendBuffer[0][10] = '0';
 					SendBuffer[0][11] = '0';
@@ -364,15 +364,15 @@ void StatusToSendBuffer(void)
 /* HA 28.07.05 zusätzliche Info an Netlink: Wieviele Platten im System und welcher Typ*/
 				SendBuffer[0][21+MAXALARMS] =  '0';
 				SendBuffer[0][21+MAXALARMS+1] =  '0';
-				tmplength = itoa((UDINT)(UnexposedPlatesInSystem),(UDINT) &tmp[0]);
+				tmplength = brsitoa((UDINT)(UnexposedPlatesInSystem),(UDINT) &tmp[0]);
 				if(tmplength==1)
 				{
 					SendBuffer[0][21+MAXALARMS] =  tmp[0];
 					if (/*PanoramaAdapter*/ ManualMode)
-						tmplength = itoa((UDINT)(PlateType),(UDINT) &tmp[0]);
+						tmplength = brsitoa((UDINT)(PlateType),(UDINT) &tmp[0]);
 					else
 					/* q&d für Performance */
-						tmplength = itoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
+						tmplength = brsitoa((UDINT)(Trolleys[GlobalParameter.TrolleyLeft].PlateType),(UDINT) &tmp[0]);
 
 					if(tmplength==1)
 						SendBuffer[0][21+MAXALARMS+1] =  tmp[0];
@@ -491,7 +491,7 @@ _CYCLIC void cyclic (void)
 			if(TCPSendCmd == 0)
 			{
 				strcpy(TCPCmd,"YO");
-				tmplength = itoa((UDINT)(PlateParameter.YOffset *100),(UDINT) &tmp[0]);
+				tmplength = brsitoa((UDINT)(PlateParameter.YOffset *100),(UDINT) &tmp[0]);
 /*fill the string with zeros to get fixed 5 digits*/
 				for(i=0;i< 5-tmplength;i++)
 				{
@@ -803,7 +803,7 @@ _CYCLIC void cyclic (void)
 				if (OldTBVersion)
 				{
 					strcpy(TCPCmd,"LP");
-					tmplength = itoa((UDINT)(GlobalParameter.LaserPower),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(GlobalParameter.LaserPower),(UDINT) &tmp[0]);
 /*fill the string with zeros to get fixed 3 digits*/
 					for(i=0;i< 3-tmplength;i++)
 					{
@@ -816,7 +816,7 @@ _CYCLIC void cyclic (void)
 				else /*neue Version 4 stellig*/
 				{
 					strcpy(TCPCmd,"LX");
-					tmplength = itoa((UDINT)(GlobalParameter.RealLaserPower),(UDINT) &tmp[0]);
+					tmplength = brsitoa((UDINT)(GlobalParameter.RealLaserPower),(UDINT) &tmp[0]);
 /*fill the string with zeros to get fixed 4 digits*/
 					for(i=0;i< 4-tmplength;i++)
 					{
@@ -1310,7 +1310,7 @@ _CYCLIC void cyclic (void)
 						if( strncmp(RecvData[CurrentClient],"SPEED",5) == 0 )
 						{
 							strcpy(SendBuffer[CurrentClient],"SPEED=");
-							itoa(PlatesPerHour,(UDINT) &tmp[0]);
+							brsitoa(PlatesPerHour,(UDINT) &tmp[0]);
 							strcat(SendBuffer[CurrentClient],tmp);
 							strcat(SendBuffer[CurrentClient],"\r\n");
 						}
@@ -1320,12 +1320,12 @@ _CYCLIC void cyclic (void)
 							if(GlobalParameter.TrolleyLeft != 0)
 							{
 								strcpy(SendBuffer[CurrentClient],"LEFT=");
-								itoa(Trolleys[GlobalParameter.TrolleyLeft].PlatesLeft,(UDINT) &tmp[0]);
+								brsitoa(Trolleys[GlobalParameter.TrolleyLeft].PlatesLeft,(UDINT) &tmp[0]);
 								strcat(SendBuffer[CurrentClient],tmp);
 								if(Trolleys[GlobalParameter.TrolleyLeft].Double)
 								{
 									strcat(SendBuffer[CurrentClient]," RIGHT=");
-									itoa(Trolleys[GlobalParameter.TrolleyLeft].PlatesRight,(UDINT) &tmp[0]);
+									brsitoa(Trolleys[GlobalParameter.TrolleyLeft].PlatesRight,(UDINT) &tmp[0]);
 									strcat(SendBuffer[CurrentClient],tmp);
 								}
 							}
@@ -1339,7 +1339,7 @@ _CYCLIC void cyclic (void)
 									strcat(SendBuffer[CurrentClient]," RIGHT=");
 								else
 									strcat(SendBuffer[CurrentClient],"RIGHT=");
-								itoa(Trolleys[GlobalParameter.TrolleyRight].PlatesLeft,(UDINT) &tmp[0]);
+								brsitoa(Trolleys[GlobalParameter.TrolleyRight].PlatesLeft,(UDINT) &tmp[0]);
 								strcat(SendBuffer[CurrentClient],tmp);
 							}
 							if(GlobalParameter.TrolleyLeft == 0 && GlobalParameter.TrolleyRight == 0)
@@ -1387,11 +1387,11 @@ _CYCLIC void cyclic (void)
 									if (i>11)
 									{
 										memcpy(tmp,&RecvData[CurrentClient][11],i-11);
-										GlobalParameter.RealLaserPower = atoi((UDINT) &tmp);
+										GlobalParameter.RealLaserPower = brsatoi((UDINT) &tmp);
 									}
 								}
 								strcpy(SendBuffer[CurrentClient],"LASERPOWER=");
-								itoa(GlobalParameter.RealLaserPower,(UDINT) &tmp[0]);
+								brsitoa(GlobalParameter.RealLaserPower,(UDINT) &tmp[0]);
 								strcat(SendBuffer[CurrentClient],tmp);
 								strcat(SendBuffer[CurrentClient],"\r\n");
 							}

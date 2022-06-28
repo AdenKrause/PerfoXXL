@@ -20,10 +20,11 @@ _GLOBAL	BOOL	DoorsOK;
 _GLOBAL	BOOL	In_PaperRemoveUp;
 
 /* evtl für Später, erstmal nicht vorgesehen */
+#if !defined MODE_BOTH
 _GLOBAL BOOL	In_VCPOK;
 _GLOBAL BOOL	InEGM1;
 _GLOBAL BOOL	InEGM2;
-
+#endif
 
 /* OUTPUT */
 _GLOBAL	BOOL	Out_FeederVacuumOn[6];

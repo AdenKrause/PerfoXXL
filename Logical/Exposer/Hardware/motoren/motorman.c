@@ -45,8 +45,8 @@ Description : - limits for checking movement are now always positive, and max>mi
 /**                           INCLUDE FILES                                **/
 /**                                                                        **/
 /****************************************************************************/
+#include <stdlib.h>
 #include <string.h>
-#include "asstring.h"
 #include "glob_var.h"
 #include "Motorfunc.h"
 

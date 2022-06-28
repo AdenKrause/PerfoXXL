@@ -11,6 +11,7 @@
 /*																			*/
 /*																			*/
 /****************************************************************************/
+#include <stdlib.h>
 #include "bit_func.h"				/*	Macros für die Bitbearbeitung		*/
 #include "glob_var.h"
 

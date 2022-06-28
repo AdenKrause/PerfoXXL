@@ -12,7 +12,7 @@
 /*																						*/
 /****************************************************************************/
 #include "glob_var.h"
-#include "asstring.h"
+#include <stdlib.h>
 #include <string.h>
 #include "in_out.h"
 #include "Motorfunc.h"
@@ -51,7 +51,7 @@ _GLOBAL	BOOL			StopPinsUp;
 
 /*HA 05.09.03 V1.51 to avoid adjustsensor triggered by deloaded plate*/
 /*HA 08.09.03 V1.52 disable-flags for right adjuster*/
-_GLOBAL 	BOOL			DisableAdjustSensor,DisableAdjusterUp,EnableShuttle;
+_GLOBAL 	BOOL			DisableAdjustSensor,EnableShuttle;
 
 		BOOL			LayOffPos2;
 		UDINT			TempPlateReleasePosition,TempTurnPosition,TempTakePosition;

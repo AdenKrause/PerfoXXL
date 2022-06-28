@@ -19,7 +19,6 @@
 #include "egmglob_var.h"
 #include "in_out.h"
 #include "standard.h"
-//#include "asstring.h"
 #include "sys_lib.h"
 #include <visapi.h>
 //#include <string.h>
@@ -157,7 +156,6 @@ _LOCAL	UINT	StartButtonColorReleased,StartButtonColorPressed;
 _LOCAL	UINT	ActiveColor,StandbyColor,ErrorColor;
 static INT ActiveColorValue,StandbyColorValue,ErrorColorValue,BackgroundColor;
 static 	Rect_Typ Rect;
-_GLOBAL USINT	TrolleyOnDisplay;
 
 _GLOBAL	STRING FileIOName[MAXFILENAMELENGTH];
 _GLOBAL	STRING	FileType[5];
@@ -326,11 +324,10 @@ _LOCAL	INT		ChangeLanguage;
 char			tmp[32];
 
 /*Für E/A Bild*/
-_GLOBAL	UINT	PlateOnConveyorBeltVis,PlateAdjustedVis,TrolleyCodeSensorVis,
+_GLOBAL	UINT	PlateOnConveyorBeltVis,TrolleyCodeSensorVis,
 				ConveyorBeltSensorVis,EGM1Vis,EGM2Vis,VCPVis,CoverLockVis;
 _GLOBAL	UINT	BeltLooseVis;
 _GLOBAL	UINT	PaperGripClosedVis;
-_GLOBAL	UINT	FeederVacuumVis;
 _LOCAL	UINT	LaserPowerAllPlatesEqual;
 int OldUnitLength;
 _LOCAL  INT     Lock2Stacks;
@@ -1531,6 +1528,9 @@ Lücke für evtl Änderungen an bestehenden Maschinen in USA
 	brsstrcpy((UDINT) gVERSION,(UDINT) VERSION);
 	MainPicNumber = 1;
 	BatteryStatus = 0;
+	CPUTemp = 0;
+	AmbientTemp = 0;
+	CANNodeNumber = 0;
 	InitPicReady = 0;
 	GoToMainPic = 0;
 	saveall = 0;

@@ -54,10 +54,9 @@ Description : - bugfix: in RequestMotorData the var SerialCmd.Request was set TR
 /**                           INCLUDE FILES                                **/
 /**                                                                        **/
 /****************************************************************************/
-#include "glob_var.h"
-#include "asstring.h"
+#include <stdlib.h>
 #include <string.h>
-
+#include "glob_var.h"
 #include "motorfunc.h"
 
 /****************************************************************************/

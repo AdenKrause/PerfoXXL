@@ -165,7 +165,7 @@ _CYCLIC void lust_cdd_cyclic(void)
 				FU.ZustandsMerker[i] =  BIT_TST(Can_FU.StatRes[3],i);
 			}
 		/* aktuelle Pos aus bytes 4..7 */
-			tmpPtr =(UDINT*) &Can_FU.StatRes[4];
+			tmpPtr =(DINT*) &Can_FU.StatRes[4];
 			FU.aktuellePosition = *tmpPtr;
 			FU.aktuellePosition_mm = ((float) FU.aktuellePosition)/X_Param.InkrementeProMm;
 
@@ -450,7 +450,7 @@ _CYCLIC void lust_cdd_cyclic(void)
 					Can_FU.ParaReq[2] = STANDARD_PARAM_SEL;
 					Can_FU.ParaReq[7] = 0;
 				}
-				tmpPtr = (UDINT*) &Can_FU.ParaReq[3];
+				tmpPtr = (DINT*) &Can_FU.ParaReq[3];
 				*tmpPtr = FU_Param.Wert;
 
 				Can_FU.ParaReqEv = 1; 	/* Daten senden */

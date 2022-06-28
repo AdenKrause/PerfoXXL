@@ -80,7 +80,7 @@ Description : integrated magazine trolley functionality
 /**                           INCLUDE FILES                                **/
 /**                                                                        **/
 /****************************************************************************/
-#include "asstring.h"
+#include <stdlib.h>
 #include <string.h>
 
 #include "glob_var.h"

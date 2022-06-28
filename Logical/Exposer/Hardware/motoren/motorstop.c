@@ -13,7 +13,6 @@
 /****************************************************************************/
 #include "glob_var.h"
 #include "in_out.h"
-#include "asstring.h"
 #include <string.h>
 #include "motorfunc.h"
 

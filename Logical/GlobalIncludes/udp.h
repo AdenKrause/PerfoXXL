@@ -36,8 +36,8 @@ Description : Original version.
 /**                                                                        **/
 /****************************************************************************/
 #include <string.h>
-#include <asstring.h>
 #include <asudp.h>
+#include <AsBrStr.h>
 #include <bur/plctypes.h>
 #include <convert.h>
 #include <standard.h>
@@ -79,8 +79,6 @@ Description : Original version.
 /****************************************************************************/
 _GLOBAL STRING  RemoteIP[20];
 _GLOBAL BOOL	saveRemoteIP;
-_GLOBAL BOOL    SendMessageRequest;
-_GLOBAL BOOL    SendWarningRequest;
 _GLOBAL BOOL    gAbfrageOK,gAbfrageCancel;
 _GLOBAL BOOL    gClearLinePressed;
 
@@ -113,13 +111,13 @@ _LOCAL    UdpSend_typ         UDPsend_1;
 _LOCAL    UdpRecv_typ         UDPreceive_1;
 _LOCAL    UdpClose_typ        UDPclose_1;
 
-_LOCAL    SINT                buffer[SENDBUFSIZE];
+_LOCAL    char                buffer[SENDBUFSIZE];
 _LOCAL    UINT                counter;
 
 _LOCAL    UINT                UDPStep;
 _LOCAL    UINT                CounterMax;
 _LOCAL    UINT                remotePort;
-_LOCAL    SINT                receivebuffer[RCVBUFSIZE];
+_LOCAL    char                receivebuffer[RCVBUFSIZE];
 _LOCAL    UINT                UDPRcvStep;
 _LOCAL    STRING              DebugRecStr[DEBUGSTRSIZE];
 _LOCAL    STRING              DebugSendStr[DEBUGSTRSIZE];
@@ -133,9 +131,7 @@ _LOCAL    UINT                SendStatusInterval;
 static    TON_10ms_typ        StatusRequestTimer,StatusRequestTimeout;
 static    BOOL                SendStatusRequest;
 static    BOOL                SendJetStartOK,SendJetStopOK,
-                              SendJetRefOK,SendJetControlvoltageOK,SendStepwedgeOK,
-                              SendBluefinStartOK,SendBluefinStopOK,
-                              SendBluefinControlvoltageOK;
+                              SendJetRefOK,SendJetControlvoltageOK;
 static    USINT               SendJobAnswer,SendJobStates,SendTestAnswer;
 
 static    R_TRIG_typ          MachineOnlineEdgeR,MachineOfflineEdgeR;

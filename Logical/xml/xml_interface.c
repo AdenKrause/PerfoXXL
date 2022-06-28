@@ -21,7 +21,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <visapi.h>
-#include "asstring.h"
+#include "AsBrStr.h"
 #include "glob_var.h"
 #include "EGMglob_var.h"
 
@@ -69,9 +69,9 @@ _LOCAL    UINT                SendTimeout[MAXCLIENTS];
 _LOCAL    UINT                DataLock;
 
 /* Variablen: */
-static    SINT                SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
-static    SINT                RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
-static    SINT                RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
+static    char                SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
+static    char                RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
+static    char                RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
 static    BOOL                CloseConnection[MAXCLIENTS];
 static    int                 CurrentClient,parse;
 static    int                 i;
@@ -175,14 +175,14 @@ _INIT void init (void)
 
 
 
-void CreateXMLMessage( USINT *buf)
+void CreateXMLMessage( char *buf)
 {
 	char tmp[20];
 	char TempError[64];
 	int i,ErrorNumber;
 
 
-	void AddVal2(USINT *buf, char *before,char *Value, char *after)
+	void AddVal2(char *buf, char *before,char *Value, char *after)
 	{
 		strcat(buf,before);
 		strcat(buf,Value);
@@ -267,7 +267,7 @@ void CreateXMLMessage( USINT *buf)
 					}
 
 				}
-				itoa(ErrorNumber,(UDINT )&tmp[0]);
+				brsitoa(ErrorNumber,(UDINT )&tmp[0]);
 				strcat(buf,tmp);
 				strcat(buf,"</ErrorNumber>\r\n\t\t\t<ErrorDescription>");
 				strcat(buf,TempError);
@@ -283,52 +283,52 @@ void CreateXMLMessage( USINT *buf)
 				strcat(buf,"</Errorlist>\r\n\t\t\t<StateCode>");
 /* Emergency stop soll auch zu Error führen:*/
 			    if( !(ControlVoltageOk &&  ActivateControlVoltage) )
-					itoa(S_ERROR,(UDINT )&tmp[0]);
+					brsitoa(S_ERROR,(UDINT )&tmp[0]);
 			    else
-					itoa(EGMState.state,(UDINT )&tmp[0]);
+					brsitoa(EGMState.state,(UDINT )&tmp[0]);
 				strcat(buf,tmp);
 				strcat(buf,"</StateCode>\r\n\t\t</MachineState>\r\n\t\t<MachineParam>\r\n\t\t\t<PreHeat>\r\n");
 /* Preheat values*/
-					ftoa((REAL)EGMPreheat.RealTemp[0]/10.0,(UDINT )&tmp[0]);
+					brsftoa((REAL)EGMPreheat.RealTemp[0]/10.0,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<Temperature1>\r\n\t\t\t\t\t<Description>Heating 1</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>deg. C</Unit>\r\n\t\t\t\t</Temperature1>\r\n");
-					ftoa((REAL)EGMPreheat.RealTemp[1]/10.0,(UDINT )&tmp[0]);
+					brsftoa((REAL)EGMPreheat.RealTemp[1]/10.0,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<Temperature2>\r\n\t\t\t\t\t<Description>Heating 2</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>deg. C</Unit>\r\n\t\t\t\t</Temperature2>\r\n");
-					ftoa((REAL)EGMPreheat.RealTemp[2]/10.0,(UDINT )&tmp[0]);
+					brsftoa((REAL)EGMPreheat.RealTemp[2]/10.0,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<Temperature3>\r\n\t\t\t\t\t<Description>Ambient</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>deg. C</Unit>\r\n\t\t\t\t</Temperature3>\r\n\t\t\t</PreHeat>\r\n\t\t\t<Developer>\r\n");
 /* Developer values */
-					ftoa((REAL)EGMDeveloperTank.RealTemp/10.0,(UDINT )&tmp[0]);
+					brsftoa((REAL)EGMDeveloperTank.RealTemp/10.0,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<Temperature1>\r\n\t\t\t\t\t<Description>Temperature of fluid</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>deg. C</Unit>\r\n\t\t\t\t</Temperature1>\r\n");
 					if(EGMDeveloperTank.LevelInRange)
 						strcat(buf,"\t\t\t\t<LevelOK>\r\n\t\t\t\t\t<Description>Level of developer</Description>\r\n\t\t\t\t\t<Type>boolean</Type>\r\n\t\t\t\t\t<Value>true</Value>\r\n\t\t\t\t</LevelOK>\r\n\t\t\t</Developer>\r\n\t\t\t<Speeds>\r\n");
 					else
 						strcat(buf,"\t\t\t\t<LevelOK>\r\n\t\t\t\t\t<Description>Level of developer</Description>\r\n\t\t\t\t\t<Type>boolean</Type>\r\n\t\t\t\t\t<Value>false</Value>\r\n\t\t\t\t</LevelOK>\r\n\t\t\t</Developer>\r\n\t\t\t<Speeds>\r\n");
-					ftoa(EGMGlobalParam.CurrentPlateSpeed,(UDINT )&tmp[0]);
+					brsftoa(EGMGlobalParam.CurrentPlateSpeed,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<PlateSpeedAct>\r\n\t\t\t\t\t<Description>Actual speed (measured)</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>m per min</Unit>\r\n\t\t\t\t</PlateSpeedAct>\r\n");
-					ftoa((EGMGlobalParam.MainMotorFactor*EGMMainMotor.RatedRpm),(UDINT )&tmp[0]);
+					brsftoa((EGMGlobalParam.MainMotorFactor*EGMMainMotor.RatedRpm),(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<PlateSpeedRef>\r\n\t\t\t\t\t<Description>Referenced speed</Description>\r\n\t\t\t\t\t<Type>double</Type>\r\n\t\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t\t<Unit>m per min</Unit>\r\n\t\t\t\t</PlateSpeedRef>\r\n");
-					itoa(EGMBrushMotor.RatedRpm*EGMGlobalParam.BrushFactor,(UDINT )&tmp[0]);
+					brsitoa(EGMBrushMotor.RatedRpm*EGMGlobalParam.BrushFactor,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t\t<BrushSpeed>\r\n\t\t\t\t\t<Description>Speed of brushes</Description>\r\n\t\t\t\t\t<Type>int</Type>\r\n\t\t\t\t\t<Value>", tmp,
 /*					"</Value>\r\n\t\t\t\t\t<Unit>rpm</Unit>\r\n\t\t\t\t</BrushSpeed>\r\n\t\t\t</Speeds>\r\n\t\t</MachineParam>\r\n\t</Bluefin>\r\n</KrauseMessage>\r\n");*/
 /* *** */
 					"</Value>\r\n\t\t\t\t\t<Unit>rpm</Unit>\r\n\t\t\t\t</BrushSpeed>\r\n\t\t\t</Speeds>\r\n\t\t</MachineParam>\r\n");
 /* Verbrauchsdaten */
 				strcat(buf,"\t\t<PlateCountValues>\r\n");
-					itoa(OverallPlateCounter,(UDINT )&tmp[0]);
+					brsitoa(OverallPlateCounter,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t<OverallPlates>\r\n\t\t\t\t<Description>Plates processed (overall)</Description>\r\n\t\t\t\t<Type>int</Type>\r\n\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t<Unit>pcs.</Unit>\r\n\t\t\t</OverallPlates>\r\n");
-					itoa(SessionPlateCounter,(UDINT )&tmp[0]);
+					brsitoa(SessionPlateCounter,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t<SessionPlates>\r\n\t\t\t\t<Description>Plates processed since power on</Description>\r\n\t\t\t\t<Type>int</Type>\r\n\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t<Unit>pcs.</Unit>\r\n\t\t\t</SessionPlates>\r\n");
-					ftoa(OverallSqmCounter,(UDINT )&tmp[0]);
+					brsftoa(OverallSqmCounter,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t<OverallSqm>\r\n\t\t\t\t<Description>Squaremeters processed (overall)</Description>\r\n\t\t\t\t<Type>double</Type>\r\n\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t<Unit>sqm</Unit>\r\n\t\t\t</OverallSqm>\r\n");
-					ftoa(SessionSqmCounter,(UDINT )&tmp[0]);
+					brsftoa(SessionSqmCounter,(UDINT )&tmp[0]);
 					AddVal2(buf, "\t\t\t<SessionSqm>\r\n\t\t\t\t<Description>Squaremeters processed since power on</Description>\r\n\t\t\t\t<Type>double</Type>\r\n\t\t\t\t<Value>", tmp,
 					"</Value>\r\n\t\t\t\t<Unit>sqm</Unit>\r\n\t\t\t</SessionSqm>\r\n\t\t</PlateCountValues>\r\n");
 /* Version */
@@ -351,7 +351,7 @@ _CYCLIC void cyclic (void)
 {
 
 	if ( DataLock == 0 )
-		CreateXMLMessage( (USINT *)&XMLBuffer[0] );
+		CreateXMLMessage( (char*)&XMLBuffer[0] );
 
 
 

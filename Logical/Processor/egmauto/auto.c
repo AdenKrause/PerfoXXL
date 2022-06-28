@@ -53,6 +53,7 @@ x	EGM_AlarmBitField[27]	AlarmNr 28	Antrieb: Geschwindigkeitsabweichung zu groﬂ
 x	EGM_AlarmBitField[28]	AlarmNr 29	Temperaturmodul nicht gefunden
 **/
 
+#include <stdlib.h>
 #include "EGMglob_var.h"
 #include "glob_var.h"
 #include "auxfunc.h"

@@ -47,8 +47,8 @@ Description : Added ANSW0 command at reference to make sure, the motor will
 /**                           INCLUDE FILES                                **/
 /**                                                                        **/
 /****************************************************************************/
+#include <stdlib.h>
 #include <string.h>
-#include "asstring.h"
 #include "glob_var.h"
 #include "in_out.h"
 #include "auxfunc.h"

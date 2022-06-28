@@ -16,7 +16,7 @@
 /****************************************************************************/
 
 #include "glob_var.h"
-#include "asstring.h"
+#include <stdlib.h>
 #include "in_out.h"
 #include <string.h>
 #include "Motorfunc.h"
@@ -26,7 +26,6 @@ _LOCAL	USINT	AdjustStep;
 _LOCAL TON_10ms_typ AdjustTimer,AddBlowairValveTimer;
 USINT			tmp[20];
 
-_GLOBAL	REAL	DropPosition;
 _GLOBAL BOOL	AdjustFailed;
 _GLOBAL BOOL	StopPlateTaking;
 /*HA 07.05.03 V1.06*/

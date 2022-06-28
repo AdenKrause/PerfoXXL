@@ -39,7 +39,6 @@ Description : Original version.
 #include "glob_var.h"
 #include "in_out.h"
 #include "egmglob_var.h"
-#include "asstring.h"
 #include <string.h>
 
 #include "auxfunc.h"

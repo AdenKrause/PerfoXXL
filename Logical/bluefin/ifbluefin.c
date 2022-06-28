@@ -53,7 +53,7 @@ Description : Improved version from LSJet.
 #include <Ethernet.h>
 #include <string.h>
 #include <ctype.h>
-#include "asstring.h"
+#include "AsBrStr.h"
 
 /****************************************************************************/
 /**                                                                        **/
@@ -122,6 +122,7 @@ Description : Improved version from LSJet.
 /**                      TASK-LOCAL VARIABLES                              **/
 /**                                                                        **/
 /****************************************************************************/
+#ifdef MODE_PERFORMANCE
 _LOCAL    INT                 IMAStatusInit,IMAStatusComm;
 _LOCAL    imaInfoStruct       errorInfo,ConnInfoPV,ConnInfoAUX;
 _LOCAL    UDINT               IMAident;
@@ -160,7 +161,6 @@ _LOCAL UINT                VisConnOK;
 /**                                                                        **/
 /****************************************************************************/
 /* for IMA Comm */
-#ifdef MODE_PERFORMANCE
 #ifdef PPC2100
 static    STRING              DOName[32]="do_ima";
 static    STRING              DONameVCP[32]="do_vcp";
@@ -172,9 +172,9 @@ static    STRING              DONameXSOld[32]="do_xsoldPP420";
 #endif
 
 /* for Ethernet server */
-static    SINT                SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
-static    SINT                RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
-static    SINT                RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
+static    char                SendBuffer[MAXCLIENTS][SEND_BUFFER_LEN];
+static    char                RecvBuffer[MAXCLIENTS][RECV_BUFFER_LEN];
+static    char                RecvData[MAXCLIENTS][RECV_BUFFER_LEN];
 
 static    int                 CurrentClient,parse;
 static    USINT               Count[MAXCLIENTS];

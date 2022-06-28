@@ -13,6 +13,7 @@
 #undef TESTCURVE
 /**/
 
+#include <stdlib.h>
 #include <math.h>
 #include "EGMglob_var.h"
 #include "auxfunc.h"

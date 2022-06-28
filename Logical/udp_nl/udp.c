@@ -131,7 +131,7 @@ token3 -> plate type
 token4 -> next plate type
 token5 -> plateconfig
  */
-					int tmpPlateType = atoi((UDINT)token[3]);
+					int tmpPlateType = brsatoi((UDINT)token[3]);
 					strcpy(tmpID,token[2]);
 					if(!START)
 						SendJobAnswer = SEND_MACHINE_NOT_STARTED;
@@ -146,7 +146,7 @@ token5 -> plateconfig
 					{
 						strcpy(PlateAtFeeder.ID,tmpID);
 						SendJobAnswer = SEND_OK;
-						if( (tmpPlateType == atoi((UDINT)token[4]))
+						if( (tmpPlateType == brsatoi((UDINT)token[4]))
 						 && !PlateToDo.present
 						  )
 						{
@@ -164,7 +164,7 @@ token5 -> plateconfig
 						{
 							strcpy(PlateToDo.ID,tmpID);
 							if(!ManualMode)
-								PlateToDo.NextPlateType = atoi((UDINT)token[4]);
+								PlateToDo.NextPlateType = brsatoi((UDINT)token[4]);
 							SendJobAnswer = SEND_OK;
 						}
 						else
@@ -201,7 +201,7 @@ token5 -> plateconfig
 								PlateToDo.PlateConfig = BROADSHEET;
 
 							if(!ManualMode)
-								PlateToDo.NextPlateType = atoi((UDINT)token[4]);
+								PlateToDo.NextPlateType = brsatoi((UDINT)token[4]);
 
 							SendJobAnswer = SEND_OK;
 						}
@@ -259,14 +259,6 @@ token5 -> plateconfig
 					if( STREQN(token[1],"CLEARMACHINE",12))
 					{
 						gClearLinePressed = TRUE;
-					}
-					else
-					if( STREQN(token[1],"STEPWEDGE",9))
-					{
-/*
-						Expose_Param.StepwedgeExposure = TRUE;
-						SendStepwedgeOK = TRUE;
-*/
 					}
 				}
 			}

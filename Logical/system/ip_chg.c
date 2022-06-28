@@ -19,7 +19,7 @@
 #include "AsArcfg.h"
 #include <string.h>
 #include "glob_var.h"
-#include "asstring.h"
+#include "AsBrStr.h"
 #include "Auxfunc.h"
 
 #define NOERROR	0
@@ -86,7 +86,7 @@ void IPString2Bytes(char *IPString,IP_typ *IP)
 			if(i>15) break;
 		}
 		help[j] = 0;
-		IP->byte[cnt] = (char) atoi((UDINT) &help);
+		IP->byte[cnt] = (char) brsatoi((UDINT) &help);
 		cnt++;
 		i++;
 		if(i>15) break;
@@ -100,16 +100,16 @@ void Bytes2IPString(char *IPStr,int Adr1,
 								int Adr4)
 {
 	strcpy(IPStr,"");
-	itoa(Adr1,(UDINT) &tmp[0]);
+	brsitoa(Adr1,(UDINT) &tmp[0]);
 	strcat(IPStr,tmp);
 	strcat(IPStr,".");
-	itoa(Adr2,(UDINT) &tmp[0]);
+	brsitoa(Adr2,(UDINT) &tmp[0]);
 	strcat(IPStr,tmp);
 	strcat(IPStr,".");
-	itoa(Adr3,(UDINT) &tmp[0]);
+	brsitoa(Adr3,(UDINT) &tmp[0]);
 	strcat(IPStr,tmp);
 	strcat(IPStr,".");
-	itoa(Adr4,(UDINT) &tmp[0]);
+	brsitoa(Adr4,(UDINT) &tmp[0]);
 	strcat(IPStr,tmp);
 }
 

@@ -6,6 +6,7 @@
 #include <bur/plc.h>
 #include <bur/plctypes.h>
 #include <sys_lib.h>
+#include <string.h>
 #include <asiomman.h>
 #include <brsystem.h>
 #include <standard.h>
@@ -34,21 +35,17 @@ typedef struct
 }HW_Info_typ;
 
 
-_GLOBAL UINT        change_config;                  /* indicates if configuration should be changed */
-_GLOBAL UINT        config;                         /* indicates if configuration should be changed */
 _GLOBAL USINT       step;                           /* step for the main routine */
-_LOCAL  USINT       status_message[128];            /* shows the status of the program */
 
 /* CYCLIC */
 _LOCAL  AsIOMMCreate_typ    AsIOMMCreate_Mod;       /* function for creating the new BR module on the target */
 _LOCAL  AsIOMMRemove_typ    AsIOMMRemove_Mod;       /* function for removing the BR module on the target */
 _LOCAL  AsIOMMCopy_typ      AsIOMMCopy_Mod;         /* function for copying the BR module to a datamodule */
-_LOCAL  USINT           error_string[128];
+_LOCAL  char           error_string[128];
 
 /* shows the last error which occured */
 _LOCAL  USINT           error_step;                 /* step where the error occurred */
 _LOCAL  UINT            error_status;               /* status of the FBK where the error occured */
-_LOCAL  BOOL            error;                      /* shows if an error occurred */
 static TON_10ms_typ     WaitTimer;                  /*waits before actually changing config*/
 /************************************/
 

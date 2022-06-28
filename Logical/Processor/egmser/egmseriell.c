@@ -13,7 +13,6 @@
 /****************************************************************************/
 /* header files */
 #include <dvframe.h>
-#include <asstring.h>
 #include <math.h>
 #include <string.h>
 #include <sys_lib.h>

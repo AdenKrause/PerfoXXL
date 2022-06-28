@@ -15,10 +15,10 @@
 /*																			*/
 /****************************************************************************/
 
+#include <stdlib.h>
+#include <string.h>
 #include "glob_var.h"
 #include "in_out.h"
-#include "asstring.h"
-#include <string.h>
 #include "Motorfunc.h"
 #include "auxfunc.h"
 
@@ -31,8 +31,6 @@ _GLOBAL	BOOL	CloseTrolleyStart;
 _LOCAL TON_10ms_typ OpenTrolleyTimer;
 
 USINT			tmp[20];
-
-_GLOBAL	BOOL	OpenTrolleyReady;
 
 USINT	OpenCounter; /* for max 2 cycles (2 single trolleys)*/
 _LOCAL CTUtyp TrolleyCodeCounter;

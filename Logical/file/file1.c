@@ -945,7 +945,7 @@ _CYCLIC void Cyclic(void)
 						if( ReadData[dwCounter].Filename[i] == '.' )
 						{
 							ReadData[dwCounter].Filename[i] = 0;
-							p = &ReadData[dwCounter].Filename[i+1];
+							p = (char *) &ReadData[dwCounter].Filename[i+1];
 								strncpy(TypeFound,p,MAXFILETYPELENGTH-1);
 							if( STREQN(TypeFound,FileType,MAXFILETYPELENGTH-1)  )
 								strncpy(FileNames[FileListCounter++],(char *)ReadData[dwCounter].Filename,MAXFILENAMELENGTH);

@@ -16,10 +16,10 @@
 #include <bur/plc.h>
 #include <bur/plctypes.h>
 #include <math.h>
-#include <asstring.h>
 #include "glob_var.h"
 #include "egmglob_var.h"
 #include <fileio.h>
+#include <AsBrStr.h>
 
 
 #define OVERALLSRAMSIZEWORDS 12500
@@ -40,14 +40,13 @@ UDINT	address;
 puttyp put;
 gettyp get;
 
-_LOCAL UINT             wStatus, wError;
-_LOCAL UDINT            dwDirNum, dwFileNum, dwCounter;
+_LOCAL UINT             wStatus;
+_LOCAL UDINT            dwDirNum, dwFileNum;
 _LOCAL DirInfo_typ      DInfo;
 _LOCAL DirCreate_typ      DCreate;
 _LOCAL BOOL Created;
 _GLOBAL BOOL PreheatParamEnter,DeveloperTankParamEnter;
 
-_LOCAL STRING targetstring[20];
 int i,j;
 USINT tmp[OVERALLSRAMSIZEEBYTES];
 _GLOBAL USINT *TmpPtr;
@@ -71,8 +70,7 @@ BOOL	DontResetMotorData;
 _GLOBAL BOOL MirroredMachine;
 
 _GLOBAL SINT SRAM[OVERALLSRAMSIZEEBYTES]	_VAR_RETAIN;
-_GLOBAL BOOL	EGMsaveParameterData;
-_LOCAL INT	Test1,Test2,Test3;
+_LOCAL INT	Test1,Test2;
 
 _LOCAL	STRING	MagicNumber[10];
 _GLOBAL	DATE_AND_TIME	OffTime,OnTime;
@@ -656,7 +654,7 @@ void EGMSetDefaults(void)
 /* Plate types*/
 	for (i=0;i<MAXPLATETYPES;i++)
 	{
-		itoa(i,(UDINT )&tmpstr[0]);
+		brsitoa(i,(UDINT )&tmpstr[0]);
 		strcpy(EGMPlateTypes[i].Name,"Plate ");
 		strcat(EGMPlateTypes[i].Name,tmpstr);
 		strcpy(EGMPlateTypes[i].ManufacturerName,"Company");

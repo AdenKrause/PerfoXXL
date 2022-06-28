@@ -25,7 +25,7 @@
 /****************************************************************************/
 
 #include "glob_var.h"
-#include "asstring.h"
+#include <stdlib.h>
 #include <string.h>
 #include <math.h>
 #include "in_out.h"

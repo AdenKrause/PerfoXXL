@@ -66,7 +66,6 @@ _LOCAL FU_Keys_Typ		FU_Keys;
 _LOCAL FU_Colors_Typ 	FU_Colors;
 
 _LOCAL UINT SendManSpeedStep;
-_LOCAL USINT	ExitOK,ExitCancel;
 
 static INT ENPOColor,AutoColor,ErrorColor,ActiveColor,RefOkColor,BackgroundColor;
 static INT ButtonActivColor,ButtonActivColorPressed;

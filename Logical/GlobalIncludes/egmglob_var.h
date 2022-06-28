@@ -9,7 +9,6 @@
 #include <bur/plctypes.h>
 #include <standard.h>      /* prototypes for STANDARD-Library */
 #include <sys_lib.h>
-#include <asstring.h>
 #include <string.h>
 #include <loopcont.h>
 
@@ -515,10 +514,8 @@ typedef struct
 
 /***************************** Variable Definitions ***********************************/
 
-_GLOBAL STRING  EGMgVERSION[9];
 
 _GLOBAL USINT UserLevel;
-_GLOBAL USINT Language;
 _GLOBAL USINT CurrentMode;
 _GLOBAL USINT CurrentState;
 

@@ -67,8 +67,9 @@ TODO: Error handling, if system calls fail
 /**                                                                        **/
 /****************************************************************************/
 #include <bur/plctypes.h>
+#include <stdlib.h>
 #include <string.h>
-#include <AsString.h>
+#include <AsBrStr.h>
 #include <dvframe.h>
 #include <standard.h>
 #include <math.h>
@@ -430,7 +431,7 @@ _CYCLIC void CyclicProgram(void)
 					size_t length = 4; /* length of "xPOS" */
 					char *ptr = (char *)FrameGetBufferStruct.buffer;
 				/*fill the buffer */
-					(void) itoa(L(Motor),(UDINT) ptr);
+					(void) brsitoa(L(Motor),(UDINT) ptr);
 					strcat(ptr,"POS\r\n");
 					length = strlen(ptr);
 
@@ -467,7 +468,7 @@ _CYCLIC void CyclicProgram(void)
 					  )
 					{
 						Motors[Motor].LastPosition = Motors[Motor].Position;
-						Motors[Motor].Position = atoi( FrameReadStruct.buffer);
+						Motors[Motor].Position = brsatoi( FrameReadStruct.buffer);
 	/*@-realcompare@*/
 						if(Motors[Motor].Parameter.IncrementsPerMm > 1.0)
 							Motors[Motor].Position_mm = Motors[Motor].Position / Motors[Motor].Parameter.IncrementsPerMm;
@@ -540,7 +541,7 @@ _CYCLIC void CyclicProgram(void)
 						size_t length = 4;
 						char *ptr = (char *)FrameGetBufferStruct.buffer;
 				/*fill the buffer */
-						(void) itoa(L(Motor),(UDINT) ptr);
+						(void) brsitoa(L(Motor),(UDINT) ptr);
 						strcat(ptr,"GRC\r\n"); /*actual current (Get Real Current)*/
 						length = strlen(ptr);
 
@@ -575,7 +576,7 @@ _CYCLIC void CyclicProgram(void)
 					    )
 					  )
 					{
-						MotorCurrent[Motor] = atoi( FrameReadStruct.buffer);
+						MotorCurrent[Motor] = brsatoi( FrameReadStruct.buffer);
 						if ( MotorCurrent[Motor] > MaxMotorCurrent[Motor] )
 							MaxMotorCurrent[Motor] = MotorCurrent[Motor];
 					}
@@ -627,7 +628,7 @@ _CYCLIC void CyclicProgram(void)
 				/*fill the buffer */
 					if( SerialCmd.SendMotor != BROADCAST )  /*no BROADCAST, so the address must be first*/
 					{
-						(void)itoa(L(SerialCmd.SendMotor),(UDINT) ptr);
+						(void)brsitoa(L(SerialCmd.SendMotor),(UDINT) ptr);
 						strcat(ptr,(char *) SerialCmd.CmdString);
 					}
 					else
@@ -651,13 +652,13 @@ _CYCLIC void CyclicProgram(void)
 							 * special case: the belt drives are able to move in a position below 0
 							 * so this is allowed here in that special case
 							*/
-									(void)itoa(SerialCmd.Parameter,(UDINT) &tmp[0]);
+									(void)brsitoa(SerialCmd.Parameter,(UDINT) &tmp[0]);
 								}
 								else
 								{
 									if (Motors[SerialCmd.SendMotor].Parameter.ReferenceDirectionNegative == FALSE)
 										strcat(ptr,"-");
-									(void)itoa(labs(SerialCmd.Parameter),(UDINT) &tmp[0]);
+									(void)brsitoa(labs(SerialCmd.Parameter),(UDINT) &tmp[0]);
 								}
 							}
 							else
@@ -682,11 +683,11 @@ _CYCLIC void CyclicProgram(void)
 									if (SerialCmd.Parameter > 0L)
 										strcat(ptr,"-");
 								}
-								(void)itoa(labs(SerialCmd.Parameter),(UDINT) &tmp[0]);
+								(void)brsitoa(labs(SerialCmd.Parameter),(UDINT) &tmp[0]);
 							}
 						}
 						else /* don't use RefDirection: take Parameter just as it's given */
-							(void)itoa(SerialCmd.Parameter,(UDINT) &tmp[0]);
+							(void)brsitoa(SerialCmd.Parameter,(UDINT) &tmp[0]);
 
 						strcat(ptr,tmp);
 					}
@@ -870,7 +871,7 @@ _CYCLIC void CyclicProgram(void)
 				if(  ReceivedChar != 0
 			     && !Motors[SerialCmd.SendMotor].Error )
 			    {
-					MotorTemp[GetTempMotor] = US(atoi( (UDINT) &RequestData[0]));
+					MotorTemp[GetTempMotor] = US(brsatoi( (UDINT) &RequestData[0]));
 					if ( MotorTemp[GetTempMotor] > MaxMotorTemp[GetTempMotor] )
 					{
 						MaxMotorTemp[GetTempMotor] = MotorTemp[GetTempMotor];

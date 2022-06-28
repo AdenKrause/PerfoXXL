@@ -18,17 +18,18 @@
 /****************************************************************************/
 
 #include "glob_var.h"
-#include "asstring.h"
+#include <stdlib.h>
 #include "sys_lib.h"
 #include "in_out.h"
 #include <string.h>
+#include <AsBrStr.h>
 
 #define	MAXFILELIST	32
 #define TCPIPTIMEOUT 150
 
 _LOCAL	USINT	ExposeStep;
 _LOCAL TON_10ms_typ ExposeTimer;
-USINT			tmp[20];
+char tmp[20];
 
 _GLOBAL	STRING	FileName[100];
 _GLOBAL	USINT	FileListShift;
@@ -273,21 +274,21 @@ to make sure, the plate cannot be under the beam during power setting
 					memcpy(&FileListName[MAXFILELIST-1][0],FileName,48);
 					FileListName[MAXFILELIST-1][49]=0;
 				}
-				itoa(Expose_Param.Resolution,(UDINT)&FileListResolution[MAXFILELIST-1][0]);
+				brsitoa(Expose_Param.Resolution,(UDINT)&FileListResolution[MAXFILELIST-1][0]);
 				strcpy(&FileListStatus[MAXFILELIST-1][0],"ACT");
-				itoa(RTCtime.hour,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.hour,(UDINT)&tmp[0]);
 				if(RTCtime.hour<=9)
 					strcpy(&FileListTime[MAXFILELIST-1][0],"0");
 				else
 					strcpy(&FileListTime[MAXFILELIST-1][0],"");
 				strcat(&FileListTime[MAXFILELIST-1][0],&tmp[0]);
 				strcat(&FileListTime[MAXFILELIST-1][0],":");
-				itoa(RTCtime.minute,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.minute,(UDINT)&tmp[0]);
 				if(RTCtime.minute<=9)
 					strcat(&FileListTime[MAXFILELIST-1][0],"0");
 				strcat(&FileListTime[MAXFILELIST-1][0],&tmp[0]);
 				strcat(&FileListTime[MAXFILELIST-1][0],":");
-				itoa(RTCtime.second,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.second,(UDINT)&tmp[0]);
 				if(RTCtime.second<=9)
 					strcat(&FileListTime[MAXFILELIST-1][0],"0");
 				strcat(&FileListTime[MAXFILELIST-1][0],&tmp[0]);
@@ -334,19 +335,19 @@ to make sure, the plate cannot be under the beam during power setting
 			if( AdjustFailed && AUTO )
 			{
 				strcpy(&FileListStatus[0][0],"ERR");
-				itoa(RTCtime.hour,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.hour,(UDINT)&tmp[0]);
 				if(RTCtime.hour<=9)
 					strcpy(&FileListTime[0][0],"0");
 				else
 					strcpy(&FileListTime[0][0],"");
 				strcat(&FileListTime[0][0],&tmp[0]);
 				strcat(&FileListTime[0][0],":");
-				itoa(RTCtime.minute,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.minute,(UDINT)&tmp[0]);
 				if(RTCtime.minute<=9)
 					strcat(&FileListTime[0][0],"0");
 				strcat(&FileListTime[0][0],&tmp[0]);
 				strcat(&FileListTime[0][0],":");
-				itoa(RTCtime.second,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.second,(UDINT)&tmp[0]);
 				if(RTCtime.second<=9)
 					strcat(&FileListTime[0][0],"0");
 				strcat(&FileListTime[0][0],&tmp[0]);
@@ -371,19 +372,19 @@ to make sure, the plate cannot be under the beam during power setting
 			if(!ExposureReady)
 			{
 				strcpy(&FileListStatus[0][0],"RDY");
-				itoa(RTCtime.hour,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.hour,(UDINT)&tmp[0]);
 				if(RTCtime.hour<=9)
 					strcpy(&FileListTime[0][0],"0");
 				else
 					strcpy(&FileListTime[0][0],"");
 				strcat(&FileListTime[0][0],&tmp[0]);
 				strcat(&FileListTime[0][0],":");
-				itoa(RTCtime.minute,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.minute,(UDINT)&tmp[0]);
 				if(RTCtime.minute<=9)
 					strcat(&FileListTime[0][0],"0");
 				strcat(&FileListTime[0][0],&tmp[0]);
 				strcat(&FileListTime[0][0],":");
-				itoa(RTCtime.second,(UDINT)&tmp[0]);
+				brsitoa(RTCtime.second,(UDINT)&tmp[0]);
 				if(RTCtime.second<=9)
 					strcat(&FileListTime[0][0],"0");
 				strcat(&FileListTime[0][0],&tmp[0]);
@@ -568,11 +569,11 @@ BSP:	IP1127009600032C:\FileName.TIF
 			/*extract resolution*/
 					memcpy(	tmp,&TCPAnswer[3],4 );
 					tmp[4] = 0;
-					Expose_Param.Resolution = atoi((UDINT) &tmp);
+					Expose_Param.Resolution = brsatoi((UDINT) &tmp);
 			/*extract Scans per min */
 					memcpy(	tmp,&TCPAnswer[7],6 );
 					tmp[6] = 0;
-					Expose_Param.ScansPerMinute = atoi((UDINT) &tmp);
+					Expose_Param.ScansPerMinute = brsatoi((UDINT) &tmp);
 			/*extract Platetype */
 					memcpy(	tmp,&TCPAnswer[13],1 );
 					tmp[1] = 0;

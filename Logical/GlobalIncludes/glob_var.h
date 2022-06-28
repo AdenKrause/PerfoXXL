@@ -153,7 +153,7 @@
 	  unsigned short	ParaStep;
 	  unsigned short	IdxIntern;
 	  unsigned char		Status;
-	  unsigned char		DrvError[10];
+	  char				DrvError[10];
 	  unsigned short	timeoutCounter;
 	  float				aktuellePosition_mm;/* aktuelle Position in mm*/
 	  DINT				TargetPosition; 	/* Zielposition in Inkrementen*/
@@ -242,7 +242,7 @@
 	typedef struct
 	{
 		USINT	ControllerIFact;
-		USINT 	Function[20];
+		char 	Function[20];
 		USINT	Priority;
 		REAL	IncrementsPerMm;
 		UDINT 	ReferenceSpeed;
@@ -650,7 +650,6 @@
 
 	_GLOBAL BOOL ParkPositionChanged;
 
-	_GLOBAL USINT Cmd[WRITEDATALENGTH];
 	_GLOBAL USINT SendMotor;
 	_GLOBAL Motor_Typ Motors[MAXMOTORS+1];
 	_GLOBAL USINT MotorsConnected;
@@ -679,21 +678,16 @@
 
 	/* variables for trolley management*/
 	_GLOBAL	USINT	CurrentStack;
-	_GLOBAL	BOOL	TrolleyRightOpen;
-	_GLOBAL	BOOL	TrolleyLeftOpen;
-	_GLOBAL	BOOL	TrolleyRightEmpty;
-	_GLOBAL	BOOL	TrolleyLeftEmpty;
-
 
 	/*Sequence controll variabs*/
 
 	_GLOBAL	BOOL	TCPConnected;
 	_GLOBAL	USINT	TCPSendCmd;
-	_GLOBAL	USINT	TCPCmd[20];
-	_GLOBAL	USINT	TCPAnswer[100];
+	_GLOBAL	char	TCPCmd[20];
+	_GLOBAL	char	TCPAnswer[100];
 	_GLOBAL	BOOL	TCPRcvFlag;
 
-	_GLOBAL	BOOL	START,AUTO,StartedAutomatically;
+	_GLOBAL	BOOL	START,AUTO;
 
 	_GLOBAL BOOL	TrolleyEmpty;
 
