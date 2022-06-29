@@ -7,7 +7,17 @@
  ********************************************************************
  * Deklaration der permanenten Variablen
  ********************************************************************)
-
 VAR_CONFIG
-
+	SRAM AT %MB0; (* *)
+	DeveloperChangeDate AT %MD25000; (* *)
+	OverallPlateCounter AT %MD25004; (* *)
+	OverallReplenisherCounter AT %MD25008; (* *)
+	OverallReplenisherPumpTime AT %MD25012; (* *)
+	OverallSqmCounter AT %MD25016; (* *)
+	ReplenisherCounter AT %MD25060; (* *)
+	ReplenisherUsedSinceDevChg AT %MD25064; (* *)
+	SqmSinceDevChg AT %MD25068; (* *)
+	ShutDownTime AT %MD25072; (* *)
+	IOConfiguration AT %MB25076; (* *)
+	IOChangeStep AT %MB25077; (* *)
 END_VAR

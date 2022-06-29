@@ -19,7 +19,6 @@
     <Object Type="Library" Language="Binary" Description="Functions are available in the CAN Libra">CAN_Lib</Object>
     <Object Type="Library" Language="Binary" Description="This library contains FBKs for exchangin">AsUDP</Object>
     <Object Type="Library" Language="Binary" Description="The AsTime Library supports DATE_AND_TIM">astime</Object>
-    <Object Type="Library" Language="Binary" Description="The AsString Library contains FBKs for m">asstring</Object>
     <Object Type="Library" Language="Binary" Description="This library provides functions for enab">AsIOMMan</Object>
     <Object Type="Library" Language="Binary" Description="This library make an easy handle between">AsIMA</Object>
     <Object Type="Library" Language="Binary" Description="Read and write of Automation Runtime con">AsARCfg</Object>

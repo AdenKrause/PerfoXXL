@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.1.4.402"?>
+<?AutomationStudio Version="4.1.16.135 SP"?>
 <KeyMapping xmlns="http://br-automation.co.at/AS/VC/Project">
   <VirtualKey Name="TP_ALPHA_Quest">
     <Property Name="Description" Value=""/>
@@ -6145,22 +6145,6 @@
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
         <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Out_FeederVacuumOn[4]]"/>
-      </KeyAction>
-    </KeyActions>
-  </VirtualKey>
-  <VirtualKey Name="ManualOperation">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-    <KeyActions>
-      <KeyAction ClassId="0x0000016A">
-        <Property Name="CompletionDatapoint" Value="None"/>
-        <Property Name="CompletionValue" Value="0"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="Locking" Value="Never"/>
-        <Property Name="Name" Value="Action_0"/>
-        <Property Name="ResetValue" Value="0"/>
-        <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="None"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>

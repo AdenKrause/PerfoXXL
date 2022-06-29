@@ -1,67 +1,67 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.1.4.402"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.16.135 SP"?>
 <Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="ParamButtons">
-  <Property Name="BackColor" Value="14" />
-  <Property Name="Description" Value="" />
-  <Property Name="Height" Value="240" />
-  <Property Name="Left" Value="0" />
-  <Property Name="StatusDatapoint" Value="None" />
-  <Property Name="Top" Value="0" />
-  <Property Name="Width" Value="320" />
+  <Property Name="BackColor" Value="14"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
   <TextGroup>
-    <TextLayer LanguageId="en-GB" />
-    <TextLayer LanguageId="de-DE" />
-    <TextLayer LanguageId="es-ES" />
-    <TextLayer LanguageId="no-NO" />
-    <TextLayer LanguageId="nl-NL" />
-    <TextLayer LanguageId="tr-TR" />
-    <IndexMap />
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="tr-TR"/>
+    <IndexMap/>
   </TextGroup>
   <Controls>
     <Control ClassId="0x00001002" Name="Button_1">
-      <Property Name="BackColor" Value="10" />
-      <Property Name="Bitmap" Value="Source[local].Bitmap[SK_OK]" />
-      <Property Name="BitmapIndexDatapoint" Value="None" />
-      <Property Name="BitmapSource" Value="SingleBitmap" />
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="EmbVirtualKey" Value="None" />
-      <Property Name="Height" Value="66" />
-      <Property Name="KeyMatrixOffset" Value="None" />
-      <Property Name="Left" Value="490" />
-      <Property Name="PressedBackColor" Value="6" />
-      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]" />
-      <Property Name="PressedTextSource" Value="None" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
-      <Property Name="TextIndexDatapoint" Value="None" />
-      <Property Name="TextSimulationValue" Value="0" />
-      <Property Name="TextSource" Value="None" />
-      <Property Name="Top" Value="412" />
-      <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMInputOK]" />
-      <Property Name="Width" Value="66" />
+      <Property Name="BackColor" Value="10"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[SK_OK]"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="66"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="490"/>
+      <Property Name="PressedBackColor" Value="6"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="412"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMInputOK]"/>
+      <Property Name="Width" Value="66"/>
     </Control>
     <Control ClassId="0x00001002" Name="Button_2">
-      <Property Name="BackColor" Value="10" />
-      <Property Name="Bitmap" Value="Source[local].Bitmap[SK_ESC]" />
-      <Property Name="BitmapIndexDatapoint" Value="None" />
-      <Property Name="BitmapSource" Value="SingleBitmap" />
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="EmbVirtualKey" Value="None" />
-      <Property Name="Height" Value="66" />
-      <Property Name="KeyMatrixOffset" Value="None" />
-      <Property Name="Left" Value="572" />
-      <Property Name="PressedBackColor" Value="6" />
-      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]" />
-      <Property Name="PressedTextSource" Value="None" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]" />
-      <Property Name="TextIndexDatapoint" Value="None" />
-      <Property Name="TextSimulationValue" Value="0" />
-      <Property Name="TextSource" Value="None" />
-      <Property Name="Top" Value="412" />
-      <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMInputCancel]" />
-      <Property Name="Width" Value="66" />
+      <Property Name="BackColor" Value="10"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[SK_ESC]"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="66"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="572"/>
+      <Property Name="PressedBackColor" Value="6"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="412"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[EGMInputCancel]"/>
+      <Property Name="Width" Value="66"/>
     </Control>
   </Controls>
-  <KeyMapping />
+  <KeyMapping/>
 </Layer>

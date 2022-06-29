@@ -132,7 +132,6 @@ _LOCAL    imaInfoStruct       errorInfoVCP,ConnInfoPVVCP,ConnInfoAUXVCP;
 _LOCAL    imaInfoStruct       errorInfoXSOld,ConnInfoPVXSOld,ConnInfoAUXXSOld;
 _LOCAL    UDINT               IMAidentVCP,IMAidentXSOld;
 
-_LOCAL    UINT                byte_link_cnt;
 
 /* structs for Ethernet-Library-Functions */
 _LOCAL	TCPserv_typ			TCP_Server[MAXCLIENTS];
@@ -141,11 +140,10 @@ _LOCAL	TCPsend_typ			TCP_Send[MAXCLIENTS];
 _LOCAL	TCPclose_typ		TCP_Close[MAXCLIENTS];
 _LOCAL	SINT	Step[MAXCLIENTS];
 _LOCAL	UINT	SendTimeout[MAXCLIENTS];
-_LOCAL	UINT	RcvLength;
 
 /* Buffer for XML Message */
-_LOCAL SINT	XMLBuffer[SEND_BUFFER_LEN];
-_LOCAL SINT	OldXMLBuffer[OLD_SEND_BUFFER_LEN];
+_LOCAL char XMLBuffer[SEND_BUFFER_LEN];
+_LOCAL char	OldXMLBuffer[OLD_SEND_BUFFER_LEN];
 _LOCAL UINT EnablePVComm;
 _LOCAL UINT	DataLock;
 _LOCAL BOOL                CAN_EGM1;

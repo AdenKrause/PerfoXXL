@@ -12,18 +12,18 @@
 	#include 	<standard.h>
 
 /* Muss aktiviert sein fuer Ziel-HW PPC2100 */
-#define PPC2100
+//#define PPC2100
 
 	/* !!! ACHTUNG!!  Bei Veränderungen in dieser Datei immer ALLES KOMPILIEREN !!!*/
 
 
 	/* Auswahl der Maschine: Performance, Bluefin oder Kombination*/
 
-/*
+
 	#define MODE_PERFORMANCE	0
 	#undef MODE_BLUEFIN
 	#undef MODE_BOTH
-*/
+
 	/*
 	#define MODE_BLUEFIN	1
 	#undef MODE_BOTH
@@ -31,11 +31,11 @@
 	*/
 
 	/* Performance und Bluefin mit gemeinsamer Steuerung*/
-
+/*
 	#define MODE_BOTH	2
 	#undef MODE_BLUEFIN
 	#undef MODE_PERFORMANCE
-
+*/
 
 	/* defines */
 	#define EIN			1

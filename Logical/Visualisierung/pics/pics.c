@@ -1516,6 +1516,12 @@ Lücke für evtl Änderungen an bestehenden Maschinen in USA
 	- Curves Bild: Verschiedene Grafik-Parameter (Positionen) fuer die beiden
 	  Visu Varianten (320*240 und 640*480)
 	- ein define PPC2100, um Schnittstellen/Datenobjekte HW spezifisch zu waehlen
+	- nicht verwendete Variablen entfernt
+	- Status-Variablen, die nur in HW I/O und visu vorkommen, einmal in Init benutzt gegen
+	  Warning 445, unbenutzte Variable
+	- asstring library  nicht mehr verwendet
+	- in visu(s)Taste ManualOperation entfernt (hatte keine Variable verknuepft)
+	- in Konfig PPC2100 permanente Variablen angelegt in CPU.per
 */
 	brsstrcpy((UDINT) VERSION,(UDINT) "5.00");
 
@@ -1531,6 +1537,19 @@ Lücke für evtl Änderungen an bestehenden Maschinen in USA
 	CPUTemp = 0;
 	AmbientTemp = 0;
 	CANNodeNumber = 0;
+	ModulStatus_DO1 = 0;
+	ModulStatus_DO2 = 0;
+	ModulStatus_DO3 = 0;
+	ModulStatus_DI = 0;
+	ModulStatus_DI2 = 0;
+	ModulStatus_AT = 0;
+	ModulStatus_AO = 0;
+	ModulStatus_PS = 0;
+	ModulStatus_PS1 = 0;
+	ModulStatus_PS2 = 0;
+	ModulStatus_AT1 = 0;
+	for(i=0;i<EGM_MAXALARMS;i++)
+		EGM_AlarmQuitBitField[i] = 0;
 	InitPicReady = 0;
 	GoToMainPic = 0;
 	saveall = 0;

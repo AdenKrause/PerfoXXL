@@ -4,9 +4,9 @@
 
 #define _IN_OUT_C_SRC
 
-#include "in_out.h"
 #include "glob_var.h"
 #include "egmglob_var.h"
+#include "in_out.h"
 
 _GLOBAL BOOL	BUSY;
 _GLOBAL BOOL	ERROR,NEWERROR;

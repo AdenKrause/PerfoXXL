@@ -1,601 +1,601 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.1.4.402"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.16.135 SP"?>
 <Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Semiauto">
-  <Property Name="Description" Value="" />
-  <Property Name="Height" Value="240" />
-  <Property Name="Index" Value="25" />
-  <Property Name="MoveFocus" Value="Circular" />
-  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]" />
-  <Property Name="Width" Value="320" />
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="25"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="640"/>
   <Layers>
     <LayerRef Source="Source[local].Layer[CommonLayer_1]">
-      <Property Name="Description" Value="" />
-      <Property Name="EditingMode" Value="Frozen" />
-      <Property Name="Left" Value="0" />
-      <Property Name="Name" Value="CommonLayer_1" />
-      <Property Name="OutlineColor" Value="0" />
-      <Property Name="OutlineDisplayControl" Value="False" />
-      <Property Name="OutlineDisplayName" Value="True" />
-      <Property Name="OutlineHatched" Value="False" />
-      <Property Name="Top" Value="0" />
-      <Property Name="VisibilityMode" Value="Normal" />
-      <Property Name="Z-Order" Value="0" />
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="CommonLayer_1"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
     </LayerRef>
     <Layer Name="Default">
-      <Property Name="BackColor" Value="9" />
-      <Property Name="Description" Value="" />
-      <Property Name="EditingMode" Value="Normal" />
-      <Property Name="Height" Value="240" />
-      <Property Name="Left" Value="0" />
-      <Property Name="OutlineColor" Value="0" />
-      <Property Name="OutlineDisplayControl" Value="False" />
-      <Property Name="OutlineDisplayName" Value="True" />
-      <Property Name="OutlineHatched" Value="False" />
-      <Property Name="StatusDatapoint" Value="None" />
-      <Property Name="Top" Value="0" />
-      <Property Name="VisibilityMode" Value="Normal" />
-      <Property Name="Width" Value="320" />
-      <Property Name="Z-Order" Value="1" />
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="640"/>
+      <Property Name="Z-Order" Value="1"/>
       <TextGroup>
-        <TextLayer LanguageId="en-GB" />
-        <TextLayer LanguageId="de-DE" />
-        <TextLayer LanguageId="es-ES" />
-        <TextLayer LanguageId="no-NO" />
-        <TextLayer LanguageId="nl-NL" />
-        <TextLayer LanguageId="tr-TR" />
-        <IndexMap />
+        <TextLayer LanguageId="en-GB"/>
+        <TextLayer LanguageId="de-DE"/>
+        <TextLayer LanguageId="es-ES"/>
+        <TextLayer LanguageId="no-NO"/>
+        <TextLayer LanguageId="nl-NL"/>
+        <TextLayer LanguageId="tr-TR"/>
+        <IndexMap/>
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001002" Name="Button_2">
-          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_EXIT]" />
-          <Property Name="BitmapAlignmentHorizontal" Value="Center" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="SingleBitmap" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Height" Value="70" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="554" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="None" />
-          <Property Name="Top" Value="406" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BW_ServiceFunctions]" />
-          <Property Name="Width" Value="80" />
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SK_EXIT]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="406"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BW_ServiceFunctions]"/>
+          <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_13">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="13" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="428" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartRef]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="13"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="428"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartRef]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_14">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="14" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="46" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartOpenTr]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="14"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="46"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartOpenTr]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_15">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="336" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="15" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="46" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartCloseTr]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="336"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="15"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="46"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartCloseTr]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_16">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="16" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="104" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartPaperRem]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="16"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartPaperRem]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="242" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="430" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.referenz.ReferenceStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="242"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="430"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.referenz.ReferenceStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="236" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="50" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.trolley.OpenTrolleyStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="236"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="50"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.trolley.OpenTrolleyStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="560" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="50" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.trolley.CloseTrolleyStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="560"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="50"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.trolley.CloseTrolleyStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="236" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="108" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.papentf.PaperRemoveStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="236"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="108"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.papentf.PaperRemoveStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_17">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="338" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="17" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="104" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartTakePlate]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="338"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="17"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartTakePlate]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="562" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="108" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.aufnahme.PlateTakingStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="562"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="108"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.aufnahme.PlateTakingStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_18">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="18" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="162" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartAdjustPlate]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="18"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartAdjustPlate]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="236" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="166" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.adjust.AdjustStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="236"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="166"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.adjust.AdjustStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_19">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="338" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="19" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="162" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartExposePlate]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="338"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="19"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartExposePlate]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="562" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="166" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.expose.ExposeStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="562"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="166"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.expose.ExposeStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_20">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial10]" />
-          <Property Name="Height" Value="48" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="20" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="220" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartDeloadPlate]" />
-          <Property Name="Width" Value="220" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Height" Value="48"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="20"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[StartDeloadPlate]"/>
+          <Property Name="Width" Value="220"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="236" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="999" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="224" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.entladen.DeloadStep]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="70" />
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="236"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="224"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Exposer.Ablauf.entladen.DeloadStep]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_11">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="32" />
-          <Property Name="Left" Value="370" />
-          <Property Name="SimulationIndex" Value="0" />
-          <Property Name="SimulationValue" Value="0" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]" />
-          <Property Name="TextIndexOffset" Value="4" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="268" />
-          <Property Name="Width" Value="100" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="370"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="268"/>
+          <Property Name="Width" Value="100"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
-          <Property Name="AddFractionDigits" Value="-1" />
-          <Property Name="AlignmentVertical" Value="Center" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="480" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="None" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="200" />
-          <Property Name="SimulationValue" Value="651.8" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="270" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.Length]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="152" />
+          <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="480"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="200"/>
+          <Property Name="SimulationValue" Value="651.8"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="270"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.Length]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
-          <Property Name="AlignmentVertical" Value="Center" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="480" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="1000" />
-          <Property Name="MinDatapoint" Value="Source[global].Variable[Local.X_Param.MinPosition]" />
-          <Property Name="MinValue" Value="None" />
-          <Property Name="SimulationValue" Value="0" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="308" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.XOffset]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="152" />
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="480"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="1000"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[Local.X_Param.MinPosition]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="308"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.XOffset]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_5">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="40" />
-          <Property Name="Left" Value="360" />
-          <Property Name="SimulationIndex" Value="0" />
-          <Property Name="SimulationValue" Value="0" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]" />
-          <Property Name="TextIndexOffset" Value="2" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="306" />
-          <Property Name="Width" Value="110" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="360"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="306"/>
+          <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
-          <Property Name="AlignmentVertical" Value="Center" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="36" />
-          <Property Name="Left" Value="480" />
-          <Property Name="MaxDatapoint" Value="None" />
-          <Property Name="MaxValue" Value="500" />
-          <Property Name="MinDatapoint" Value="None" />
-          <Property Name="MinValue" Value="0" />
-          <Property Name="SimulationValue" Value="50" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]" />
-          <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="348" />
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.YOffset]" />
-          <Property Name="ValueMode" Value="Standard" />
-          <Property Name="Width" Value="152" />
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="Left" Value="480"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="500"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="50"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="348"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlateParameter.YOffset]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_7">
-          <Property Name="AlignmentHorizontal" Value="Right" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="Height" Value="40" />
-          <Property Name="Left" Value="360" />
-          <Property Name="SimulationIndex" Value="0" />
-          <Property Name="SimulationValue" Value="0" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]" />
-          <Property Name="TextIndexOffset" Value="3" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="346" />
-          <Property Name="Width" Value="110" />
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="360"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="346"/>
+          <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_21">
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="29" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="302" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BeamON]" />
-          <Property Name="Width" Value="128" />
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="29"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="302"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BeamON]"/>
+          <Property Name="Width" Value="128"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_22">
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="10" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="30" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="346" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BeamOFF]" />
-          <Property Name="Width" Value="128" />
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="30"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="346"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[BeamOFF]"/>
+          <Property Name="Width" Value="128"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_23">
-          <Property Name="BitmapIndexDatapoint" Value="None" />
-          <Property Name="BitmapSource" Value="None" />
-          <Property Name="ControlID" Value="0" />
-          <Property Name="Description" Value="" />
-          <Property Name="EmbVirtualKey" Value="None" />
-          <Property Name="Font" Value="Source[local].Font[Arial8]" />
-          <Property Name="Height" Value="36" />
-          <Property Name="KeyMatrixOffset" Value="None" />
-          <Property Name="Left" Value="454" />
-          <Property Name="PressedBitmapSource" Value="None" />
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]" />
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]" />
-          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]" />
-          <Property Name="TextIndex" Value="31" />
-          <Property Name="TextIndexDatapoint" Value="None" />
-          <Property Name="TextSimulationValue" Value="0" />
-          <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="212" />
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[TogglePermanentMode]" />
-          <Property Name="Width" Value="104" />
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Height" Value="36"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="454"/>
+          <Property Name="PressedBitmapSource" Value="None"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Button]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
+          <Property Name="TextIndex" Value="31"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="212"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[TogglePermanentMode]"/>
+          <Property Name="Width" Value="104"/>
         </Control>
       </Controls>
-      <KeyMapping />
+      <KeyMapping/>
     </Layer>
   </Layers>
   <MovementOrder>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_9]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_11]" />
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_10]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_11]" />
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_9]" />
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]" />
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_9]" />
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_11]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_9]" />
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
     </MovementEntry>
   </MovementOrder>
   <TabSequence>
-    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]" />
-    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]" />
-    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_3]" />
-    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_4]" />
-    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_5]" />
-    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_6]" />
-    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_7]" />
-    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_8]" />
-    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_9]" />
-    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Numeric_10]" />
-    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Numeric_11]" />
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
   </TabSequence>
 </Page>

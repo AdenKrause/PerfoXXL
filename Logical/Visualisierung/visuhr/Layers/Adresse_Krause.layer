@@ -1,108 +1,108 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.1.4.402"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.1.16.135 SP"?>
 <Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Adresse_Krause">
-  <Property Name="BackColor" Value="15" />
-  <Property Name="Description" Value="Global layer for status line" />
-  <Property Name="Height" Value="240" />
-  <Property Name="Left" Value="0" />
-  <Property Name="StatusDatapoint" Value="None" />
-  <Property Name="Top" Value="0" />
-  <Property Name="Width" Value="320" />
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value="Global layer for status line"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="640"/>
   <TextGroup>
-    <TextLayer LanguageId="en-GB" />
-    <TextLayer LanguageId="de-DE" />
-    <TextLayer LanguageId="es-ES" />
-    <TextLayer LanguageId="no-NO" />
-    <TextLayer LanguageId="nl-NL" />
-    <TextLayer LanguageId="tr-TR" />
-    <IndexMap />
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="de-DE"/>
+    <TextLayer LanguageId="es-ES"/>
+    <TextLayer LanguageId="no-NO"/>
+    <TextLayer LanguageId="nl-NL"/>
+    <TextLayer LanguageId="tr-TR"/>
+    <IndexMap/>
   </TextGroup>
   <Controls>
     <Control ClassId="0x00001004" Name="Text_1">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Font" Value="Source[local].Font[Arial14]" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="0" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="72" />
-      <Property Name="Width" Value="540" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="72"/>
+      <Property Name="Width" Value="540"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_2">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="1" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="122" />
-      <Property Name="Width" Value="372" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="122"/>
+      <Property Name="Width" Value="372"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_3">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="2" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="162" />
-      <Property Name="Width" Value="372" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="2"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="162"/>
+      <Property Name="Width" Value="372"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_4">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="3" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="210" />
-      <Property Name="Width" Value="372" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="210"/>
+      <Property Name="Width" Value="372"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_5">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="4" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="246" />
-      <Property Name="Width" Value="372" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="246"/>
+      <Property Name="Width" Value="372"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_6">
-      <Property Name="ControlID" Value="0" />
-      <Property Name="Description" Value="" />
-      <Property Name="Height" Value="46" />
-      <Property Name="Left" Value="70" />
-      <Property Name="SimulationIndex" Value="0" />
-      <Property Name="SimulationValue" Value="0" />
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]" />
-      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]" />
-      <Property Name="TextIndexOffset" Value="5" />
-      <Property Name="TextSource" Value="SingleText" />
-      <Property Name="Top" Value="284" />
-      <Property Name="Width" Value="372" />
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="46"/>
+      <Property Name="Left" Value="70"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Standardtext]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Adresse]"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="284"/>
+      <Property Name="Width" Value="372"/>
     </Control>
   </Controls>
-  <KeyMapping />
+  <KeyMapping/>
 </Layer>
