@@ -49,6 +49,7 @@
       </TextGroup>
       <Controls>
         <Control ClassId="0x0000100C" Name="Password_1">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="12"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -67,6 +68,7 @@
           <Property Name="Width" Value="212"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="44"/>
@@ -95,6 +97,7 @@
           <Property Name="Width" Value="486"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="44"/>
@@ -105,10 +108,11 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[PerformanceCommon]"/>
           <Property Name="TextIndexOffset" Value="10"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="136"/>
+          <Property Name="Top" Value="134"/>
           <Property Name="Width" Value="306"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

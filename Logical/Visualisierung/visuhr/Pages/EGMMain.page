@@ -892,7 +892,6 @@
         <Control ClassId="0x00001004" Name="Text_1">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="16"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -907,7 +906,6 @@
         <Control ClassId="0x00001004" Name="Text_2">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="34"/>
           <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.CurrentMode]"/>
           <Property Name="Left" Value="282"/>
@@ -985,7 +983,6 @@
         <Control ClassId="0x00001004" Name="Text_8">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="16"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -1000,7 +997,6 @@
         <Control ClassId="0x00001004" Name="Text_9">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="34"/>
           <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.CurrentState]"/>
           <Property Name="Left" Value="282"/>

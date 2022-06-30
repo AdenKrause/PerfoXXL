@@ -78,7 +78,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="68"/>
@@ -86,9 +85,10 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="442"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.gVERSION]"/>
-          <Property Name="Width" Value="76"/>
+          <Property Name="Width" Value="120"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>

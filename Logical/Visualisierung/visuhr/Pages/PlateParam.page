@@ -124,6 +124,7 @@
           <Property Name="Width" Value="138"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -144,7 +145,6 @@
           <Property Name="BackColor" Value="59"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Input" Value="True"/>
@@ -185,10 +185,11 @@
           <Property Name="Width" Value="146"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
-          <Property Name="Left" Value="34"/>
+          <Property Name="Left" Value="30"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]"/>
@@ -220,10 +221,11 @@
           <Property Name="Width" Value="146"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
-          <Property Name="Left" Value="34"/>
+          <Property Name="Left" Value="30"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]"/>
@@ -254,6 +256,7 @@
           <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
@@ -288,6 +291,7 @@
           <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
@@ -299,7 +303,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
           <Property Name="TextIndexOffset" Value="3"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="254"/>
+          <Property Name="Top" Value="253"/>
           <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
@@ -322,10 +326,11 @@
           <Property Name="Width" Value="146"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
-          <Property Name="Left" Value="34"/>
+          <Property Name="Left" Value="30"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]"/>
@@ -341,7 +346,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="54"/>
-          <Property Name="Left" Value="34"/>
+          <Property Name="Left" Value="30"/>
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
@@ -350,7 +355,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
           <Property Name="TextIndexOffset" Value="7"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="348"/>
+          <Property Name="Top" Value="359"/>
           <Property Name="Width" Value="144"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">

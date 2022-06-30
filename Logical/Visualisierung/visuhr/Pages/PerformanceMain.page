@@ -137,7 +137,6 @@
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Input" Value="True"/>
           <Property Name="InputCancel" Value="Lost Focus"/>
@@ -169,7 +168,6 @@
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Input" Value="True"/>
           <Property Name="InputCancel" Value="Lost Focus"/>
@@ -222,7 +220,6 @@
           <Property Name="CompletionValue" Value="1"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Input" Value="True"/>
           <Property Name="InputCancel" Value="Lost Focus"/>
@@ -311,7 +308,7 @@
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Left" Value="72"/>
@@ -381,7 +378,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -576,7 +573,6 @@
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Left" Value="72"/>
@@ -593,7 +589,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="156"/>
@@ -610,7 +605,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="156"/>
@@ -626,7 +620,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="368"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -901,7 +894,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -926,7 +919,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -969,7 +962,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="14"/>
@@ -997,7 +990,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="354"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -1020,7 +1012,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="376"/>
@@ -1046,7 +1038,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="312"/>
@@ -1165,7 +1157,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="368"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -1186,7 +1177,6 @@
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="196"/>
           <Property Name="MaxDatapoint" Value="None"/>

@@ -107,6 +107,7 @@
           <Property Name="Width" Value="82"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_1]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -261,6 +262,7 @@
           <Property Name="Width" Value="142"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_1]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

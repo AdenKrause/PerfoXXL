@@ -156,7 +156,7 @@
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.HideXS]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text10]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Common]"/>
           <Property Name="TextIndexOffset" Value="12"/>
           <Property Name="TextSource" Value="SingleText"/>
@@ -193,7 +193,7 @@
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.HideXS]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text10]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Common]"/>
           <Property Name="TextIndexOffset" Value="13"/>
           <Property Name="TextSource" Value="SingleText"/>
@@ -230,7 +230,7 @@
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.GumInv]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text10]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Common]"/>
           <Property Name="TextIndexOffset" Value="16"/>
           <Property Name="TextSource" Value="SingleText"/>
@@ -258,6 +258,7 @@
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -265,7 +266,7 @@
           <Property Name="Left" Value="124"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="2"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text10]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Ueberschrift_12]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Ent_Washgumm]"/>
           <Property Name="TextIndexOffset" Value="4"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
@@ -342,7 +343,6 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="50"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="36"/>
@@ -608,6 +608,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_12">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>
@@ -644,6 +645,7 @@
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_13">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>

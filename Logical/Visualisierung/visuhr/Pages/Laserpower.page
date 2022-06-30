@@ -978,7 +978,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="60"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="18"/>

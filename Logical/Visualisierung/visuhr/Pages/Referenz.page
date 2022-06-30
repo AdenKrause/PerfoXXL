@@ -94,7 +94,7 @@
         <Control ClassId="0x00001007" Name="Numeric_1">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Left" Value="568"/>
           <Property Name="MaxDatapoint" Value="None"/>

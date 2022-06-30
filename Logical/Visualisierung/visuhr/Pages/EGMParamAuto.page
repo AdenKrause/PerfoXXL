@@ -307,6 +307,7 @@
           <Property Name="Width" Value="52"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>
@@ -321,6 +322,7 @@
           <Property Name="Width" Value="296"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.StandbyReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -356,6 +358,7 @@
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.ReplenishingPerSqmCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -390,6 +393,7 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
           <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.ReplenishingPerPlateCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -423,6 +427,7 @@
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.StandbyReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -438,6 +443,7 @@
           <Property Name="Width" Value="278"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.StandbyReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -473,6 +479,7 @@
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.StandbyReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -488,6 +495,7 @@
           <Property Name="Width" Value="296"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.StandbyReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -576,6 +584,7 @@
           <Property Name="Width" Value="20"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.ReplenishingPerPlateCol]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -616,6 +625,7 @@
           <Property Name="Width" Value="20"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.ReplenishingPerSqmCol]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -656,6 +666,7 @@
           <Property Name="Width" Value="20"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="30"/>
@@ -670,6 +681,7 @@
           <Property Name="Width" Value="296"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.OffReplenishingEnabledCol]"/>
           <Property Name="ControlID" Value="0"/>

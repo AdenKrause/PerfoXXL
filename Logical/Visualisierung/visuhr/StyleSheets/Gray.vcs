@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="3.0.90.27 SP09"?>
+<?AutomationStudio Version="4.1.16.135 SP"?>
 <StyleSheet xmlns="http://br-automation.co.at/AS/VC/Project" Name="Gray">
   <Property Name="Description" Value=""/>
   <StyleGroup ClassId="0x00000400">
@@ -108,7 +108,7 @@
       <Property Name="ColorDatapoint" Value="None"/>
       <Property Name="ColorMap" Value="None"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="KeyMode" Value="Immediate"/>
       <Property Name="Locking" Value="Never"/>
@@ -152,7 +152,7 @@
       <Property Name="ColorMap" Value="None"/>
       <Property Name="Description" Value=""/>
       <Property Name="FillStyle" Value="Opaque"/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="HighlightingBackColor" Value="8"/>
       <Property Name="HighlightingBorder" Value="None"/>
@@ -344,7 +344,7 @@
       <Property Name="AddFractionDigits" Value="0"/>
       <Property Name="AddFractionDigitsDatapoint" Value="None"/>
       <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="59"/>
       <Property Name="Border" Value="Source[local].Border[Sunken]"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -352,7 +352,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="False"/>
       <Property Name="Locking" Value="Never"/>
@@ -368,7 +368,7 @@
       <Property Name="AddFractionDigits" Value="0"/>
       <Property Name="AddFractionDigitsDatapoint" Value="None"/>
       <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="15"/>
       <Property Name="Border" Value="Source[local].Border[Sunken]"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -376,7 +376,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="True"/>
       <Property Name="InputCancel" Value="Lost Focus"/>
@@ -400,7 +400,7 @@
       <Property Name="AddFractionDigits" Value="0"/>
       <Property Name="AddFractionDigitsDatapoint" Value="None"/>
       <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="14"/>
       <Property Name="Border" Value="None"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -408,7 +408,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="False"/>
       <Property Name="Locking" Value="Never"/>
@@ -443,7 +443,7 @@
       <Property Name="DisabledBackColor" Value="59"/>
       <Property Name="DisabledColorDatapoint" Value="None"/>
       <Property Name="DisabledForeColor" Value="8"/>
-      <Property Name="Font" Value="Source[local].Font[DefaultFont]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="True"/>
       <Property Name="InputCancel" Value="Lost Focus"/>
@@ -483,7 +483,7 @@
       <Property Name="DisabledBackColor" Value="59"/>
       <Property Name="DisabledColorDatapoint" Value="None"/>
       <Property Name="DisabledForeColor" Value="8"/>
-      <Property Name="Font" Value="Source[local].Font[DefaultFont]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="False"/>
       <Property Name="Locking" Value="Never"/>
@@ -566,7 +566,7 @@
     <Property Name="Description" Value=""/>
     <StyleClass Name="Output">
       <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="8"/>
       <Property Name="Border" Value="Source[local].Border[Sunken]"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -574,7 +574,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[DefaultFont]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="16"/>
       <Property Name="Input" Value="False"/>
       <Property Name="Locking" Value="Never"/>
@@ -583,7 +583,7 @@
     </StyleClass>
     <StyleClass Name="String_Input">
       <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="7"/>
       <Property Name="Border" Value="Source[local].Border[Sunken]"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -591,7 +591,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[DefaultFont]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="True"/>
       <Property Name="InputCancel" Value="Lost Focus"/>
@@ -607,7 +607,7 @@
     </StyleClass>
     <StyleClass Name="StyleClass_1">
       <Property Name="AlignmentHorizontal" Value="Left"/>
-      <Property Name="AlignmentVertical" Value="Top"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="BackColor" Value="14"/>
       <Property Name="Border" Value="None"/>
       <Property Name="ColorDatapoint" Value="None"/>
@@ -615,7 +615,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Input" Value="False"/>
       <Property Name="Locking" Value="Never"/>
@@ -636,7 +636,7 @@
       <Property Name="CompletionDatapoint" Value="None"/>
       <Property Name="CompletionValue" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[DefaultFont]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="InputCancel" Value="Lost Focus"/>
       <Property Name="InputConfirm" Value="Enter"/>

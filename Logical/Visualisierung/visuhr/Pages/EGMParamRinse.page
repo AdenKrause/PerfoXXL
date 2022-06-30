@@ -89,6 +89,7 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
           <Property Name="AddFractionDigits" Value="2"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.RinseReplPerSqmCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -122,6 +123,7 @@
           <Property Name="Width" Value="150"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.RinseReplPerPlateCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -308,6 +310,7 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
           <Property Name="AddFractionDigits" Value="-1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -341,6 +344,7 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
           <Property Name="AddFractionDigits" Value="-2"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -442,10 +446,10 @@
           <Property Name="Description" Value=""/>
           <Property Name="ForeColor" Value="14"/>
           <Property Name="Height" Value="82"/>
-          <Property Name="Left" Value="36"/>
+          <Property Name="Left" Value="40"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.RinseFreshwaterOnlyInv]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
-          <Property Name="Top" Value="260"/>
+          <Property Name="Top" Value="263"/>
           <Property Name="Width" Value="516"/>
         </Control>
       </Controls>

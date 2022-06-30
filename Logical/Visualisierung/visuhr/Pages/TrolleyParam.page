@@ -92,7 +92,7 @@
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="Left" Value="454"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -245,7 +245,7 @@
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="36"/>
           <Property Name="Left" Value="182"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -556,7 +556,7 @@
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.FeederEnabledColor]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="Left" Value="454"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -576,7 +576,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="246"/>
@@ -602,7 +602,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="366"/>
@@ -737,6 +737,7 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_9">
           <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
@@ -772,6 +773,7 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_12">
           <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
@@ -822,6 +824,7 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>
@@ -857,6 +860,7 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_13">
           <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="40"/>

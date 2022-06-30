@@ -611,7 +611,6 @@
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="28"/>
           <Property Name="Left" Value="20"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -630,7 +629,6 @@
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="32"/>
           <Property Name="Input" Value="True"/>

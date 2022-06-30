@@ -264,6 +264,7 @@
           <Property Name="Width" Value="90"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -278,6 +279,7 @@
           <Property Name="Width" Value="212"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -323,26 +325,26 @@
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="332"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="None"/>
-          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="SimulationValue" Value="999999999"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="414"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlatesMade]"/>
           <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="104"/>
+          <Property Name="Width" Value="150"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="332"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -355,7 +357,7 @@
           <Property Name="Top" Value="444"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.PlatesMadeToday]"/>
           <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="104"/>
+          <Property Name="Width" Value="150"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_3">
           <Property Name="Bitmap" Value="Source[local].Bitmap[SK_ZAEHLERRESET]"/>
