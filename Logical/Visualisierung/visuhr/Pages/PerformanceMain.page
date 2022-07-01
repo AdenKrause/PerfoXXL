@@ -213,7 +213,6 @@
           <Property Name="Width" Value="180"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="12"/>
           <Property Name="Border" Value="None"/>
           <Property Name="CompletionDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.LaserPowerChanged]"/>
@@ -584,7 +583,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_3">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
@@ -600,7 +598,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_5">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
@@ -615,7 +612,6 @@
           <Property Name="Width" Value="256"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
@@ -985,7 +981,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
@@ -1152,7 +1147,6 @@
           <Property Name="Width" Value="170"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
@@ -1172,7 +1166,6 @@
           <Property Name="Width" Value="40"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>

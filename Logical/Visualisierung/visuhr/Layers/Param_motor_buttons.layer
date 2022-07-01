@@ -121,7 +121,6 @@
       <Property Name="Width" Value="148"/>
     </Control>
     <Control ClassId="0x00001007" Name="Numeric_3">
-      <Property Name="AlignmentVertical" Value="Center"/>
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="Height" Value="36"/>

@@ -168,7 +168,6 @@
           <Property Name="Width" Value="138"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -188,7 +187,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_1">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="59"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -242,7 +240,6 @@
           <Property Name="Width" Value="138"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[Arial10]"/>
@@ -291,7 +288,6 @@
           <Property Name="Width" Value="196"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -326,7 +322,6 @@
           <Property Name="Width" Value="196"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -362,7 +357,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_2">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="59"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -379,7 +373,6 @@
           <Property Name="Width" Value="252"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_12">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -400,7 +393,6 @@
           <Property Name="Width" Value="160"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_13">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -438,7 +430,6 @@
           <Property Name="Width" Value="196"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_14">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -459,7 +450,6 @@
           <Property Name="Width" Value="160"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_15">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -702,7 +692,6 @@
           <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -753,7 +742,6 @@
           <Property Name="Width" Value="66"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -804,7 +792,6 @@
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -840,7 +827,6 @@
           <Property Name="Width" Value="66"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>

@@ -56,7 +56,6 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="CursorBorder" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="288"/>
           <Property Name="IndexDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.SelectedPlateIndex]"/>
           <Property Name="Left" Value="160"/>

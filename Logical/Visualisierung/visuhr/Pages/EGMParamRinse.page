@@ -89,7 +89,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
           <Property Name="AddFractionDigits" Value="2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.RinseReplPerSqmCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -123,7 +122,6 @@
           <Property Name="Width" Value="150"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.RinseReplPerPlateCol]"/>
           <Property Name="ControlID" Value="0"/>
@@ -310,7 +308,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
           <Property Name="AddFractionDigits" Value="-1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -344,7 +341,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
           <Property Name="AddFractionDigits" Value="-2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

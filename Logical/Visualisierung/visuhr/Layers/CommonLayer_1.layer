@@ -39,7 +39,7 @@
       <Property Name="Border" Value="None"/>
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="Height" Value="38"/>
       <Property Name="Left" Value="404"/>
       <Property Name="SimulationValue" Value="00.00.000 00:00:00"/>

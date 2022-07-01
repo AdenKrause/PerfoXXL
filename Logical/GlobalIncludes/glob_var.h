@@ -12,7 +12,7 @@
 	#include 	<standard.h>
 
 /* Muss aktiviert sein fuer Ziel-HW PPC2100 */
-//#define PPC2100
+#define PPC2100
 
 	/* !!! ACHTUNG!!  Bei Veränderungen in dieser Datei immer ALLES KOMPILIEREN !!!*/
 

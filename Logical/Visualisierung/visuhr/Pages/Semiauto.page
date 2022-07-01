@@ -413,7 +413,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
           <Property Name="AddFractionDigits" Value="-1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -431,7 +430,6 @@
           <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -465,7 +463,6 @@
           <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>

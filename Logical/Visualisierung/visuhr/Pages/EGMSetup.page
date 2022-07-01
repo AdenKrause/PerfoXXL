@@ -96,7 +96,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -127,7 +126,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -158,7 +156,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -189,7 +186,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -225,7 +221,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="66"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="242"/>
@@ -261,7 +257,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -292,7 +287,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -323,7 +317,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -354,7 +347,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -400,7 +392,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -431,7 +422,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -462,7 +452,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -493,7 +482,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_12">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="38"/>
@@ -525,7 +513,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="12"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -595,7 +582,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="12"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -624,7 +610,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_1">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="15"/>
           <Property Name="Border" Value="Source[local].Border[Black_1pixel]"/>
           <Property Name="ControlID" Value="0"/>
@@ -833,7 +818,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
           <Property Name="AddFractionDigits" Value="-1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="14"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1246,7 +1230,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="12"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -1637,7 +1620,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="12"/>
           <Property Name="SimulationIndex" Value="0"/>

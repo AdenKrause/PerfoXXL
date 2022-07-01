@@ -89,7 +89,6 @@
           <Property Name="Width" Value="528"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -141,7 +140,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_1">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="59"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -166,7 +164,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
           <Property Name="AddFractionDigits" Value="-1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -202,7 +199,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
           <Property Name="AddFractionDigits" Value="-1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -237,7 +233,6 @@
           <Property Name="Width" Value="138"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -272,7 +267,6 @@
           <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -307,7 +301,6 @@
           <Property Name="Width" Value="110"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -345,7 +338,7 @@
           <Property Name="ColorDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.FeederEnabledColor]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="54"/>
+          <Property Name="Height" Value="42"/>
           <Property Name="Left" Value="30"/>
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -355,11 +348,10 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[PlateParam]"/>
           <Property Name="TextIndexOffset" Value="7"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="352"/>
           <Property Name="Width" Value="144"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="36"/>
@@ -374,7 +366,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PageInv1]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Numeric_Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="353"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.PlateParamInput.ReleasePlatePosition]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="146"/>

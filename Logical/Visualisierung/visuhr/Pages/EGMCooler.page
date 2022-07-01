@@ -75,7 +75,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="10"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -606,7 +605,6 @@
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001007" Name="Numeric_8">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -643,7 +641,6 @@
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="44"/>
           <Property Name="Left" Value="10"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -684,7 +681,6 @@
           <Property Name="Width" Value="62"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -734,7 +730,6 @@
           <Property Name="Width" Value="146"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -755,7 +750,6 @@
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -777,7 +771,6 @@
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_12">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -798,7 +791,6 @@
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_13">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -863,7 +855,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_14">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -885,7 +876,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_15">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -922,7 +912,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_16">
           <Property Name="AddFractionDigits" Value="2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -944,7 +933,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_17">
           <Property Name="AddFractionDigits" Value="2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -981,7 +969,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_18">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1003,7 +990,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_19">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1040,7 +1026,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_20">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1062,7 +1047,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_21">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1099,7 +1083,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_22">
           <Property Name="AddFractionDigits" Value="2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1121,7 +1104,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_23">
           <Property Name="AddFractionDigits" Value="2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1158,7 +1140,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_24">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1180,7 +1161,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_25">
           <Property Name="AddFractionDigits" Value="1"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -1249,7 +1229,6 @@
           <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_26">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

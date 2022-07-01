@@ -279,7 +279,6 @@
         <Control ClassId="0x00001004" Name="Text_5">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="Left" Value="38"/>
           <Property Name="SimulationIndex" Value="0"/>

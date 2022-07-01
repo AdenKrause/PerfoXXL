@@ -59,7 +59,6 @@
         <Control ClassId="0x00001004" Name="Text_5">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="Height" Value="40"/>
           <Property Name="Left" Value="38"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -88,7 +87,6 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_17">
           <Property Name="AddFractionDigits" Value="-2"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

@@ -99,7 +99,6 @@
           <Property Name="Width" Value="256"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_17">
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="Border" Value="Source[local].Border[Border_0_Pressed]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

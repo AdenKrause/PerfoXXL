@@ -252,7 +252,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_1">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="14"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -269,7 +268,6 @@
         </Control>
         <Control ClassId="0x0000100B" Name="String_2">
           <Property Name="AlignmentHorizontal" Value="Left"/>
-          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="14"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

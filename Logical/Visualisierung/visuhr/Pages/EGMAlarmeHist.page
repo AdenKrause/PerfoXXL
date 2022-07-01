@@ -72,7 +72,7 @@
           <Property Name="DateTime_Width" Value="160"/>
           <Property Name="Description" Value=""/>
           <Property Name="Event_Position" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="GroupDatapoint" Value="Source[global].Variable[Local.Visualisierung.pics.AlarmGroupDisplay]"/>
           <Property Name="GroupNumber_Position" Value="None"/>
           <Property Name="Height" Value="278"/>

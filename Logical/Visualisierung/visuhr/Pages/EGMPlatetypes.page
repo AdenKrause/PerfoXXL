@@ -725,7 +725,7 @@
       <Property Name="OutlineDisplayName" Value="True"/>
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="VisibilityMode" Value=""/>
       <Property Name="Z-Order" Value="4"/>
     </LayerRef>
   </Layers>
